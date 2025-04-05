@@ -1,32 +1,45 @@
-What is it?
-    A variable length
-        list of values 
-        with explicit links between the values (Wengrow, 2017:141).
+def linked_list:
+    - formal: ???
 
-Concepts related to it:
-    Node = a container for the value and the explicit link
+        - in words:
+            A variable length
+                list of values 
+                with explicit links between the values (Wengrow, 2017:141).
 
-Performance Analysis (Wengrow, 2017:144-150):
-    How fast is it to perform the operation? (i.e. Time Complexity)
-        => Measured in terms of the number of steps it takes to complete the operation
+    - plain english: ???
 
-    Read: Looking up something from a particular spot in the data structure
-        Steps = 
-            Head of list = 1 step = O(1)
-            Rest of list = N steps to value = 𝑂(𝑁)
+    - intuition: ???
+
+    - properties:
+        - Node = a container for the value and the explicit link
+
+        - Performance Analysis (Wengrow, 2017:144-150):
+            - How fast is it to perform the operation? (i.e. Time Complexity)
+                => Measured in terms of the number of steps it takes to complete the operation
+
+            - Read: Looking up something from a particular spot in the data structure
+                Steps = 
+                    Head of list = 1 step = O(1)
+                    Rest of list = N steps to value = 𝑂(𝑁)
+            
+            - Search: Looking for a particular value in the data structure
+                Steps = 
+
+            - Insert: Adding a value to the data structure 
+                Steps = 
+                    Head of list = 2 steps to reappoint pointers = O(1)
+                    Bottom of list = N steps to last value + 1 step to appoint last value's next = 𝑂(𝑁) + O(1) = 𝑂(𝑁)
+
+            - Delete: Removing a value from the data structure
+                Steps = 
+                    Head of list = 2 steps to reappoint pointers = O(1)
+                    Rest of list = N steps to last value + 1 step to appoint last value's next = 𝑂(𝑁) + O(1) = 𝑂(𝑁)
+
+    - examples: ???
+
+    - use cases: ???
+        
+    - proof: ???
     
-    Search: Looking for a particular value in Te data structure
-        Steps = 
-
-    Insert: Adding a value to the data structure 
-        Steps = 
-            Head of list = 2 steps to reappoint pointers = O(1)
-            Bottom of list = N steps to last value + 1 step to appoint last value's next = 𝑂(𝑁) + O(1) = 𝑂(𝑁)
-
-    Delete: Removing a value from the data structure
-        Steps = 
-            Head of list = 2 steps to reappoint pointers = O(1)
-            Rest of list = N steps to last value + 1 step to appoint last value's next = 𝑂(𝑁) + O(1) = 𝑂(𝑁)
-
 References:
     - Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills.
