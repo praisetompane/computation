@@ -5,6 +5,7 @@
         Does it a modern computer 10 seconds to iterate 10000000000 times?
     NB: Python is was not a good language for this test, because there are other steps before the code is ran.
 """
+
 from datetime import datetime
 
 start_time = datetime.now()

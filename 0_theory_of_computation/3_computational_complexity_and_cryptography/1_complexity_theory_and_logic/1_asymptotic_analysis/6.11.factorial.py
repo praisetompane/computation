@@ -1,4 +1,4 @@
-'''
+"""
 
     factorial(6)
     6 * factorial(6 - 1)
@@ -11,7 +11,7 @@
     
     runtime = 𝑂(𝑁)
 
-'''
+"""
 
 
 def factorial(n):

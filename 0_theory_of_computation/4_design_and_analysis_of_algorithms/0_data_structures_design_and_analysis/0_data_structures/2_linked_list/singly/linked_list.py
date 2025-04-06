@@ -15,7 +15,7 @@ class LinkedList:
         """
         length = 0
         current_node = self.head
-        while (current_node):
+        while current_node:
             length = length + 1
             current_node = current_node.next
         return length
@@ -31,8 +31,8 @@ class LinkedList:
         else:
             values = []
             current_node = self.head
-            while (current_node):
-                if (current_node.next):
+            while current_node:
+                if current_node.next:
                     values.append(current_node.data)
                 else:
                     values.append(current_node.data)
@@ -57,27 +57,28 @@ class LinkedList:
         node = Node(data)
         if self.head:
             current_node = self.head
-            while (current_node.next):
+            while current_node.next:
                 current_node = current_node.next
             current_node.next = node
         else:
             self.head = node
 
     def insert_values(self, values: Sequence) -> None:
-        """ Insert values of a sequence to the end of the list.
+        """Insert values of a sequence to the end of the list.
 
         Args:
             values (Sequence): Sequence data to be inserted
         """
+
         # O(N). N = length of current values in list
         def _insert_values(start_index):
             # O(M). M = length of new values
             current_node = self.head
-            while (current_node.next):
+            while current_node.next:
                 current_node = current_node.next
 
             idx = start_index
-            while (idx < len(values)):
+            while idx < len(values):
                 current_node.next = Node(values[idx])
                 current_node = current_node.next
                 idx += 1
@@ -94,9 +95,9 @@ class LinkedList:
         # for v in values:
         #     self.insert(v)
         # O(N * M)
-            # N = length of current values in list
-            # M = length of new values
-            # if M = N, then O(N*N) = O(N^2)
+        # N = length of current values in list
+        # M = length of new values
+        # if M = N, then O(N*N) = O(N^2)
 
     def insert_after_value(self, predicate_value: Any, data: Any) -> None:
         """Insert a value after the supplied @predicate_value
@@ -112,7 +113,7 @@ class LinkedList:
             raise IndexError("The list is empty")
 
         current_node = self.head
-        while (current_node):
+        while current_node:
             if current_node.data == predicate_value:
                 current_node.next = Node(data, current_node.next)
                 return
@@ -147,7 +148,7 @@ class LinkedList:
             return
 
         current_node = self.head
-        while (current_node.next):
+        while current_node.next:
             if current_node.next.data == value:
                 current_node.next = current_node.next.next
                 return
@@ -163,7 +164,7 @@ class LinkedList:
             last_processed = None
             next_node_to_process = None
             current_node = self.head
-            while (current_node):
+            while current_node:
                 next_node_to_process = current_node.next
 
                 current_node.next = last_processed
@@ -195,7 +196,7 @@ class LinkedList:
 
         idx = 0
         current_node = self.head
-        while (idx < size):
+        while idx < size:
             if idx == index - 1:
                 current_node.next = Node(data, current_node.next)
                 return
@@ -221,7 +222,7 @@ class LinkedList:
 
         idx = 0
         current_node = self.head
-        while (idx < size):
+        while idx < size:
             if idx == index - 1:
                 current_node.next = current_node.next.next
                 return

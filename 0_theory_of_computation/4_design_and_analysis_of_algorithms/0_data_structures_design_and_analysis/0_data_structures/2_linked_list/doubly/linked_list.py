@@ -13,7 +13,7 @@ class LinkedList:
         """
         length = 0
         current_node = self.head
-        while (current_node):
+        while current_node:
             length += 1
             current_node = current_node.next
         return length
@@ -29,7 +29,7 @@ class LinkedList:
         else:
             values = []
             current_node = self.head
-            while (current_node):
+            while current_node:
                 values.append(str(current_node.data))
                 current_node = current_node.next
             return "".join(str(values))
@@ -58,25 +58,26 @@ class LinkedList:
             self.head = Node(data)
         else:
             current_node = self.head
-            while (current_node.next):
+            while current_node.next:
                 current_node = current_node.next
 
             current_node.next = Node(data, current_node)
 
     def insert_values(self, data):
-        """ Insert values of a sequence to the end of the list.
+        """Insert values of a sequence to the end of the list.
 
         Args:
             values (Sequence): Sequence data to be inserted
         """
+
         def _insert(start_index):
             current_node = self.head
             # move pointer to the last node
-            while (current_node.next):
+            while current_node.next:
                 current_node = current_node.next
 
             idx = start_index
-            while (idx < len(data)):
+            while idx < len(data):
                 current_node.next = Node(data[idx], current_node)
                 current_node = current_node.next
                 idx += 1
@@ -101,7 +102,7 @@ class LinkedList:
             raise IndexError("List is empty")
 
         current_node = self.head
-        while (current_node):
+        while current_node:
             if current_node.data == value:
                 current_node.next = Node(data, current_node, current_node.next)
                 return
@@ -139,7 +140,7 @@ class LinkedList:
             return
 
         current_node = self.head
-        while (current_node.next):
+        while current_node.next:
             if current_node.next.data == value:
                 current_node.next = current_node.next.next
                 if current_node.next != None:
@@ -159,7 +160,7 @@ class LinkedList:
         last_processed = None
         current_node = self.head
         next_node_to_process = None
-        while (current_node):
+        while current_node:
             next_node_to_process = current_node.next
 
             current_node.next = last_processed
@@ -171,26 +172,24 @@ class LinkedList:
         self.head = last_processed
 
     def print_forward(self) -> None:
-        """Print list in forward order
-        """
+        """Print list in forward order"""
         if self.head == None:
             print("[]")
             return
 
         current_node = self.head
-        while (current_node):
+        while current_node:
             print(current_node.dat)
             current_node = current_node.next
 
     def print_backward(self) -> None:
-        """Print list in backwards order
-        """
+        """Print list in backwards order"""
         if self.head == None:
             print("[]")
             return
 
         current_node = self.head
-        while (current_node):
+        while current_node:
             print(current_node.data)
             current_node = current_node.prev
 
@@ -219,7 +218,7 @@ class LinkedList:
 
         current_node = self.head
         idx = 0
-        while (current_node):
+        while current_node:
             if idx == index - 1:
                 node = Node(data, current_node, current_node.next)
                 if current_node.next:
@@ -243,7 +242,7 @@ class LinkedList:
 
         idx = 0
         current_node = self.head
-        while (current_node):
+        while current_node:
             if idx == index - 1:
                 current_node.next = current_node.next.next
                 if current_node.next != None:

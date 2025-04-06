@@ -91,7 +91,7 @@ def test_remove_from_top():
     try:
         linked_list.remove_from_top()
     except ValueError as e:
-        assert e.args == ("List is empty", )
+        assert e.args == ("List is empty",)
 
 
 def test_remove_by_value():

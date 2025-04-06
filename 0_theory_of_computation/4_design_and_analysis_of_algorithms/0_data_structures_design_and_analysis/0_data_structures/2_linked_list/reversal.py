@@ -22,10 +22,10 @@ class LinkedList:
 
     def reverse(self):
         """
-            Performance:
+        Performance:
 
-                Time = 𝑂(𝑁)
-                Space = O(1): reuses existing nodes.
+            Time = 𝑂(𝑁)
+            Space = O(1): reuses existing nodes.
 
         """
         current_node = self.head
