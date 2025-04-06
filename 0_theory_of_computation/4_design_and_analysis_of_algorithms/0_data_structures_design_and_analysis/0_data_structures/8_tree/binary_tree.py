@@ -1,21 +1,21 @@
 """
-    def:
-        tree with zero, one or two children
-        if node has two children:
-            one child has value greater than parent's value
-            one child has value less than parent's value
+def:
+    tree with zero, one or two children
+    if node has two children:
+        one child has value greater than parent's value
+        one child has value less than parent's value
 
-    printing representations:
-        in order
-        pre order
-        post order
+printing representations:
+    in order
+    pre order
+    post order
 
-        NB: These are all relative to the parent
-            i.e. in order = parent printed in middle, where it is in the tree
-                 pre order = parent printed 'pre'(i.e. before) children
-                 post order = parent printed 'post'(i.e. after) children
+    NB: These are all relative to the parent
+        i.e. in order = parent printed in middle, where it is in the tree
+             pre order = parent printed 'pre'(i.e. before) children
+             post order = parent printed 'post'(i.e. after) children
 
-            children always printed from left to right.
+        children always printed from left to right.
 
 """
 

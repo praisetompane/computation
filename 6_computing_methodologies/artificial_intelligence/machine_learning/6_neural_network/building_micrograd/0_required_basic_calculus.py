@@ -10,14 +10,17 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # %%
-'''
+"""
 scalar valued function
 input = x
 ouput = y
 where x AND y are scalar values
-'''
+"""
+
+
 def f(x):
-    return 3*x**2 - 4*x + 5 # 3x² - 4x + 5
+    return 3 * x**2 - 4 * x + 5  # 3x² - 4x + 5
+
 
 # %%
 f(3.0)
@@ -34,12 +37,12 @@ plt.plot(x_scalar_values, y_scalar_values)
 h = 0.00000001
 x = 3.0
 how_much_the_function_responded = f(x + h) - f(x)
-'''
+"""
     normalize by run
         = rise/run
-'''
-slope = how_much_the_function_responded/h
-slope # numerial approximation. requires h to be very small to get the actual scope
+"""
+slope = how_much_the_function_responded / h
+slope  # numerial approximation. requires h to be very small to get the actual scope
 
 # %%
 # slope at -3
@@ -53,14 +56,14 @@ slope
 # slope at 2/3
 # i.e. the function does not respond
 h = 0.00000001
-x = 2/3
+x = 2 / 3
 how_much_the_function_responded = f(x + h) - f(x)
 slope = how_much_the_function_responded / h
-slope 
-'''
+slope
+"""
     slope = 0 i.e the function does not respond
     stay almost the same?
-'''
+"""
 
 # %%
 # another function scalar function
@@ -68,17 +71,30 @@ slope
 a = 2.0
 b = -3.0
 c = 10.0
-def f(a, b, c):
+
+
+def linear(a: float, b: float, c: float) -> float:
+    """A simple linear function.
+
+    Args:
+        a (float): gradient
+        b (float): independent variable
+        c (float): constant
+
+    Returns:
+        float: dependent variable
+    """
     return a * b + c
 
-d = f(a, b, c)
+
+d = linear(a, b, c)
 d
 
 # %%
 a_values = np.arange(-5, 5, 0.25)
 b_values = np.arange(-5, 5, 0.25)
 c_values = np.arange(-5, 5, 0.25)
-d_values = f(a_values, b_values, c_values)
+d_values = linear(a_values, b_values, c_values)
 plt.plot(d_values)
 
 # %%
@@ -87,14 +103,12 @@ a = 2.0
 b = -3.0
 c = 10.0
 
-d1 = f(a, b, c)
-d2 = f(a + h, b, c)
-print('d1 = ', d1)
-print('d2 = ', d2)
-print('slope = ', (d2 - d1)/h)
+d1 = linear(a, b, c)
+d2 = linear(a + h, b, c)
+print("d1 = ", d1)
+print("d2 = ", d2)
+print("slope = ", (d2 - d1) / h)
 
 
 # %% [markdown]
-# 
-
-
+#
