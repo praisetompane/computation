@@ -15,7 +15,7 @@ class LinkedList:
         """
         length = 0
         iterator = self.head
-        while (iterator):
+        while iterator:
             length = length + 1
             iterator = iterator.next
         return length
@@ -31,8 +31,8 @@ class LinkedList:
         else:
             values = []
             iterator = self.head
-            while (iterator):
-                if (iterator.next):
+            while iterator:
+                if iterator.next:
                     values.append(iterator.data)
                 else:
                     values.append(iterator.data)
@@ -57,27 +57,28 @@ class LinkedList:
         node = Node(data)
         if self.head:
             iterator = self.head
-            while (iterator.next):
+            while iterator.next:
                 iterator = iterator.next
             iterator.next = node
         else:
             self.head = node
 
     def insert_values(self, values: Sequence) -> None:
-        """ Insert values of a sequence to the end of the list.
+        """Insert values of a sequence to the end of the list.
 
         Args:
             values (Sequence): Sequence data to be inserted
         """
+
         # O(N). N = length of current values in list
         def _insert_values(start_index):
             # O(M). M = length of new values
             iterator = self.head
-            while (iterator.next):
+            while iterator.next:
                 iterator = iterator.next
 
             idx = start_index
-            while (idx < len(values)):
+            while idx < len(values):
                 iterator.next = Node(values[idx])
                 iterator = iterator.next
                 idx += 1
@@ -94,9 +95,9 @@ class LinkedList:
         # for v in values:
         #     self.insert(v)
         # O(N * M)
-            # N = length of current values in list
-            # M = length of new values
-            # if M = N, then O(N*N) = O(N^2)
+        # N = length of current values in list
+        # M = length of new values
+        # if M = N, then O(N*N) = O(N^2)
 
     def insert_after_value(self, predicate_value: Any, data: Any) -> None:
         """Insert a value after the supplied @predicate_value
@@ -112,7 +113,7 @@ class LinkedList:
             raise IndexError("The list is empty")
 
         iterator = self.head
-        while (iterator):
+        while iterator:
             if iterator.data == predicate_value:
                 iterator.next = Node(data, iterator.next)
                 return
@@ -147,7 +148,7 @@ class LinkedList:
             return
 
         iterator = self.head
-        while (iterator.next):
+        while iterator.next:
             if iterator.next.data == value:
                 iterator.next = iterator.next.next
                 return
@@ -163,7 +164,7 @@ class LinkedList:
             last_processed = None
             next_node_to_process = None
             iterator = self.head
-            while (iterator):
+            while iterator:
                 next_node_to_process = iterator.next
 
                 # NB: The key is here. we set a node's successor(i.e. next) value to be its predecessor. which is what reversal means.
@@ -197,7 +198,7 @@ class LinkedList:
 
         idx = 0
         iterator = self.head
-        while (idx < size):
+        while idx < size:
             if idx == index - 1:
                 iterator.next = Node(data, iterator.next)
                 return
@@ -223,7 +224,7 @@ class LinkedList:
 
         idx = 0
         iterator = self.head
-        while (idx < size):
+        while idx < size:
             if idx == index - 1:
                 iterator.next = iterator.next.next
                 return
