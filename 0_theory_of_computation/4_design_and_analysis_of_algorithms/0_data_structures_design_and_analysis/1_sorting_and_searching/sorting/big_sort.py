@@ -1,17 +1,17 @@
 """
-    Given:
-        string represented numbers
-        example = '1'
-    Objective:
-        sort the list
-    Constraints:
-        n = size of list
-        0 <= n <= 2 * 10⁶
-    Assumptions: None
-    Performance:
-        Time = O(n)
-        Space = O(2 * n) = O(n)
-            We create a copy of the list
+Given:
+    string represented numbers
+    example = '1'
+Objective:
+    sort the list
+Constraints:
+    n = size of list
+    0 <= n <= 2 * 10⁶
+Assumptions: None
+Performance:
+    Time = O(n)
+    Space = O(2 * n) = O(n)
+        We create a copy of the list
 """
 
 

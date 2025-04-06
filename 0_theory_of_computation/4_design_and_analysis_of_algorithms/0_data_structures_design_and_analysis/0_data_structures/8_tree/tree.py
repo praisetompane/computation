@@ -1,8 +1,8 @@
 """
-    tre traversal:
-        the computation(print ,add etc) is performed when on the root node of the tree
+tre traversal:
+    the computation(print ,add etc) is performed when on the root node of the tree
 
-        tree = {whole tree, subtrees}
+    tree = {whole tree, subtrees}
 """
 
 

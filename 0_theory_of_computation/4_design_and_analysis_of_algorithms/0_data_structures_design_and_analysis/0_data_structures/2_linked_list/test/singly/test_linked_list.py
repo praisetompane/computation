@@ -4,7 +4,7 @@ from singly.node import Node
 
 def test_construction():
     linked_list = LinkedList()
-    assert linked_list.head == None
+    assert linked_list.head is None
 
 
 def test_length():
@@ -67,16 +67,16 @@ def test_remove_from_top():
     data = linked_list.remove_from_top()
     assert data == 2
     assert linked_list.head.data == 1
-    assert linked_list.head.prev == None
+    assert linked_list.head.prev is None
 
     data = linked_list.remove_from_top()
     assert data == 1
-    assert linked_list.head == None
+    assert linked_list.head is None
 
     try:
         linked_list.remove_from_top()
     except ValueError as e:
-        assert e.args == ("List is empty", )
+        assert e.args == ("List is empty",)
 
 
 def test_remove_by_value():

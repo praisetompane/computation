@@ -13,7 +13,7 @@ class LinkedList:
         """
         length = 0
         iterator = self.head
-        while (iterator):
+        while iterator:
             length += 1
             iterator = iterator.next
         return length
@@ -24,24 +24,36 @@ class LinkedList:
         Returns:
             str: String representation of the list.
         """
-        if self.head == None:
+        if self.head is None:
             return "".join([])
         else:
             values = []
             iterator = self.head
-            while (iterator):
+            while iterator:
                 values.append(str(iterator.data))
                 iterator = iterator.next
             return "".join(str(values))
 
+    def _get_last_node(self) -> Node:
+        """Returns last node in the list.
+
+        Returns:
+            Node: Last node in the list.
+        """
+        iterator = self.head
+        while iterator.next:
+            iterator = iterator.next
+
+        return iterator
+
     def insert_at_top(self, data):
-        """Inserts a value to the top of the list
+        """Inserts a value to the top of the list.
 
         Args:
             data (Any): Data to be inserted.
         """
         new_head = Node(data, None, self.head)
-        if self.head == None:
+        if self.head is None:
             self.head = new_head
         else:
             self.head.prev = new_head
@@ -54,41 +66,41 @@ class LinkedList:
             data (Any): Data to be inserted at the end.
                         Use `insert_values` to insert a collection of values.
         """
-        if self.head == None:
+        if self.head is None:
             self.head = Node(data)
         else:
-            iterator = self.head
-            while (iterator.next):
-                iterator = iterator.next
-
+            iterator = self._get_last_node()
             iterator.next = Node(data, iterator)
 
     def insert_values(self, data):
-        """ Insert values of a sequence to the end of the list.
+        """Insert values of a sequence to the end of the list.
 
         Args:
             values (Sequence): Sequence data to be inserted
         """
-        def _insert(start_index):
-            iterator = self.head
-            # move pointer to the last node
-            while (iterator.next):
-                iterator = iterator.next
 
+        def _insert(start_index: int) -> None:
+            """Inserts values from index @start_index in @data parameter,
+               to the end of the list.
+
+            Args:
+                start_index (int): Index to start at in data.
+            """
+            iterator = self._get_last_node()
             idx = start_index
-            while (idx < len(data)):
+            while idx < len(data):
                 iterator.next = Node(data[idx], iterator)
                 iterator = iterator.next
                 idx += 1
 
-        if self.head == None:
+        if self.head is None:
             self.head = Node(data[0])
             _insert(1)
         else:
             _insert(0)
 
     def insert_after_value(self, value, data):
-        """Insert a value after the supplied @predicate_value
+        """Insert a value after the supplied @predicate_value.
 
         Args:
             predicate_value (Any): Value to to insert after.
@@ -97,11 +109,11 @@ class LinkedList:
         Raises:
             IndexError: The list is empty
         """
-        if self.head == None:
+        if self.head is None:
             raise IndexError("List is empty")
 
         iterator = self.head
-        while (iterator):
+        while iterator:
             if iterator.data == value:
                 iterator.next = Node(data, iterator, iterator.next)
                 return
@@ -131,7 +143,7 @@ class LinkedList:
         Args:
             value (Any): Value to be removed.
         """
-        if self.head == None:
+        if self.head is None:
             raise IndexError("List is empty")
 
         if self.head.data == value:
@@ -139,7 +151,7 @@ class LinkedList:
             return
 
         iterator = self.head
-        while (iterator.next):
+        while iterator.next:
             if iterator.next.data == value:
                 iterator.next = iterator.next.next
                 if iterator.next is not None:
@@ -153,13 +165,13 @@ class LinkedList:
         Raises:
             ValueError: List is empty
         """
-        if self.head == None:
+        if self.head is None:
             raise ValueError("List is empty")
 
         last_processed = None
         iterator = self.head
         next_node_to_process = None
-        while (iterator):
+        while iterator:
             next_node_to_process = iterator.next
 
             iterator.next = last_processed
@@ -171,26 +183,24 @@ class LinkedList:
         self.head = last_processed
 
     def print_forward(self) -> None:
-        """Print list in forward order
-        """
-        if self.head == None:
+        """Print list in forward order"""
+        if self.head is None:
             print("[]")
             return
 
         iterator = self.head
-        while (iterator):
+        while iterator:
             print(iterator.data)
             iterator = iterator.next
 
     def print_backward(self) -> None:
-        """Print list in backwards order
-        """
-        if self.head == None:
+        """Print list in backwards order"""
+        if self.head is None:
             print("[]")
             return
 
-        iterator = self.head
-        while (iterator):
+        iterator = self._get_last_node()
+        while iterator:
             print(iterator.data)
             iterator = iterator.prev
 
@@ -210,7 +220,7 @@ class LinkedList:
         if index < 0 or index > size:
             raise IndexError("Index out of bounds")
 
-        if self.head == None and index != 0:
+        if self.head is None and index != 0:
             raise IndexError("Index out of bounds")
 
         if index == 0:
@@ -219,7 +229,7 @@ class LinkedList:
 
         iterator = self.head
         idx = 0
-        while (iterator):
+        while iterator:
             if idx == index - 1:
                 node = Node(data, iterator, iterator.next)
                 if iterator.next:
@@ -243,7 +253,7 @@ class LinkedList:
 
         idx = 0
         iterator = self.head
-        while (iterator):
+        while iterator:
             if idx == index - 1:
                 iterator.next = iterator.next.next
                 if iterator.next is not None:

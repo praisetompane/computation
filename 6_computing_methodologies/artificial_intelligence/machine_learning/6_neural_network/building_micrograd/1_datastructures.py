@@ -5,19 +5,22 @@
 # """
 
 # %%
-import math
+from graphviz import Digraph
 import numpy as np
 import matplotlib.pyplot as plt
 
 # %%
-'''
+"""
 scalar valued function
 input = x
 ouput = y
 where x AND y are scalar values
-'''
-def f(x):
-    return 3*x**2 - 4*x + 5 # 3x² - 4x + 5
+"""
+
+
+def f(x_p):
+    return 3 * x_p**2 - 4 * x_p + 5  # 3x² - 4x + 5
+
 
 # %%
 f(3.0)
@@ -34,12 +37,12 @@ plt.plot(x_scalar_values, y_scalar_values)
 h = 0.00000001
 x = 3.0
 how_much_the_function_responded = f(x + h) - f(x)
-'''
+"""
     normalize by run
         = rise/run
-'''
-slope = how_much_the_function_responded/h
-slope # numerial approximation. requires h to be very small to get the actual scope
+"""
+slope = how_much_the_function_responded / h
+slope  # numerial approximation. requires h to be very small to get the actual scope
 
 # %%
 # slope at -3
@@ -53,14 +56,14 @@ slope
 # slope at 2/3
 # i.e. the function does not respond
 h = 0.00000001
-x = 2/3
+x = 2 / 3
 how_much_the_function_responded = f(x + h) - f(x)
 slope = how_much_the_function_responded / h
-slope 
-'''
+slope
+"""
     slope = 0 i.e the function does not respond
     stay almost the same?
-'''
+"""
 
 # %%
 # another function scalar function
@@ -68,17 +71,30 @@ slope
 a = 2.0
 b = -3.0
 c = 10.0
-def f(a, b, c):
-    return a * b + c
 
-d = f(a, b, c)
+
+def linear(m: float, x: float, ct: float) -> float:
+    """A simple linear function.
+
+    Args:
+        a (float): gradient
+        b (float): independent variable
+        c (float): constant
+
+    Returns:
+        float: dependent variable
+    """
+    return m * x + ct
+
+
+d = linear(a, b, c)
 d
 
 # %%
 a_values = np.arange(-5, 5, 0.25)
 b_values = np.arange(-5, 5, 0.25)
 c_values = np.arange(-5, 5, 0.25)
-d_values = f(a_values, b_values, c_values)
+d_values = linear(a_values, b_values, c_values)
 plt.plot(d_values)
 
 # %%
@@ -87,15 +103,15 @@ a = 2.0
 b = -3.0
 c = 10.0
 
-d1 = f(a, b, c)
-d2 = f(a + h, b, c)
-print('d1 = ', d1)
-print('d2 = ', d2)
-print('slope = ', (d2 - d1)/h)
+d1 = linear(a, b, c)
+d2 = linear(a + h, b, c)
+print("d1 = ", d1)
+print("d2 = ", d2)
+print("slope = ", (d2 - d1) / h)
 
 
 # %%
-class Value():
+class Value:
     def __init__(self, data, construction_parameters=(), operation="", label=""):
         """
         construction_parameters: Values used to create this Value
@@ -117,8 +133,9 @@ class Value():
     def __mul__(self, other):
         return Value(self.data * other.data, (self, other), "*")
 
+
 # %% [markdown]
-# 
+#
 
 # %%
 # inputs
@@ -141,30 +158,34 @@ LossFunction
 
 LossFunction
 
+
 # %%
 def build_graph(root: Value):
     """
-        build set of nodes(vertices) and edges
+    build set of nodes(vertices) and edges
     """
     nodes, edges = set(), set()
+
     def build(node):
         if node not in nodes:
             nodes.add(node)
             for child in node.previous:
                 edges.add((child, node))
                 build(child)
+
     build(root)
     return nodes, edges
 
+
 # %%
-from graphviz import Digraph
+
 
 def draw_dot_graph(root):
     dot_graph = Digraph(format="svg")
     dot_graph.graph_attr["rankdir"] = "LR"
     nodes, edges = build_graph(root)
     for n in nodes:
-        object_id = str(id(n))   
+        object_id = str(id(n))
         dot_graph.node(
             name=object_id,
             label=f"{n.label}| data: {n.data}| gradient: {n.gradient}",
@@ -178,9 +199,8 @@ def draw_dot_graph(root):
         # TODO: Why does this work?
         dot_graph.edge(str(id(edge_1)), str(id(edge_2)) + edge_2.operation)
     # print(dot_graph)
-    return dot_graph   
+    return dot_graph
+
 
 # %%
 draw_dot_graph(LossFunction)
-
-

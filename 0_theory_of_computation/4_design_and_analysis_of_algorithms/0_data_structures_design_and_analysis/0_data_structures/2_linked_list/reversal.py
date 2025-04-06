@@ -14,7 +14,7 @@ class LinkedList:
     def __str__(self) -> str:
         string_value = ""
         current_node = self.head
-        while current_node != None:
+        while current_node is not None:
             string_value += f"{current_node.value} "
             current_node = current_node.next
 
@@ -22,17 +22,17 @@ class LinkedList:
 
     def reverse(self):
         """
-            Performance:
+        Performance:
 
-                Time = 𝑂(𝑁)
-                Space = O(1): reuses existing nodes.
+            Time = 𝑂(𝑁)
+            Space = O(1): reuses existing nodes.
 
         """
         current_node = self.head
         next_node = None
         previous_node = None
 
-        while current_node != None:
+        while current_node is not None:
             next_node = current_node.next
 
             # NB: The key is here. we set a node's successor(i.e. next) value to be its predecessor. which is what reversal means.
