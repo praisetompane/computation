@@ -27,7 +27,7 @@ void main()
     long long n = 1000000000;
     for (int i = 0; i < n; i++)
     {
-        i + 1; // check hoq quick this is?
+        i + 1; // check how quick this is?
     }
     end_time = localtime(&raw_time);
     printf("computation completed at: %s\n", asctime(end_time));
