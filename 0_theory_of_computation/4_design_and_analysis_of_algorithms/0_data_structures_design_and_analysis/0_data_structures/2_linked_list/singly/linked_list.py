@@ -14,10 +14,10 @@ class LinkedList:
             int: Number of elements in list
         """
         length = 0
-        current_node = self.head
-        while (current_node):
+        iterator = self.head
+        while (iterator):
             length = length + 1
-            current_node = current_node.next
+            iterator = iterator.next
         return length
 
     def __repr__(self) -> str:
@@ -30,13 +30,13 @@ class LinkedList:
             return "".join([])
         else:
             values = []
-            current_node = self.head
-            while (current_node):
-                if (current_node.next):
-                    values.append(current_node.data)
+            iterator = self.head
+            while (iterator):
+                if (iterator.next):
+                    values.append(iterator.data)
                 else:
-                    values.append(current_node.data)
-                current_node = current_node.next
+                    values.append(iterator.data)
+                iterator = iterator.next
             return "".join(str(values))
 
     def insert_at_top(self, data: Any) -> None:
@@ -56,10 +56,10 @@ class LinkedList:
         """
         node = Node(data)
         if self.head:
-            current_node = self.head
-            while (current_node.next):
-                current_node = current_node.next
-            current_node.next = node
+            iterator = self.head
+            while (iterator.next):
+                iterator = iterator.next
+            iterator.next = node
         else:
             self.head = node
 
@@ -72,14 +72,14 @@ class LinkedList:
         # O(N). N = length of current values in list
         def _insert_values(start_index):
             # O(M). M = length of new values
-            current_node = self.head
-            while (current_node.next):
-                current_node = current_node.next
+            iterator = self.head
+            while (iterator.next):
+                iterator = iterator.next
 
             idx = start_index
             while (idx < len(values)):
-                current_node.next = Node(values[idx])
-                current_node = current_node.next
+                iterator.next = Node(values[idx])
+                iterator = iterator.next
                 idx += 1
 
         if self.head == None:
@@ -111,12 +111,12 @@ class LinkedList:
         if self.head == None:
             raise IndexError("The list is empty")
 
-        current_node = self.head
-        while (current_node):
-            if current_node.data == predicate_value:
-                current_node.next = Node(data, current_node.next)
+        iterator = self.head
+        while (iterator):
+            if iterator.data == predicate_value:
+                iterator.next = Node(data, iterator.next)
                 return
-            current_node = current_node.next
+            iterator = iterator.next
 
     def remove_from_top(self) -> Any:
         """Removes and returns value at the head of the list.
@@ -146,12 +146,12 @@ class LinkedList:
             self.head = self.head.next
             return
 
-        current_node = self.head
-        while (current_node.next):
-            if current_node.next.data == value:
-                current_node.next = current_node.next.next
+        iterator = self.head
+        while (iterator.next):
+            if iterator.next.data == value:
+                iterator.next = iterator.next.next
                 return
-            current_node = current_node.next
+            iterator = iterator.next
 
     def reverse(self) -> None:
         """Reverse the list order.
@@ -162,14 +162,16 @@ class LinkedList:
         if self.head:
             last_processed = None
             next_node_to_process = None
-            current_node = self.head
-            while (current_node):
-                next_node_to_process = current_node.next
+            iterator = self.head
+            while (iterator):
+                next_node_to_process = iterator.next
 
-                current_node.next = last_processed
+                # NB: The key is here. we set a node's successor(i.e. next) value to be its predecessor. which is what reversal means.
+                # The rest is housekeeping to remember who was next and was the previous.
+                iterator.next = last_processed
 
-                last_processed = current_node
-                current_node = next_node_to_process
+                last_processed = iterator
+                iterator = next_node_to_process
             self.head = last_processed
         else:
             raise ValueError("List is empty")
@@ -194,12 +196,12 @@ class LinkedList:
             self.head = Node(data, self.head)
 
         idx = 0
-        current_node = self.head
+        iterator = self.head
         while (idx < size):
             if idx == index - 1:
-                current_node.next = Node(data, current_node.next)
+                iterator.next = Node(data, iterator.next)
                 return
-            current_node = current_node.next
+            iterator = iterator.next
             idx += 1
 
     def remove_at_index(self, index: int) -> None:
@@ -220,10 +222,10 @@ class LinkedList:
             return
 
         idx = 0
-        current_node = self.head
+        iterator = self.head
         while (idx < size):
             if idx == index - 1:
-                current_node.next = current_node.next.next
+                iterator.next = iterator.next.next
                 return
-            current_node = current_node.next
+            iterator = iterator.next
             idx += 1
