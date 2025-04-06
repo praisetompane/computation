@@ -11,5 +11,3 @@ for i in range(0, n):
 end_time = datetime.now()
 print(f"computation completed: {end_time}")
 print(f"{end_time - start_time = }")
-
-

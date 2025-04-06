@@ -6,11 +6,13 @@ name = "pypi"
 [packages]
 numpy = "*"
 matplotlib = "*"
+graphviz = "*"
 
 [dev-packages]
 pyspelling = "*"
 ipykernel = "*"
 pytest = "*"
+black = "*"
 
 [requires]
 python_version = "3.13"
