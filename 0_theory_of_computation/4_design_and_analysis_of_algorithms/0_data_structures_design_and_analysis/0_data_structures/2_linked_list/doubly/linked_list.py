@@ -40,7 +40,12 @@ class LinkedList:
         Args:
             data (Any): Data to be inserted.
         """
-        self.head = Node(data, None, self.head)
+        new_head = Node(data, None, self.head)
+        if self.head == None:
+            self.head = new_head
+        else:
+            self.head.prev = new_head
+            self.head = new_head
 
     def insert_at_end(self, data):
         """Insert a value to the end of the list.
@@ -111,12 +116,14 @@ class LinkedList:
         Returns:
             Any: Data in the head of the list.
         """
-        if self.head == None:
+        if self.head:
+            node = self.head
+            self.head = self.head.next
+            if self.head:
+                self.head.prev = None
+            return node.data
+        else:
             raise ValueError("List is empty")
-
-        value = self.head.data
-        self.head = self.head.next
-        return value
 
     def remove_by_value(self, value):
         """Remove a specific @value from the list.
@@ -214,8 +221,10 @@ class LinkedList:
         idx = 0
         while (current_node):
             if idx == index - 1:
-                current_node.next = Node(
-                    data, current_node, current_node.next)
+                node = Node(data, current_node, current_node.next)
+                if current_node.next:
+                    current_node.next.prev = node
+                current_node.next = node
                 return
             idx += 1
             current_node = current_node.next

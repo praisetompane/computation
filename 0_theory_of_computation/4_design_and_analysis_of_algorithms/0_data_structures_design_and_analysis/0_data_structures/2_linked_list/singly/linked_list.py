@@ -130,6 +130,8 @@ class LinkedList:
         if self.head:
             node = self.head
             self.head = self.head.next
+            if self.head:
+                self.head.prev = None
             return node.data
         else:
             raise ValueError("List is empty")

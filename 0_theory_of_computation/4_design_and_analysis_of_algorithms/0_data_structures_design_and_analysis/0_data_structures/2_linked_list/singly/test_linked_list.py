@@ -67,6 +67,7 @@ def test_remove_from_top():
     data = linked_list.remove_from_top()
     assert data == 2
     assert linked_list.head.data == 1
+    assert linked_list.head.prev == None
 
     data = linked_list.remove_from_top()
     assert data == 1
