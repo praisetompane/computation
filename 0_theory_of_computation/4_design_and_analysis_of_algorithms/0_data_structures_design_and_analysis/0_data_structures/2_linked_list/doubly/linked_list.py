@@ -12,10 +12,10 @@ class LinkedList:
             int: Number of elements in list
         """
         length = 0
-        current_node = self.head
-        while (current_node):
+        iterator = self.head
+        while (iterator):
             length += 1
-            current_node = current_node.next
+            iterator = iterator.next
         return length
 
     def __repr__(self):
@@ -28,10 +28,10 @@ class LinkedList:
             return "".join([])
         else:
             values = []
-            current_node = self.head
-            while (current_node):
-                values.append(str(current_node.data))
-                current_node = current_node.next
+            iterator = self.head
+            while (iterator):
+                values.append(str(iterator.data))
+                iterator = iterator.next
             return "".join(str(values))
 
     def insert_at_top(self, data):
@@ -57,11 +57,11 @@ class LinkedList:
         if self.head == None:
             self.head = Node(data)
         else:
-            current_node = self.head
-            while (current_node.next):
-                current_node = current_node.next
+            iterator = self.head
+            while (iterator.next):
+                iterator = iterator.next
 
-            current_node.next = Node(data, current_node)
+            iterator.next = Node(data, iterator)
 
     def insert_values(self, data):
         """ Insert values of a sequence to the end of the list.
@@ -70,15 +70,15 @@ class LinkedList:
             values (Sequence): Sequence data to be inserted
         """
         def _insert(start_index):
-            current_node = self.head
+            iterator = self.head
             # move pointer to the last node
-            while (current_node.next):
-                current_node = current_node.next
+            while (iterator.next):
+                iterator = iterator.next
 
             idx = start_index
             while (idx < len(data)):
-                current_node.next = Node(data[idx], current_node)
-                current_node = current_node.next
+                iterator.next = Node(data[idx], iterator)
+                iterator = iterator.next
                 idx += 1
 
         if self.head == None:
@@ -100,12 +100,12 @@ class LinkedList:
         if self.head == None:
             raise IndexError("List is empty")
 
-        current_node = self.head
-        while (current_node):
-            if current_node.data == value:
-                current_node.next = Node(data, current_node, current_node.next)
+        iterator = self.head
+        while (iterator):
+            if iterator.data == value:
+                iterator.next = Node(data, iterator, iterator.next)
                 return
-            current_node = current_node.next
+            iterator = iterator.next
 
     def remove_from_top(self):
         """Removes and returns value at the head of the list.
@@ -138,14 +138,14 @@ class LinkedList:
             self.head = self.head.next
             return
 
-        current_node = self.head
-        while (current_node.next):
-            if current_node.next.data == value:
-                current_node.next = current_node.next.next
-                if current_node.next != None:
-                    current_node.next.prev = current_node
+        iterator = self.head
+        while (iterator.next):
+            if iterator.next.data == value:
+                iterator.next = iterator.next.next
+                if iterator.next is not None:
+                    iterator.next.prev = iterator
                 return
-            current_node = current_node.next
+            iterator = iterator.next
 
     def reverse(self):
         """Reverse the list order.
@@ -157,16 +157,16 @@ class LinkedList:
             raise ValueError("List is empty")
 
         last_processed = None
-        current_node = self.head
+        iterator = self.head
         next_node_to_process = None
-        while (current_node):
-            next_node_to_process = current_node.next
+        while (iterator):
+            next_node_to_process = iterator.next
 
-            current_node.next = last_processed
-            current_node.prev = next_node_to_process
+            iterator.next = last_processed
+            iterator.prev = next_node_to_process
 
-            last_processed = current_node
-            current_node = next_node_to_process
+            last_processed = iterator
+            iterator = next_node_to_process
 
         self.head = last_processed
 
@@ -177,10 +177,10 @@ class LinkedList:
             print("[]")
             return
 
-        current_node = self.head
-        while (current_node):
-            print(current_node.dat)
-            current_node = current_node.next
+        iterator = self.head
+        while (iterator):
+            print(iterator.data)
+            iterator = iterator.next
 
     def print_backward(self) -> None:
         """Print list in backwards order
@@ -189,10 +189,10 @@ class LinkedList:
             print("[]")
             return
 
-        current_node = self.head
-        while (current_node):
-            print(current_node.data)
-            current_node = current_node.prev
+        iterator = self.head
+        while (iterator):
+            print(iterator.data)
+            iterator = iterator.prev
 
     # I do not think these would be useful in practice. If you want an indexed structure, then use a array/list
     # They are for demonstration and practice.
@@ -217,17 +217,17 @@ class LinkedList:
             self.head = Node(data, self.head, self.head.next)
             return
 
-        current_node = self.head
+        iterator = self.head
         idx = 0
-        while (current_node):
+        while (iterator):
             if idx == index - 1:
-                node = Node(data, current_node, current_node.next)
-                if current_node.next:
-                    current_node.next.prev = node
-                current_node.next = node
+                node = Node(data, iterator, iterator.next)
+                if iterator.next:
+                    iterator.next.prev = node
+                iterator.next = node
                 return
             idx += 1
-            current_node = current_node.next
+            iterator = iterator.next
 
     def remove_at_index(self, index):
         """Remove value at an index.
@@ -242,11 +242,11 @@ class LinkedList:
             raise IndexError("List is empty")
 
         idx = 0
-        current_node = self.head
-        while (current_node):
+        iterator = self.head
+        while (iterator):
             if idx == index - 1:
-                current_node.next = current_node.next.next
-                if current_node.next != None:
-                    current_node.next.prev = current_node
+                iterator.next = iterator.next.next
+                if iterator.next is not None:
+                    iterator.next.prev = iterator
             idx += 1
-            current_node = current_node.next
+            iterator = iterator.next
