@@ -1,13 +1,11 @@
-from singly.node import Node
-from collections.abc import Sequence
-from typing import Any
+from doubly.node import Node
 
 
 class LinkedList:
     def __init__(self):
         self.head = None
 
-    def __len__(self) -> int:
+    def __len__(self):
         """Calculates the length of the list.
 
         Returns:
@@ -16,11 +14,11 @@ class LinkedList:
         length = 0
         current_node = self.head
         while (current_node):
-            length = length + 1
+            length += 1
             current_node = current_node.next
         return length
 
-    def __repr__(self) -> str:
+    def __repr__(self):
         """Return string representation to be used by Python's `repr`
 
         Returns:
@@ -32,73 +30,64 @@ class LinkedList:
             values = []
             current_node = self.head
             while (current_node):
-                if (current_node.next):
-                    values.append(current_node.data)
-                else:
-                    values.append(current_node.data)
+                values.append(str(current_node.data))
                 current_node = current_node.next
             return "".join(str(values))
 
-    def insert_at_top(self, data: Any) -> None:
+    def insert_at_top(self, data):
         """Inserts a value to the top of the list
 
         Args:
             data (Any): Data to be inserted.
         """
-        self.head = Node(data, self.head)
+        new_head = Node(data, None, self.head)
+        if self.head == None:
+            self.head = new_head
+        else:
+            self.head.prev = new_head
+            self.head = new_head
 
-    def insert_at_end(self, data: Any) -> None:
+    def insert_at_end(self, data):
         """Insert a value to the end of the list.
 
         Args:
             data (Any): Data to be inserted at the end.
                         Use `insert_values` to insert a collection of values.
         """
-        node = Node(data)
-        if self.head:
+        if self.head == None:
+            self.head = Node(data)
+        else:
             current_node = self.head
             while (current_node.next):
                 current_node = current_node.next
-            current_node.next = node
-        else:
-            self.head = node
 
-    def insert_values(self, values: Sequence) -> None:
+            current_node.next = Node(data, current_node)
+
+    def insert_values(self, data):
         """ Insert values of a sequence to the end of the list.
 
         Args:
             values (Sequence): Sequence data to be inserted
         """
-        # O(N). N = length of current values in list
-        def _insert_values(start_index):
-            # O(M). M = length of new values
+        def _insert(start_index):
             current_node = self.head
+            # move pointer to the last node
             while (current_node.next):
                 current_node = current_node.next
 
             idx = start_index
-            while (idx < len(values)):
-                current_node.next = Node(values[idx])
+            while (idx < len(data)):
+                current_node.next = Node(data[idx], current_node)
                 current_node = current_node.next
                 idx += 1
 
         if self.head == None:
-            self.head = Node(values[0])
-            _insert_values(1)
+            self.head = Node(data[0])
+            _insert(1)
         else:
-            _insert_values(0)
+            _insert(0)
 
-        # Total = O(N + M) = O(N) | O(M) depending on which is longer. Therefore Linear = O(N)
-
-        # alternative
-        # for v in values:
-        #     self.insert(v)
-        # O(N * M)
-            # N = length of current values in list
-            # M = length of new values
-            # if M = N, then O(N*N) = O(N^2)
-
-    def insert_after_value(self, predicate_value: Any, data: Any) -> None:
+    def insert_after_value(self, value, data):
         """Insert a value after the supplied @predicate_value
 
         Args:
@@ -109,16 +98,16 @@ class LinkedList:
             IndexError: The list is empty
         """
         if self.head == None:
-            raise IndexError("The list is empty")
+            raise IndexError("List is empty")
 
         current_node = self.head
         while (current_node):
-            if current_node.data == predicate_value:
-                current_node.next = Node(data, current_node.next)
+            if current_node.data == value:
+                current_node.next = Node(data, current_node, current_node.next)
                 return
             current_node = current_node.next
 
-    def remove_from_top(self) -> Any:
+    def remove_from_top(self):
         """Removes and returns value at the head of the list.
 
         Raises:
@@ -136,12 +125,15 @@ class LinkedList:
         else:
             raise ValueError("List is empty")
 
-    def remove_by_value(self, value: Any) -> None:
+    def remove_by_value(self, value):
         """Remove a specific @value from the list.
 
         Args:
             value (Any): Value to be removed.
         """
+        if self.head == None:
+            raise IndexError("List is empty")
+
         if self.head.data == value:
             self.head = self.head.next
             return
@@ -150,33 +142,61 @@ class LinkedList:
         while (current_node.next):
             if current_node.next.data == value:
                 current_node.next = current_node.next.next
+                if current_node.next != None:
+                    current_node.next.prev = current_node
                 return
             current_node = current_node.next
 
-    def reverse(self) -> None:
+    def reverse(self):
         """Reverse the list order.
 
         Raises:
             ValueError: List is empty
         """
-        if self.head:
-            last_processed = None
-            next_node_to_process = None
-            current_node = self.head
-            while (current_node):
-                next_node_to_process = current_node.next
-
-                current_node.next = last_processed
-
-                last_processed = current_node
-                current_node = next_node_to_process
-            self.head = last_processed
-        else:
+        if self.head == None:
             raise ValueError("List is empty")
+
+        last_processed = None
+        current_node = self.head
+        next_node_to_process = None
+        while (current_node):
+            next_node_to_process = current_node.next
+
+            current_node.next = last_processed
+            current_node.prev = next_node_to_process
+
+            last_processed = current_node
+            current_node = next_node_to_process
+
+        self.head = last_processed
+
+    def print_forward(self) -> None:
+        """Print list in forward order
+        """
+        if self.head == None:
+            print("[]")
+            return
+
+        current_node = self.head
+        while (current_node):
+            print(current_node.dat)
+            current_node = current_node.next
+
+    def print_backward(self) -> None:
+        """Print list in backwards order
+        """
+        if self.head == None:
+            print("[]")
+            return
+
+        current_node = self.head
+        while (current_node):
+            print(current_node.data)
+            current_node = current_node.prev
 
     # I do not think these would be useful in practice. If you want an indexed structure, then use a array/list
     # They are for demonstration and practice.
-    def insert_at_index(self, index: int, data: Any) -> None:
+    def insert_at_index(self, index, data) -> None:
         """Insert data at an index.
 
         Args:
@@ -190,19 +210,26 @@ class LinkedList:
         if index < 0 or index > size:
             raise IndexError("Index out of bounds")
 
+        if self.head == None and index != 0:
+            raise IndexError("Index out of bounds")
+
         if index == 0:
-            self.head = Node(data, self.head)
+            self.head = Node(data, self.head, self.head.next)
+            return
 
-        idx = 0
         current_node = self.head
-        while (idx < size):
+        idx = 0
+        while (current_node):
             if idx == index - 1:
-                current_node.next = Node(data, current_node.next)
+                node = Node(data, current_node, current_node.next)
+                if current_node.next:
+                    current_node.next.prev = node
+                current_node.next = node
                 return
-            current_node = current_node.next
             idx += 1
+            current_node = current_node.next
 
-    def remove_at_index(self, index: int) -> None:
+    def remove_at_index(self, index):
         """Remove value at an index.
 
         Args:
@@ -211,19 +238,15 @@ class LinkedList:
         Raises:
             IndexError: Index of out bounds
         """
-        size = len(self)
-        if index < 0 or index >= size:
-            raise IndexError(f"Index of out bounds: Index: {index}")
-
-        if index == 0:
-            self.head = self.head.next
-            return
+        if index < 0 and index >= len(self):
+            raise IndexError("List is empty")
 
         idx = 0
         current_node = self.head
-        while (idx < size):
+        while (current_node):
             if idx == index - 1:
                 current_node.next = current_node.next.next
-                return
-            current_node = current_node.next
+                if current_node.next != None:
+                    current_node.next.prev = current_node
             idx += 1
+            current_node = current_node.next
