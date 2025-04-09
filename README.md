@@ -45,8 +45,14 @@
 - [HackerNews](https://news.ycombinator.com/news)
 
 ## Computer Scientists
-- [The Academic Genealogy of Computer Science](https://academictree.org/computerscience/)
 - [ACM A.M. Turing Award Laureate Interviews](https://www.youtube.com/playlist?list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO)
+- [The Academic Genealogy of Computer Science](https://academictree.org/computerscience/)
+
+## Testing
+- ### Execute Tests
+  ```shell
+  pytest
+  ```
 
 ## Spell Check
 ```shell

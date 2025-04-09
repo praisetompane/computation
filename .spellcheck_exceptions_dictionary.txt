@@ -219,6 +219,7 @@ WTW
 YCSCS
 
 # technology
+pytest
 LLVM
 visualstudio
 devcontainers
@@ -393,6 +394,8 @@ ZeroAmountException
 ZeroPayablePayment
 
 # urls
+academictree
+computerscience
 Rxx
 roadmap
 aosabook
