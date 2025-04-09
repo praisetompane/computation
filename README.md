@@ -6,8 +6,7 @@
 
 ## Definitions
 - def computation¹: the **transformation** of **sequences of symbols** by **precise rules**(Konrad, 2015:6).
-
-  - de symbols = {1,0,\*,{,;,<,>,...}
+  - def symbols = {1,0,\*,{,;,<,>,...}
     - example sequences:
       - 11010
       - ;\*>{11}
@@ -15,8 +14,7 @@
   - def precise rules = steps to follow
 
 - def computation²: The **evolution process** of some environment, by a **sequence of "simple, local" steps** (Stanford Encyclopedia of Philosophy).
-
-- def computation: a list of steps to do something
+- def computation³: a list of steps to do something
 - def compute: to do/run a computation.
 
 ## Dependencies
@@ -47,6 +45,7 @@
 - [HackerNews](https://news.ycombinator.com/news)
 
 ## Computer Scientists
+- [The Academic Genealogy of Computer Science](https://academictree.org/computerscience/)
 - [ACM A.M. Turing Award Laureate Interviews](https://www.youtube.com/playlist?list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO)
 
 ## Spell Check
@@ -56,7 +55,7 @@ pyspelling -c spellcheck.yaml
 
 ## References
 - Konrad H. 2015. Computation in Science. Morgan & Claypool Publishers.
-- Stanford Encyclopedia of Philosophy. The Church-Turing Thesis. https://plato.stanford.edu/entries/church-turing/.
+- [Stanford Encyclopedia of Philosophy. The Church-Turing Thesis](https://plato.stanford.edu/entries/church-turing/).
 
 ## Legend:
 **Q**: Question for later research
