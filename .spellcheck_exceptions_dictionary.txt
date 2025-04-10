@@ -13,6 +13,8 @@ OAI
 ORM
 
 # authors
+Alama
+Korbmacher
 Nwosu
 Daumé
 Kaptur

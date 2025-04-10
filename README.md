@@ -63,9 +63,8 @@ pyspelling -c spellcheck.yaml
 - Konrad H. 2015. Computation in Science. Morgan & Claypool Publishers.
 - [Stanford Encyclopedia of Philosophy. The Church-Turing Thesis](https://plato.stanford.edu/entries/church-turing/).
 
-## Legend:
-**Q**: Question for later research
-
+## Legend
+**Q**: Question for later research<br>
 **MYINC**: My Insight/Conjecture [Could Be Unoriginal/False and Likely Is]
 
 **Disclaimer**: This is an ongoing and incomplete project to unpack these concepts and serves as my distributed memory.
