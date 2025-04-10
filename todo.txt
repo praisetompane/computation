@@ -5,7 +5,9 @@
     - readings:
         - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/readings/ :
             - Sipser, M. 2013. Introduction to the Theory of Computation. 3rd edition. Cengage Learning
-        - Copeland, B. Jack, "The Church-Turing Thesis", The Stanford Encyclopedia of Philosophy (Winter 2024 Edition), Edward N. Zalta & Uri Nodelman (eds.). https://plato.stanford.edu/archives/win2024/entries/church-turing/
+        - 0_theory_of_computation/1_models_of_computation/0_computability:
+            - Copeland, B. Jack, "The Church-Turing Thesis", The Stanford Encyclopedia of Philosophy (Winter 2024 Edition), Edward N. Zalta & Uri Nodelman (eds.). https://plato.stanford.edu/archives/win2024/entries/church-turing/
+            - Alama, Jesse and Johannes Korbmacher, "The Lambda Calculus", The Stanford Encyclopedia of Philosophy (Winter 2024 Edition), Edward N. Zalta & Uri Nodelman (eds.), URL = <https://plato.stanford.edu/archives/win2024/entries/lambda-calculus/>. 
     - recitations: 
     - assignments:
         https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/assignments/
