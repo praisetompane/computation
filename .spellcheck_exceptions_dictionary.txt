@@ -85,6 +85,9 @@ Pretnar
 Siek
 
 # domain specific
+cqrs
+Combinatorial
+Seminumerical
 superset
 ADT
 observability
@@ -353,6 +356,8 @@ func
 println
 
 # programming definitions
+SockMerchant
+impl
 BankToBankPayment
 calculateFee
 ChequeDepositFee
