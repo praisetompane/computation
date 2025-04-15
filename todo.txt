@@ -249,6 +249,12 @@ next₃:
         - readings:
         - assignments:
         - exams:
+
+    - 6_computing_methodologies/computer_graphics
+        - lectures:
+        - readings:
+        - assignments:
+        - exams:
 ============================================================================================================
 - next field template:
     - lectures:
