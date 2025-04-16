@@ -22,10 +22,16 @@ def world world web | WWW| W3| The Web:
                         - dynamic
             - web servers
             - web browsers
+            - core web technlogies:
+                - HTML: Hypertext Markup Language
+                    - set of tags to describe webpages
+                - CSS: Cascading Style Sheets
+                - JavaScript
     - examples: ???
 
     - use cases: ???
         
     - proof: ???
     
-References: ???
+References:
+    - Mozilla. Web technology for developers. https://developer.mozilla.org/en-US/docs/Web

@@ -52,4 +52,4 @@ def internet:
     - proof: ???
     
 References:
-    The Opte Project. The Tnternet. https://www.opte.org/the-internet
+    - The Opte Project. The Tnternet. https://www.opte.org/the-internet
