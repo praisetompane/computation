@@ -78,7 +78,6 @@
 
 ## [Open Source Language](https://github.com/collections/programming-languages )
 
-
 ## Dependencies
 - [Docker](https://docs.docker.com/get-started/)
 - [Mozart2](http://mozart2.org)
@@ -107,7 +106,6 @@ pipenv shell
 ```shell
 pyspelling -c spellcheck.yaml
 ```
-
 
 ## References
 - Van Roy P, Haridi S. 2004. Concepts, Techniques and Models of Computer Programming. The MIT Press.
