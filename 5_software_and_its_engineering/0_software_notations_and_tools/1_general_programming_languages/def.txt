@@ -2,5 +2,3 @@ def programming language: a system of notation to express computer programs (Ant
 
 References:
     - Anthony A. 2004. Introduction to Programming Languages.
-
-

@@ -11,9 +11,14 @@ AMATH
 APIs
 OAI
 ORM
+ARPANET
+IMAP
+SMTP
+SSL
 
 # authors
 Alama
+Berners
 Korbmacher
 Nwosu
 Daumé
@@ -283,6 +288,7 @@ zig
 
 
 # institutions
+Opte
 reddit
 atlasgo
 PyCon
