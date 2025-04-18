@@ -41,6 +41,7 @@
 - [Effective Application]
     - The style of effective programs, with emphasis on idioms.      
     - Metaphors, images, and ways of thinking favoured by the language.
+    
 ## Community
 
 ## Learning Resources

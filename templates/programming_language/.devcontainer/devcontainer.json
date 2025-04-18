@@ -5,16 +5,10 @@
 	},
 	"customizations": {
 		"vscode": {
-			"extensions": [
-				"ms-python.python",
-				"ms-python.vscode-pylance",
-				"ms-python.black-formatter",
-				"ms-python.debugpy",
-				"ms-python.mypy-type-checker"
-			],
+			"extensions": [],
 			"settings": {}
 		}
 	},
-	"workspaceMount": "source=${localWorkspaceFolder},target=/python,type=bind,consistency=delegated",
-	"workspaceFolder": "/python"
+	"workspaceMount": "source=${localWorkspaceFolder},target=/language,type=bind,consistency=delegated",
+	"workspaceFolder": "/language"
 }
