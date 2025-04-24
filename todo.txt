@@ -126,6 +126,7 @@
         - https://see.stanford.edu/course/cs107: Under the Assignments menu
     - exams:
         - https://see.stanford.edu/course/cs107: Under the Exams menu
+
 ============================================================================================================
 - next₁:
     - 5_software_and_its_engineering/0_software_notations_and_tools/3_compilers
@@ -196,6 +197,7 @@
         - readings:
         - assignments:
         - exams:
+
 ============================================================================================================
 next₂:
     - 5_software_and_its_engineering:
@@ -229,6 +231,7 @@ next₂:
         - readings:
         - assignments:
         - exams:
+
 ============================================================================================================
 next₃:
     - 6_computing_methodologies/artificial_intelligence:
@@ -255,6 +258,7 @@ next₃:
         - readings:
         - assignments:
         - exams:
+        
 ============================================================================================================
 - next field template:
     - lectures:

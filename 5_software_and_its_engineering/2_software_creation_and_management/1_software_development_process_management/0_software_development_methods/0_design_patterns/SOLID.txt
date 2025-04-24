@@ -78,7 +78,6 @@ Open Closed Principle
                 Change one without definitely affecting the other
                 Reusability, Fee and Payment can be used in other places in the code base
 
-
 Libskov Substitution Principle
     Subclasses should be substitutable for base classes and client code should not know which subtype it dealing with.
     Implementation guidelines:
@@ -124,7 +123,6 @@ Libskov Substitution Principle
                 Observes SRP and OCP
                 No need to worry about which subtype you're dealing with    
                     and take full advantage of polymorphism
-
 
 Interface Segregation Principle
     Specific interfaces
@@ -210,13 +208,3 @@ Dependency Inversion Principle
         BENEFITS
             Now the RestApplication is decoupled from specific repository implementations
             You can easily swap out repositories as long as they implement the contract defined by the abstract contract defined in Respository
-
-
-            
-
-
-                    
-
-
-
-

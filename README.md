@@ -1,5 +1,5 @@
 # What is Computation?
-![build status](https://github.com/praisetompane/computation_and_information/actions/workflows/computation_and_information.yaml/badge.svg) <br>
+![build status](https://github.com/praisetompane/computation/actions/workflows/computation.yaml/badge.svg) <br>
 
 ## Objectives
 - An attempt at unpacking computation and implementation of computing machines in layman's terms.
