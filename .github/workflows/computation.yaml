@@ -1,4 +1,4 @@
-name: computation_and_information
+name: computation
 
 on:
   push:
