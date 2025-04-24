@@ -1,4 +1,4 @@
-def 0_hashtable:
+def hashtable:
     - formal: ???
 
         - in words: ???
@@ -8,7 +8,7 @@ def 0_hashtable:
 
     - intuition: ???
 
-    - properties:
+    - properties: 
         - Concepts related to it (Wengrow, 2017:30):
             Hash function = a computation that takes an arbitrary key   
                             and returns an index(number) to the value (Wengrow, 2017:86).
@@ -19,8 +19,8 @@ def 0_hashtable:
                 In the event of a collision
                     an index stores a list of the items
 
-        - Performance Analysis:
-            NB: The analysis below is assuming you have minimal collision. C <= 5, C = collision
+        - Performance Analysis (Wengrow, 2017:30):
+            remarks: The analysis below is assuming you have minimal collision. C <= 5, C = collision.
 
             How fast is it to perform the operation? (i.e. Time Complexity)
                 => Measured in terms of the number of steps it takes to complete the operation
@@ -52,7 +52,6 @@ def 0_hashtable:
                             or index/position in nested chain 
                         O(1)
 
-
     - examples: ???
 
     - use cases: ???
@@ -60,4 +59,4 @@ def 0_hashtable:
     - proof: ???
     
 References:
-    - Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills.
+    - Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills.   
