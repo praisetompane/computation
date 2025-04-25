@@ -1,0 +1,62 @@
+def hashtable:
+    - formal: ???
+
+        - in words: ???
+
+    - plain english: list of paired values,
+                        named key and value (Wengrow, 2017:84).
+
+    - intuition: ???
+
+    - properties: 
+        - Concepts related to it (Wengrow, 2017:30):
+            Hash function = a computation that takes an arbitrary key   
+                            and returns an index(number) to the value (Wengrow, 2017:86).
+                NB: If this is written well:
+                        does not generate the same index(collision) for different arbitrary inputs.
+                        This data-structure becomes very powerful
+            Nested Chain =
+                In the event of a collision
+                    an index stores a list of the items
+
+        - Performance Analysis (Wengrow, 2017:30):
+            remarks: The analysis below is assuming you have minimal collision. C <= 5, C = collision.
+
+            How fast is it to perform the operation? (i.e. Time Complexity)
+                => Measured in terms of the number of steps it takes to complete the operation
+
+            Read: Looking up something from a particular spot in the data-structure
+                Steps = 1 step to compute index from arbitrary key
+                        C steps to access index in random access data-structure
+
+                        O(1 + C) = O(C) = O(5) = O(1)
+            
+            Search: Looking for a particular value in the data-structure
+                Steps = 1 step to compute index from arbitrary key
+                        C steps to access index in random access data-structure
+
+                        O(1 + C) = O(C) = O(5) = O(1)
+
+            Insert: Adding a value to the data-structure 
+                Steps = 1 step to compute index from arbitrary key
+                        1 step to insert at 
+                            index in random access data-structure
+                            or index/position in nested chain 
+
+                        O(1)
+
+            Delete: Removing a value from the data-structure
+                Steps = 1 step to compute index from arbitrary key
+                        1 step to remove value at 
+                            index in random access data-structure
+                            or index/position in nested chain 
+                        O(1)
+
+    - examples: ???
+
+    - use cases: ???
+        
+    - proof: ???
+    
+References:
+    - Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills.   
