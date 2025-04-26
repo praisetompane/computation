@@ -21,11 +21,11 @@ def test_updating_an_item():
     assert hash_table["march 6"] == 91
 
 
-def test_handle_collisions_works_correctly_when_a_single_element_already_exists():
+def test_handle_collisions_works_correctly_when_an_element_already_exists():
     hash_table = HashTable()
     expected_index = 609
     expected_existing_item = ("key", "Already Existing Item")
-    hash_table._items[expected_index] = expected_existing_item
+    hash_table._items[expected_index].append(expected_existing_item)
 
     hash_table["march 6"] = 90
     assert hash_table["march 6"] == 90
@@ -35,39 +35,19 @@ def test_handle_collisions_works_correctly_when_a_single_element_already_exists(
     ]
 
 
-def test_handle_collisions_works_correctly_when_a_list_of_elements_already_exists():
-    hash_table = HashTable()
-    expected_index = 609
-    expected_existing_item = [
-        ("key 1", ["Already Existing Item 1"]),
-        ("key 2", "Already Existing Item 2"),
-    ]
-    hash_table._items[expected_index] = expected_existing_item
-
-    hash_table["march 6"] = 90
-    assert hash_table["march 6"] == 90
-
-    expected_items = [
-        ("key 1", ["Already Existing Item 1"]),
-        ("key 2", "Already Existing Item 2"),
-        ("march 6", 90),
-    ]
-    assert hash_table._items[expected_index] == expected_items
-
-
 def test_updating_an_item_works_correctly_in_a_chain():
     hash_table = HashTable()
     index = 410
-    existing_item = [
-        ("key 1", ["Already Existing Item 1"]),
+    existing_items = [
         ("key 2", "Already Existing Item 2"),
+        ("key 1", ["Already Existing Item 1"]),
     ]
-    hash_table._items[index] = existing_item
+    hash_table._items[index] = existing_items
 
     hash_table["key 1"] = ["Already Existing Item 3", "Already Existing Item 4"]
     expected_updated_items = [
-        ("key 1", ["Already Existing Item 3", "Already Existing Item 4"]),
         ("key 2", "Already Existing Item 2"),
+        ("key 1", ["Already Existing Item 3", "Already Existing Item 4"]),
     ]
     assert hash_table._items[index] == expected_updated_items
 
@@ -97,4 +77,4 @@ def test_deleting_an_item_in_a_chain():
 
 
 if __name__ == "__main__":
-    test_deleting_an_item()
+    test_updating_an_item_works_correctly_in_a_chain()
