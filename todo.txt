@@ -24,6 +24,7 @@
                         Chapter 2: Patterns of proof:
         - Epp, S.S. 2010. Discrete mathematics with applications. 4th ed. Cengage Learning. Boston, MA.
             - current position: pg. 6, exercise 1.1, question 4
+        - Harvard School of Engineering and Applied Science. 2021. Lecture 16. Curry-Howard Isomorphism; Existential types, CS 152 - Programming Languages.
     - recitations:
         - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/recitations/
             - current: 1	Logic, proving an implication

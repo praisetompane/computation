@@ -401,6 +401,10 @@ ZeroAmountException
 ZeroPayablePayment
 
 # urls
+Fxx
+lec
+drawio
+curryhoward
 academictree
 computerscience
 Rxx
