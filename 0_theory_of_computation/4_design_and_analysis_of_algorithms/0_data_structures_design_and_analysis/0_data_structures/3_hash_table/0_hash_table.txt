@@ -1,4 +1,4 @@
-def hashtable:
+def hash table:
     - formal: ???
 
         - in words: ???
