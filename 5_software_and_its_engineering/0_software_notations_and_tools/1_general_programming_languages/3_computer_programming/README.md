@@ -109,7 +109,7 @@ pyspelling -c spellcheck.yaml
 
 ## References
 - Van Roy P, Haridi S. 2004. Concepts, Techniques and Models of Computer Programming. The MIT Press.
-- Sipser, M. 2012. Introduction to the Theory of Computation. 3rd ed. Cengage Learning.
+- Sipser, M. 2013. Introduction to the Theory of Computation. 3rd edition. Cengage Learning.
 
 # Legend
 **Q**: Question for later research <br>

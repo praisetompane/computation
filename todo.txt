@@ -167,7 +167,9 @@
                 - MITx: Circuits and Electronics 2: Amplification, Speed, and Delay
                     - https://www.edx.org/learn/circuits/massachusetts-institute-of-technology-circuits-and-electronics-2-amplification-speed-and-delay
                 - MITx: Circuits and Electronics 3: Applications
-                    - https://www.edx.org/learn/electronics/massachusetts-institute-of-technology-circuits-and-electronics-3-applications-2
+                    - https://www.edx.org/learn/electronics/massachusetts-institute-of-technology-circuits-and-electronics-3-applications-2             
+            - Eater, B. 2016. Building an 8-bit breadboard computer!
+            - Eater, B. 2019. Build a 65c02-based computer from scratch
         - readings:
             - Slonka, K., Hall, B.R. 2020. Assembly Programming and Computer Architecture for Software Engineers. 2nd Edition
             - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone

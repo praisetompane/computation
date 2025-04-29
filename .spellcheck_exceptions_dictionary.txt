@@ -13,6 +13,8 @@ OAI
 ORM
 
 # authors
+Khawarizmi
+Warshall
 Alama
 Korbmacher
 Nwosu
@@ -85,6 +87,8 @@ Pretnar
 Siek
 
 # domain specific
+Acyclic
+radix
 cqrs
 Combinatorial
 Seminumerical
@@ -439,3 +443,6 @@ IUCompilerCourse
 sewpr
 toc
 ViPNHMSUcog
+
+
+eponym

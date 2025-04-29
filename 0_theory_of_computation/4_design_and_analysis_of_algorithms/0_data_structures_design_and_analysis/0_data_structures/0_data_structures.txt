@@ -1,0 +1,27 @@
+def data structures (Wengrow, 2017:27):
+    - formal: ???
+
+        - in words: ???
+
+    - plain english: how data is organized
+
+    - intuition: 
+        - data structures are just how you store things.
+                 to store something, you need:
+                    - place to store it = array index, node in a list, leave in a tree etc
+                    - a way to retrieve = access patterns = LIFO, FIFO etc
+
+        - ways to store a non-constant amount of data
+            to make operations on that data faster (Demaine, Ku, Solomon, 2020).
+
+    - properties: ???
+
+    - examples: ???
+
+    - use cases: ???
+        
+    - proof: ???
+    
+References:
+    - Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills.
+    - Demaine, E., Ku, J., Solomon, J. 2020. Algorithms and Computation, 6.006 - Introduction to Algorithms. Massachusetts Institute of Technology
