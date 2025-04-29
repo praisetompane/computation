@@ -17,6 +17,8 @@ SMTP
 SSL
 
 # authors
+Khawarizmi
+Warshall
 Alama
 Berners
 Korbmacher
@@ -90,6 +92,8 @@ Pretnar
 Siek
 
 # domain specific
+Acyclic
+radix
 cqrs
 Combinatorial
 Seminumerical
@@ -445,3 +449,6 @@ IUCompilerCourse
 sewpr
 toc
 ViPNHMSUcog
+
+
+eponym
