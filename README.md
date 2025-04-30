@@ -45,6 +45,9 @@
 - [HackerNews](https://news.ycombinator.com/news)
 
 ## Computer Scientists
+- Erik Demaine
+- Jelani Nelson
+- Katherine Johnson
 - [ACM A.M. Turing Award Laureate Interviews](https://www.youtube.com/playlist?list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO)
 - [The Academic Genealogy of Computer Science](https://academictree.org/computerscience/)
 

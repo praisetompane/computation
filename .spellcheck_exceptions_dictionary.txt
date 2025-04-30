@@ -13,6 +13,12 @@ OAI
 ORM
 
 # authors
+Jelani
+Chlipala
+Grimson
+Hartz
+Steinmeyer
+Wachman
 Khawarizmi
 Warshall
 Alama
@@ -405,6 +411,7 @@ ZeroAmountException
 ZeroPayablePayment
 
 # urls
+Bxx
 Fxx
 lec
 drawio

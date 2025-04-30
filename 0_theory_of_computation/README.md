@@ -3,13 +3,11 @@
 **objective**: unpack the theoretical foundations of computation. 
 
 **def theory of computation¹:** <br>
-- formal:
+- formal: ???
+    - in words: ???
     
-
 - plain english:
     - attempts to answer the question: "What are the fundamental capabilities and limitations of computers?"(Sipser, 2012:1).
-
-
 
 - intuition:
     - 2_formal_languages_and_automata_theory: defines computers and languages they understand.
