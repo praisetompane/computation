@@ -38,33 +38,61 @@
 - 0_theory_of_computation/3_design_and_analysis_of_algorithms:
     - lectures:
         - Demaine, E., Ku, J., Solomon, J. 2020. 6.006 - Introduction to Algorithms. Massachusetts Institute of Technology
-            - current: 1. Algorithms and Computation: *
-        - Sedgewick R., Wayne K. Algorithms Part I. Princeton University.
+            - current: 1. Algorithms and Computation: ***
+        - Demaine, E., Devadas, S, Lynch, N. 2015. 6.046J - Design and Analysis of Algorithms. Massachusetts Institute of Technology
+            - current: N/A
+        - Demaine, E. 2012. 6.851 - Advanced Data Structures. Massachusetts Institute of Technology
+            - current: N/A
+        - 1_algorithm_design_techniques
     - readings:
-        - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/
-        - Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills: **
-        - Knuth, D. 1997. The Art of Computer Programming, Volume 1 - Fundamental Algorithms. 3rd edition
+        - Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills: ***
+        - 6.006:
+            - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/
+        - 6.046J:
+            - 
+        - 6.851:
+            - 
+        - Knuth, D. 1997. The Art of Computer Programming Volume 1 - Fundamental Algorithms. 3rd edition
         - Knuth, D. 1998. The Art of Computer Programming Volume 2 - Seminumerical algorithms . 3rd edition
         - Knuth, D. 1998. The Art of Computer Programming Volume 3 - Sorting and Searching. 2nd edition
         - Knuth, D. 1998. The Art of Computer Programming Volume 4A - Combinatorial algorithms Part 1
     - assignments:
-        - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/assignments/
-        - practice:
-            - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/practice-problems/
+        - 6.006:
+            - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/assignments/
+            - practice:
+                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/practice-problems/
+        - 6.046J:
+            - 
+        - 6.851:
+            - 
     - exams:
-    - quizzes: https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/quizzes/
+        - 6.006:
+            - 
+        - 6.046J:
+            - 
+        - 6.851:
+            - 
+    - quizzes: 
+        - 6.006:
+            - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/quizzes/
+        - 6.046J:
+            - 
+        - 6.851:
+            - 
 
 - 5_software_and_its_engineering/0_software_notations_and_tools/1_general_programming_languages:
-    - lectures:            
-        - Cain, J. 2025. CS107 - Computer Organization and Systems. Stanford University
-            - https://web.stanford.edu/class/cs107/index
-            - legacy: https://see.stanford.edu/course/cs107
-            - current: Lecture 1: *
+    - lectures:
+        - CS107:         
+            - Cain, J. 2025. CS107 - Computer Organization and Systems. Stanford University
+                - https://web.stanford.edu/class/cs107/index
+                - legacy: https://see.stanford.edu/course/cs107
+                - current: Lecture 1: *
         - Van Roy, P. 2004. Concepts, Techniques, and Models of Computer Programming 
             - current: 1 Introduction to Programming Concepts pg 31
         - Bauer, A, Pretnar, M. The Programming Languages Zoo
     - readings:
-        - https://see.stanford.edu/course/cs107: Under the Resources section
+        - CS107:
+            - https://see.stanford.edu/course/cs107: Under the Resources section
         - machine_code: 
             - instruction sets:
                 - RISC-V:
@@ -77,6 +105,7 @@
             - source: https://crackmes.one
         - assembly:
             - lectures:
+                - Steinmeyer J.D., Wachman, S.Z.H. 6.1903 Introduction to Low-level Programming in C and Assembly. Massachusetts Institute of Technology
                 - Slonka, K., Hall, B.R. 2020. Assembly Programming and Computer Architecture for Software Engineers. 2nd Edition
                 - Leiserson, C., Shun, J. 2018. 6.172 - Performance Engineering of Software Systems. Massachusetts Institute of Technology
                     - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/lecture-videos/lecture-4-assembly-language-computer-architecture
@@ -86,11 +115,9 @@
                             - https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-5-c-to-assembly/
             - readings:
                 - https://github.com/brianrhall/Assembly
+                - Slonka, K., Hall, B.R. 2020. Assembly Programming and Computer Architecture for Software Engineers. 2nd Edition
         - c: https://github.com/praisetompane/c
             - go: https://github.com/praisetompane/go
-            - c++
-            - rust
-            - zig
         - python: https://github.com/praisetompane/python
             - Bennett, J. 2019. See CPython run - Getting to know your Python interpreter. North Bay Python: **
             - Severance, C. 2022. C Programming for Everybody
@@ -118,37 +145,32 @@
         - pytorch
         - Pierce, B.C. Types and Programming Languages. The MIT Press
         - Semantics Engineering with PLT Redex. https://redex.racket-lang.org/sewpr-toc.html
-        - computer_programming: https://github.com/praisetompane/computer_programming
-            - source:
-                Van Roy, P. 2004. Concepts, Techniques, and Models of Computer Programming
+        - Van Roy, P. 2004. Concepts, Techniques, and Models of Computer Programming
     - tools:
         - language modelling: https://github.com/runtimeverification/k
     - assignments:
-        - https://see.stanford.edu/course/cs107: Under the Assignments menu
+        - CS107:
+            - https://see.stanford.edu/course/cs107: Under the Assignments menu
     - exams:
-        - https://see.stanford.edu/course/cs107: Under the Exams menu
-
+        - CS107:
+            - https://see.stanford.edu/course/cs107: Under the Exams menu
 ============================================================================================================
 - next₁:
-    - 5_software_and_its_engineering/0_software_notations_and_tools/3_compilers
+    - 5_software_and_its_engineering/0_software_notations_and_tools/2_compilers
         - lectures:
             - Aiken, A. 2025. SOE-YCSCS1 - Compilers. Stanford University
             - Leiserson, C., Shun, J. 2018. 6.172 - Performance Engineering of Software Systems. Massachusetts Institute of Technology
                 - current: Lecture 9: What Compilers Can and Cannot Do
         - readings:
-            - Appel, A.W. 1997. Modern Compiler Implementation in C. Cambridge, UK: Cambridge University Press
             - Nystrom, R. Crafting Interpreters. https://craftinginterpreters.com/contents.html
                 - https://github.com/munificent/craftinginterpreters
-            - Rinard, M. Amarasinghe, S. 2005. Computer Language Engineering (SMA 5502)
-            - Cooper, Keith, and Linda Torczon. Engineering a Compiler. San Mateo, CA: Morgan Kaufman, 2003. ISBN: 155860698X.
-                A modern classroom textbook, with increased emphasis on the back-end and implementation techniques. (Ark book)
             - Siek, J. 2023. Essentials of Compilation. https://github.com/IUCompilerCourse/Essentials-of-Compilation
-            - Muchnick, Steven. Advanced Compiler Design and Implementation. 1st ed. San Mateo, CA: Morgan Kaufman, 1997. ISBN: 1558603204.
-                Essentially a recipe book of optimizations; very complete and suited for industrial practitioners and researchers. (Whale book)
-            - Aho A., Lam M, Sethi R., Ullman J. Compilers - Principles, Techniques, and Tools. 2nd ed. Reading, MA: Addison-Wesley, 1986. ISBN: 0201100886.
-                The classic compilers textbook, although its front-end emphasis reflects its age. (Dragon book)
-            - Appel, A.W. 1998. Modern Compiler Implementation in ML. Cambridge, UK: Cambridge University Press
+            - Appel, A.W. 1997. Modern Compiler Implementation in C. Cambridge, UK: Cambridge University Press
+            - Appel, A.W. 1997. Modern Compiler Implementation in ML. Cambridge, UK: Cambridge University Press
             - Appel, A.W. 1998. Modern Compiler Implementation in Java. Cambridge, UK: Cambridge University Press
+            - Cooper, Keith, and Linda Torczon. Engineering a Compiler. San Mateo, CA: Morgan Kaufman, 2003. ISBN: 155860698X.
+            - Muchnick, Steven. Advanced Compiler Design and Implementation. 1st ed. San Mateo, CA: Morgan Kaufman, 1997. ISBN: 1558603204.
+            - Aho A., Lam M, Sethi R., Ullman J. Compilers - Principles, Techniques, and Tools. 2nd ed. Reading, MA: Addison-Wesley, 1986. ISBN: 0201100886.            
             - LLVM: https://www.llvm.org/docs/
         - assignments:
         - exams:
@@ -158,7 +180,7 @@
 
     - 2_hardware:
         - lectures:
-            - Prof. Chris Terman. 2017. 6.004 - Computation Structures. Massachusetts Institute of Technology
+            - Terman, C. 2017. 6.004 - Computation Structures. Massachusetts Institute of Technology
                 - current: 1.2.1 What is Information: *
             - MITx's Circuits and Electronics XSeries Program:
                 - series: https://www.edx.org/xseries/mitx-circuits-and-electronics
@@ -171,7 +193,6 @@
             - Eater, B. 2016. Building an 8-bit breadboard computer!
             - Eater, B. 2019. Build a 65c02-based computer from scratch
         - readings:
-            - Slonka, K., Hall, B.R. 2020. Assembly Programming and Computer Architecture for Software Engineers. 2nd Edition
             - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone
             - verilog: https://github.com/praisetompane/verilog
                 - https://web.mit.edu/6.111/www/f2017/handouts/L03_4.pdf
@@ -192,25 +213,19 @@
         - readings:
             - Linux: https://github.com/torvalds/linux
 
-    - 4_networks:
+    - 5_software_and_its_engineering/2_software_creation_and_management:
         - lectures:
-            - LaCurts, K. 2018. 6.033 - Computer System Engineering. Massachusetts Institute of Technology
-                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
-                - Week 5 - 7
+            - Bell, A. Grimson, E. Guttag, J. 2016. 6.0001 - Introduction to Computer Science and Programming in Python. Massachusetts Institute of Technology
+            - Boning D.S., Chlipala A., Devadas S., Hartz A. 6.1010 - Fundamentals of Programming. Massachusetts Institute of Technology 
+            - Goldman M., Miller R.C. 2023. 6.1020 - Software Construction. Massachusetts Institute of Technology
+            - LaCurts, K. 2018. 6.1800 - Computer System Engineering. Massachusetts Institute of Technology
+            - Leiserson, C., Shun, J. 2018. 6.1060 - Software Performance Engineering. Massachusetts Institute of Technology
+            - Steinmeyer J.D., Wachman, S.Z.H. 6.1903 - Introduction to Low-level Programming in C and Assembly. Massachusetts Institute of Technology
         - readings:
         - assignments:
         - exams:
-
 ============================================================================================================
 next₂:
-    - 5_software_and_its_engineering:
-        - lectures:
-            - Prof. Charles Leiserson, Prof. Julian Shun. 2018. 6.172 - Performance Engineering of Software Systems. Massachusetts Institute of Technology
-                - current: None
-        - readings:
-        - assignments:
-        - exams:
-
     - 6_computing_methodologies/distributed_computing_methodologies:
         - lectures:
             - LaCurts, K. 2018. 6.033 - Computer System Engineering. Massachusetts Institute of Technology
@@ -226,17 +241,6 @@ next₂:
         - assignments:
         - exams:
 
-    - security_and_privacy:
-        - lectures:
-            - LaCurts, K. 2018. 6.033 - Computer System Engineering. Massachusetts Institute of Technology
-                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
-                - Week 11 - 14
-        - readings:
-        - assignments:
-        - exams:
-
-============================================================================================================
-next₃:
     - 6_computing_methodologies/artificial_intelligence:
         - lectures:
             - Broderick, T. 2020. 6.036 - Introduction to Machine Learning. Massachusetts Institute of Technology
@@ -246,6 +250,25 @@ next₃:
             - https://github.com/ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide
         - readings:
             - Daumé H. 2017. A Course in Machine Learning
+        - assignments:
+        - exams:
+
+    - security_and_privacy:
+        - lectures:
+            - LaCurts, K. 2018. 6.033 - Computer System Engineering. Massachusetts Institute of Technology
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
+                - Week 11 - 14
+        - readings:
+        - assignments:
+        - exams:
+============================================================================================================
+next₃:
+    - 4_networks:
+        - lectures:
+            - LaCurts, K. 2018. 6.033 - Computer System Engineering. Massachusetts Institute of Technology
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
+                - Week 5 - 7
+        - readings:
         - assignments:
         - exams:
 
