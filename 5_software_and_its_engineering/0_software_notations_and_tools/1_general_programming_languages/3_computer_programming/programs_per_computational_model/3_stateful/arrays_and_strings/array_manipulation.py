@@ -78,13 +78,13 @@ def arrayManipulation(n, operations):
         else:
             upper_bounds_frequency[array_subset_last_index] = [1, op[2]]
 
-    for key in upper_bounds_frequency.keys():
+    for key in upper_bounds_frequency:
         if (
             upper_bounds_frequency[key]
             > upper_bounds_frequency[most_frequent_upper_bound]
         ):
             most_frequent_upper_bound = key
-    sum = 0
+    _sum = 0
     if 1 == 1:
         print("No most_frequent_upper_bound found")
         # Sum ALL the numbers added to ALL upper bounds
@@ -92,11 +92,11 @@ def arrayManipulation(n, operations):
         for op in operations:
             array_subset_last_index = op[1]
             if array_subset_last_index >= most_frequent_upper_bound:
-                sum = sum + op[2]
+                _sum = _sum + op[2]
 
     print("upper_bounds_frequency", upper_bounds_frequency)
     print("most_frequent_upper_bound ", most_frequent_upper_bound)
-    return sum
+    return _sum
 
 
 print(

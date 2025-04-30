@@ -16,10 +16,10 @@ Performance:
 
 
 def bigSorting(numbers):
-    numbers_sorted = sorted(numbers, key=lambda x: int(x))
+    numbers_sorted = sorted_values(numbers, key=lambda x: int(x))
     return numbers_sorted
 
 
 unsorted = ["1", "200", "150", "3"]
-sorted = bigSorting(unsorted)
-print(sorted)
+sorted_values = bigSorting(unsorted)
+print(sorted_values)
