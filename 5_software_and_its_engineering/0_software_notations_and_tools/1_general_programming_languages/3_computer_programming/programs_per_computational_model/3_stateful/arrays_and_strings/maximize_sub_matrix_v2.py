@@ -92,20 +92,18 @@ def flippingMatrix(matrix):
 
 
 if __name__ == "__main__":
-    fptr = open(os.environ["OUTPUT_PATH"], "w")
+    with open(os.environ["OUTPUT_PATH"], "w") as fptr:
 
-    q = int(input().strip())
+        q = int(input().strip())
 
-    for q_itr in range(q):
-        n = int(input().strip())
+        for q_itr in range(q):
+            n = int(input().strip())
 
-        matrix = []
+            matrix = []
 
-        for _ in range(2 * n):
-            matrix.append(list(map(int, input().rstrip().split())))
+            for _ in range(2 * n):
+                matrix.append(list(map(int, input().rstrip().split())))
 
-        result = flippingMatrix(matrix)
+            result = flippingMatrix(matrix)
 
-        fptr.write(str(result) + "\n")
-
-    fptr.close()
+            fptr.write(str(result) + "\n")
