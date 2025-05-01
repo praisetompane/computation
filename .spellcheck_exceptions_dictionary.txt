@@ -15,6 +15,11 @@ ARPANET
 IMAP
 SMTP
 SSL
+MSC
+GIR
+GIRs
+HASS
+FastCGI
 
 # authors
 Jelani
@@ -98,6 +103,8 @@ Pretnar
 Siek
 
 # domain specific
+Multicore
+multiparadigm
 Acyclic
 radix
 cqrs
@@ -417,6 +424,17 @@ ZeroAmountException
 ZeroPayablePayment
 
 # urls
+firstyear
+keytext
+finalexams
+JlSs
+computersciencetext
+laboratoryrequirementtext
+restrequirementtext
+mitadmissions
+ojfSArHvzOH
+rlM
+sfprwhom
 Bxx
 Fxx
 lec
@@ -456,6 +474,22 @@ IUCompilerCourse
 sewpr
 toc
 ViPNHMSUcog
+EsICBe
+PLdvxZS
+PQiC
+QSbk
+ULTJYL
+UqqcQ
+Websis
+YzSHUrJ
+EsICBe
+PLdvxZS
+PQiC
+QSbk
+ULTJYL
+UqqcQ
+Websis
+YzSHUrJ
 
 
 eponym

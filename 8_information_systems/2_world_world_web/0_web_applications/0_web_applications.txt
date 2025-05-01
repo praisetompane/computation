@@ -1,0 +1,31 @@
+def web applications:
+    - formal: ???
+        - in words: ???
+
+    - plain english: applications built with web technologies
+                        that engages in request-response cycles with networked resource
+                            over HTTP.
+
+    - intuition: ???
+
+    - properties:
+        - components:
+            - web browser: requests specific content from a web server using HTTP.
+            - web server: 
+                - process generally running on a remote computer, listening on a port(generally 80)
+                    - it understands and responds to HTTP requests:
+                        - it responds with content the web browser can present or execute.
+                        - the content is generally written in web technologies.
+                            see: 8_information_systems/2_world_world_web/0_world_world_web.txt
+
+                Optional
+                    - Common Gateway Interface(CGI) | FastCGI to generate dynamic content using a programming language such as PHP, Perl, Python, Java
+            - database server(optional): stores data in SQL or NoSQL database
+    - examples: ???
+
+    - use cases: ???
+        
+    - proof: ???
+    
+References:
+
