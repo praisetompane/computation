@@ -59,7 +59,7 @@ class BinaryTree:
 
         _insert(self._root)
 
-    def delete(value):
+    def delete(self, value):
         def lift(node, nodeToDelete):
             if node._leftchild:
                 node._leftchild = lift(node.leftchild, nodeToDelete)

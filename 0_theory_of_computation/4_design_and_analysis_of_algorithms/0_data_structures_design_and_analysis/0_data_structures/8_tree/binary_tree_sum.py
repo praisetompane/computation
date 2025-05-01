@@ -7,16 +7,16 @@ class Node:
         self.data = data
 
     def sum(self):
-        def sum(root):
+        def _sum(root):
             if root is None:
                 return 0
             else:
-                total = sum(root.left)
+                total = _sum(root.left)
                 total += root.data
-                total += sum(root.right)
+                total += _sum(root.right)
                 return total
 
-        return sum(self)
+        return _sum(self)
 
 
 def main():

@@ -58,7 +58,7 @@ Flow:
 from impl.linkedlist import LinkedList
 
 
-def count_elements_to_last_element(current_element, linkedlist):
+def count_elements_to_last_element(current_element):
     _current_element = current_element
     num_from_last = 0
     while _current_element.next is not None:

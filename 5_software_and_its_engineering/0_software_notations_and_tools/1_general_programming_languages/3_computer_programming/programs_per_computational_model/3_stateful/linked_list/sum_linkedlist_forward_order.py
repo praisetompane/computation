@@ -59,10 +59,10 @@ def add(first_number, second_number):
     d2 = second_number.tail
 
     def a(d1=0, d2=0, carry=0):
-        sum = d1 + d2 + carry
-        next_digit = sum % number_system_base
+        _sum = d1 + d2 + carry
+        next_digit = _sum % number_system_base
         result.add(next_digit)
-        return sum // number_system_base
+        return _sum // number_system_base
 
     while d1 is not None or d2 is not None:
         if d1 is not None and d2 is not None:

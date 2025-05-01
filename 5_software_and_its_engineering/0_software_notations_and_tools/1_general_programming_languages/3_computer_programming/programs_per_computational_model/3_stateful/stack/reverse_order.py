@@ -11,19 +11,19 @@ from impl.stack import Stack
 
 def reverse_order(item_list):
     reverse_order = Stack()
-    reversed = None
+    items_reversed = None
     for item in item_list:
         reverse_order.push(item)
     if type(item_list) == str:
-        reversed = ""
+        items_reversed = ""
         while reverse_order.is_empty() is False:
-            reversed += reverse_order.pop()
+            items_reversed += reverse_order.pop()
     else:
-        reversed = []
+        items_reversed = []
         while reverse_order.is_empty() is False:
-            reversed.append(reverse_order.pop())
+            items_reversed.append(reverse_order.pop())
 
-    return reversed
+    return items_reversed
 
 
 def main():
