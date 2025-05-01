@@ -47,6 +47,16 @@ import sys
         """
 
 
+def rotate_col(col):
+    print(col)
+    pass
+
+
+def rotate_row(row):
+    print(row)
+    pass
+
+
 def flippingMatrix(matrix):
     last_index = len(matrix[0]) - 1
     n = len(matrix[0]) // 2

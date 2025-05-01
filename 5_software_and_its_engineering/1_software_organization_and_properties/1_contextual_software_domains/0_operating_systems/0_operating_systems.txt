@@ -1,5 +1,5 @@
-def operating system (or OS):
-    formal:
+def operating system:
+    formal: ???
 
         in words:
             collection of programs 

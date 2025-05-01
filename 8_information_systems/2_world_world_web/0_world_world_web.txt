@@ -11,7 +11,7 @@ def world world web | WWW| W3| The Web:
     - intuition: ???
 
     - properties:
-        - inventor: Sir Timothy John Berners-Lee
+        - inventor: Sir Time Berners Lee
         - target audience: non technical users
         - components:
             - hyperlinks
@@ -22,11 +22,11 @@ def world world web | WWW| W3| The Web:
                         - dynamic
             - web servers
             - web browsers
-            - core web technologies:
-                - HTML: Hypertext Markup Language
-                    - set of tags to describe web pages
-                - CSS: Cascading Style Sheets
-                - JavaScript
+            - web technologies:
+                - HTML: https://github.com/praisetompane/html
+                - CSS: https://github.com/praisetompane/css
+                - JavaScript: https://github.com/praisetompane/javascript
+    
     - examples: ???
 
     - use cases: ???

@@ -42,10 +42,10 @@ def binary_search_recursive(value, arr):
     return recurse(0, len(arr) - 1)
 
 
-list = [1, 2, 4, 5, 6, 8, 8, 9]
-print(search(list, 9))  # 9
-print(search(list, 4))  # 4
-print(search(list, 0))  # 4
+numbers = [1, 2, 4, 5, 6, 8, 8, 9]
+print(search(numbers, 9))  # 9
+print(search(numbers, 4))  # 4
+print(search(numbers, 0))  # 4
 
 data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(search(data, 8))

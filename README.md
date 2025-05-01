@@ -2,7 +2,7 @@
 ![build status](https://github.com/praisetompane/computation/actions/workflows/computation.yaml/badge.svg) <br>
 
 ## Objectives
-- An attempt at unpacking computation and implementation of computing machines in layman's terms.
+- An attempt at unpacking Computation and the implementation of computing machines in layman's terms.
 
 ## Definitions
 - def computation¹: the **transformation** of **sequences of symbols** by **precise rules**(Konrad, 2015:6).
@@ -31,6 +31,8 @@
 ## History
 - [The Modern History of Computing](https://plato.stanford.edu/entries/computing-history/)
 
+# Tools
+
 ## State of the art
 - [Quanta Magazine](https://www.quantamagazine.org/computer-science/)
 - [ACM](https://dl.acm.org/)
@@ -57,7 +59,7 @@
   pytest
   ```
 
-## Spell Check
+- ## Spell Check
 ```shell
 pyspelling -c spellcheck.yaml
 ```

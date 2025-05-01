@@ -1,7 +1,6 @@
-import unittest
-
 from impl.linkedlist import LinkedList
 from sum_linkedlist_reverse_order import add
+import unittest
 
 
 class SumLinkedListTests(unittest.TestCase):

@@ -88,7 +88,7 @@ def construct_manipulation_instructions(operation_requests):
     return operation_start_index_marks
 
 
-def arrayManipulation(n, queries):
+def arrayManipulation(queries):
     """Calculate maximum value in array after applications of queries
 
     Args:
@@ -126,7 +126,7 @@ if __name__ == "__main__":
         queries = []
         for i in range(m):
             queries.append(list(map(int, file.readline().rsplit())))
-        result = arrayManipulation(n, queries)
+        result = arrayManipulation(queries)
 
         print(result)
         assert result == 2497169732

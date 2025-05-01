@@ -39,7 +39,7 @@ def counting_sort(arr):
         frequencies[n] += 1
     for number in range(max_value):
         frequency = frequencies[number]
-        for i in range(frequency):
+        for _ in range(frequency):
             arr_sorted.append(number)
     return arr_sorted
 
