@@ -17,6 +17,10 @@
 - def computation³: a list of steps to do something
 - def compute: to do/run a computation.
 
+- Formal Classification Scheme:
+  - [ACM](https://dl.acm.org/ccs)
+  - [ZBMATH](https://zbmath.org/classification/?q=cc%3A68)
+  
 ## Dependencies
 - [Docker](https://docs.docker.com/get-started/)
 
@@ -24,18 +28,16 @@
 - The repository is configured to use [devcontainers](https://containers.dev) for development.
     - [Developing inside a Container](https://code.visualstudio.com/docs/devcontainers/containers)
 
-- Formal Classification Scheme:
-  - [ACM](https://dl.acm.org/ccs)
-  - [ZBMATH](https://zbmath.org/classification/?q=cc%3A68)
-
 ## History
 - [The Modern History of Computing](https://plato.stanford.edu/entries/computing-history/)
 
-# Tools
+## Tools
+[Theoretical CS Visualizer](https://www.theoreticalcs.io/)
+[Reverse Engineering](https://crackmes.one)
 
 ## State of the art
 - [Quanta Magazine](https://www.quantamagazine.org/computer-science/)
-- [ACM](https://dl.acm.org/)
+- [MIT EECS](https://www.eecs.mit.edu/research/computer-science/)
 - [Development](https://www.infoq.com/development/)
 - [Architecture & Design](https://www.infoq.com/architecture-design/)
 - [AI, ML & Data Engineering](https://www.infoq.com/ai-ml-data-eng/)

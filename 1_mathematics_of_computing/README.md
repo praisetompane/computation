@@ -13,4 +13,7 @@
 ## MYINC
 ![image info](./mathematics_and_computing.drawio.svg)
 
-## References ???
+![](./mathematics-science-engineering.drawio.svg)
+
+## References
+- Epp, S.S. 2010. Discrete mathematics with applications. 4th Edition. Cengage Learning

@@ -27,4 +27,4 @@ multiple-byte unit names (IEC 80000-13 ):
     xₙbibyte = 1024ⁿ byte
 
 References:
-    - Scott J.C. 2009. EIGHT IS ENOUGH. But how Do it Know? The Basic Principles of Computers for Everyone.
+    - Scott J.C. 2009. EIGHT IS ENOUGH. But how Do it Know? The Basic Principles of Computers for Everyone. Oldsmar, FL: John C. Scott
