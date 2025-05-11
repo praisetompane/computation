@@ -1,5 +1,12 @@
 ==============================================================================================================================================================
-Massachusetts Institute of Technology:
+Massachusetts Institute of Technology: https://www.eecs.mit.edu/research/computer-science/
+    - subjects: https://catalog.mit.edu/subjects/6/ 
+        - naming: https://catalog.mit.edu/subjects/#keytext
+        - numbering:
+            - https://www.eecs.mit.edu/academics/subject-numbering/
+            - https://docs.google.com/presentation/d/18PQiC-U9x3ULTJYL5rlM5JlSs12EsICBe8a_Q9UqqcQ/edit?slide=id.g11502c6983a_0_0#slide=id.g11502c6983a_0_0
+    - Websis: https://student.mit.edu/sfprwhom.html
+    - Canvas: https://web.mit.edu/canvas/
     - Final Exam Schedule: https://finalexams.mit.edu/#/Finals
     - General Institute Requirements:
         - https://mitadmissions.org/help/faq/mit-core-curriculum-girs/
@@ -7,33 +14,27 @@ Massachusetts Institute of Technology:
         - https://firstyear.mit.edu/academics-exploration/general-institute-requirements-girs/
         - https://firstyear.mit.edu/academics-exploration/general-institute-requirements-girs/science-core/
         - https://www.youtube.com/playlist?list=PLdvxZS1QSbk1t4ojfSArHvzOH-YzSHUrJ
-    - Websis: https://student.mit.edu/sfprwhom.html
-    - Canvas: https://web.mit.edu/canvas/
+
     - undergraduate:
         - program:
             - Bachelor of Science in Computer Science and Engineering (Course 6-3)
             - https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/
-            - subjects: https://catalog.mit.edu/subjects/6/
-                - naming: https://catalog.mit.edu/subjects/#keytext
-                - numbering:
-                    - https://www.eecs.mit.edu/academics/subject-numbering/
-                    - https://docs.google.com/presentation/d/18PQiC-U9x3ULTJYL5rlM5JlSs12EsICBe8a_Q9UqqcQ/edit?slide=id.g11502c6983a_0_0#slide=id.g11502c6983a_0_0
 
         Major Subjects
             Computer Science Requirements
-                6.100A Introduction to Computer Science Programming in Python	          6-9: DONE
+                6.100A Introduction to Computer Science Programming in Python	         6-9:
                     - ACM:
                         - 5_software_and_its_engineering/2_software_creation_and_management
                 6.1010 Fundamentals of Programming	                                      12:
                     - ACM:
-                        - 5_software_and_its_engineering/0_software_notations_and_tools/1_general_programming_languages
+                        - 5_software_and_its_engineering/2_software_creation_and_management
                 6.1020 Software Construction	                                          15:
                     - ACM:
                         - 5_software_and_its_engineering/2_software_creation_and_management
-                6.1200[J] Mathematics for Computer Science	                              12: IN PROGRESS
+                6.1200[J] Mathematics for Computer Science	                              12:
                     - ACM:
                         - 1_mathematics_of_computing
-                6.1210  Introduction to Algorithms	                                      12: IN PROGRESS
+                6.1210  Introduction to Algorithms	                                      12:
                     - ACM:
                         - 0_theory_of_computation/3_design_and_analysis_of_algorithms
                 6.1220[J] Design and Analysis of Algorithms                               12:
@@ -41,13 +42,14 @@ Massachusetts Institute of Technology:
                         - 0_theory_of_computation/3_design_and_analysis_of_algorithms
                 6.1800 	Computer Systems Engineering	                                  12:
                     - ACM:
-                        - 5_software_and_its_engineering/2_software_creation_and_management
-                6.1903	Introduction to Low-level Programming in C and Assembly	          06:
+                        - 3_computer_systems_organization/0_architectures/0_serial_architectures
+                6.1903	Introduction to Low-level Programming in C and Assembly	           6:
                     - ACM:
-                        - 5_software_and_its_engineering/0_software_notations_and_tools/1_general_programming_languages
+                        - 3_computer_systems_organization/0_architectures/0_serial_architectures
                 6.1910	Computation Structures	                                          12:
                     - ACM:
                         - 2_hardware
+                        - 3_computer_systems_organization/0_architectures/0_serial_architectures
             Select one of the following:	                                              12:
                 18.06  Linear Algebra	                                                  12:
                     - MSC2020:
@@ -66,97 +68,98 @@ Massachusetts Institute of Technology:
                 Select two subjects from a Computer Science, Artificial Intelligence + Decision Making, or Electrical Engineering track 2	24
                     - 6.1060 Software Performance Engineering	                          18:
                         - ACM:
-                            - 5_software_and_its_engineering/2_software_creation_and_management/
+                            - 3_computer_systems_organization/0_architectures/
+                            - 5_software_and_its_engineering/2_software_creation_and_management
                     - 6.1810 Operating System Engineering   	                          12:
                         - ACM:
                             - 5_software_and_its_engineering/1_software_organization_and_properties/1_contextual_software_domains/0_operating_systems
-                Select one subject that satisfies a degree requirement in 6-2, 6-3, 6-4, or 18	12
+                Select one subject that satisfies a degree requirement in 6-2|6-3|6-4|18   12
                     - 6.5081 Multicore Programming	                                      12:
                         - ACM:
                             - 6_computing_methodologies/parallel_computing_methodologies
                             - 6_computing_methodologies/concurrent_computing_methodologies
-            Units in Major Total	                                                   171-174 = 9 + 12*12 + 15 + 06 + 18
+            Units in Major Total	                       171-174 = 9 + 12*12 + 15 + 06 + 18
 
-        Unrestricted Electives	                                                  48-60
-            NB: I would take Mathematics courses. See mathematics/accreditation.txt
-            -                                                                      12 :
-            -                                                                      12 :
-            -                                                                      12 :
-            -                                                                      12 :
-            Units in Unrestricted Electives Total                                  48 = 12 * 4
+        Unrestricted Electives	                                                        48-60
+            see: mathematics/accreditation.txt
+            -                                                                             12:
+            -                                                                             12:
+            -                                                                             12:
+            -                                                                             12:
+            Units in Unrestricted Electives Total                                   48 = 12*4
 
-        Units in Major That Also Satisfy the GIRs	                               36-60
+        Units in Major That Also Satisfy the GIRs	                                    36-60
             - 
             Units in Major That Also Satisfy the GIRs Total 
         
-        Total Units Beyond the GIRs Required for SB Degree                         183-186
-            NB: I would take Mathematics courses. See mathematics/accreditation.txt
-            -                                                                      12 :
-            -                                                                      12 :
-            -                                                                      12 :
-            -                                                                      12 :
-            -                                                                      12 :
-            -                                                                      12 :
-            -                                                                      12 :
-            -                                                                      12 :
-            -                                                                      12 :
-            -                                                                      12 :
-            -                                                                      12 :
-            -                                                                      12 :
-            -                                                                      12 :
-            -                                                                      12 :
-            -                                                                      12 :
-            Total Units Beyond the GIRs Required for SB Degree Total               180 = 12 * 15  
+        Total Units Beyond the GIRs Required for SB Degree                            183-186
+            see: mathematics/accreditation.txt
+            -                                                                             12:
+            -                                                                             12:
+            -                                                                             12:
+            -                                                                             12:
+            -                                                                             12:
+            -                                                                             12:
+            -                                                                             12:
+            -                                                                             12:
+            -                                                                             12:
+            -                                                                             12:
+            -                                                                             12:
+            -                                                                             12:
+            -                                                                             12:
+            -                                                                             12:
+            -                                                                             12:
+            Total Units Beyond the GIRs Required for SB Degree Total              180 = 12*15  
             SB = Science Bachelor | Bachelor of Science
             NB: The units for any subject that counts as one of the 17 GIR subjects cannot also be counted as units required beyond the GIRs.
 
-        General Institute Requirements(GIRs)                                       180
-            - 18.01 - Single Variable Calculus                                     12:
+        General Institute Requirements(GIRs)                                              180
+            - 18.01 - Single Variable Calculus                                            12:
                 - MSC2020:
                     -
-            - 18.02 - Multi Variable Calculus                                      12:
+            - 18.02 - Multi Variable Calculus                                             12:
                 - MSC2020:
                     -
-            - 8.01 Physics I - Classical Mechanics                                 12:
+            - 8.01 Physics I - Classical Mechanics                                        12:
                 - 
-            - 8.02 Physics II - Electromagnetism                                   12:
+            - 8.02 Physics II - Electromagnetism                                          12:
                 - 
-            - 7.012, 7.013, 7.014, 7.015, or 7.016 - Biology                       12: 
+            - 7.012, 7.013, 7.014, 7.015, or 7.016 - Biology                              12: 
                 - 
-            - 3.091, 5.111 or 5.111 - Chemistry                                    12:
+            - 3.091, 5.111 or 5.111 - Chemistry                                           12:
                 -
             - Communication Intensive:
-                - 18.904 Seminar in Topology(CI-M)                                 12 :
-                - 18.994 Seminar in Geometry(CI-M)                                 12 :
+                - 18.904 Seminar in Topology(CI-M)                                        12:
+                - 18.994 Seminar in Geometry(CI-M)                                        12:
             - Humanities, Arts and Social Sciences (HASS) Requirement: 8 of these: N/A
                 - https://registrar.mit.edu/registration-academics/academic-requirements/hass-requirement
-                -                                                                  9 :
-                -                                                                  9 :
-                -                                                                  9 :
-                -                                                                  9 :
-                -                                                                  9 :
-                -                                                                  9 :
-                -                                                                  9 :
-                -                                                                  9 :
+                -                                                                          9:
+                -                                                                          9:
+                -                                                                          9:
+                -                                                                          9:
+                -                                                                          9:
+                -                                                                          9:
+                -                                                                          9:
+                -                                                                          9:
             - Laboratory Requirement:                                              N/A
                 - https://catalog.mit.edu/mit/undergraduate-education/general-institute-requirements/#laboratoryrequirementtext
-                - 18.821	Project Laboratory in Mathematics	                   12
-                Laboratory Requirement Total                                       12 = 12 * 1
-            General Institute Requirements Total = 12 * 9 + 9 * 8                  180 
+                - 18.821	Project Laboratory in Mathematics	                          12:
+                Laboratory Requirement Total                                        12 = 12*1
+            General Institute Requirements Total = 12 * 9 + 9 * 8                         180 
 
-        - Physical Education Requirement                                           N/A
+        - Physical Education Requirement                                                  N/A
             - Swimming Requirement
-            -                                                                      8 :
-            -                                                                      8 :
-            -                                                                      8 :
-            -                                                                      8 :
-            Physical Education Requirement Total                                   32 = 8 * 4
+            -                                                                              8:
+            -                                                                              8:
+            -                                                                              8:
+            -                                                                              8:
+            Physical Education Requirement Total                                     32 = 8*4
         
         - Restricted Electives in Science and Technology (REST):
             - https://catalog.mit.edu/mit/undergraduate-education/general-institute-requirements/#restrequirementtext
-            - 22.01	Introduction to Nuclear Engineering and Ionizing Radiation     12 :
-            - 22.02	Introduction to Applied Nuclear Physics	                       12 :
-            Restricted Electives in Science and Technology                         12 * 2 = 24             
+            - 22.01	Introduction to Nuclear Engineering and Ionizing Radiation            12:
+            - 22.02	Introduction to Applied Nuclear Physics	                              12:
+            Restricted Electives in Science and Technology                          24 = 12*2             
 
         Total Subjects: ???
         Total Credits: 180 + 180 + 32 + 24 = 
@@ -179,134 +182,135 @@ University of Pretoria:
         Year 1:
             Fundamental:
                 Semester 1:
-                    Academic information management 111 (AIM 111)                       : DONE
+                    Academic information management 111 (AIM 111)                           :
                 Semester 2:
-                    Academic information management 121 (AIM 121)                       : DONE
+                    Academic information management 121 (AIM 121)                           :
             Core:
                 Semester 1:
-                    Imperative programming 132 (COS 132)                                : DONE
+                    Imperative programming 132 (COS 132)                                    :
                         - ACM:
-                            - 5_software_and_its_engineering/0_software_notations_and_tools/1_general_programming_languages
-                    Introduction to computer science 151 (COS 151)                      :
+                            - 5_software_and_its_engineering/2_software_creation_and_management
+                    Introduction to computer science 151 (COS 151)                          :
                         - ACM:
                             - 2_hardware
                             - 0_theory_of_computation/3_design_and_analysis_of_algorithms
                             - 4_networks
-                    Discrete structures 115 (WTW 115)                                   : IN PROGRESS
+                    Discrete structures 115 (WTW 115)                                       :
                         - ACM: 
                             - 1_mathematics_of_computing
-                    Calculus 114 (WTW 114)                                              : IN PROGRESS
-                    Mathematical modelling 152 (WTW 152)                                :
+                    Calculus 114 (WTW 114)                                                  :
+                    Mathematical modelling 152 (WTW 152)                                    :
                         - MSC2020:
                             - 
                 Semester 2:
-                    Program design: Introduction 110 (COS 110)                          :
+                    Program design: Introduction 110 (COS 110)                              :
                         - ACM:
                             - 5_software_and_its_engineering/2_software_creation_and_management
-                    Operating systems 122 (COS 122)                                     :
+                    Operating systems 122 (COS 122)                                         :
                         - ACM:
                             - 5_software_and_its_engineering/1_software_organization_and_properties/1_contextual_software_domains/0_operating_systems
-                    Mathematics 124 (WTW 124)                                           :
+                    Mathematics 124 (WTW 124)                                               :
                         - MSC2020:
                             - 
-                    Dynamical processes 162(WTW 162)                                    :
+                    Dynamical processes 162(WTW 162)                                        :
                         - MSC2020:
                             - 
             Electives:
                 Semester 1:
-                    Mathematical statistics 111 (WST 111)                               :
+                    Mathematical statistics 111 (WST 111)                                   :
                         - MSC2020:
                             - 
                 Semester 2:
-                    Mathematical statistics 121 (WST 121)                               :
+                    Mathematical statistics 121 (WST 121)                                   :
                         - MSC2020:
                             - 
         Year 2:
             Core:
                 Semester 1:
-                    Community-based project 202 (JCP 202)                               : DONE
-                    Theoretical computer science 210 (COS 210)                          :
+                    Community-based project 202 (JCP 202)                                   :
+                    Theoretical computer science 210 (COS 210)                              :
                         - ACM:
                             - 0_foundations/0_theory_of_computation
                             - 0_theory_of_computation/3_design_and_analysis_of_algorithms
   
-                    Data structures and algorithms 212 (COS 212)                        :
+                    Data structures and algorithms 212 (COS 212)                            :
                         - ACM:
                             - 0_theory_of_computation/3_design_and_analysis_of_algorithms
 
-                    Netcentric computer systems 216 (COS 216)                           :
+                    Netcentric computer systems 216 (COS 216)                               :
                         - ACM:
                             - 4_networks
+                            - 8_information_systems/3_world_world_web/0_web_applications
 
-                    Introduction to database systems 221 (COS 221)                      :
+                    Introduction to database systems 221 (COS 221)                          :
                         - ACM:
-                            - Information systems/Data management systems
+                            - 8_information_systems/0_data_management_systems
                 Semester 2:
-                    Software modelling 214 (COS 214)                                    :
+                    Software modelling 214 (COS 214)                                        :
                         - ACM:
                             - 5_software_and_its_engineering/2_software_creation_and_management
-                    Concurrent systems 226 (COS 226)                                    :
+                    Concurrent systems 226 (COS 226)                                        :
                         - ACM:
                             - 6_computing_methodologies/concurrent_computing_methodologies
-                    Computer organisation and architecture 284 (COS 284)                :
+                    Computer organisation and architecture 284 (COS 284)                    :
                         - ACM:
-                            - 5_software_and_its_engineering/1_software_organization_and_properties
+                            - 3_computer_systems_organization/0_architectures/0_serial_architectures
                             - 2_hardware
-                    Discrete structures 285 (WTW 285)                                   :
+                    Discrete structures 285 (WTW 285)                                       :
                         - ACM:
                             - 1_mathematics_of_computing
             Electives:
                 Semester 1:
-                    Mathematical statistics 211 (WST 211)                               :
+                    Mathematical statistics 211 (WST 211)                                   :
                         - MSC2020:
                             - 
                 Semester 2:
-                    Mathematical statistics 221 (WST 221)                               :
+                    Mathematical statistics 221 (WST 221)                                   :
                         - MSC2020:
                             - 
         Year 3:
             Core:
                 Year:
-                    Software engineering 301 (COS 301)                                  :
+                    Software engineering 301 (COS 301)                                      :
                     - ACM:
                         - 5_software_and_its_engineering/2_software_creation_and_management
 
                 Semester 1:
-                    Computer networks 332 (COS 332)                                     :
+                    Computer networks 332 (COS 332)                                         :
                         - ACM:
                             - 4_networks
 
-                    Compiler construction 341 (COS 341)                                 :
+                    Compiler construction 341 (COS 341)                                     :
                         - ACM:
                             - 5_software_and_its_engineering/0_software_notations_and_tools/2_compilers
 
                 Semester 2:
-                    Computer security and ethics 330 (COS 330)                          :
+                    Computer security and ethics 330 (COS 330)                              :
                         - ACM:
                             - 7_security_and_privacy
 
-                    Programming languages 333 (COS 333)                                 :
+                    Programming languages 333 (COS 333)                                     :
                         - ACM:
                             - 5_software_and_its_engineering/0_software_notations_and_tools/1_general_programming_languages
 
             Electives:
                 Semester 1:
-                    Artificial intelligence 314 (COS 314)                               :
+                    Artificial intelligence 314 (COS 314)                                   :
                         - ACM:
                             - 6_computing_methodologies/artificial_intelligence
 
-                    Computer graphics 344 (COS 344)                                     :
+                    Computer graphics 344 (COS 344)                                         :
                         - ACM:
                             - 6_computing_methodologies/computer_graphics
 
                 Semester 2:
-                    Database systems 326 (COS 326)                                      :
+                    Database systems 326 (COS 326)                                          :
                         - ACM:
-                            - Information systems/Data management systems
+                            - 8_information_systems/0_data_management_systems
 
-                    The science of data analytics 353 (STK 353)                         :
+                    The science of data analytics 353 (STK 353)                             :
                         - ACM:
-                            - Information systems/Information systems applications/Data mining
+                            - computation/8_information_systems/2_information_systems_applications/7_data_mining
             Total Credits: 444
             Total Subjects: 31
     - honours:

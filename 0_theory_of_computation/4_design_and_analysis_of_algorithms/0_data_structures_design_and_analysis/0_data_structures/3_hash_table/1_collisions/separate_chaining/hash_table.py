@@ -47,7 +47,7 @@ class HashTable:
         for idx, (k, _) in enumerate(self._items[index]):
             if k == key:
                 self._items[index][idx] = new_item
-                return None
+                return
 
         self._items[index].append(new_item)
 

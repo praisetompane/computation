@@ -1,4 +1,4 @@
-from hash_table import HashTable
+from separate_chaining.hash_table import HashTable
 
 
 def test_calculate_hash():

@@ -37,7 +37,7 @@ def algorithm² (Wengrow, 2017:56):
     - plain english: a recipe for solving a specific problem by manipulating symbols.
 
     References:
-        - Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills.
+        - Wengrow, J. 2017. A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills. Pragmatic Bookshelf
 
 def algorithm³ (Demaine, Devadas, 2011):
     i.e. input -> algorithm -> output

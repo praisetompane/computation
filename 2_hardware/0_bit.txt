@@ -18,4 +18,4 @@ def memory bit (Scott, 2009:16):
                 the value of the input wire.
 
 References:
-    - Scott J.C. 2009. JUST A LITTLE BIT. But how Do it Know? The Basic Principles of Computers for Everyone.
+    - Scott J.C. 2009. JUST A LITTLE BIT. But how Do it Know? The Basic Principles of Computers for Everyone. Oldsmar, FL: John C. Scott

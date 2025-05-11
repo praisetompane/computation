@@ -20,8 +20,16 @@ GIR
 GIRs
 HASS
 FastCGI
+stdlib
 
 # authors
+Rivest
+O'Hallaron
+Cormen
+Zelnski
+Patashnik
+Carbin
+Emer
 Jelani
 Chlipala
 Grimson
@@ -102,7 +110,14 @@ Tratt
 Pretnar
 Siek
 
+# places
+Oldsmar
+Benning
+Genever
+
 # domain specific
+mebibyte
+Entscheidungsproblem
 Multicore
 multiparadigm
 Acyclic
@@ -176,7 +191,7 @@ LI
 LOCALIST
 lstm
 mape
-mebibyte
+mebibytee
 MIFI
 misconfigured
 mixin
@@ -246,6 +261,10 @@ WTW
 YCSCS
 
 # technology
+Callgrind
+Valgrind
+Memcheck
+GDB
 pytest
 LLVM
 visualstudio
@@ -424,6 +443,8 @@ ZeroAmountException
 ZeroPayablePayment
 
 # urls
+cgregg
+theoreticalcs
 firstyear
 keytext
 finalexams

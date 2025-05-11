@@ -23,5 +23,5 @@ def data structures (Wengrow, 2017:27):
     - proof: ???
     
 References:
-    - Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills.
+    - Wengrow, J. 2017. A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills. Pragmatic Bookshelf
     - Demaine, E., Ku, J., Solomon, J. 2020. Algorithms and Computation, 6.006 - Introduction to Algorithms. Massachusetts Institute of Technology

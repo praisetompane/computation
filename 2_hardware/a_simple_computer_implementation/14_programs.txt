@@ -24,4 +24,4 @@ def program (Scott, 2009:71):
             The general name for all these is Program.
 
 References:
-    - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone.
+    - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone. Oldsmar, FL: John C. Scott

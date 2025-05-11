@@ -2,4 +2,4 @@ Chapter: Remember When (Scott, 2009:10).
 Look at the picture 'The memory bit' that summarizes the state transitions
 
 References:
-    - Scott J.C. 2009. REMEMBER WHEN. But how Do it Know? The Basic Principles of Computers for Everyone.
+    - Scott J.C. 2009. REMEMBER WHEN. But how Do it Know? The Basic Principles of Computers for Everyone. Oldsmar, FL: John C. Scott

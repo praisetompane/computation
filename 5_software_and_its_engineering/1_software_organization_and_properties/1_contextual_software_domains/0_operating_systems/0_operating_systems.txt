@@ -63,7 +63,7 @@ def operating system:
         - https://github.com/mit-pdos/xv6-riscv
 
 References:
-    - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone.
+    - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone. Oldsmar, FL: John C. Scott
     - Crash Course. 2017. Operating Systems: Crash Course Computer Science #18.
     - Deep Linux. 2022. Memory Management.
     - Deep Linux. 2023. glibc Heap Series.

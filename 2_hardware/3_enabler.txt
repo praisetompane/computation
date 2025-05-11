@@ -15,4 +15,4 @@ def enabler (enable byte) (Scott, 2009:24):
             inputs into enabler reach output 'o' unchanged
 
 References:
-    - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone.
+    - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone. Oldsmar, FL: John C. Scott

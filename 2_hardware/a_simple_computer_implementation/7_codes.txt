@@ -22,4 +22,4 @@ def computer codes (Not programming language code):
                     01000001            Arithmetic          65
 
 References:
-    - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone.
+    - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone. Oldsmar, FL: John C. Scott

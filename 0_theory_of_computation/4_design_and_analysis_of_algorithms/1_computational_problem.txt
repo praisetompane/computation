@@ -75,6 +75,6 @@ computational problem types:
 
 References:
     - Mcdowell G.L. 2015. Cracking The Coding Interview. 6th ed. CareerCup.
-    - Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills.
+    - Wengrow, J. 2017. A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills. Pragmatic Bookshelf
     - Demaine, E., Ku, J., Solomon, J. 2020. 1. Algorithms and Computation, 6.006 - Introduction to Algorithms. Massachusetts Institute of Technology.
     - Demaine, E., Devadas, S. 2011. Lecture 1: Algorithmic Thinking, Peak Finding, 6.006 - Introduction to Algorithms. Massachusetts Institute of Technology.

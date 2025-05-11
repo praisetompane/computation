@@ -11,4 +11,4 @@ e.g When the bit is on turn the light red, which means stop (Scott, 2009:18).
 Limitation, we can only represent yes or no matters right now (Scott, 2009:18).
    
 References:
-    - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone.
+    - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone. Oldsmar, FL: John C. Scott
