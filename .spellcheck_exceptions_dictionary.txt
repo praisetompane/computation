@@ -23,6 +23,8 @@ FastCGI
 stdlib
 
 # authors
+Parlante
+Piech
 Rivest
 O'Hallaron
 Cormen
@@ -443,6 +445,7 @@ ZeroAmountException
 ZeroPayablePayment
 
 # urls
+bom
 cgregg
 theoreticalcs
 firstyear

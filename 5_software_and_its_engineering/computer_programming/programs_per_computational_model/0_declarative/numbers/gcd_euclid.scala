@@ -20,16 +20,15 @@ import scala.annotation.tailrec
       similar to O(log₂N) where the problem size halves
       what does % do to problem space
  */
-def gcd(x: Int, y: Int): Int = 
-  @tailrec
-  def _gcd(largest: Int, smallest: Int): Int =
-    val remainder = largest % smallest
-    if (remainder == 0) smallest
-    else _gcd(smallest, remainder)
-  
-  if (x == y) x
-  else if (x > y) _gcd(x, y)
-  else _gcd(y, x)
+def gcd(x: Int, y: Int): Int =
+    @tailrec
+    def _gcd(largest: Int, smallest: Int): Int =
+        val remainder = largest % smallest
+        if (remainder == 0) smallest
+        else _gcd(smallest, remainder)
 
-@main def main() = 
-  assert(gcd(10000, 12345) == 5)
+    if (x == y) x
+    else if (x > y) _gcd(x, y)
+    else _gcd(y, x)
+
+@main def main() = assert(gcd(10000, 12345) == 5)
