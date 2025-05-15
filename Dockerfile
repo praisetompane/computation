@@ -14,6 +14,8 @@ RUN apt-get install python3 -y && \
 
 RUN apt-get install ghc -y
 
+RUN curl -fL https://github.com/coursier/coursier/releases/latest/download/cs-x86_64-pc-linux.gz | gzip -d > cs && chmod +x cs && ./cs setup
+
 RUN pipenv sync --system -d
 
 RUN adduser -u 5678 --disabled-password --gecos "" computation && chown -R computation /computation
