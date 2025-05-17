@@ -5,6 +5,11 @@ function addVote(candidate) {
     votes.push(candidate)
 }
 
+addVote("Papudi")
+addVote("Papudi")
+addVote("Mosotho")
+addVote("Thato")
+
 function countVotes() {
     tally = {}
     for (i = 0; i < votes.length; i++) {
@@ -18,10 +23,6 @@ function countVotes() {
     return tally
 }
 
-addVote("Papudi")
-addVote("Papudi")
-addVote("Mosotho")
-addVote("Thato")
 console.log('Count votes linear ', countVotes(votes))
 
 /*

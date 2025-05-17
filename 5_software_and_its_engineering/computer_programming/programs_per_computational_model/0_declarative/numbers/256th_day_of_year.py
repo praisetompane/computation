@@ -1,3 +1,8 @@
+"""
+Source: https://www.hackerrank.com/challenges/day-of-the-programmer/problem
+"""
+
+
 def date_on_256th_day(year):
     def is_leap_year(year: int):
         if (year % 400 == 0) or (year % 100 != 0) and (year % 4 == 0):
@@ -18,7 +23,3 @@ def date_on_256th_day(year):
 
 # NB: incomplete
 print(date_on_256th_day(1800))
-"""
-References:
-    https://www.hackerrank.com/challenges/day-of-the-programmer/problem?isFullScreen=true&utm_campaign=challenge-recommendation&utm_medium=email&utm_source=7-day-campaign
-"""

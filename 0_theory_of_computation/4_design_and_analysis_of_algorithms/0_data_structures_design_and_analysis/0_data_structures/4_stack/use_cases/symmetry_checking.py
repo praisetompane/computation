@@ -1,4 +1,4 @@
-from stack.impl.stack import Stack
+from use_cases.impl.stack import Stack
 
 """
     general use case: symmetry test

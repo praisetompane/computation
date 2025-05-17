@@ -1,4 +1,4 @@
-def count_in_order_character_occurence(string_input):
+def count_in_order_character_occurrence(string_input):
     char_count = 0
     char_counts = []
     last_char_seen = ""
@@ -16,7 +16,7 @@ def count_in_order_character_occurence(string_input):
 
 
 if __name__ == "__main__":
-    assert count_in_order_character_occurence("aaaabbbcca") == [
+    assert count_in_order_character_occurrence("aaaabbbcca") == [
         ("a", 4),
         ("b", 3),
         ("c", 2),

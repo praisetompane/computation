@@ -63,3 +63,6 @@ def plusMinus(arr):
     print("{:.6f}".format(positive_count / array_size))
     print("{:.6f}".format(negative_count / array_size))
     print("{:.6f}".format(zero_count / array_size))
+
+
+plusMinus([i for i in range(0, 10)])

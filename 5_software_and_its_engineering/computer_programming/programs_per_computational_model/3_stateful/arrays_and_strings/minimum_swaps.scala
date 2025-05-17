@@ -1,50 +1,84 @@
-/*
-    Objective:
-        Return minimum swaps required
+import java.io._
+import java.math._
+import java.security._
+import java.text._
+import java.util._
+import java.util.concurrent._
+import java.util.function._
+import java.util.regex._
+import java.util.stream._
 
-    You are allowed to swap any elements
+object Solution {
 
-    Assumptions
-        Number always start from 1
- */
+    /*
+        Objective:
+            Return minimum bribes
+                to generate current queue state
+            Or "Too chaotic" if it's not possible
 
-/*
-    Foreach value, currentIndex pair
-        expectedIndexValue = index + 1
-        if expectedIndexValue == value, continue
-        else
-            currentValueCorrectIndex = value - 1
-            swap(currentIndex, currentValueCorrectIndex)
- */
+        Constraints:
+            MaxBribes = 2
+            People at the back bribe ones infront
+                No backwards bribing
+            Initial array was 1,2...
 
-def minimumSwaps(list: Array[Int]): Unit =
-    var swaps = 0
-    var swapped = true
-    val zeroIndexOffset = 1
+        Input:
+            final state of the array
 
-    def swap(indexA: Int, indexB: Int) =
-        val tempB = list(indexB)
-        list(indexB) = list(indexA)
-        list(indexA) = tempB
+        Algo:
+            bribes = 0
+            for each value
+                bribesUsed = abs(value - currentIndex)
+                if(bribesUsed > MaxBribes) println("too chaotic")
+                else bribes += bribesUsed
+    */
 
-    var i = 1
-    while (i > 0) {
-        swapped = false
-        list.zipWithIndex.foreach { case (value: Int, index: Int) =>
-            val expectedIndexValue = index + zeroIndexOffset
-            list.foreach(print)
-            if (expectedIndexValue != value) {
-                swapped = true
-                swaps += 1
-                val currentValueCorrectIndex = value - zeroIndexOffset
-                swap(index, currentValueCorrectIndex)
-                println
+    def minimumBribes(finalQueue: Array[Int]): Unit = {
+        val MaxBribes = 2
+        val finalIndex = finalQueue.length - 1
+        var bribes = 0
+        var swapped = true
+        val zeroIndexOffset = 1
+
+        def swap(indexA: Int, indexB: Int) = {
+            val tempB = finalQueue(indexB)
+            finalQueue(indexB) = finalQueue(indexA)
+            finalQueue(indexA) = tempB
+        }
+
+        while(swapped) {
+            swapped = false
+            finalQueue.zipWithIndex.foreach {
+                case(value: Int, index: Int) => 
+                    val nextIndex = index + 1
+                    val distanceFromOriginalPosition = math.abs(value - (index + zeroIndexOffset))
+
+                    if(value > index && distanceFromOriginalPosition > MaxBribes) {
+                        println("Too chaotic")
+                        return
+                    }
+
+                    if(index != finalIndex && value > finalQueue(nextIndex)) {
+                        swapped = true
+                        bribes += 1
+                        swap(index, nextIndex)
+                    }
             }
         }
-        i -= 1
-        println("out")
+
+        println(bribes)
     }
 
-    println(s"swaps $swaps")
+    def main(args: Array[String]) {
+        val stdin = scala.io.StdIn
 
-@main def main(): Unit = minimumSwaps(Array(4, 3, 1, 2))
+        val t = stdin.readLine.trim.toInt
+
+        for (tItr <- 1 to t) {
+            val n = stdin.readLine.trim.toInt
+
+            val q = stdin.readLine.split(" ").map(_.trim.toInt)
+            minimumBribes(q)
+        }
+    }
+}

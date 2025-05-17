@@ -5,21 +5,21 @@ Context:
             unsorted
         each element appears twice except for one
 Objective:
-    Find the the unique element
+    Find the element that occurs once
 
 Example:
     a = [1,2,3,4,1,2,3]
     unique 4
 
-Assumtions:
-    there will always be a lonlely integer (i.e. n will always be odd)
+Assumptions:
+    there will always be a lonely integer (i.e. n will always be odd)
 
 Flow
     option 1: 𝑂(𝑁 + 𝑁) = O(2N) = 𝑂(𝑁)
-        initialise empty hash occurances = array_value -> count
+        initialise empty hash occurrences = array_value -> count
         for each value in a
-            store count in occurances
-        find entry(key) with only one occurances
+            store count in occurrences
+        find entry(key) with only one occurrences
         CHOSE THIS ONE
     Option 2: 𝑂(𝑁𝑙𝑜𝑔𝑁 + 𝑁)
         sort
@@ -30,36 +30,31 @@ Flow
               an even number + odd number = even
               sum of n(which odd) is going to be odd
 
-        lonlely_integer = sum(a)%2
+        lonely_integer = sum(a)%2
 
 Constraints:
     1 <= n <= 100: size of the array
     0 <= arr[i] <= 100, where 0 <= i <= 100(n)
 
 Performance
+    N = number of elements in array
+    Time = O(2 * N)
+         = O(N)
 
+Source: https://www.hackerrank.com/challenges/lonely-integer/problem
 """
 
 
 def lonelyinteger(a):
-    occurances = {}
+    occurrences = {}
     for number in a:
-        if number in occurances:
-            occurances[number] += 1
+        if number in occurrences:
+            occurrences[number] += 1
         else:
-            occurances[number] = 1
-    for n in occurances.items():
+            occurrences[number] = 1
+    for n in occurrences.items():
         if n[1] == 1:
             return n[0]
 
 
-def lonelyinteger(a):
-    max_array_value = 100
-    max_index_bound_exclusive = max_array_value + 1
-    occurances = [0] * max_index_bound_exclusive
-
-    for n in a:
-        occurances[n] += 1
-    for i in range(max_index_bound_exclusive):
-        if occurances[i] == 1:
-            return i
+assert lonelyinteger([1, 1, 2]) == 2

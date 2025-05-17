@@ -45,15 +45,14 @@ Performance
 """
 
 
-def format_time(hour, minutes):
-    return "%s:%s" % (hour, minutes)
+def twelve_hour_time_to_twenty_four(twelve_hour_time):
+    def format_time(hour, minutes):
+        return "%s:%s" % (hour, minutes)
 
-
-def twelve_hour_time_to_twenty_four(time):
     hour_difference = 12
-    hour = time[0:2]
-    minutes = time[3:5]
-    time_of_day = time[5:]
+    hour = twelve_hour_time[0:2]
+    minutes = twelve_hour_time[3:5]
+    time_of_day = twelve_hour_time[5:]
 
     if hour == "12":
         if time_of_day == "AM":
@@ -66,8 +65,29 @@ def twelve_hour_time_to_twenty_four(time):
         return format_time(str(int(hour) + int(hour_difference)), minutes)
 
 
-print(twelve_hour_time_to_twenty_four("01:01PM"))  # = 13:01
-print(twelve_hour_time_to_twenty_four("11:10AM"))  # = 11:10
-print(twelve_hour_time_to_twenty_four("11:50PM"))  # = 23:50
-print(twelve_hour_time_to_twenty_four("12:40AM"))  # = 00:40
-print(twelve_hour_time_to_twenty_four("12:35PM"))  # = 12:35
+assert twelve_hour_time_to_twenty_four("01:01PM") == "13:01"
+assert twelve_hour_time_to_twenty_four("11:10AM") == "11:10"
+assert twelve_hour_time_to_twenty_four("11:50PM") == "23:50"
+assert twelve_hour_time_to_twenty_four("12:40AM") == "00:40"
+assert twelve_hour_time_to_twenty_four("12:35PM") == "12:35"
+
+
+def twelve_hour_time_to_twenty_four_v2(twelve_hour_time):
+    hour_difference = 12
+    time = twelve_hour_time.split(":")
+    hour = time[0]
+    minutes = time[1]
+    seconds = time[2][:2]
+    time_of_day = time[2][2:]
+
+    if time_of_day == "AM" and hour == "12":
+        return f"00:{minutes}:{seconds}"
+    elif time_of_day == "AM":
+        return f"{hour}:{minutes}:{seconds}"
+    elif time_of_day == "PM" and hour == "12":
+        return f"12:{minutes}:{seconds}"
+    else:
+        return f"{str(int(hour) + hour_difference)}:{minutes}:{seconds}"
+
+
+assert twelve_hour_time_to_twenty_four_v2("06:40:03AM") == "06:40:03"

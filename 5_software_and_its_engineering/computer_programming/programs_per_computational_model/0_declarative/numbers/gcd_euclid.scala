@@ -2,7 +2,7 @@ import scala.annotation.tailrec
 
 /*
   Given:
-      Intergers, x, y
+      Integers, x, y
       if x > y
         largest = x
         smallest = y

@@ -68,6 +68,8 @@ import java.util.stream._
             if step == U, stepsBelowLevel -=1
             if step == D && stepsBelowLevel == 0, stepsBelowLevel +=1
             if step == D, stepsBelowLevel +=1
+
+    Source: https://www.hackerrank.com/challenges/counting-valleys/problem
  */
 
 def countingValleys(n: Int, s: String): Int =

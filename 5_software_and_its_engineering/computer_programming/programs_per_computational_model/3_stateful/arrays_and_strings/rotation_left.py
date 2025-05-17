@@ -1,4 +1,22 @@
+"""
+objective:
+    rotate array elements to the left n times.
+flow:
+    for rotations
+        foreach index
+            newIndex = index - 1
+            if newIndex >= 0
+                newArray[newIndex] = array[index]
+            else
+                newArray[lastIndex] = array[index]
+"""
+
+
 def new_index(index, rotations, arr_length):
+    """
+    remarks:
+        NB: Example of calculating a future state once
+    """
     target_index = index - rotations
     abs_target_index = abs(target_index)
     if target_index < 0:

@@ -1,4 +1,4 @@
-from stack.symmetry_checking import SymmetryChecker
+from use_cases.symmetry_checking import SymmetryChecker
 
 symmetry_checker = SymmetryChecker()
 

@@ -1,4 +1,5 @@
 # acronyms/abbreviations
+JPL
 LSP
 MYINC
 OCP
@@ -23,6 +24,9 @@ FastCGI
 stdlib
 
 # authors
+Holzmann
+Elkner
+Downey
 Parlante
 Piech
 Rivest
@@ -116,6 +120,7 @@ Siek
 Oldsmar
 Benning
 Genever
+Wellesley
 
 # domain specific
 mebibyte
@@ -400,7 +405,6 @@ func
 println
 
 # programming definitions
-SockMerchant
 impl
 BankToBankPayment
 calculateFee

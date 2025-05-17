@@ -1,10 +1,12 @@
 """
-abstract function to return subset of values
-in interval [start_point, end_point]
+objective:
+    abstract function to return subset of values
+    in interval [start_point, end_point]
 
-members of values collection must have:
-    - well defined ordering
-        ∴ > , <, >=, >=, = definitions
+constraints:
+    members of values collection must have:
+        - well defined ordering
+            ∴ > , <, >=, >=, = definitions
 """
 
 

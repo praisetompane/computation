@@ -9,6 +9,6 @@ def next_number_of_a_multiple(base_number, multiple):
         return tens + number_system_base
 
 
-print(next_number_of_a_multiple(67, 5))
-print(next_number_of_a_multiple(73, 5))
-print(next_number_of_a_multiple(38, 5))
+assert next_number_of_a_multiple(67, 5) == 70
+assert next_number_of_a_multiple(73, 5) == 75
+assert next_number_of_a_multiple(38, 5) == 40

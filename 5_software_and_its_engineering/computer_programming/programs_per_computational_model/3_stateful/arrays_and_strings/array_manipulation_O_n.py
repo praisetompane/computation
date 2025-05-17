@@ -45,13 +45,13 @@ def arrayManipulation(n, queries):
         sums[query[1]] += -k
         # print(f'a = {query[0]} b = {query[1]} and sums = {sums}')
 
-    max_consective_increase = 0
-    # print(f'susm final {sums}')
+    max_consecutive_increase = 0
+    # print(f'sum final {sums}')
     for i in range(len(sums)):
-        if max_consective_increase < max_consective_increase + sums[i]:
-            max_consective_increase = max_consective_increase + sums[i]
+        if max_consecutive_increase < max_consecutive_increase + sums[i]:
+            max_consecutive_increase = max_consecutive_increase + sums[i]
 
-    return max_consective_increase
+    return max_consecutive_increase
 
 
 if __name__ == "__main__":
@@ -74,7 +74,7 @@ if __name__ == "__main__":
     print("third problem")
     n = 10000000
     m = 100000
-    with open("array_manipulation_data_10000000_100000.txt", "r") as file:
+    with open("./array_manipulation_data_10000000_100000.txt", "r") as file:
         all_lines = file.readline()
         nm = all_lines.split()
 

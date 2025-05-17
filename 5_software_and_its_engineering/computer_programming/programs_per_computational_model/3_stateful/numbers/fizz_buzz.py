@@ -8,23 +8,7 @@ Else If num % 3 == 0 and num % 5 == 0
 """
 
 
-def alternative1(lastNumber):
-    def evaluate(n):
-        if n % 3 == 0 and n % 5 == 0:
-            return "FizzBuzz"
-        elif n % 5 == 0:
-            return "Buzz"
-        elif n % 3 == 0:
-            return "Fizz"
-        else:
-            return n
-
-    print("alternative 1")
-    for n in range(1, lastNumber + 1):
-        print(evaluate(n))
-
-
-def alternative2(lastNumber):
+def fizz_buzz(lastNumber):
     print("alternative 2")
 
     def evaluate(n):
@@ -41,7 +25,7 @@ def alternative2(lastNumber):
         print(evaluate(n))
 
 
-class Alternative3:
+class FizzBuzz:
     output = ""
     lastNumber = 1
 
@@ -70,9 +54,9 @@ class Alternative3:
 
 
 def main():
-    # alternative1(100)
-    # alternative2(100)
-    Alternative3(100).render()
+    fizz_buzz(100)
+    FizzBuzz(100).render()
 
 
-main()
+if __name__ == "__main__":
+    main()

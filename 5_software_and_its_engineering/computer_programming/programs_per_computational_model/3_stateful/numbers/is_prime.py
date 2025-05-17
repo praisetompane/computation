@@ -5,5 +5,6 @@ def is_prime(number):
     return True
 
 
-print(is_prime(2))
-print(is_prime(7))
+if __name__ == "__main__":
+    assert is_prime(2) is True
+    assert is_prime(7) is True

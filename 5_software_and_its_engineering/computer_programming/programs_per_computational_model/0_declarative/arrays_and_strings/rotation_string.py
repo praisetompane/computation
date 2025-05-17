@@ -20,7 +20,7 @@ Definitions:
                 yx = cdab = s2
 
     is not:
-        shuffling letters into arbitary positions
+        shuffling letters into arbitrary positions
 
 Objective:
     Given two strings
@@ -48,7 +48,9 @@ Possible Solutions
 
 Example(s):
 
-
+Source:
+    Mcdowell G.L. 2015. Cracking The Coding Interview. 6th ed. CareerCup
+        1.9.1. string-rotation
 """
 
 

@@ -37,6 +37,8 @@ Performance
     MAS = O(N - 1) = 𝑂(𝑁) : maximum sum
 
     𝑂(𝑁𝑙𝑜𝑔𝑁 + 𝑁)
+
+Source: https://www.hackerrank.com/challenges/mini-max-sum/problem
 """
 
 
@@ -46,3 +48,6 @@ def miniMaxSum(arr):
     min_sum = sum(arr_sorted[: array_size - 1])
     max_sum = sum(arr_sorted[1:])
     print(f"{min_sum} {max_sum}")
+
+
+miniMaxSum([1, 2, 3, 4, 5])

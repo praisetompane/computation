@@ -1,16 +1,23 @@
 import scala.annotation.tailrec
 /*
-    for rotations
-        foreach index
-            newIndex = index - 1
-            if newIndex >= 0
-                newArray[newIndex] = array[index]
-            else
-                newArray[lastIndex] = array[index]
+
+    objective:
+        rotate array elements to the left n times.
+    flow:
+        for rotations
+            foreach index
+                newIndex = index - 1
+                if newIndex >= 0
+                    newArray[newIndex] = array[index]
+                else
+                    newArray[lastIndex] = array[index]
  */
 def rotateLeft(a: Array[Int], d: Int): Array[Int] =
 
-    // Example of calculating a future state once
+    /*
+        remarks:
+            NB: Example of calculating a future state once
+     */
     @tailrec
     def new_index(currentIndex: Int, rotationsLeft: Int): Int =
         val decrement = 1
@@ -19,10 +26,6 @@ def rotateLeft(a: Array[Int], d: Int): Array[Int] =
         else if newIndex < 0 then
             new_index(a.length - decrement, rotationsLeft - decrement)
         else new_index(newIndex, rotationsLeft - decrement)
-
-    // def new_index(currentIndex: Int, rotations: Int) =
-    //   val newDistance = currentIndex - rotations
-    //   if (newDistance < 0) newDistance.abs - 1 else newDistance
 
     val newArray = new Array[Int](a.length)
 

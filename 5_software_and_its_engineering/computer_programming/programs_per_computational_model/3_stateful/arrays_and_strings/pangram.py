@@ -5,7 +5,7 @@ import string
 """
 
 
-def pangrams(s):
+def is_pangram(s):
     unique_characters = set(s.lower())
     for c in string.ascii_lowercase:
         if c not in unique_characters:
@@ -13,7 +13,5 @@ def pangrams(s):
     return "pangram"
 
 
-assert (
-    pangrams("We promptly judged antique ivory buckles for the next prize") == "pangram"
-)
-assert pangrams("We promptly judged antique ivory buckles") == "not pangram"
+assert is_pangram("We promptly judged antique ivory buckles for the next prize") is True
+assert is_pangram("We promptly judged antique ivory buckles") is False

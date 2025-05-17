@@ -4,7 +4,8 @@ Given:
 Objective:
     return a frequency array of the elements
         count the number of times a value appears in the array
-    NB: Aways return a 100 value frequency array
+    NB: Always return a 100 value frequency array
+
 Assumptions:
 
 Example:
@@ -17,7 +18,7 @@ Flow
         frequencies[n] += 1
     from the start of the array(i.e. index 0)
         append each index(i.e. the number) to sorted array
-            as many times as stiputed by its frequncy
+            as many times as stipulated by its frequency
 
 # => result will be a sorted array
 Constraints:
@@ -25,7 +26,7 @@ Constraints:
     0 <= arr[i] < 100 range of values
 Performance
         𝑂(𝑁): we visit each array element
-        O(100): initialise frequncy table of size 100
+        O(100): initialise frequency table of size 100
         O(N + 100) = 𝑂(𝑁) : drop constants
 """
 
@@ -48,7 +49,7 @@ def main():
     print(counting_sort([1, 8, 9, 22, 5, 89, 100]))
     print(counting_sort([]))
     print(counting_sort([1]))
-    # limitattion, does not handle negatives correctly, beause negatives are
+    # limitation: does not handle negatives correctly, because negatives
     # do not belong to the set of counting numbers = {1,2,3,4,5 ...}
     print(counting_sort([-1, 0, 9, 1]))
     print(counting_sort([9, -7, -1, 9]))
