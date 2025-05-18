@@ -9,21 +9,29 @@ def language types:
 
     - properties:
         - types:
-            - assembly languages
-            - imperative languages
-            - functional languages
-            - ...
-            - multiparadigm languages
+            - assembly languages: 
+                - assembly: https://github.com/praisetompane/assembly
+            - imperative languages:
+                - c: https://github.com/praisetompane/c
+            - functional languages:
+                - haskell: https://github.com/praisetompane/haskell
+            - multiparadigm languages:
+                - python: https://github.com/praisetompane/python
+                - scala: https://github.com/praisetompane/scala
+                - java: https://github.com/praisetompane/java
+                - c++: https://github.com/praisetompane/cpp
+                - c#: https://github.com/praisetompane/csharp 
+                - go: https://github.com/praisetompane/go
+                - javascript: https://github.com/praisetompane/javascript
 
         - low to high level languages:
-            - verilog: https://inst.eecs.berkeley.edu/~eecs151/fa20/files/verilog/Verilog_Primer_Slides.pdf
-            - machine_code: https://github.com/riscv/riscv-isa-manual
-            - assembly: https://github.com/brianrhall/Assembly
+            - verilog: https://web.mit.edu/6.111/www/f2017/handouts/L03_4.pdf
+            - machine code: https://github.com/riscv/riscv-isa-manual
+            - assembly: https://github.com/praisetompane/assembly
             - c: https://github.com/praisetompane/c
             - python: https://github.com/praisetompane/python
             - haskell: https://github.com/haskell
-            - coq: https://github.com/coq
-            - pytorch: https://github.com/pytorch
+            - rocq: https://github.com/coq
 
         - open source language: https://github.com/collections/programming-languages 
 

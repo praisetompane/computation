@@ -153,16 +153,6 @@
             - 
         - 6.5900:
             -   
-        - instruction sets:
-            - 0_reduced_instruction_set_computing
-                - RISC-V:
-                    - https://github.com/riscv
-                    - https://github.com/mit-pdos/xv6-riscv
-            - 1_complex_instruction_set_computing
-                - CISC
-                    - x86
-            - ARM
-            - MIPS
     - recitations|labs:
         - CS107:
             - Labs Drop Down: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/
@@ -219,8 +209,8 @@
                     - see: 3_computer_systems_organization
                 - 0_assembly_languages:
                     - assembly:
-                        - https://github.com/brianrhall/Assembly
                         - Slonka, K., Hall, B.R. 2020. Assembly Programming and Computer Architecture for Software Engineers. 2nd Edition
+                            - https://github.com/brianrhall/Assembly
                 - 1_imperative_languages:
                     - c: https://github.com/praisetompane/c
                         - lectures:

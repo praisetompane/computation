@@ -1,77 +1,99 @@
-def computational_problem: a binary relation from problem inputs to correct outputs (Demaine, Ku, Solomon, 2020).
-    - binary relation definition:
-        see: https://github.com/praisetompane/mathematics/blob/master/0_foundations/relation.txt
-
-computational problem types:
-    - https://en.wikipedia.org/wiki/Computational_problem
-
-    Data Re/Organization:
-        0. Can the incoming data structure be used to solve the problem?
-            Is there a solution inherent in the structure itself already?
-
-            e.g. repeated string problem
-            https://www.hackerrank.com/challenges/repeated-string/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
-
-        1. Can you rearrange the data in to a structure more suitable for the problem?
-
-            e.g. Sock Merchant:
-            https://www.hackerrank.com/challenges/sock-merchant/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
-
-    Path Problems:
-        Path finding
-        Counting "events/things" in a path
-
-        2. Walk the problem space while simultaneously solving the problem
-            as opposed to mapping out the whole problem space(i.e. the path) then solving the problem
-            e.g. 
-            Jumping On The Clouds:
-            https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
-
-            counting-valleys
-            https://www.hackerrank.com/challenges/counting-valleys/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
+def computational_problem:
+    - formal: ???
+        - in words: a binary relation from problem inputs to correct outputs(Demaine, Ku, Solomon, 2020).
+            - binary relation definition:
+                see: https://github.com/praisetompane/mathematics/blob/master/0_foundations/relation.txt
+    
+    - properties:
+        - solution flow: problem_solving_techniques/1_solution_flow.txt
+        - archetypes: ???
         
-        3.  Compute the final state without walking the whole path step by step
-            i.e. Avoid 𝑂(𝑁) implementation
-            If the final state factor is defined(e.g. number of rotations)
+        - instances:
+            - Data Re/Organization:
+                0. Can the incoming data structure be used to solve the problem?
+                    objective: Is there a solution inherent in the structure itself already?
 
-            e.g. rotate_left.scala 
-            
-            https://www.hackerrank.com/challenges/ctci-array-left-rotation/copy-from/75481377?h_l=interview&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=arrays&isFullScreen=true
+                    - examples:
+                        - repeated string problem
+                            - 5_software_and_its_engineering/computer_programming/programs_per_computational_model/0_declarative/arrays_and_strings/repeated_string.scala
 
-        4. Given a jumbled state and an original state
-        
-            Q: How many operations did it take to get to jumbled state?
-            A: Reverse to initial state and count operations required to rollback
+                1. Can you rearrange the data in to a structure more suitable for the problem?
+                    - examples:
+                        - Sales by Match(Sock Merchant)
+                            - 5_software_and_its_engineering/computer_programming/programs_per_computational_model/0_declarative/arrays_and_strings/sock_merchant.scala
 
-            e.g. new-year-chaos.scala
+            - Path Problems:
+                - objectives:
+                    - Path finding
+                    - Counting "events/things" in a path
 
-        5. many decision points => 
-            problem wording = generate, print all possibilities
-            exhaust a search space
+                2. Walk the problem space while simultaneously solving the problem
+                    as opposed to mapping out the whole problem space(i.e. the path) then solving the problem
+                    e.g. 
+                    Jumping On The Clouds:
+                    https://www.hackerrank.com/challenges/jumping-on-the-clouds/
 
-            tool = backtrack
-
-        6. determining if object A is in group B (Mcdowell, 2015):
-            We do NOT always need to generate the entire group B (This could be a big list)
-            Can also determine if the rules that generate object A are a subset of the rules that generate group B
-
-    Unique Data Structure Members:
-        objective: define generic algorithm to determine if members of a data structure are ALL unique.
-
-        1. create empty seen_hashtable
-        2. for member in collection #this traversal depends on the data structure, i.e. array, tree etc
-                if member in seen_hashtable: False
-                else: add member to seen_hashtable
-
-
-        """
-            Performance
-            def:
-                N = number of elements in data structure
+                    counting-valleys
+                    https://www.hackerrank.com/challenges/counting-valleys/problem
                 
-                time = 𝑂(𝑁)
-                memory = 𝑂(𝑁)
-        """
+                3.  Compute the final state without walking the whole path step by step
+                    i.e. Avoid 𝑂(𝑁) implementation
+                    If the final state factor is defined(e.g. number of rotations)
+
+                    e.g. rotate_left.scala 
+                    
+                    https://www.hackerrank.com/challenges/ctci-array-left-rotation/copy-from/75481377?h_l=interview&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=arrays&isFullScreen=true
+
+                4. Given a jumbled state and an original state
+                
+                    Q: How many operations did it take to get to jumbled state?
+                    A: Reverse to initial state and count operations required to rollback
+
+                    e.g. new-year-chaos.scala
+
+                5. many decision points => 
+                    problem wording = generate, print all possibilities
+                    exhaust a search space
+
+                    tool = backtrack
+
+                6. determining if object A is in group B (Mcdowell, 2015):
+                    We do NOT always need to generate the entire group B (This could be a big list)
+                    Can also determine if the rules that generate object A are a subset of the rules that generate group B
+
+            - Unique Data Structure Members:
+                objective: define generic algorithm to determine if members of a data structure are ALL unique.
+
+                1. create empty seen_hashtable
+                2. for member in collection #this traversal depends on the data structure, i.e. array, tree etc
+                        if member in seen_hashtable: False
+                        else: add member to seen_hashtable
+
+                """
+                    Performance
+                    def:
+                        N = number of elements in data structure
+                        
+                        time = 𝑂(𝑁)
+                        memory = 𝑂(𝑁)
+                """
+
+        Q: How many computational problems are there?
+            - conjecture: 
+                - let:
+                    - 𝑛 = ∞ : This is strictly not possible. We cannot capture infinity,
+                    - 𝑆  = ⟨a₀, a₁, a₂, ..., aₙ⟩, a string of infinite characters
+                    - 𝑃  = {p₁, p₂, p₃, p₄}, the set of procedures that change the 𝑛th element in 𝑆
+                                                according to some rule.
+                - then:
+                    - There are an infinite number of computational problems
+                        - There are an infinite number of elements in 𝑃
+                    - proof: ???
+                        - infinite |𝑆| ⟹ infinite |𝑃|
+        
+        Q: Are there a finite number of the types?
+            - https://cs.stanford.edu/~trevisan/cs254-10/lecture02.pdf
+            - https://en.wikipedia.org/wiki/Computational_problem
 
 References:
     - Mcdowell G.L. 2015. Cracking The Coding Interview. 6th ed. CareerCup.

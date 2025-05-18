@@ -1,8 +1,11 @@
 def register (Scott, 2009:24):
-    formal:
-
-    plain english: 
+    - formal:
+        - in words: ???
+        
+    - plain english: 
         memory byte connected to an enabler.
+    
+    - properties
         it stores/records (i.e. "registers") the state of the byte
             for use by other things/processes.
 
