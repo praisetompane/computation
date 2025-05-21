@@ -1,0 +1,21 @@
+def Reduced Instruction Set Computer(RISC):
+    - formal: ???
+        - in words: https://github.com/riscv
+
+    - plain english: ???
+
+    - intuition: ???
+
+    - properties:
+        - RISC-V:
+            - variations:
+                - ARM: Advanced RISC Machine
+                - MIPS
+
+    - examples: ???
+
+    - use cases: ???
+
+    - proof: ???
+
+References: ???

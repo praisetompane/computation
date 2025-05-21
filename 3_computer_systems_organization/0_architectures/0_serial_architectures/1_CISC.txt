@@ -1,0 +1,21 @@
+def Complex Instruction Set Computer(CISC):
+    - formal: https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html
+        - in words: ???
+
+    - plain english: ???
+
+    - intuition: ???
+
+    - properties:
+        - syntax variations:
+            - Intel
+            - AT&T
+
+    - examples: ???
+
+    - use cases: ???
+
+    - proof: ???
+
+References:
+    - Chang, M., Zelnski ,J. 2025. CS107 - Computer Organization and Systems. Stanford University

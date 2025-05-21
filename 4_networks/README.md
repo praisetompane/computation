@@ -1,4 +1,4 @@
-# What are Networks?
+# Networks?
 
 **objective**: unpack in layman's terms what networks are and their role in the humanity's current implementation of computation.
 

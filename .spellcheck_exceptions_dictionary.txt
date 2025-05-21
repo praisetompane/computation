@@ -32,6 +32,10 @@ STK
 WST
 WTW
 YCSCS
+VHDL
+HOPL
+sdm
+RISCV
 
 
 # authors
@@ -130,6 +134,7 @@ Siek
 
 
 # domain specific
+multilinear
 ArrayList
 forName
 printf
@@ -313,70 +318,10 @@ misconfiguration
 eponym
 Netcentric
 programme
-
-
-# institutions
-Opte
-reddit
-atlasgo
-PyCon
-ACM
-anthropics
-CareerCup
-ccc
-chipverify
-Claypool
-codecademy
-CodinGame
-colah
-coursera
-crackmes
-ctci
-deepmind
-dspace
-edx
-eecs
-eleutherai
-facebookresearch
-geeksforgeeks
-generallyintelligent
-HackerNews
-hackernoon
-HackerRank
-hackerrank
-huggingface
-IEC
-IETF
-InfoQ
-ITU
-kaggle
-khanacademy
-lelapa
-LibreWord
-mnist
-Neso
-O'Reilly
-ocw
-openai
-OpenCourseWare
-oxidecomputer
-Scikit
-stackshare
-stanfordnlp
-StanfordOnline
-statquest
-tldp
-uct
-yann
-ycombinator
-ZBMATH
-MITx
-MITx's
-XSeries
-mitx
-xseries
-Computerphile
-OpenAPI
+exosomatic
+Axx
+Dxx
+Qxx
 
 
 # institutions
@@ -497,7 +442,6 @@ pypi
 pipenv
 pyspelling
 RabbitMQ
-riscv
 Scaladex
 seaborn
 SFTP
@@ -516,6 +460,7 @@ zig
 
 
 # urls
+openlearninglibrary
 mitpress
 craftinginterpreters
 bom
@@ -587,3 +532,5 @@ ULTJYL
 UqqcQ
 Websis
 YzSHUrJ
+probabilityforcs
+firebaseapp

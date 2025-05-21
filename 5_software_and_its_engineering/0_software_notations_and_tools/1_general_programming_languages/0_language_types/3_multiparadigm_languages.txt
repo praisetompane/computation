@@ -1,0 +1,7 @@
+- python: https://github.com/praisetompane/python
+- scala: https://github.com/praisetompane/scala
+- java: https://github.com/praisetompane/java
+- c++: https://github.com/praisetompane/cpp
+- c#: https://github.com/praisetompane/csharp
+- go: https://github.com/praisetompane/go
+- javascript: https://github.com/praisetompane/javascript

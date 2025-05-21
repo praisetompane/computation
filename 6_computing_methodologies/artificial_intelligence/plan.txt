@@ -10,7 +10,7 @@ research:
         - https://www.quantamagazine.org/computer-science/
     - schools:
         - ...
-    - my key interest: knowledge representation. 
+    - my key interest: knowledge representation.
         - how do humans represent knowledge?
         - is there a general representation of knowledge?
     - companies | research labs:
@@ -40,19 +40,19 @@ research:
     - study: 2 hours
 
     - build:
-        - 
-        
+        -
+
     - study:
-        - guide: 
+        - guide:
             - https://github.com/ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide
         - python:
             - https://github.com/praisetompane/python
         - mathematics:
-            - courses:  
+            - courses:
                 - https://www.khanacademy.org/math/statistics-probability
                 - statquest
                 - 3blue1brown
-            - statistics: 
+            - statistics:
                 - descriptive vs inferential statistics: *
                 - continuous vs discrete data
                 - nominal vs ordinal data
@@ -63,7 +63,7 @@ research:
                 - distributions: normal distribution
                 - correlation and convariance
                 - central limit theorem
-            - hypothesis testing: 
+            - hypothesis testing:
                 - p value
                 - confidence interval
                 - type 1 vs typor 2 error
@@ -83,7 +83,7 @@ research:
                 - pytorch
                 - tensorflow
                 - keras
-                
+
             - statistical ml:
                 - course: machine learning tutorial python | machine learning for beginners
                     nb: first 21 videos only
@@ -122,14 +122,14 @@ research:
                             - precision recall
                             - f1 score
                             - roc curve
-                    - hyperparameter tuning: 
+                    - hyperparameter tuning:
                         - gridsearchcv
                         - randomsearchcv
-                    - unsupervised k means: 
+                    - unsupervised k means:
                         - hierarchical clustering
                         - dimensionality reduction(pca)
                     - feature engineering:
-                        
+
             - deep learning:
                 - what is a neural network?
                     - forward propagation
@@ -153,19 +153,19 @@ research:
                             - lstm
                     - frameworks and libraries:
                         - pytorch
-                    - project: 
+                    - project:
                         - potato disease classification: deep learning project end to end.
                                 - reinforcement learning:
                 - ...
-            
-            - nlp | computer vision 
+
+            - nlp | computer vision
                 nb: this where people specialize
                 - computer vision
                 - nlp
                     - nlp tutorial python
                     - natural language processing:
                         - [1hr talk] intro to large language models
-                            - learn the core of nlp: University of Michigan. 2016. Natural Language Processing 
+                            - learn the core of nlp: University of Michigan. 2016. Natural Language Processing
                             - deep learning basics and its technique used in nlp:
                                 - techniques:
                                     - attention
@@ -190,9 +190,9 @@ research:
             - try aws sage maker
             - data science & machine learning project - part 1 introduction | image classification
             - data science project | machine learning project | real estate price prediction:
-        - accreditation:
+        - curricula:
             - oxford artificial intelligence programme
-            - mit statistics and data science: 
-            - uct data science with python: 
+            - mit statistics and data science:
+            - uct data science with python:
             - courses:
                 if you are looking for free courses about ai/ml and data science, i have compiled the 20+ best ibm courses that i found super high quality and helpful.

@@ -1,0 +1,2 @@
+- scala: https://github.com/praisetompane/scala
+- haskell: https://github.com/praisetompane/haskell

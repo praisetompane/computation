@@ -1,9 +1,9 @@
 def computability theory(Sipser, 2012:3):
     - formal: ???
-
+        see: https://github.com/praisetompane/mathematics/blob/main/03_mathematical_logic_and_foundations/03Dxx_computability_and_recursion_theory/
         - in words: ???
 
-    - plain english: 
+    - plain english:
         - theory to classify problems into the two categories below:
             - SOLVABLE by computers (i.e. Computable)
             - NOT SOLVABLE by computers (i.e. Incomputable)
@@ -24,9 +24,9 @@ def computability theory(Sipser, 2012:3):
                 - ...
 
     - use cases: ???
-        
+
     - proof: None. It is a field.
-    
+
     Q: Can define new models of computation that can compute the current incomputable(UNSOLVABLE) problems?
 
 References:
