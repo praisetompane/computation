@@ -1,7 +1,5 @@
 What is it?
-    A point in time and space in a computer
-        where you can store values
-
+    A location in which you can store values.
     Fundamental data structure that all the data structures are built on top of.
 
 Performance Analysis:
