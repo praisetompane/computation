@@ -34,7 +34,10 @@
 
 - Formal Classification Scheme:
   - [ACM](https://dl.acm.org/ccs)
-  - [ZBMATH](https://zbmath.org/classification/?q=cc%3A68)
+
+- Theory
+  - Theoretical Basis: [03Dxx_computability_and_recursion_theory](https://zbmath.org/classification/?q=cc%3A03D)
+  - Formal Science: [68_computer_science](https://zbmath.org/classification/?q=cc%3A68)
 
 ## Learning Order
 - [5_software_and_its_engineering](5_software_and_its_engineering)
@@ -82,11 +85,12 @@
 - [HackerNews](https://news.ycombinator.com/news)
 
 ## Computer Scientists
+- [The Academic Genealogy of Computer Science](https://academictree.org/computerscience/)
+- [ACM A.M. Turing Award Laureate Interviews](https://www.youtube.com/playlist?list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO)
+- Donald Knuth
 - Erik Demaine
 - Jelani Nelson
 - Katherine Johnson
-- [ACM A.M. Turing Award Laureate Interviews](https://www.youtube.com/playlist?list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO)
-- [The Academic Genealogy of Computer Science](https://academictree.org/computerscience/)
 
 ## Testing
 - ### Execute Tests
