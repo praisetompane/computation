@@ -1,9 +1,5 @@
 def: attempts to answer the question: "What are the fundamental capabilities and limitations of computers?"(Sipser, 2012:1).
 
-see:
-    - https://github.com/praisetompane/mathematics/blob/main/03_mathematical_logic_and_foundations/03Dxx_computability_and_recursion_theory/03D15_complexity_of_computation.txt
-    - https://github.com/praisetompane/mathematics/tree/main/68_computer_science/68Qxx_theory_of_computing
-
 topics relationship (Yanofsky, 2021):
     1_formal_languages_and_automata_theory => defines computers and languages they understand.
                         |

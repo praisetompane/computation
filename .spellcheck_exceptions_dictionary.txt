@@ -325,6 +325,7 @@ Qxx
 
 
 # institutions
+PyData
 Opte
 reddit
 atlasgo
@@ -386,6 +387,7 @@ mitx
 xseries
 Computerphile
 OpenAPI
+uwaterloo
 
 
 # places
