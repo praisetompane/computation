@@ -1,64 +1,24 @@
 flow: (Mcdowell, 2015:62)
-    1. Read/Listen 
+    1. Read/Listen
     2. Create example
     3. Find/Create solution:
-        - finding solutions to computational problems(i.e. algorithm problems)(Demaine, Ku, Solomon, 2020):
-            - reduce to a problem we know how to solve(use a data structure or algorithm):
-                - 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis:
-                    - search problem (use data structures)
-                        - static array
-                        - linked list
-                        - dynamic array
-                        - sorted array
-                        - direct access array
-                        - hash table
-                        - balanced binary tree
-                        - heap tree
-                        - ...
-                    - sorting problem (use sort algorithm)
-                        - insertion sort
-                        - selection sort
-                        - merge sort
-                        - counting sort
-                        - radix sort
-                        - AVL sort
-                        - heap sort
-                        - ...
-                    - search in a graph(shortest path algorithms)
-                        - Breadth First Search(BFS)
-                        - Directed Acyclic Graph(DAG) Relaxation:
-                            - Depth First Search(DFS)
-                            - Topological sort
-                        - Bellman-Ford
-                        - Dijkstra
-                        - Johnson
-                        - Floyd-Warshall
-                        - ...
-            - design your own (recursive) algorithm
-                - 0_theory_of_computation/4_design_and_analysis_of_algorithms/1_algorithm_design_techniques:
-                    - brute force
-                    - decrease and conquer
-                    - divide and conquer
-                    - greedy/incremental
-                    - dynamic programming
-                    - ...
-                - remark: algorithm will be recursive in nature(so we can use induction to prove correctness)
+        see: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_design_and_analysis_of_algorithms.txt
     4. Test
-        base cases
-        general cases
-        error cases
-        etc
+        - base cases
+        - general cases
+        - error cases
     5. Optimize
-        BUD system
-            Bottlenecks
-            Unnecessary Work
-            Duplicated Work
+        - BUD system
+            - B = Bottlenecks
+            - U = Unnecessary Work
+            - D = Duplicated Work
     6. Test
-        same cases as step 4
+        - same cases as step 4
     7. Walk through
     8. Implement
-        7.1 Optimize [language/tools specific advantages]
+        7.1 Optimize for language/tools specific advantages
     9. Test
+        - same cases as step 4
 
 when confronted with a problem that seems computationally difficulty (Sipser, 2012:2):
     Option 1: Understand which aspect(s) of the problem are the root of the difficulty

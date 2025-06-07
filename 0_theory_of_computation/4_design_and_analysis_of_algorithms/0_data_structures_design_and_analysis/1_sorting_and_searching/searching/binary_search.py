@@ -42,6 +42,8 @@ def binary_search_recursive(value, arr):
     return recurse(0, len(arr) - 1)
 
 
+data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(binary_search_recursive(8, data))
 numbers = [1, 2, 4, 5, 6, 8, 8, 9]
 print(search(numbers, 9))  # 9
 print(search(numbers, 4))  # 4

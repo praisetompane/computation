@@ -27,13 +27,13 @@ def algorithm¹ (Demaine, Ku, Solomon, 2020):
     - examples: ???
 
     - use cases: ???
-        
-    - proof: ???
-    
+
+    - proof: none. it is a definition.
+
     References:
         - Demaine, E., Ku, J., Solomon, J. 2020. Algorithms and Computation, 6.006 - Introduction to Algorithms. Massachusetts Institute of Technology
 
-def algorithm² (Wengrow, 2017:56): 
+def algorithm² (Wengrow, 2017:56):
     - plain english: a recipe for solving a specific problem by manipulating symbols.
 
     References:
@@ -42,6 +42,6 @@ def algorithm² (Wengrow, 2017:56):
 def algorithm³ (Demaine, Devadas, 2011):
     i.e. input -> algorithm -> output
     - plain english: a computational procedure for solving a problem.
-    
+
     References:
         - Demaine, E., Devadas, S. 2011. Lecture 2: Models of Computation, Document Distance, 6.006 - Introduction to Algorithms. Massachusetts Institute of Technology

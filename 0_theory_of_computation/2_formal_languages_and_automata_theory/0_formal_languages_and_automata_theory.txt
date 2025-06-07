@@ -1,4 +1,4 @@
-def formal_languages_and_automata_theory: deals with definitions and properties of mathematical models of computation (sipser, 2012:3).
+def formal languages and automata theory: deals with definitions and properties of mathematical models of computation (sipser, 2012:3).
 
 provides:
     precise definitions of computers(required by Computability and Complexity theory) (Sipser, 2012:3).
@@ -36,7 +36,7 @@ def language (Sipser, 2012:13-14): set of strings.
         Language 2: Set of strings of length 3 => {000, 001, 010, 100, 111, 110, 101, 011}: Finite
         Language 3: Set of strings starting with 0 => {0, 00, 000, 010, 001}: Infinite
 
-def ϵ: empty string  (Sipser, 2020): string of length 0.
+def ϵ: empty string (Sipser, 2020): string of length 0.
 
 def ∅: empty language: set with no strings.
 
@@ -45,7 +45,7 @@ def Powers of Sigma (Sipser, 2012:13-14):
     Alphabet => Σ = {0, 1}
 
         Σ^0 = Set of all strings of length 0 => Σ^0 = {ε}
-        Σ^1 = Set of all strings of length 1 =>Σ^1 = {0, 1}
+        Σ^1 = Set of all strings of length 1 => Σ^1 = {0, 1}
         Σ^2 = Set of all strings of length 2 => Σ^2 = {00, 01, 10, 11}
         Σ^3 = Set of all strings of length 3 => Σ^3 = {000, 001, 010, 100, 111, 110, 101, 011}
         .

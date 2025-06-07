@@ -92,6 +92,7 @@
         - Wengrow, J. 2017. A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills. Pragmatic Bookshelf: ***
         - 6.006:
             - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/
+                - current: Lecture 1: Introduction notes (PDF)
         - 6.046J:
             -
         - 6.851:
@@ -120,6 +121,7 @@
     - assignments:
         - 6.006:
             - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/assignments/
+                - current: Problem Set 0
             - practice:
                 - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/practice-problems/
             - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/quizzes/
@@ -437,9 +439,10 @@
 next₂:
     - 5_software_and_its_engineering/2_software_creation_and_management:
         - course schedule:
-            - 6.0001:
-                - https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/syllabus/
-                - https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/readings/
+            - 6.100L:
+                - https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/syllabus/
+                - https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/calendar/
+                - https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/instructor-insights/
             - 6.1010:
                 -
             - 6.1020:
@@ -447,8 +450,8 @@ next₂:
             - 6.172:
                 -
         - lectures:
-            - 6.0001:
-                - Bell, A. Grimson, E. Guttag, J. 2016. 6.0001 - Introduction to Computer Science and Programming in Python. Massachusetts Institute of Technology
+            - 6.100L:
+                - Bell, A. 2022. 6.100L - Introduction to CS and Programming using Python. Massachusetts Institute of Technology
             - 6.1010:
                 - Boning D.S., Chlipala A., Devadas S., Hartz A. 6.1010 - Fundamentals of Programming. Massachusetts Institute of Technology
             - 6.1020:
@@ -456,8 +459,8 @@ next₂:
             - 6.172:
                 - Leiserson, C., Shun, J. 2018. 6.172 - Performance Engineering of Software Systems. Massachusetts Institute of Technology
         - recitations|labs:
-            - 6.0001:
-                -
+            - 6.100L:
+                - https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/lists/recitations/
             - 6.1010:
                 -
             - 6.1020:
@@ -465,8 +468,9 @@ next₂:
             - 6.172:
                 -
         - readings:
-            - 6.0001:
-                - https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/lecture-slides-code/
+            - 6.100L:
+                - https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/readings/
+                - https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/lists/lecture-notes/
             - 6.1010:
                 -
             - 6.1020:
@@ -476,7 +480,9 @@ next₂:
             - Thomas, D., Hunt, A. The Pragmatic Programmer, 20th Anniversary Edition Pearson Education, Inc
             - Elkner, J., Downey, A.B., Meyers, C. 2008. How to Think Like a Computer Scientist - Learning with Python. Wellesley: Massachusetts
         - assignments:
-            - 6.0001:
+            - 6.100L:
+                - https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/finger-exercises/
+                - https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/lists/problem-sets/
                 - https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/
                 - https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/in-class-questions-and-video-solutions/
             - 6.1010:
@@ -486,7 +492,7 @@ next₂:
             - 6.172:
                 -
         - exams:
-            - 6.0001:
+            - 6.100L:
                 -
             - 6.1010:
                 -
@@ -759,3 +765,4 @@ legend:
     **: R1 visit complete
     ***: R2 visit complete
     ****: R3 visit complete
+    *****: R4 visit complete

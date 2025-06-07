@@ -17,15 +17,12 @@ Stack: LIFO : Last In First Out
                 The Last item In is the First item Out
 
 pattern: {entrance_time}{exit_time}
-NB: Of importance if the exit_time, 
-        because that's the next thing to compute on/with.
+    NB: Of importance if the exit_time,
+            because that's the next thing to compute on/with.
 entrance_time = {FI, LI}
 exit_time = {FO}
 
-Q: Could we have?
-    LILO
-    FILO
-
+Q: Could we have, LILO and FILO?
     These are equivalent to the existing:
         i.e. LILO ≡ FIFO
              FILO ≡ LIFO

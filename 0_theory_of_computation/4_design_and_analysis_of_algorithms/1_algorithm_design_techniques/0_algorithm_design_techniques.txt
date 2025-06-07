@@ -1,0 +1,25 @@
+def algorithm design techniques(Demaine, Ku, Solomon, 2020):
+    - formal: ???
+        - in words: ???
+
+    - plain english: ???
+
+    - intuition: ???
+
+    - properties:
+        - names:
+            - brute force
+            - greedy/incremental
+            - decrease and conquer
+            - divide and conquer
+            - dynamic programming
+            - ...
+
+    - examples: ???
+
+    - use cases: ???
+
+    - proof: none. it is a definition.
+
+    References:
+        - Demaine, E., Ku, J., Solomon, J. 2020. Algorithms and Computation, 6.006 - Introduction to Algorithms. Massachusetts Institute of Technology
