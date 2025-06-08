@@ -234,24 +234,7 @@
 ============================================================================================================
 - next₁:
     - 0_theory_of_computation/0_logic
-        - course schedule:
-            - CS 245:
-                - https://student.cs.uwaterloo.ca/~cs245/spring2025/index.html
-        - lectures:
-            - CS 245:
-                - Ben-David, S. 2015. CS 245 - Logic and Computation. University of Waterloo
-        - readings:
-            - CS 245:
-                -
-        - recitations|labs:
-            - CS 245:
-                -
-        - assignments:
-            - CS 245:
-                -
-        - exams:
-            - CS 245:
-                -
+        - see: https://github.com/praisetompane/mathematics/tree/main/03_mathematical_logic_and_foundations
 
     - 5_software_and_its_engineering/0_software_notations_and_tools/1_general_programming_languages:
         - course schedule:
