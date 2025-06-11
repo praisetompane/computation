@@ -1,13 +1,13 @@
-def computational_problem:
+def computational problem:
     - formal: ???
         - in words: a binary relation from problem inputs to correct outputs(Demaine, Ku, Solomon, 2020).
             - binary relation definition:
                 see: https://github.com/praisetompane/mathematics/blob/master/0_foundations/relation.txt
-    
+
     - properties:
         - solution flow: problem_solving_techniques/1_solution_flow.txt
         - archetypes: ???
-        
+
         - instances:
             - Data Re/Organization:
                 0. Can the incoming data structure be used to solve the problem?
@@ -29,29 +29,29 @@ def computational_problem:
 
                 2. Walk the problem space while simultaneously solving the problem
                     as opposed to mapping out the whole problem space(i.e. the path) then solving the problem
-                    e.g. 
+                    e.g.
                     Jumping On The Clouds:
                     https://www.hackerrank.com/challenges/jumping-on-the-clouds/
 
                     counting-valleys
                     https://www.hackerrank.com/challenges/counting-valleys/problem
-                
+
                 3.  Compute the final state without walking the whole path step by step
                     i.e. Avoid 𝑂(𝑁) implementation
                     If the final state factor is defined(e.g. number of rotations)
 
-                    e.g. rotate_left.scala 
-                    
+                    e.g. rotate_left.scala
+
                     https://www.hackerrank.com/challenges/ctci-array-left-rotation/copy-from/75481377?h_l=interview&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=arrays&isFullScreen=true
 
                 4. Given a jumbled state and an original state
-                
+
                     Q: How many operations did it take to get to jumbled state?
                     A: Reverse to initial state and count operations required to rollback
 
                     e.g. new-year-chaos.scala
 
-                5. many decision points => 
+                5. many decision points =>
                     problem wording = generate, print all possibilities
                     exhaust a search space
 
@@ -73,13 +73,13 @@ def computational_problem:
                     Performance
                     def:
                         N = number of elements in data structure
-                        
+
                         time = 𝑂(𝑁)
                         memory = 𝑂(𝑁)
                 """
 
         Q: How many computational problems are there?
-            - conjecture: 
+            - conjecture:
                 - let:
                     - 𝑛 = ∞ : This is strictly not possible. We cannot capture infinity,
                     - 𝑆  = ⟨a₀, a₁, a₂, ..., aₙ⟩, a string of infinite characters
@@ -90,10 +90,16 @@ def computational_problem:
                         - There are an infinite number of elements in 𝑃
                     - proof: ???
                         - infinite |𝑆| ⟹ infinite |𝑃|
-        
+
         Q: Are there a finite number of the types?
             - https://cs.stanford.edu/~trevisan/cs254-10/lecture02.pdf
             - https://en.wikipedia.org/wiki/Computational_problem
+
+    - examples: ???
+
+    - use cases: ???
+
+    - proof: none. it is a definition.
 
 References:
     - Mcdowell G.L. 2015. Cracking The Coding Interview. 6th ed. CareerCup.
