@@ -1,4 +1,4 @@
-flow: (Mcdowell, 2015:62)
+def flow: (Mcdowell, 2015:62)
     1. Read/Listen
     2. Create example
     3. Find/Create solution:
@@ -8,10 +8,68 @@ flow: (Mcdowell, 2015:62)
         - general cases
         - error cases
     5. Optimize
+        - Your key weapon: Hash table (Mcdowell, 2015)
         - BUD system
             - B = Bottlenecks
             - U = Unnecessary Work
             - D = Duplicated Work
+        - Standard Asymptotic Complexities:
+            - O(1): no optimization needed
+            - 𝑂(𝑙𝑜𝑔ₙ)
+            - 𝑂(𝑁)
+            - 𝑂(𝑁𝑙𝑜𝑔ₙ)
+            - 𝑂(𝑁²)
+                How do you explore n² combinations in N time(i.e. in one iteration = 𝑂(𝑁))?
+
+                    1. Change from:
+                            iterating(exploring) with an index
+                                using the index to extract a value
+                                and doing some work
+                        TO
+                            iterating(exploring) with a value
+                                using the value to do the work
+                                    if it is a valid value in your universe(i.e. data structure)
+                        SO
+                            once you have a value
+                            you can ask your Iterable => Do you have this value?
+
+                    Example
+                        Given
+                            numbers = [2,9,4,7]
+                        Objective
+                            find possible pair that generates a sum (T)
+
+                        Then: iterating(exploring) with an index looks like this:
+                            for i to length of numbers                        : iterating(exploring) with index
+                                for j = i + 1 to length of numbers       : iterating(exploring) with index
+                                    if numbers at i + numbers at j == T     : using the index to extract a value
+                                        return numbers at i and j        : and doing some work
+                            ∴ O(N²)
+
+                        Then: iterating(exploring) with a value
+                            for i to length of numbers
+                                create a map where
+                                    the key is the value
+                                    {key -> value} : key = value, value = arbitrary data(maybe the index)
+
+                                    {
+                                        2 -> 0
+                                        9 -> 1
+                                        4 -> 2
+                                        7 -> 3
+                                    }
+                            for i  to length of numbers
+                                other addend = T - numbers at i
+                                if other addend is in map
+                                    return other addend's value in map(i.e. index) and i
+
+                            ∴ 𝑂(𝑁) + 𝑂(𝑁) => O(N2) => 𝑂(𝑁)
+                                the term that increases the complexity of the problem the most is N
+                                ∴ discard the 2
+            - 𝑂(𝑁³)
+            - (2ⁿ)
+            - ...
+
     6. Test
         - same cases as step 4
     7. Walk through
