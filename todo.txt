@@ -145,7 +145,7 @@
         - 6.851:
             -
 
-- 3_computer_systems_organization
+- 3_computer_systems_organization:
     - course schedule:
         - CS107:
             - https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/calendar
@@ -234,7 +234,7 @@
             -
 ============================================================================================================
 - next₁:
-    - 0_theory_of_computation/0_logic
+    - 0_theory_of_computation/0_logic:
         - see: https://github.com/praisetompane/mathematics/tree/main/03_mathematical_logic_and_foundations
 
     - 5_software_and_its_engineering/0_software_notations_and_tools/1_general_programming_languages:
@@ -366,7 +366,7 @@
             - CS242:
                 - https://web.stanford.edu/class/cs242/exams.html
 
-    - 5_software_and_its_engineering/0_software_notations_and_tools/2_compilers
+    - 5_software_and_its_engineering/0_software_notations_and_tools/2_compilers:
         - course schedule:
             - SOE-YCSCS1:
                 - https://online.stanford.edu/courses/soe-ycscs1-compilers
@@ -508,21 +508,6 @@ next₂:
                 -
             - 6.172:
                 -
-<<<<<<< Updated upstream
-        - readings:
-            - 6.100L:
-                - https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/readings/
-                - https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/lists/lecture-notes/
-            - 6.1010:
-                -
-            - 6.1020:
-                -
-            - 6.172:
-                -
-            - Thomas, D., Hunt, A. The Pragmatic Programmer, 20th Anniversary Edition Pearson Education, Inc
-            - Elkner, J., Downey, A.B., Meyers, C. 2008. How to Think Like a Computer Scientist - Learning with Python. Wellesley: Massachusetts
-=======
->>>>>>> Stashed changes
         - assignments:
             - 6.100L:
                 - https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/finger-exercises/
@@ -574,11 +559,6 @@ next₂:
                 -
             - CS 361:
                 -
-        - readings:
-            - 6.033:
-                -
-            - CS 361:
-                -
         - assignments:
             - 6.033:
                 - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/design-project/
@@ -612,6 +592,8 @@ next₂:
                 -
 
     - 6_computing_methodologies/concurrent_computing_methodologies:
+        - course schedule:
+            -
         - readings:
             -
         - lectures:
@@ -630,11 +612,11 @@ next₃:
                 - https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/pages/syllabus/
             - 6.036:
                 -
+            - CS 485-685:
+                -
             - CS109:
                 - https://web.stanford.edu/class/archive/cs/cs109/cs109.1256/handouts/syllabus.html
                 - https://web.stanford.edu/class/cs109/
-            - CS 485-685:
-                -
             - CS224N:
                 -
         - readings:
@@ -643,11 +625,11 @@ next₃:
                 - https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/pages/lecture-slides-and-files/
             - 6.036:
                 -
+            - CS 485-685:
+                -
             - CS109:
                 - Reader: https://probabilityforcs.firebaseapp.com/book
                 - Reference Sheet: https://web.stanford.edu/class/archive/cs/cs109/cs109.1256/handouts/cs109-reference-sheet.pdf
-            - CS 485-685:
-                -
             - CS224N:
                 -
             - Turing, A. 1950. Computing machinery and intelligence
@@ -659,10 +641,10 @@ next₃:
                 - Bell, A. Grimson, E. Guttag, J. 2016. 6.0002 - Introduction To Computational Thinking and Data Science. Massachusetts Institute of Technology
             - 6.036:
                 - Broderick, T. 2020. 6.036 - Introduction to Machine Learning. Massachusetts Institute of Technology
-            - CS109:
-                - Piech, C. 2022. CS109 - Probability for Computer Scientists. Stanford University
             - CS 485-685:
                 - Ben-David, S. 2015. CS 485-685 - Foundations of Machine Learning. University of Waterloo
+            - CS109:
+                - Piech, C. 2022. CS109 - Probability for Computer Scientists. Stanford University
             - CS224N:
                 - Manning, C.D. 2024. CS224N - Natural Language Processing. Stanford University
          - recitations|labs:
@@ -670,9 +652,9 @@ next₃:
                 -
             - 6.036:
                 -
-            - CS109:
-                -
             - CS 485-685:
+                -
+            - CS109:
                 -
             - CS224N:
                 -
@@ -681,9 +663,9 @@ next₃:
                 - https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/pages/assignments/
             - 6.036:
                 -
-            - CS109:
-                -
             - CS 485-685:
+                -
+            - CS109:
                 -
             - CS224N:
                 -
@@ -692,14 +674,16 @@ next₃:
                 -
             - 6.036:
                 -
-            - CS109:
-                - https://web.stanford.edu/class/cs109/exams/final.html
             - CS 485-685:
                 -
+            - CS109:
+                - https://web.stanford.edu/class/cs109/exams/final.html
             - CS224N:
                 -
 
     - 6_computing_methodologies/computer_graphics
+        - course schedule:
+            -
         - readings:
             -
         - lectures:
@@ -712,6 +696,8 @@ next₃:
             -
 
     - 4_networks:
+        - course schedule:
+            -
         - readings:
             -
         - lectures:
@@ -727,6 +713,8 @@ next₃:
             -
 
     - 6_computing_methodologies/distributed_computing_methodologies:
+        - course schedule:
+            -
         - readings:
             -
         - lectures:
@@ -743,6 +731,8 @@ next₃:
 ============================================================================================================
 next₄:
     - 6_computing_methodologies/symbolic_and_algebraic_manipulation:
+        - course schedule:
+            -
         - readings:
             -
         - lectures:
@@ -755,6 +745,8 @@ next₄:
             -
 
     - 8_information_systems/3_world_world_web/0_web_applications:
+        - course schedule:
+            -
         - readings:
             -
         - lectures:
@@ -767,6 +759,8 @@ next₄:
             -
 
     - 8_information_systems/0_data_management_systems:
+        - course schedule:
+            -
         - readings:
             -
         - lectures:
@@ -779,6 +773,8 @@ next₄:
             -
 
     - 7_security_and_privacy:
+        - course schedule:
+            -
         - readings:
             -
         - lectures:
@@ -793,17 +789,19 @@ next₄:
             -
 ============================================================================================================
 - next field template:
+    - course schedule:
+        -
     - readings:
         -
     - lectures:
-        -
-    - course schedule:
         -
     - recitations|labs:
         -
     - assignments:
         -
     - exams:
+        -
+    - quizzes:
         -
 ============================================================================================================
 legend:

@@ -68,8 +68,9 @@
 - [The Modern History of Computing](https://plato.stanford.edu/entries/computing-history/)
 
 ## Tools
-[Theoretical CS Visualizer](https://www.theoreticalcs.io/)
-[Reverse Engineering](https://crackmes.one)
+- [Theoretical CS Visualizer](https://www.theoreticalcs.io/)
+- [Reverse Engineering](https://crackmes.one)
+- [Know Thy Complexities!](https://www.bigocheatsheet.com/)
 
 ## State Of The Art
 - [Quanta Magazine](https://www.quantamagazine.org/computer-science/)
@@ -91,6 +92,7 @@
 - Erik Demaine
 - Jelani Nelson
 - Katherine Johnson
+- Grace Hopper
 
 ## Testing
 - ### Execute Tests

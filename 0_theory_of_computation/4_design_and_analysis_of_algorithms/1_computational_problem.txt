@@ -1,14 +1,14 @@
 def computational problem:
     - formal: ???
         - in words: a binary relation from problem inputs to correct outputs(Demaine, Ku, Solomon, 2020).
-            - binary relation definition:
-                see: https://github.com/praisetompane/mathematics/blob/master/0_foundations/relation.txt
+            see: https://github.com/praisetompane/mathematics/blob/main/03_mathematical_logic_and_foundations/relation.txt
 
     - properties:
-        - solution flow: problem_solving_techniques/1_solution_flow.txt
-        - archetypes: ???
+        - types:
+            - https://cs.stanford.edu/~trevisan/cs254-10/lecture02.pdf
+            - https://en.wikipedia.org/wiki/Computational_problem
 
-        - instances:
+        task: categorize these into abstract/general archetypes.
             - Data Re/Organization:
                 0. Can the incoming data structure be used to solve the problem?
                     objective: Is there a solution inherent in the structure itself already?
@@ -90,10 +90,6 @@ def computational problem:
                         - There are an infinite number of elements in 𝑃
                     - proof: ???
                         - infinite |𝑆| ⟹ infinite |𝑃|
-
-        Q: Are there a finite number of the types?
-            - https://cs.stanford.edu/~trevisan/cs254-10/lecture02.pdf
-            - https://en.wikipedia.org/wiki/Computational_problem
 
     - examples: ???
 
