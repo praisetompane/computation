@@ -438,6 +438,8 @@
                 - https://ocw.mit.edu/courses/6-004-computation-structures-spring-2009/pages/study-materials/
                 - https://ocw.mit.edu/courses/6-004-computation-structures-spring-2009/pages/lecture-notes/
             - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone. Oldsmar, FL: John C. Scott
+            - Claude, E.S. 1938. A symbolic analysis of relay and switching circuits. Massachusetts Institute of Technology. https://dspace.mit.edu/handle/1721.1/11173
+            - Boole, G. 1854. An Investigation of the Laws of Thought
             - verilog: https://github.com/praisetompane/verilog
                 - https://web.mit.edu/6.111/www/f2017/handouts/L03_4.pdf
                 - https://inst.eecs.berkeley.edu/~eecs151/fa20/files/verilog/Verilog_Primer_Slides.pdf
@@ -705,6 +707,8 @@ next₃:
                 - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
                 - Week 5 - 7
             - Severance, C. 2021. Internet History, Technology, and Security
+            - Claude, E.S. 1948. A Mathematical Theory of Communication. Bell System Technical Journal
+            - Claude, E.S, Weaver, W. 1949. The Mathematical Theory of Communication. University of Illinois Press
         - recitations|labs:
             -
         - assignments:
