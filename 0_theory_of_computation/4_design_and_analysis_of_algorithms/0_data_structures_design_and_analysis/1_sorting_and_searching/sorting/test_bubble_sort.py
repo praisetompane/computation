@@ -2,5 +2,7 @@ from bubble_sort import sort
 
 
 def test_bubble_sort():
-    data = [8, 1, 2, 7, 4, 3, 5]
-    assert sort(data) == [1, 2, 3, 4, 5, 7, 8]
+    assert sort([5,4,3,2,1]) == [1, 2, 3, 4, 5]
+    assert sort([4,2,3,1,5]) == [1, 2, 3, 4, 5]
+    assert sort([]) == []
+    assert sort([1, 2, 3, 4, 5]) == [1, 2, 3, 4, 5]

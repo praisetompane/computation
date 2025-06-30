@@ -1,16 +1,12 @@
-FROM mcr.microsoft.com/devcontainers/base:bookworm
+FROM mcr.microsoft.com/devcontainers/python:3.13
 
 WORKDIR /computation
 
 COPY . .
 
-RUN apt-get update \
-    && apt-get install aspell -y
+RUN apt-get update
 
-RUN apt-get install python3 -y && \
-    apt-get install python3-pip -y && \
-    apt-get install pipenv -y && \
-    ln -s /usr/bin/python3 /usr/bin/python
+RUN apt-get install aspell -y
 
 RUN apt-get install ghc -y
 

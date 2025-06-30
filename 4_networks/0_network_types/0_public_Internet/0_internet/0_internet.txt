@@ -1,5 +1,5 @@
 def internet:
-    - formal: 
+    - formal:
         - model: https://github.com/praisetompane/mathematics/blob/main/68_computer_science/68Rxx_discrete_mathematics_in_relation_to_computer_science/68R10_graph_theory(including_graph_drawing)_in_computer%20science/0_graph.txt
         - in words: graph of computers
 
@@ -8,7 +8,7 @@ def internet:
     - intuition: global collection of connected computers.
 
     - properties:
-        - history: 
+        - history:
             - 1969 - 1987
                 - ARPANET: Advanced Research Project Agency Network of the U.S. Department of Defence.
                 - First Wireless Area Network(WAN)
@@ -30,9 +30,10 @@ def internet:
                 - Remote Computer Access and Operation:
                     - telnet
                     - SSH: Secure Shell Protocol
-                - HTTP: Hyper Text Transfer Protocol
+                - HTTP: Hyper Text Transfer Protocol: https://httpwg.org/specs/
                     - HTTPS: Hyper Text Transfer Protocol over Transport Layer Security(TLS) | Hyper Text Transfer Protocol over Secure Sockets Layer(SSL)
-                - TCP: Transmission Control Protocol
+                - TCP: Transmission Control Protocol: https://www.ietf.org/rfc/rfc9293.html
+                - UDP: User Datagram Protocol
                 - ...
             - ...
         - resource identification:
@@ -48,8 +49,8 @@ def internet:
     - examples: ???
 
     - use cases: ???
-        
+
     - proof: ???
-    
+
 References:
     - The Opte Project. The Internet. https://www.opte.org/the-internet
