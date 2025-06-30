@@ -145,10 +145,13 @@ University of Pretoria:
 
         Year 1:
             Fundamental:
+                Year:
+                    Academic orientation 112 (UPO 112)
                 Semester 1:
                     Academic information management 111 (AIM 111)                           :
                 Semester 2:
                     Academic information management 121 (AIM 121)                           :
+                    Academic literacy for Information Technology 121 (ALL 121)              :
             Core:
                 Semester 1:
                     Imperative programming 132 (COS 132)                                    :
@@ -190,11 +193,17 @@ University of Pretoria:
                         - MSC2020:
                             - mathematics/60_probability_theory_and_stochastic_processes
                             - mathematics/62_statistics
+                    First course in physics 114 (PHY 114):
+                        -
                 Semester 2:
                     Mathematical statistics 121 (WST 121)                                   :
                         - MSC2020:
                             - mathematics/60_probability_theory_and_stochastic_processes
                             - mathematics/62_statistics
+                    First course in physics 124 (PHY 124):
+                        -
+            Credits: 4 + 4 + 6 + 16 + 16 + 16 + 8 + 16 + 8 + 16 + 16 + 8 + 8 + 8 + 8 + 16 + 16 = 190
+
         Year 2:
             Core:
                 Semester 1:
@@ -234,16 +243,11 @@ University of Pretoria:
                         - MSC2020:
                             - mathematics/68_computer_science
             Electives:
-                Semester 1:
-                    Mathematical statistics 211 (WST 211)                                   :
-                        - MSC2020:
-                            - mathematics/60_probability_theory_and_stochastic_processes
-                            - mathematics/62_statistics
-                Semester 2:
-                    Mathematical statistics 221 (WST 221)                                   :
-                        - MSC2020:
-                            - mathematics/60_probability_theory_and_stochastic_processes
-                            - mathematics/62_statistics
+                Semester 1: N/A
+                Semester 2: N/A
+
+            Credits: 8 + 8 + 16 + 16 + 16 + 16 + 16 + 16 + 12 = 124
+
         Year 3:
             Core:
                 Year:
@@ -284,11 +288,11 @@ University of Pretoria:
                         - ACM:
                             - computation/8_information_systems/0_data_management_systems
 
-                    The science of data analytics 353 (STK 353)                             :
-                        - ACM:
-                            - computation/computation/8_information_systems/2_information_systems_applications/7_data_mining
-            Total Credits: 444
-            Total Subjects: 31
+
+            Credits: 27 + 18 + 18 + 18 + 18 + 18 + 18 + 18  = 153
+
+        Total Credits: 190 + 124 + 153 = 467
+        Total Subjects: 34
     - honours:
         - program:
             - https://www.cs.up.ac.za/honours/

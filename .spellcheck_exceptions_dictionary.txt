@@ -36,6 +36,8 @@ VHDL
 HOPL
 sdm
 RISCV
+PHY
+UPO
 
 
 # authors
@@ -134,6 +136,7 @@ Siek
 
 
 # domain specific
+Datagram
 multilinear
 ArrayList
 forName
@@ -463,6 +466,7 @@ zig
 
 
 # urls
+httpwg
 bigocheatsheet
 openlearninglibrary
 mitpress
