@@ -21,5 +21,4 @@
     - 4_design_and_analysis_of_algorithms: defines how to make effective and efficient computations.
 
 ## References:
-- Sipser, M. 2013. Introduction to the Theory of Computation. 3rd edition. Cengage Learning.
-
+  - Sipser, M. 2013. Introduction to the Theory of Computation. 3rd edition. Cengage Learning.

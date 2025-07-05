@@ -1,0 +1,27 @@
+def complexity theory(Sipser, 2012:2):
+    - formal: ???
+
+        - in words: ???
+
+    - plain english: theory to classify problems into the categories below:
+                        - Hard
+                        - Easy
+
+    - intuition: attempts to answer the question: "What make some computational problems hard and others easy?".
+                    remark: the answer to this question is still unknown.
+
+    - properties:
+        - computational difficulty classificatin scheme: 0_theory_of_computation/3_computational_complexity_and_cryptography/1_complexity_classes/0_complexity_classes.txt
+        - measures of complexity: Time and Space/Memory.
+
+    - examples:
+        - sort list of numbers: Easy
+        - scheduliing: Hard
+
+    - use cases:
+        - cryptography(Sipser, 2012:2): complexity theory helps identify computationally difficult problems for use in cryptography to design codes.
+
+    - proof: none. it is a definition.
+
+References:
+    - Sipser, M. 2013. Introduction to the Theory of Computation. 3rd edition. Cengage Learning.
