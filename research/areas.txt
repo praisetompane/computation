@@ -3,3 +3,6 @@
 - Stanford: https://www.eecs.mit.edu/research/computer-science/
 - Princeton: https://www.cs.princeton.edu/research/areas
 - ...
+
+== open:
+- 0_theory_of_computation/3_computational_complexity_and_cryptography/0_computational_complexity_and_cryptography.txt

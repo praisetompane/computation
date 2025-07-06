@@ -1,4 +1,4 @@
-def interactive_computation:
+def interactive computation:
     - formal: ???
 
         - in words: ???
@@ -12,7 +12,7 @@ def interactive_computation:
     - examples: ???
 
     - use cases: ???
-        
+
     - proof: ???
-    
+
 References: ???
