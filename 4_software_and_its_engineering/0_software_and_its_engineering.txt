@@ -11,7 +11,7 @@ def software¹(Scott, 2009:109):
     - properties:
         - tech stacks: https://stackshare.io/stacks
 
-        - computer programming: ../5_software_and_its_engineering/computer_programming/README.md
+        - computer programming: ../4_software_and_its_engineering/computer_programming/README.md
 
     - examples: ???
 

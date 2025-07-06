@@ -1,1 +1,2 @@
-see: https://github.com/praisetompane/mathematics/tree/main/03_mathematical_logic_and_foundations/03Bxx_general_logic
+see:
+    - https://github.com/praisetompane/mathematics/tree/main/03_mathematical_logic_and_foundations/

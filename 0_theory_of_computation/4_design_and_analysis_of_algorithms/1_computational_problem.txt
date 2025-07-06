@@ -15,12 +15,12 @@ def computational problem:
 
                     - examples:
                         - repeated string problem
-                            - 5_software_and_its_engineering/computer_programming/programs_per_computational_model/0_declarative/arrays_and_strings/repeated_string.scala
+                            - 4_software_and_its_engineering/computer_programming/programs_per_computational_model/0_declarative/arrays_and_strings/repeated_string.scala
 
                 1. Can you rearrange the data in to a structure more suitable for the problem?
                     - examples:
                         - Sales by Match(Sock Merchant)
-                            - 5_software_and_its_engineering/computer_programming/programs_per_computational_model/0_declarative/arrays_and_strings/sock_merchant.scala
+                            - 4_software_and_its_engineering/computer_programming/programs_per_computational_model/0_declarative/arrays_and_strings/sock_merchant.scala
 
             - Path Problems:
                 - objectives:

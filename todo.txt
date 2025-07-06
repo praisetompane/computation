@@ -237,7 +237,7 @@
     - 0_theory_of_computation/0_logic:
         - see: https://github.com/praisetompane/mathematics/tree/main/03_mathematical_logic_and_foundations
 
-    - 5_software_and_its_engineering/0_software_notations_and_tools/1_general_programming_languages:
+    - 4_software_and_its_engineering/0_software_notations_and_tools/1_general_programming_languages:
         - course schedule:
             - CS242:
                 - https://web.stanford.edu/class/cs242/materials.html
@@ -366,7 +366,7 @@
             - CS242:
                 - https://web.stanford.edu/class/cs242/exams.html
 
-    - 5_software_and_its_engineering/0_software_notations_and_tools/2_compilers:
+    - 4_software_and_its_engineering/0_software_notations_and_tools/2_compilers:
         - course schedule:
             - SOE-YCSCS1:
                 - https://online.stanford.edu/courses/soe-ycscs1-compilers
@@ -468,7 +468,7 @@
                 - https://ocw.mit.edu/courses/6-004-computation-structures-spring-2009/pages/exams/
 ============================================================================================================
 next₂:
-    - 5_software_and_its_engineering/2_software_creation_and_management:
+    - 4_software_and_its_engineering/2_software_creation_and_management:
         - course schedule:
             - 6.100L:
                 - https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/syllabus/
@@ -532,7 +532,7 @@ next₂:
             - 6.172:
                 -
 
-    - 5_software_and_its_engineering/1_software_organization_and_properties/1_contextual_software_domains/operating_systems
+    - 4_software_and_its_engineering/1_software_organization_and_properties/1_contextual_software_domains/operating_systems
         - course schedule:
             - 6.033:
                 - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
@@ -572,7 +572,7 @@ next₂:
             - CS 361:
                 -
 
-    - 6_computing_methodologies/parallel_computing_methodologies
+    - 5_computing_methodologies/parallel_computing_methodologies
         - course schedule:
             - IAP 2010:
                 - https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/pages/syllabus/
@@ -593,7 +593,7 @@ next₂:
             - IAP 2010:
                 -
 
-    - 6_computing_methodologies/concurrent_computing_methodologies:
+    - 5_computing_methodologies/concurrent_computing_methodologies:
         - course schedule:
             -
         - readings:
@@ -608,7 +608,7 @@ next₂:
             -
 ============================================================================================================
 next₃:
-    - 6_computing_methodologies/artificial_intelligence/machine_learning:
+    - 5_computing_methodologies/artificial_intelligence/machine_learning:
         - course schedule:
             - 6.0002:
                 - https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/pages/syllabus/
@@ -683,7 +683,7 @@ next₃:
             - CS224N:
                 -
 
-    - 6_computing_methodologies/computer_graphics
+    - 5_computing_methodologies/computer_graphics
         - course schedule:
             -
         - readings:
@@ -697,7 +697,7 @@ next₃:
         - exams:
             -
 
-    - 4_networks:
+    - 6_networks:
         - course schedule:
             -
         - readings:
@@ -716,7 +716,7 @@ next₃:
         - exams:
             -
 
-    - 6_computing_methodologies/distributed_computing_methodologies:
+    - 5_computing_methodologies/distributed_computing_methodologies:
         - course schedule:
             -
         - readings:
@@ -734,7 +734,7 @@ next₃:
 
 ============================================================================================================
 next₄:
-    - 6_computing_methodologies/symbolic_and_algebraic_manipulation:
+    - 5_computing_methodologies/symbolic_and_algebraic_manipulation:
         - course schedule:
             -
         - readings:

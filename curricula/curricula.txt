@@ -15,13 +15,13 @@ Massachusetts Institute of Technology: https://www.eecs.mit.edu/research/compute
             Computer Science Requirements
                 6.100L Introduction to Computer Science Programming in Python	         6-9:
                     - ACM:
-                        - computation/5_software_and_its_engineering/2_software_creation_and_management
+                        - computation/4_software_and_its_engineering/2_software_creation_and_management
                 6.1010 Fundamentals of Programming	                                      12:
                     - ACM:
-                        - computation/5_software_and_its_engineering/2_software_creation_and_management
+                        - computation/4_software_and_its_engineering/2_software_creation_and_management
                 6.1020 Software Construction	                                          15:
                     - ACM:
-                        - computation/5_software_and_its_engineering/2_software_creation_and_management
+                        - computation/4_software_and_its_engineering/2_software_creation_and_management
                 6.1200[J] Mathematics for Computer Science	                              12:
                     - ACM:
                         - computation/1_mathematics_of_computing
@@ -54,22 +54,22 @@ Massachusetts Institute of Technology: https://www.eecs.mit.edu/research/compute
                             - computation/0_foundations/computation/0_theory_of_computation
                     - 6.1100 Computer Language Engineering	                              12:
                         - ACM:
-                            - computation/5_software_and_its_engineering/0_software_notations_and_tools/1_general_programming_languages
-                            - computation/5_software_and_its_engineering/0_software_notations_and_tools/2_compilers
+                            - computation/4_software_and_its_engineering/0_software_notations_and_tools/1_general_programming_languages
+                            - computation/4_software_and_its_engineering/0_software_notations_and_tools/2_compilers
 
                 Select two subjects from a Computer Science, Artificial Intelligence + Decision Making, or Electrical Engineering track 2	24
                     - 6.1060 Software Performance Engineering	                          18:
                         - ACM:
                             - computation/3_computer_systems_organization/0_architectures/
-                            - computation/5_software_and_its_engineering/2_software_creation_and_management
+                            - computation/4_software_and_its_engineering/2_software_creation_and_management
                     - 6.1810 Operating System Engineering   	                          12:
                         - ACM:
-                            - computation/5_software_and_its_engineering/1_software_organization_and_properties/1_contextual_software_domains/0_operating_systems
+                            - computation/4_software_and_its_engineering/1_software_organization_and_properties/1_contextual_software_domains/0_operating_systems
                 Select one subject that satisfies a degree requirement in 6-2|6-3|6-4|18   12
                     - 6.5081 Multicore Programming	                                      12:
                         - ACM:
-                            - computation/6_computing_methodologies/parallel_computing_methodologies
-                            - computation/6_computing_methodologies/concurrent_computing_methodologies
+                            - computation/5_computing_methodologies/parallel_computing_methodologies
+                            - computation/5_computing_methodologies/concurrent_computing_methodologies
             Units in Major Total	                       171-174 = 9 + 12*12 + 15 + 06 + 18
 
         Unrestricted Electives	                                                        48-60
@@ -160,12 +160,12 @@ University of Pretoria:
                 Semester 1:
                     Imperative programming 132 (COS 132)                                    :
                         - ACM:
-                            - computation/5_software_and_its_engineering/2_software_creation_and_management
+                            - computation/4_software_and_its_engineering/2_software_creation_and_management
                     Introduction to computer science 151 (COS 151)                          :
                         - ACM:
                             - computation/2_hardware
                             - computation/0_theory_of_computation/3_design_and_analysis_of_algorithms
-                            - computation/4_networks
+                            - computation/6_networks
                     Discrete structures 115 (WTW 115)                                       :
                         - ACM:
                             - computation/1_mathematics_of_computing
@@ -177,14 +177,14 @@ University of Pretoria:
                     Mathematical modelling 152 (WTW 152)                                    :
                         - MSC2020:
                             - mathematics/34_ordinary_differential_equations
-                            - computation/5_software_and_its_engineering/2_software_creation_and_management
+                            - computation/4_software_and_its_engineering/2_software_creation_and_management
                 Semester 2:
                     Program design: Introduction 110 (COS 110)                              :
                         - ACM:
-                            - computation/5_software_and_its_engineering/2_software_creation_and_management
+                            - computation/4_software_and_its_engineering/2_software_creation_and_management
                     Operating systems 122 (COS 122)                                         :
                         - ACM:
-                            - computation/5_software_and_its_engineering/1_software_organization_and_properties/1_contextual_software_domains/0_operating_systems
+                            - computation/4_software_and_its_engineering/1_software_organization_and_properties/1_contextual_software_domains/0_operating_systems
                     Mathematics 124 (WTW 124)                                               :
                         - MSC2020:
                             - mathematics/15_linear_and_multilinear_algebra;matrix_theory
@@ -223,7 +223,7 @@ University of Pretoria:
 
                     Netcentric computer systems 216 (COS 216)                               :
                         - ACM:
-                            - computation/4_networks
+                            - computation/6_networks
                             - computation/8_information_systems/3_world_world_web/0_web_applications
 
                     Introduction to database systems 221 (COS 221)                          :
@@ -233,10 +233,10 @@ University of Pretoria:
                 Semester 2:
                     Software modelling 214 (COS 214)                                        :
                         - ACM:
-                            - computation/5_software_and_its_engineering/2_software_creation_and_management
+                            - computation/4_software_and_its_engineering/2_software_creation_and_management
                     Concurrent systems 226 (COS 226)                                        :
                         - ACM:
-                            - computation/6_computing_methodologies/concurrent_computing_methodologies
+                            - computation/5_computing_methodologies/concurrent_computing_methodologies
                     Computer organisation and architecture 284 (COS 284)                    :
                         - ACM:
                             - computation/3_computer_systems_organization/0_architectures/0_serial_architectures
@@ -257,16 +257,16 @@ University of Pretoria:
                 Year:
                     Software engineering 301 (COS 301)                                      :
                     - ACM:
-                        - computation/5_software_and_its_engineering/2_software_creation_and_management
+                        - computation/4_software_and_its_engineering/2_software_creation_and_management
 
                 Semester 1:
                     Computer networks 332 (COS 332)                                         :
                         - ACM:
-                            - computation/4_networks
+                            - computation/6_networks
 
                     Compiler construction 341 (COS 341)                                     :
                         - ACM:
-                            - computation/5_software_and_its_engineering/0_software_notations_and_tools/2_compilers
+                            - computation/4_software_and_its_engineering/0_software_notations_and_tools/2_compilers
 
                 Semester 2:
                     Computer security and ethics 330 (COS 330)                              :
@@ -275,17 +275,17 @@ University of Pretoria:
 
                     Programming languages 333 (COS 333)                                     :
                         - ACM:
-                            - computation/5_software_and_its_engineering/0_software_notations_and_tools/1_general_programming_languages
+                            - computation/4_software_and_its_engineering/0_software_notations_and_tools/1_general_programming_languages
 
             Electives:
                 Semester 1:
                     Artificial intelligence 314 (COS 314)                                   :
                         - ACM:
-                            - computation/6_computing_methodologies/artificial_intelligence
+                            - computation/5_computing_methodologies/artificial_intelligence
 
                     Computer graphics 344 (COS 344)                                         :
                         - ACM:
-                            - computation/6_computing_methodologies/computer_graphics
+                            - computation/5_computing_methodologies/computer_graphics
 
                 Semester 2:
                     Database systems 326 (COS 326)                                          :
