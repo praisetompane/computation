@@ -1,11 +1,12 @@
 ==============================================================================================================================================================
 Massachusetts Institute of Technology: https://www.eecs.mit.edu/research/computer-science/
-    subjects: https://catalog.mit.edu/subjects/6/
+    - subjects: https://catalog.mit.edu/subjects/6/
         - naming: https://catalog.mit.edu/subjects/#keytext
         - numbering:
             - https://www.eecs.mit.edu/academics/subject-numbering/
             - https://docs.google.com/presentation/d/18PQiC-U9x3ULTJYL5rlM5JlSs12EsICBe8a_Q9UqqcQ/edit?slide=id.g11502c6983a_0_0#slide=id.g11502c6983a_0_0
-    undergraduate:
+
+    - undergraduate:
         - program:
             - Bachelor of Science in Computer Science and Engineering (Course 6-3)
             - https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/
@@ -116,10 +117,10 @@ Massachusetts Institute of Technology: https://www.eecs.mit.edu/research/compute
                 Laboratory Requirement Total                                        12 = 12*1
             General Institute Requirements Total = 12 * 9 + 9 * 8                         180
 
-        - Physical Education Requirement                                                  N/A
+        Physical Education Requirement                                                    N/A
             Physical Education Requirement Total                                     32 = 8*4
 
-        - Restricted Electives in Science and Technology (REST):
+        Restricted Electives in Science and Technology (REST):
             - https://catalog.mit.edu/mit/undergraduate-education/general-institute-requirements/#restrequirementtext
             - 22.01	Introduction to Nuclear Engineering and Ionizing Radiation            12:
             - 22.02	Introduction to Applied Nuclear Physics	                              12:
@@ -127,11 +128,14 @@ Massachusetts Institute of Technology: https://www.eecs.mit.edu/research/compute
 
         Total Subjects: ???
         Total Credits: 180 + 180 + 32 + 24 =
-    honours:
+
+    - honours:
         - ...
-    masters:
+
+    - masters:
         - ...
-    doctorate:
+
+    - doctorate:
         - ...
 ==============================================================================================================================================================
 University of Pretoria:
@@ -293,36 +297,58 @@ University of Pretoria:
 
         Total Credits: 190 + 124 + 153 = 467
         Total Subjects: 34
+
     - honours:
         - program:
             - https://www.cs.up.ac.za/honours/
             - https://www.cs.up.ac.za/module_categories/honours/
+
     - masters:
         - program:
             - https://www.cs.up.ac.za/postgraduate/
+
     - doctorate:
         - program:
             - https://www.cs.up.ac.za/postgraduate/
             - https://www.cs.up.ac.za/module_categories/doctoral/
+
     - projects: https://github.com/COS301-SE-2024
 ==============================================================================================================================================================
-University of Cape Town:
-    undergraduate:
+University of Cape:
+    - undergraduate:
         - program: https://sit.uct.ac.za/computer-science-courses
-    honours:
+
+    - honours:
         -
-    masters:
+
+    - masters:
         -
-    doctorate:
+
+    - doctorate:
         -
 ==============================================================================================================================================================
+Stanford:
+    - undergraduate:
+        - programs: https://www.cs.stanford.edu/bachelors-compsci-tracks-overview
+
+    - honours:
+        -
+    - masters:
+        - programs: https://www.cs.stanford.edu/masters-specializations
+
+    - doctorate:
+        - programs: https://www.cs.stanford.edu/phd-program-requirements-candidacy
+==============================================================================================================================================================
 curricula template:
-    undergraduate:
+    - undergraduate:
         - program:
-    honours:
+
+    - honours:
         -
-    masters:
+
+    - masters:
         -
-    doctorate:
+
+    - doctorate:
         -
 ==============================================================================================================================================================

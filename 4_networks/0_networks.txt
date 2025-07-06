@@ -1,0 +1,21 @@
+def network:
+    - formal: ???
+
+        - in words: ???
+
+    - plain english: collection of connected machines that communicate through a protocol(language){HTTP, HTTPS, SFTP, TCP, UDP, IP,...}ᶜⁱᵗᵃᵗⁱᴼⁿ_ⁿᵉᵉᵈᵉᵈ
+
+    - intuition: ???
+
+    - properties:
+      - Network Standards Body:
+        - IETF
+        - ITU
+
+    - examples: ???
+
+    - use cases: ???
+
+    - proof: ???
+
+References: ???
