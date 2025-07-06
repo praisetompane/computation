@@ -1,5 +1,5 @@
 def domain drive design:
-    - formal: 
+    - formal:
         let:
           A = discrete concepts in problem space.
         then:
@@ -15,11 +15,11 @@ def domain drive design:
 
     - intuition: ???
 
-    - properties: 
-      - benefits: 
+    - properties:
+      - benefits:
         - compliance with Single Responsibility and Separation of Concerns Principle
 
-    - examples: 
+    - examples:
       - trading platform:
         - bounded contexts = { user, security, trade }
         - microservices = { app_user, app_security, app_trade}
@@ -35,12 +35,12 @@ def domain drive design:
             - update_security
           - app_trade:
             - create_trade
-      - 
+      -
 
     - use cases:
       - conceptual design for a microservices architecture.
       - ...
-        
-    - proof: None. It is definition.
-    
+
+    - proof: none. It is definition.
+
 References: ???

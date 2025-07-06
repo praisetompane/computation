@@ -1,3 +1,0 @@
-1. Workflow
-2. Challenges you will face
-3. Evaluate and fine-tune ML models

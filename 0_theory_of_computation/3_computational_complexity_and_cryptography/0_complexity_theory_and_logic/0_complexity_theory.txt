@@ -11,12 +11,12 @@ def complexity theory(Sipser, 2012:2):
                     remark: the answer to this question is still unknown.
 
     - properties:
-        - computational difficulty classificatin scheme: 0_theory_of_computation/3_computational_complexity_and_cryptography/1_complexity_classes/0_complexity_classes.txt
+        - computational difficulty classification scheme: 0_theory_of_computation/3_computational_complexity_and_cryptography/1_complexity_classes/0_complexity_classes.txt
         - measures of complexity: Time and Space/Memory.
 
     - examples:
         - sort list of numbers: Easy
-        - scheduliing: Hard
+        - scheduling: Hard
 
     - use cases:
         - cryptography(Sipser, 2012:2): complexity theory helps identify computationally difficult problems for use in cryptography to design codes.

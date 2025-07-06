@@ -6,13 +6,13 @@ def 2: The science(and art) of programming computers to learn from data(Geron, 2
         Q: How do we program computers to LEARN from DATA?
             => mathematical algorithms
 
-def 3(Geron, 2019): A machine is said to learn from experience E
+def 3: A machine is said to learn from experience E
         with respect to task T
         as measured by P
-        IF, it improves the execution of T 
+        IF, it improves the execution of T
                 as measured by P
                 AFTER "experiencing" E
-        E = data⁶
+        E = data⁶(Geron, 2019).
 
 def 4:⁷ The study of algorithms
             that IMPROVE their performance
@@ -23,20 +23,149 @@ def 4:⁷ The study of algorithms
                 using example data or past experience.
 
         Combination of techniques from Statistics and Computer Science
-        
+
 def training set: data used to train the the computer(Geron, 2019).
     def training instance(sample): each example in the training set
 
+- properties:
+    - Two major types of Machine Learning Algorithms
 
-Example(Geron, 2019):
-    Email Spam Flagging
+        1. Supervised Learning
+            - Machine learning algorithm in which the "right answers" are given to the machine
+                (i.e. The dataset already has defined in all the possible answers)
+                - Discrete list of the possible values (Yes/No; 1, 2 , 5; Non lethal, Lethal, Fatal) is
+                given to the machine
+
+                Two sub-types
+                    - Regression algorithms: Predict a continuous value output(example of the price of a house)
+                    - Classification algorithms: Predict a discrete value output(1 or 0; Yes,No,Maybe)
+
+            - The task of the machine is to keep finding more of these "right answers"
+
+
+            1.1. SUPERVISED LEARNING ALGORITHM PROCESS
+
+                - Training set (x -> y) {m}
+                - Supervised Learning Algorithm (Process {m}) to generate Hypothesis function {h}
+                - {h}(x,y) -> Tries to predicate {y} for {x}
+                    [Based on the knowledge encoded into the training set] : The "Right Answers"
+
+                Representation of h?
+                hθ(x) = θ + θx
+                : All this means is that we are going to predict that {y} is a linear function of {x}
+                -> {y} is some straight line function of {x}
+                -> This is a linear function f(x) = a + bx
+
+            ∴ This model's name is "Linear Regression with one variable"
+            "Linear Regression": Predict real-valued output {y}
+            "With one Variable": Based on one input {x}
+
+            1.2. Implementation of the "Linear Regression with one variable" model
+
+            1.2.1. The "Cost Function"
+                -> Figure out how to fit "the best straight line" through our data : Why though?
+                ∴ How to implement (construct) this straight line
+
+            1.2.2  hθ(x) = θ1 + θ2x
+                -> θ1 and θ2 = parameters of the model
+
+            1.2.3. How do you choose these parameters?
+
+                Given {
+                    Given a dataset plotted(scatter plot) on Cartesian plane
+                    Best straight line for the data identified
+                }
+
+                -> How do we determine the values of θ1 and θ2 that will give us this line?
+
+                    hθ(x) := Output of function
+                    y := Actual value
+
+                    Goal: Choose θ1 and θ2 so that {hθ(x)} is as close to {y} as possible for our
+                    training set
+
+                    ∴ Minimize the difference between hθ(x) and y
+
+                    Solve minimization problem:
+
+                    minimize (θ1, θ2)  (hθ(x) - y )^2
+
+        2. Unsupervised Learning:
+            - Machine is tasked with finding the "right answer"
+            - Find the Structure of the data and provide output to "make sense" of the data
+
+            Types:
+            - Clustering algorithms
+            - Cocktail party algorithms
+
+
+LINEAR REGRESSION WITH ONE VARIABLE (UNIVARIATE LINEAR REGRESSION)
+
+    1. Regression problems:
+        - take input variables
+        - map output onto
+            "continuous" expected result function
+
+    2. Univariate regression: Used to determine a
+        - single output
+        - from single input
+
+        THE REGRESSION PROBLEM SOLVING PROCESS
+
+        1. The hypothesis function
+
+            hθ(x) = θ0 + θ1x
+
+        2. Test the accuracy of the function (General equation to test accuracy)
+            We can measure the accuracy of the hypothesis function using a "cost function"
+
+            2.1. Squared error function (Mean squared error)
+                The average of the
+                    - Results of the hypothesis function
+                        Compare to the
+                    - Actual values (expected values)
+
+                    J(θ0,θ1) = 1/2m ∑m i=1 ( hθ( x(i) ) −y(i) )2 : It's application to our hypothesis function (h0)
+
+
+        3. Gradient Descent
+            A way to automatically improve  the hypothesis function
+
+            Iterative improvement function using derivatives.
+            We keep moving down the the slope.
+
+            1. Derivative (the line tangent to a function) of the cost function
+                Get the Gradient at a point
+            2. Make steps down the derivative by α( The learning rate)
+
+            3. Success: When cost function is at its minimum value
+
+            Gradient Descent Equation:
+
+                Repeat Until Conversion (Reach the minimum):{
+                    θj := θj − α ( ∂/∂θj  J(θ0,θ1) )
+                    for j = 0 and j = 1
+                }
+
+                Alternative:
+                repeat until convergence:
+                θj := θj − α [Slope of tangent aka derivative]
+
+
+        4. Gradient Descent for Linear Regression
+
+            * Use Gradient descent to MINIMIZE J(θ0,θ1)[The cost function]
+            * Determine partial derivative's value for θ0 and θ1
+
+- examples(Geron, 2019):
+    - Email Spam Flagging
         T := flag spam emails from incoming email
         E := training set with spam examples
         P := number of correctly classified spam/ total number of emails
             i.e. accuracy measure
             i.e. ratio of correctly flagged new email to total new email
 
-Traditional Programming vs Machine learning(Kepner, 2020)(Domingos, 2015)
+- Traditional Programming vs Machine learning(Kepner, 2020)(Domingos, 2015)
 
     Traditional Programming:
         Data ---->
@@ -56,7 +185,23 @@ Traditional Programming vs Machine learning(Kepner, 2020)(Domingos, 2015)
         ANS: supervised, unsupervised, reinforcement learning
             refer 2_machine_learning_systems.txt for deeper look.
 
-use cases:
+- Main Regions and Notable landmarks of the Continent of Machine Learning¹:
+
+    Are they trained with/without human supervision and what type of supervision?
+        S1: Supervised Learning
+        S2: Unsupervised Learning
+        S3: Semi-Supervised Learning
+        S4: Reinforcement Learning
+
+    Can they learn incrementally on the fly(i.e. real time)?
+        I1: Batch Learning
+        I2: Online Learning
+
+    Do they work by just matching new points to known points or identify patterns in training data to build a predictive model(like scientists)?
+        P1: Instance Based Learning
+        P2:  Model Based Learning
+
+- use cases:
     Use Case 1:
         Traditional Email Spam Flagging Programming Implementation(Geron, 2019)
 
@@ -119,7 +264,7 @@ use cases:
                         |                    |      {Automated Cycle}       ↑ Pass Testing
                         ↓                    ↓                              |
                         Email Data --> Train ML Model --> Evaluate the Solution
-                    
+
 
     Broad Classes OF Machine Learning Suitable Problems(Geron, 2019):
         - Use Case 1 : Problems which requires creating and updating long list of rules or hand-tuning to solve.
@@ -144,4 +289,4 @@ References:
     - Geron A. 2019. Hands On Machine Learning with Scikit Learn and TensorFlow. 2nd edition
     - Kepner, J., Gadepally, V. 2020. RES.LL-005 - Mathematics of Big Data and Machine Learning. Massachusetts Institute of Technology
     - Domingos, P. 2015. The Master Algorithm.
-    - Geron A. 2019. Hands On Machine Learning with Scikit Learn and TensorFlow. 2nd edition, pg 5.
+    - Geron A. 2019. Hands On Machine Learning with Scikit Learn and TensorFlow. 2nd edition.
