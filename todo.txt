@@ -1,4 +1,4 @@
-- 0_theory_of_computation: 1_models_of_computation and 2_formal_languages_and_automata_theory and 3_computational_complexity_and_cryptography:
+- 0_theory_of_computation: 1_formal_languages_and_automata_theory and 2_models_of_computation and 3_computational_complexity_and_cryptography:
     - course schedule:
         - 18.404J:
             - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/calendar/
@@ -234,9 +234,6 @@
             -
 ============================================================================================================
 - next₁:
-    - 0_theory_of_computation/0_logic:
-        - see: https://github.com/praisetompane/mathematics/tree/main/03_mathematical_logic_and_foundations
-
     - 4_software_and_its_engineering/0_software_notations_and_tools/1_general_programming_languages:
         - course schedule:
             - CS242:
