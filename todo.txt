@@ -1,239 +1,256 @@
-- 0_theory_of_computation: 1_formal_languages_and_automata_theory and 2_models_of_computation and 3_computational_complexity_and_cryptography:
-    - course schedule:
-        - 18.404J:
-            - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/calendar/
-            - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/syllabus/
-            - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/instructor-insights/
-    - readings:
-        - 18.404J:
-            - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/readings/
-            - Sipser, M. 2012. Introduction to the Theory of Computation. 3rd Edition. Cengage Learning
-                - current:
-                    - 0. Introduction:
-                        - 0.1.:
-                        - 0.2.:
-                        - 0.3.:
-                        - 0.4.:
-                    - 1. Regular Languages:
-                        - 1.1. Finite Automata
-                - web page and errata: http://math.mit.edu/~sipser/book.html
-        - Turing, A. 1936. On computable numbers, with an application to the Entscheidungsproblem
-        - Copeland, B. Jack, "The Church-Turing Thesis", The Stanford Encyclopedia of Philosophy (Winter 2024 Edition), Edward N. Zalta & Uri Nodelman (eds.). https://plato.stanford.edu/archives/win2024/entries/church-turing/
-        - Alama, Jesse and Johannes Korbmacher, "The Lambda Calculus", The Stanford Encyclopedia of Philosophy (Winter 2024 Edition), Edward N. Zalta & Uri Nodelman (eds.), URL = <https://plato.stanford.edu/archives/win2024/entries/lambda-calculus/>
-    - lectures:
-        - 18.404J:
-            - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/video_galleries/video-lectures/
-            - Sipser, M. 2020. 18.404J - Theory of Computation. Massachusetts Institute of Technology
-                - current: 1. Introduction, Finite Automata, Regular Expressions: *
-    - recitations|labs:
-        - 18.404J: N/A
-    - assignments:
-        - 18.404J: https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/assignments/
-    - exams:
-        - 18.404J: https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/exams/
+==============================================================================================
+- next₀:
+    - 00_general_and_overarching_topics;collections:
+        - readings:
+            -
+        - lectures:
+            - Philbin, C.A. 2017. Crash Course Computer Science. Complexly, PBS Digital Studios
+        - recitations|labs:
+            -
+        - assignments:
+            -
+        - exams:
+            -
 
-- 1_mathematics_of_computing:
-    - course schedule:
-        - 6.042J:
-            - https://openlearninglibrary.mit.edu/courses/course-v1:OCW+6.042J+2T2019/course/
-            - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/calendar/
-            - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/syllabus/
-    - readings:
-        - 6.042J:
-            - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/readings/
-            - current:
-                - Chapter 1: Propositions:
-        - Epp, S.S. 2010. Discrete mathematics with applications. 4th Edition. Cengage Learning
-            - current position: pg. 6, exercise 1.1, question 4
-        - Graham, R.L., Knuth, D.E., Patashnik, O. 1990. Concrete Mathematics. 2nd Edition. Massachusetts: Addison-Wesley
-    - lectures:
-        - 6.042J:
-            - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/
-            - Leighton, T. van Dijk, M. 2010. 6.042J - Mathematics for Computer Science. Massachusetts Institute of Technology
+==============================================================================================
+- next₁:
+    - 0_theory_of_computation: 1_formal_languages_and_automata_theory and 2_models_of_computation and 3_computational_complexity_and_cryptography:
+        - course schedule:
+            - 18.404J:
+                - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/calendar/
+                - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/syllabus/
+                - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/instructor-insights/
+        - readings:
+            - 18.404J:
+                - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/readings/
+                - Sipser, M. 2012. Introduction to the Theory of Computation. 3rd Edition. Cengage Learning
+                    - current:
+                        - 0. Introduction:
+                            - 0.1.:
+                            - 0.2.:
+                            - 0.3.:
+                            - 0.4.:
+                        - 1. Regular Languages:
+                            - 1.1. Finite Automata
+                    - web page and errata: http://math.mit.edu/~sipser/book.html
+            - Turing, A. 1936. On computable numbers, with an application to the Entscheidungsproblem
+            - Copeland, B. Jack, "The Church-Turing Thesis", The Stanford Encyclopedia of Philosophy (Winter 2024 Edition), Edward N. Zalta & Uri Nodelman (eds.). https://plato.stanford.edu/archives/win2024/entries/church-turing/
+            - Alama, Jesse and Johannes Korbmacher, "The Lambda Calculus", The Stanford Encyclopedia of Philosophy (Winter 2024 Edition), Edward N. Zalta & Uri Nodelman (eds.), URL = <https://plato.stanford.edu/archives/win2024/entries/lambda-calculus/>
+        - lectures:
+            - 18.404J:
+                - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/video_galleries/video-lectures/
+                - Sipser, M. 2020. 18.404J - Theory of Computation. Massachusetts Institute of Technology
+                    - current: 1. Introduction, Finite Automata, Regular Expressions: *
+        - recitations|labs:
+            - 18.404J: N/A
+        - assignments:
+            - 18.404J: https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/assignments/
+        - exams:
+            - 18.404J: https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/exams/
+
+    - 1_mathematics_of_computing:
+        - course schedule:
+            - 6.042J:
+                - https://openlearninglibrary.mit.edu/courses/course-v1:OCW+6.042J+2T2019/course/
+                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/calendar/
+                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/syllabus/
+        - readings:
+            - 6.042J:
+                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/readings/
                 - current:
-                    - Lec 01  Introduction and Proofs: ***
-    - recitations|labs:
-        - 6.042J:
-            - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/recitations/
-            - current: 1 Logic, proving an implication
-    - assignments:
-        - 6.042J:
-            - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/assignments/
-            - current: ASSN #: 1
-    - exams:
-        - 6.042J:
-            - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/exams/
-            - current:
+                    - Chapter 1: Propositions:
+            - Epp, S.S. 2010. Discrete mathematics with applications. 4th Edition. Cengage Learning
+                - current position: pg. 6, exercise 1.1, question 4
+            - Graham, R.L., Knuth, D.E., Patashnik, O. 1990. Concrete Mathematics. 2nd Edition. Massachusetts: Addison-Wesley
+        - lectures:
+            - 6.042J:
+                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/
+                - Leighton, T. van Dijk, M. 2010. 6.042J - Mathematics for Computer Science. Massachusetts Institute of Technology
+                    - current:
+                        - Lec 01  Introduction and Proofs: ***
+        - recitations|labs:
+            - 6.042J:
+                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/recitations/
+                - current: 1 Logic, proving an implication
+        - assignments:
+            - 6.042J:
+                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/assignments/
+                - current: ASSN #: 1
+        - exams:
+            - 6.042J:
+                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/exams/
+                - current:
+                    -
+
+    - 0_theory_of_computation/3_design_and_analysis_of_algorithms:
+        - course schedule:
+            - 6.006:
+                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/calendar/
+                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/syllabus/
+                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/resource-index/
+            - 6.046J:
+                -
+            - 6.851:
+                -
+        - readings:
+            - Wengrow, J. 2017. A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills. Pragmatic Bookshelf: ***
+            - 6.006:
+                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/
+                    - current: Lecture 1: Introduction notes (PDF)
+            - 6.046J:
+                -
+            - 6.851:
+                -
+            - Cormen, T.H., Leiserson C.E., Rivest R.L., Stein, C. 2022. Introduction To Algorithms. 4th Edition. MIT Press
+                - web site: https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/
+            - Cormen, T.H., Leiserson C.E., Rivest R.L., Stein, C. 2009. Introduction To Algorithms. 3rd Edition. MIT Press
+                - current:
+                    - Part I
+                    - Appendix A
+                    - Appendix B
+                    - Appendix C
+                    - Appendix D
+                    - Part II
+            - Knuth, D. 1997. The Art of Computer Programming Volume 1 - Fundamental Algorithms. 3rd Edition. Boston, M.A.: Addison-Wesley
+            - Knuth, D. 1998. The Art of Computer Programming Volume 2 - Seminumerical algorithms . 3rd Edition. Boston, M.A: Addison-Wesley Professional
+            - Knuth, D. 1998. The Art of Computer Programming Volume 3 - Sorting and Searching. 2nd Edition. Boston, M.A: Addison-Wesley Professional
+            - Knuth, D. 1998. The Art of Computer Programming Volume 4A - Combinatorial algorithms Part 1. Upper Saddle River, New Jersey: Addison-Wesley Professional
+        - lectures:
+            - 6.006:
+                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/video_galleries/lecture-videos/
+                - Demaine, E., Ku, J., Solomon, J. 2020. 6.006 - Introduction to Algorithms. Massachusetts Institute of Technology
+                    - current: 02. Data Structures and Dynamic Arrays: *
+            - 6.046J:
+                - Demaine, E., Devadas, S, Lynch, N. 2015. 6.046J - Design and Analysis of Algorithms. Massachusetts Institute of Technology
+                    - current: N/A
+            - 6.851:
+                - Demaine, E. 2012. 6.851 - Advanced Data Structures. Massachusetts Institute of Technology
+                    - current: N/A
+            - 1_algorithm_design_techniques
+        - recitations|labs:
+            - 6.006:
+                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2008/pages/recitations/
+            - 6.046J:
+                -
+            - 6.851:
+                -
+        - assignments:
+            - 6.006:
+                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/assignments/
+                    - current: Problem Set 0
+                - practice:
+                    - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/practice-problems/
+            - 6.046J:
+                -
+            - 6.851:
+                -
+        - exams:
+            - 6.006:
+                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/pages/exams/
+                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/quizzes/
+                    - current:
+            - 6.046J:
+                -
+            - 6.851:
+                -
+        - quizzes:
+            - 6.006:
+                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/quizzes/
+            - 6.046J:
+                -
+            - 6.851:
                 -
 
-- 0_theory_of_computation/3_design_and_analysis_of_algorithms:
-    - course schedule:
-        - 6.006:
-            - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/calendar/
-            - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/syllabus/
-            - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/resource-index/
-        - 6.046J:
-            -
-        - 6.851:
-            -
-    - readings:
-        - Wengrow, J. 2017. A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills. Pragmatic Bookshelf: ***
-        - 6.006:
-            - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/
-                - current: Lecture 1: Introduction notes (PDF)
-        - 6.046J:
-            -
-        - 6.851:
-            -
-        - Cormen, T.H., Leiserson C.E., Rivest R.L., Stein, C. 2022. Introduction To Algorithms. 4th Edition. MIT Press
-            - web site: https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/
-        - Cormen, T.H., Leiserson C.E., Rivest R.L., Stein, C. 2009. Introduction To Algorithms. 3rd Edition. MIT Press
-            - current:
-                - Part I
-                - Appendix A
-                - Appendix B
-                - Appendix C
-                - Appendix D
-                - Part II
-        - Knuth, D. 1997. The Art of Computer Programming Volume 1 - Fundamental Algorithms. 3rd Edition. Boston, M.A.: Addison-Wesley
-        - Knuth, D. 1998. The Art of Computer Programming Volume 2 - Seminumerical algorithms . 3rd Edition. Boston, M.A: Addison-Wesley Professional
-        - Knuth, D. 1998. The Art of Computer Programming Volume 3 - Sorting and Searching. 2nd Edition. Boston, M.A: Addison-Wesley Professional
-        - Knuth, D. 1998. The Art of Computer Programming Volume 4A - Combinatorial algorithms Part 1. Upper Saddle River, New Jersey: Addison-Wesley Professional
-    - lectures:
-        - 6.006:
-            - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/video_galleries/lecture-videos/
-            - Demaine, E., Ku, J., Solomon, J. 2020. 6.006 - Introduction to Algorithms. Massachusetts Institute of Technology
-                - current: 02. Data Structures and Dynamic Arrays: *
-        - 6.046J:
-            - Demaine, E., Devadas, S, Lynch, N. 2015. 6.046J - Design and Analysis of Algorithms. Massachusetts Institute of Technology
-                - current: N/A
-        - 6.851:
-            - Demaine, E. 2012. 6.851 - Advanced Data Structures. Massachusetts Institute of Technology
-                - current: N/A
-        - 1_algorithm_design_techniques
-    - recitations|labs:
-        - 6.006:
-            - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2008/pages/recitations/
-        - 6.046J:
-            -
-        - 6.851:
-            -
-    - assignments:
-        - 6.006:
-            - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/assignments/
-                - current: Problem Set 0
-            - practice:
-                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/practice-problems/
-        - 6.046J:
-            -
-        - 6.851:
-            -
-    - exams:
-        - 6.006:
-            - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/pages/exams/
-            - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/quizzes/
-                - current:
-        - 6.046J:
-            -
-        - 6.851:
-            -
-    - quizzes:
-        - 6.006:
-            - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/quizzes/
-        - 6.046J:
-            -
-        - 6.851:
-            -
+    - 3_computer_systems_organization:
+        - course schedule:
+            - CS107:
+                - https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/calendar
+                - https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/syllabus.html
+            - 6.1903:
+                -
+            - 6.033:
+                -
+            - 6.5900:
+                -
+        - readings:
+            - CS107: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/
+                - Myth Setup: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/getting-started.html
+                - CS 107 READER: https://web.stanford.edu/~cgregg/cgi-bin/107-reader/:
+                - Debugging Guide: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/resources/debugging.html
+                - Guide to C stdlib functions. https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/guide/stdlib.html
+                - GDB and Debugging. https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/resources/gdb.html
+                - Guide to x86-64. https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/guide/x86-64.html
+                - Valgrind Callgrind: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/resources/callgrind.html
+                - Valgrind Memcheck: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/resources/valgrind.html
+                - Unix Guide: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/resources/unix.html
+                - Parlante, N. 2003. Essential C
+                - Bryant, R.E., O'Hallaron, D.R. Computer Systems A Programmer's Perspective. 3rd Edition. Pearson
+                - legacy:
+                    - https://see.stanford.edu/course/cs107: Under the Resources section
+            - CS107E: https://web.stanford.edu/class/cs107e/
+                - inventory: https://cs107e.github.io/guides/bom/
+                - repository: https://github.com/cs107e/cs107e.github.io
+        - lectures:
+            - CS107:
+                - Chang, M., Zelnski ,J. 2025. CS107 - Computer Organization and Systems. Stanford University
+                    - https://web.stanford.edu/class/cs107/index
+                    - current:
+                        - Lecture 02: ***
+                - legacy:
+                    - Cain, J. 2025. CS107 - Programming Paradigms. Stanford University
+                        - https://see.stanford.edu/course/cs107
+                        - current: Lecture 1: *
+            - Steinmeyer J.D., Wachman, S.Z.H. 6.1903 - Introduction to Low-level Programming in C and Assembly. Massachusetts Institute of Technology
+            - LaCurts, K. 2018. 6.033 - Computer Systems Engineering. Massachusetts Institute of Technology
+            - Emer, J.S., Sanchez, D. 2025. 6.5900 Computer System Architecture. Massachusetts Institute of Technology
+            - 6.1903:
+                -
+            - 6.033:
+                -
+            - 6.5900:
+                -
+        - recitations|labs:
+            - CS107:
+                - Labs Drop Down: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/
+                    - current:
+                        - Lab 1:
+            - 6.1903:
+                -
+            - 6.033:
+                -
+            - 6.5900:
+                -
+        - assignments:
+            - CS107:
+                - Assignments Drop Down: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/
+                    - current:
+                        - Assign0:
 
-- 3_computer_systems_organization:
-    - course schedule:
-        - CS107:
-            - https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/calendar
-            - https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/syllabus.html
-        - 6.1903:
-            -
-        - 6.033:
-            -
-        - 6.5900:
-            -
-    - readings:
-        - CS107: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/
-            - Myth Setup: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/getting-started.html
-            - CS 107 READER: https://web.stanford.edu/~cgregg/cgi-bin/107-reader/:
-            - Debugging Guide: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/resources/debugging.html
-            - Guide to C stdlib functions. https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/guide/stdlib.html
-            - GDB and Debugging. https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/resources/gdb.html
-            - Guide to x86-64. https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/guide/x86-64.html
-            - Valgrind Callgrind: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/resources/callgrind.html
-            - Valgrind Memcheck: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/resources/valgrind.html
-            - Unix Guide: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/resources/unix.html
-            - Parlante, N. 2003. Essential C
-            - Bryant, R.E., O'Hallaron, D.R. Computer Systems A Programmer's Perspective. 3rd Edition. Pearson
-            - legacy:
-                - https://see.stanford.edu/course/cs107: Under the Resources section
-        - CS107E: https://web.stanford.edu/class/cs107e/
-            - inventory: https://cs107e.github.io/guides/bom/
-            - repository: https://github.com/cs107e/cs107e.github.io
-    - lectures:
-        - CS107:
-            - Chang, M., Zelnski ,J. 2025. CS107 - Computer Organization and Systems. Stanford University
-                - https://web.stanford.edu/class/cs107/index
-                - current:
-                    - Lecture 02: ***
-            - legacy:
-                - Cain, J. 2025. CS107 - Programming Paradigms. Stanford University
-                    - https://see.stanford.edu/course/cs107
-                    - current: Lecture 1: *
-        - Steinmeyer J.D., Wachman, S.Z.H. 6.1903 - Introduction to Low-level Programming in C and Assembly. Massachusetts Institute of Technology
-        - LaCurts, K. 2018. 6.033 - Computer Systems Engineering. Massachusetts Institute of Technology
-        - Emer, J.S., Sanchez, D. 2025. 6.5900 Computer System Architecture. Massachusetts Institute of Technology
-        - 6.1903:
-            -
-        - 6.033:
-            -
-        - 6.5900:
-            -
-    - recitations|labs:
-        - CS107:
-            - Labs Drop Down: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/
-                - current:
-                    - Lab 1:
-        - 6.1903:
-            -
-        - 6.033:
-            -
-        - 6.5900:
-            -
-    - assignments:
-        - CS107:
-            - Assignments Drop Down: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/
-                - current:
-                    - Assign0:
+                - legacy:
+                    - https://see.stanford.edu/course/cs107: Under the Assignments menu
+            - 6.1903:
+                -
+            - 6.033:
+                -
+            - 6.5900:
+                -
+        - exams:
+            - CS107:
+                - Exams Drop Down: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/
+                    - current:
+                        - Midterm:
+                        - Final:
+                - legacy:
+                    - https://see.stanford.edu/course/cs107: Under the Exams menu
+            - 6.1903:
+                -
+            - 6.033:
+                -
+            - 6.5900:
+                -
 
-            - legacy:
-                - https://see.stanford.edu/course/cs107: Under the Assignments menu
-        - 6.1903:
-            -
-        - 6.033:
-            -
-        - 6.5900:
-            -
-    - exams:
-        - CS107:
-            - Exams Drop Down: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/
-                - current:
-                    - Midterm:
-                    - Final:
-            - legacy:
-                - https://see.stanford.edu/course/cs107: Under the Exams menu
-        - 6.1903:
-            -
-        - 6.033:
-            -
-        - 6.5900:
-            -
-============================================================================================================
-- next₁:
+==============================================================================================
+- next₂:
     - 4_software_and_its_engineering/0_software_notations_and_tools/1_general_programming_languages:
         - course schedule:
             - CS242:
@@ -463,8 +480,7 @@
         - exams:
             - 6.004:
                 - https://ocw.mit.edu/courses/6-004-computation-structures-spring-2009/pages/exams/
-============================================================================================================
-next₂:
+
     - 4_software_and_its_engineering/2_software_creation_and_management:
         - course schedule:
             - 6.100L:
@@ -529,6 +545,8 @@ next₂:
             - 6.172:
                 -
 
+==============================================================================================
+- next₃:
     - 4_software_and_its_engineering/1_software_organization_and_properties/1_contextual_software_domains/operating_systems
         - course schedule:
             - 6.033:
@@ -603,8 +621,7 @@ next₂:
             -
         - exams:
             -
-============================================================================================================
-next₃:
+
     - 5_computing_methodologies/artificial_intelligence/machine_learning:
         - course schedule:
             - 6.0002:
@@ -680,20 +697,8 @@ next₃:
             - CS224N:
                 -
 
-    - 5_computing_methodologies/computer_graphics
-        - course schedule:
-            -
-        - readings:
-            -
-        - lectures:
-            -
-        - recitations|labs:
-            -
-        - assignments:
-            -
-        - exams:
-            -
-
+==============================================================================================
+- next₄:
     - 6_networks:
         - course schedule:
             -
@@ -729,8 +734,20 @@ next₃:
         - exams:
             -
 
-============================================================================================================
-next₄:
+    - 5_computing_methodologies/computer_graphics
+        - course schedule:
+            -
+        - readings:
+            -
+        - lectures:
+            -
+        - recitations|labs:
+            -
+        - assignments:
+            -
+        - exams:
+            -
+
     - 5_computing_methodologies/symbolic_and_algebraic_manipulation:
         - course schedule:
             -
@@ -745,6 +762,8 @@ next₄:
         - exams:
             -
 
+==============================================================================================
+- next₅:
     - 8_information_systems/3_world_world_web/0_web_applications:
         - course schedule:
             -
@@ -788,7 +807,8 @@ next₄:
             -
         - exams:
             -
-============================================================================================================
+
+==============================================================================================
 - next field template:
     - course schedule:
         -
@@ -804,10 +824,11 @@ next₄:
         -
     - quizzes:
         -
-============================================================================================================
+==============================================================================================
 legend:
     *: SQ visit complete
     **: R1 visit complete
     ***: R2 visit complete
     ****: R3 visit complete
     *****: R4 visit complete
+=============================================done=============================================
