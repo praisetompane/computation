@@ -1,68 +1,5 @@
-see: https://github.com/praisetompane/mathematics/blob/main/68_computer_science/68Rxx_discrete_mathematics_in_relation_to_computer_science/68R10_graph_theory(including_graph_drawing)_in_computer%20science/0_graph.txt
-
-A set of things(nodes/vertices)
-    and the relationships(edges) between the nodes
-        there can also be no relationships between all or some of the nodes (Leighton, van Dijk, 2010).
-
-Formal(graph theory) definition (Leighton, van Dijk, 2010).:
-    A pair of sets (V, E) where
-        V is a set of vertices/nodes
-        E is a set of 2-item subsets of V
-
-Edges (Leighton, van Dijk, 2010).:
-    (N - 1)² = the number of edges in a graph with all vertices connected.
-
-Types (Leighton, van Dijk, 2010):
-    - undirected: edges have no direction
-        example:
-            y connected_to x = x connected_to y
-            y - x = y - x [`-` = connected_to]
-            therefore: bidirectional
-
-    - directed(digraph): edges have direction
-            example:
-                y connected_to x != x connected_to y
-                y -> x != x -> y
-                therefore: unidirectional
-
-    - weighted: edges have weights(the weights can represent arbitrary values(distance, cost, strength etc))
-                can be either directed or undirected
-
-    - Special graphs (concepts represented as graphs)[many more exist]:
-        - Tree
-        - Rooted Tree
-            In-Tree
-            Out-Tree
-        - Directed Acyclovir Graph(DAG)
-        - Cyclic Graphs
-        - Bipartite Graph
-        - Complete Graph (i.e. connected graph)
-
-Representations (Leighton, van Dijk, 2010):
-    - Adjacency list
-        Node stores:
-            name
-            its data (optional)
-            list nodes it is connected to
-
-        example: #python
-            class Node:
-                name = ""
-                connections = [] #type Node
-
-            class Graph
-                nodes = [] #type Node
-
-    - Adjacency matrix,
-        N * N matrix(m), where N is number of nodes
-        Truth value at m[i][j] = edge between node i and j
-
-            00001
-            00100
-            10101
-            01101
-
-    - Edge list
+What is it?
+    see: https://github.com/praisetompane/mathematics/blob/main/68_computer_science/68Rxx_discrete_mathematics_in_relation_to_computer_science/68R10_graph_theory(including_graph_drawing)_in_computer%20science/0_graph.txt
 
 Performance:
     How fast is it to perform the operation? (i.e. Time Complexity)
@@ -111,4 +48,4 @@ Performance:
 
 
 References:
-    - Leighton, T. van Dijk, M. 2010. 6.042J - Mathematics for Computer Science. Massachusetts Institute of Technology.
+    - Leighton, T. van Dijk, M. 2010. Lecture 6: Graph Theory and Coloring, 6.042J - Mathematics for Computer Science. Massachusetts Institute of Technology.

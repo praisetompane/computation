@@ -16,10 +16,10 @@ What is it?
         3. Binary Search Tree
         4. Balanced
             Can support O(long n) insert and find
-            Red-black 
+            Red-black
             AVL Tree
         5. Unbalanced
-        6. Complete 
+        6. Complete
         7. Full
         8. Perfect
 
@@ -28,8 +28,8 @@ What is it?
         3. Each node has <= 2(max 2) child nodes
            The left child is less than the parent
            The right child is greater than the parent
-         
-    Representations:    
+
+    Representations:
 
 
 Performance Analysis:
@@ -37,14 +37,17 @@ Performance Analysis:
         => Measured in terms of the number of steps it takes to complete the operation
 
     Read: Looking up something from a particular spot in the data structure
-        Steps = 
+        Steps =
 
-    
+
     Search: Looking for a particular value in the data structure
-        Steps = 
+        Steps =
 
-    Insert: Adding a value to the data structure 
-        Steps = 
+    Insert: Adding a value to the data structure
+        Steps =
 
     Delete: Removing a value from the data structure
-        Steps = 
+        Steps =
+
+References:
+    - Wengrow, J. 2017. A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills. Pragmatic Bookshelf

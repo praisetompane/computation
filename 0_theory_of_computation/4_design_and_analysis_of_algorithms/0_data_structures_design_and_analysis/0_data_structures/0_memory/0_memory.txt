@@ -9,15 +9,18 @@ Performance Analysis:
     Read: Looking up something from a particular spot in the data structure
         Steps = 1
         O(1)
-    
+
     Search: Looking for a particular value in the data structure
         Steps = 1
         O(1)
 
-    Insert: Adding a value to the data structure 
+    Insert: Adding a value to the data structure
         Steps = 1
         O(1)
 
     Delete: Removing a value from the data structure
         Steps = 1
         O(1)
+
+References:
+    - Wengrow, J. 2017. A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills. Pragmatic Bookshelf

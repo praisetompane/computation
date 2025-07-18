@@ -22,12 +22,15 @@ Performance Analysis:
         i.e. Looking up if a string is a valid prefix
         Steps = O(K)
             K = length of string
-    
-    Search: Looking for a particular value in the data structure
-        Steps = 
 
-    Insert: Adding a value to the data structure 
-        Steps = 
+    Search: Looking for a particular value in the data structure
+        Steps =
+
+    Insert: Adding a value to the data structure
+        Steps =
 
     Delete: Removing a value from the data structure
-        Steps = 
+        Steps =
+
+References:
+    - Wengrow, J. 2017. A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills. Pragmatic Bookshelf
