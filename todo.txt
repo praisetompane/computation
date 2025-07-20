@@ -1,5 +1,5 @@
 ==============================================================================================
-- next₀:
+- next₀: ***
     - 00_general_and_overarching_topics;collections:
         - readings:
             -
@@ -23,16 +23,9 @@
         - readings:
             - 18.404J:
                 - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/readings/
-                - Sipser, M. 2012. Introduction to the Theory of Computation. 3rd Edition. Cengage Learning
-                    - current:
-                        - 0. Introduction:
-                            - 0.1.:
-                            - 0.2.:
-                            - 0.3.:
-                            - 0.4.:
-                        - 1. Regular Languages:
-                            - 1.1. Finite Automata
-                    - web page and errata: http://math.mit.edu/~sipser/book.html
+            - Sipser, M. 2012. Introduction to the Theory of Computation. 3rd Edition. Cengage Learning
+                - current: 0. Introduction: 0.2.: *
+                - web page and errata: http://math.mit.edu/~sipser/book.html
             - Turing, A. 1936. On computable numbers, with an application to the Entscheidungsproblem
             - Copeland, B. Jack, "The Church-Turing Thesis", The Stanford Encyclopedia of Philosophy (Winter 2024 Edition), Edward N. Zalta & Uri Nodelman (eds.). https://plato.stanford.edu/archives/win2024/entries/church-turing/
             - Alama, Jesse and Johannes Korbmacher, "The Lambda Calculus", The Stanford Encyclopedia of Philosophy (Winter 2024 Edition), Edward N. Zalta & Uri Nodelman (eds.), URL = <https://plato.stanford.edu/archives/win2024/entries/lambda-calculus/>
@@ -825,10 +818,10 @@
     - quizzes:
         -
 ==============================================================================================
-legend:
-    *: SQ visit complete
-    **: R1 visit complete
-    ***: R2 visit complete
-    ****: R3 visit complete
-    *****: R4 visit complete
+SQR3 legend:
+    *: S visit complete
+    **: Q visit complete
+    ***: R1 visit complete
+    ****: R2 visit complete
+    *****: R3 visit complete
 =============================================done=============================================

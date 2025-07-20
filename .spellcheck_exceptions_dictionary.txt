@@ -38,6 +38,7 @@ sdm
 RISCV
 PHY
 UPO
+SQR
 
 
 # authors

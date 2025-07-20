@@ -1,4 +1,4 @@
-def grammars and context free languages:
+def grammars and context free languages(Sipser, 2020):
     - formal: ???
 
         - in words: ???
@@ -11,8 +11,11 @@ def grammars and context free languages:
 
     - examples: ???
 
-    - use cases: ???
+    - use cases:
+        - programming languages
+        - artificial intelligence
 
     - proof: ???
 
-References: ???
+References:
+    - Sipser, M. 2013. Introduction to the Theory of Computation. 3rd edition. Cengage Learning.

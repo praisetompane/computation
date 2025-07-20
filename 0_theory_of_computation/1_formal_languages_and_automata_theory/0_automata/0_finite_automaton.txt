@@ -1,0 +1,97 @@
+def finite automaton | finite-state automaton | state-machine | finite-state machine :
+    - formal: a finite automaton 𝑀 is a 5-tuple(Q, Σ, δ, q₀, F,) (Sipser, 2020):
+
+        𝑄  = finite set of all states
+        Σ  = finite set of alphabet symbols
+        𝑞₀ = start state/initial state
+        𝐹  = finite set of final states = set of accept states
+        δ  = transition function
+            δ: 𝑄 × Σ => Q : this is function definition
+                    δ        : function name
+                    𝑄  × Σ   : parameter types
+                    𝑄        : function output/return type
+            example:
+                δ(𝑞, 𝑎) = 𝑟
+                where:
+                    - 𝑞 is the current state
+                    - 𝑎 is the input
+                    - 𝑟 is the result state
+
+                diagrammatic version:
+                      𝑎
+                    𝑞 --> 𝑟
+
+            in words: ???
+
+    - plain english: ???
+
+    - intuition: ???
+
+    - properties:
+        - language: the set of strings that the automaton accepts/recognizes.
+            let:
+                𝑀₁ a finite automaton.
+                𝐴 be set of strings that M1 accepts/recognizes.
+            then:
+                𝐴 = 𝐿(𝑀₁) | 𝐴 is a language of 𝑀₁ | 𝑀₁ recognizes 𝐴
+
+        - diagrammatic representation of components:
+            - states:
+                - initial - required: arrow coming in from nowhere pointing to state
+                - final - required: two circles
+                - rest of states = circle
+            - edges: pointed arrow:
+                the arrow's label is the input, and must exist in  Σ
+
+    - examples:
+        1. Neso Academy, 2016
+            - language 1(L1):
+                - formal: {∀S : S start with '0'} (Neso Academy):
+                    - in words: set of all strings that start with '0' (Neso Academy).
+
+            - machine 2(M2) to represent L1:
+                Q = {0, 00, 01, 00, 001, ...}
+                Σ = {0, 1}
+                q0 = A
+                F = {B}
+                δ:
+                    current state       next state if 0 is input        next state if 1 is input
+                                            0                               1
+                        A                   B                               C
+                        B                   B                               B
+                        C                   C                               C
+
+            - input string evaluation example:
+                1. input = '001'
+                    DFA processing:
+                      0    0    1
+                    A -> B -> B -> B
+                    result:
+                        last state = B
+                        B = final state in definition
+                        B = B
+                        ∴ string is recognized by M2
+
+                2. input = '101'
+                    DFA processing:
+                       1    0     1
+                    A -> C -> C -> C
+                    result:
+                        last state = C
+                        C ≠ final state in definition
+                        C ≠ B
+                        ∴ string is not recognized by M2
+
+            remark: NB: since L1 is recognized or accepted or can be represented with an automaton, it is a regular language.
+                    see: 0_theory_of_computation/1_formal_languages_and_automata_theory/0_automata_theory/2_regular_language.txt
+    - use cases:
+        - text processing
+        - compilers
+        - hardware design
+
+    - proof: none. it is a definition.
+
+References:
+    - Sipser, M. 2013. Introduction to the Theory of Computation. 3rd edition. Cengage Learning.
+    - Neso Academy. 2019. Finite State Machine (Finite Automata). Theory of Computation & Automata Theory.
+    - Neso Academy. 2016. Theory of Computation & Automata Theory. Finite State Machine (Finite Automata).

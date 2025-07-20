@@ -1,0 +1,19 @@
+def regular language:
+    - formal: ???
+
+        - in words: ???
+
+    - plain english: a set of all strings that are accepted/recognized by a finite automata.
+        see: 0_theory_of_computation/1_formal_languages_and_automata_theory/0_automata_theory/1_finite_automata.txt
+
+    - intuition: a language that is accepted/recognized by a finite automaton.
+
+    - properties: ???
+
+    - examples: ???
+
+    - use cases: ???
+
+    - proof: ???
+
+References: ???
