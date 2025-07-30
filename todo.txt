@@ -194,6 +194,8 @@
                 -
             - 6.5900:
                 -
+            - CS 361:
+                -
         - readings:
             - CS107: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/
                 - Myth Setup: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/getting-started.html
@@ -212,6 +214,8 @@
             - CS107E: https://web.stanford.edu/class/cs107e/
                 - inventory: https://cs107e.github.io/guides/bom/
                 - repository: https://github.com/cs107e/cs107e.github.io
+            - CS 361:
+                -
         - lectures:
             - CS107:
                 - Chang, M., Zelnski ,J. 2025. CS107 - Computer Organization and Systems. Stanford University
@@ -228,6 +232,8 @@
                 -
             - 6.5900:
                 -
+            - CS 361:
+                - Kanich, C. CS 361 Systems Programming. University of Illinois at Chicago
         - recitations|labs:
             - CS107:
                 - Labs Drop Down: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/
@@ -236,6 +242,8 @@
             - 6.1903:
                 -
             - 6.5900:
+                -
+            - CS 361:
                 -
         - assignments:
             - CS107:
@@ -247,6 +255,8 @@
             - 6.1903:
                 -
             - 6.5900:
+                -
+            - CS 361:
                 -
         - exams:
             - CS107:
@@ -553,7 +563,7 @@
             - 6.1010:
                 - Boning D.S., Chlipala A., Devadas S., Hartz A. 6.1010 - Fundamentals of Programming. Massachusetts Institute of Technology
             - 6.1020:
-                    - Goldman M., Miller R.C. 2023. 6.1020 - Software Construction. Massachusetts Institute of Technology
+                - Goldman M., Miller R.C. 2023. 6.1020 - Software Construction. Massachusetts Institute of Technology
             - 6.172:
                 - Leiserson, C., Shun, J. 2018. 6.172 - Performance Engineering of Software Systems. Massachusetts Institute of Technology
         - recitations|labs:
@@ -596,12 +606,8 @@
                 - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/calendar/
                 - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/instructor-insights/
                 - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/resource-index/
-            - CS 361:
-                -
         - readings:
             - 6.033:
-                -
-            - CS 361:
                 -
             - Linux: https://github.com/torvalds/linux
         - lectures:
@@ -609,24 +615,16 @@
                 - LaCurts, K. 2018. 6.033 - Computer Systems Engineering. Massachusetts Institute of Technology
                     - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
                     - Week 1 - 4
-            - CS 361:
-                - Kanich, C. CS 361 Systems Programming. University of Illinois at Chicago
             - Donovan, J.J. 1972. Systems Programming
             - Katzan, H. 1970. Advanced Programming: Programming and Operating Systems.
         - recitations|labs:
             - 6.033:
                 -
-            - CS 361:
-                -
         - assignments:
             - 6.033:
                 - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/design-project/
-            - CS 361:
-                -
         - exams:
             - 6.033:
-                -
-            - CS 361:
                 -
 
     - 6_networks:
@@ -654,6 +652,9 @@
                 - https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/pages/syllabus/
             - 6.036:
                 -
+            - 18.065:
+                - https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/pages/syllabus/
+                - https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/pages/calendar/
             - CS 485-685:
                 -
             - CS109:
@@ -667,11 +668,15 @@
                 - https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/pages/lecture-slides-and-files/
             - 6.036:
                 -
+            - 18.065:
+                - https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/pages/readings/
             - CS 485-685:
                 -
             - CS109:
                 - Reader: https://probabilityforcs.firebaseapp.com/book
                 - Reference Sheet: https://web.stanford.edu/class/archive/cs/cs109/cs109.1256/handouts/cs109-reference-sheet.pdf
+            - RES.LL-005:
+                -
             - CS224N:
                 -
             - Turing, A. 1950. Computing machinery and intelligence
@@ -683,10 +688,14 @@
                 - Bell, A. Grimson, E. Guttag, J. 2016. 6.0002 - Introduction To Computational Thinking and Data Science. Massachusetts Institute of Technology
             - 6.036:
                 - Broderick, T. 2020. 6.036 - Introduction to Machine Learning. Massachusetts Institute of Technology
+            - 18.065:
+                - https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/video_galleries/video-lectures/
             - CS 485-685:
                 - Ben-David, S. 2015. CS 485-685 - Foundations of Machine Learning. University of Waterloo
             - CS109:
                 - Piech, C. 2022. CS109 - Probability for Computer Scientists. Stanford University
+            - RES.LL-005:
+                - Kepner, J., Gadepally, V. 2020. RES.LL-005 Mathematics of Big Data and Machine Learning. Massachusetts Institute of Technology
             - CS224N:
                 - Manning, C.D. 2024. CS224N - Natural Language Processing. Stanford University
          - recitations|labs:
@@ -694,9 +703,13 @@
                 -
             - 6.036:
                 -
+            - 18.065:
+                -
             - CS 485-685:
                 -
             - CS109:
+                -
+            - RES.LL-005:
                 -
             - CS224N:
                 -
@@ -705,9 +718,14 @@
                 - https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/pages/assignments/
             - 6.036:
                 -
+            - 18.065:
+                - https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/pages/assignments/
+                - https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/pages/final-project/
             - CS 485-685:
                 -
             - CS109:
+                -
+            - RES.LL-005:
                 -
             - CS224N:
                 -
@@ -716,10 +734,14 @@
                 -
             - 6.036:
                 -
+            - 18.065:
+                -
             - CS 485-685:
                 -
             - CS109:
                 - https://web.stanford.edu/class/cs109/exams/final.html
+            - RES.LL-005:
+                -
             - CS224N:
                 -
 
@@ -775,6 +797,7 @@
         - readings:
             -
         - lectures:
+            - Zeldovich, N. 2014. 6.858 - Computer Systems Security. Massachusetts Institute of Technology
             - LaCurts, K. 2018. 6.033 - Computer System Engineering. Massachusetts Institute of Technology
                 - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
                 - Week 11 - 14

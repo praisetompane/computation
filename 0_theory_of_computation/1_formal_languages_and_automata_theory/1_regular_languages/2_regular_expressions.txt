@@ -1,0 +1,20 @@
+def regular expression(Sipser, 2020):
+    - formal: ???
+
+        - in words: ???
+
+    - plain english: expressions using regular expressions and regular languages.
+                     akin to arithmetic expressions.
+
+    - intuition: ???
+
+    - properties: ???
+
+    - examples: ???
+
+    - use cases: ???
+
+    - proof: ???
+
+References:
+    - Sipser, M. 2020. 1. Introduction, Finite Automata, Regular Expressions, 18.404J - Theory of Computation. Massachusetts Institute of Technology.

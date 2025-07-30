@@ -1,4 +1,4 @@
-def regular language:
+def regular language(Sipser, 2020):
     - formal: ???
 
         - in words: ???
@@ -16,4 +16,5 @@ def regular language:
 
     - proof: ???
 
-References: ???
+References:
+    - Sipser, M. 2020. 1. Introduction, Finite Automata, Regular Expressions, 18.404J - Theory of Computation. Massachusetts Institute of Technology.
