@@ -1,0 +1,23 @@
+def regular operations(Sipser, 2020):
+    - formal: ???
+
+        - in words: ???
+
+    - plain english: ???
+
+    - intuition:
+        - types:
+            - ∪ | union
+            - concatenation:
+            - *:
+
+    - properties: ???
+
+    - examples: ???
+
+    - use cases: ???
+
+    - proof: ???
+
+References:
+    - Sipser, M. 2020. 1. Introduction, Finite Automata, Regular Expressions, 18.404J - Theory of Computation. Massachusetts Institute of Technology.
