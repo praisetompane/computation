@@ -3,18 +3,18 @@ from impl.queue_deque_based import Queue
 
 def print_binary_numbers(n):
     """
-        8 bits  : 00000000
-        0       : 0
-        1       : 1
-        2       : 1 + 0
-        3       : 1 + 1
-        4       : 1 + 0 + 0
-        5       : 1 + 0 + 1
-        6       : 1 + 1 + 0
-        7       : 1 + 1 + 1
-        8       : 1 + 0 + 0 + 0
-        9       : 1 + 0 + 0 + 1
-        10      : 1 + 0 + 1 + 0
+    8 bits  : 00000000
+    0       : 0
+    1       : 1
+    2       : 1 + 0
+    3       : 1 + 1
+    4       : 1 + 0 + 0
+    5       : 1 + 0 + 1
+    6       : 1 + 1 + 0
+    7       : 1 + 1 + 1
+    8       : 1 + 0 + 0 + 0
+    9       : 1 + 0 + 0 + 1
+    10      : 1 + 0 + 1 + 0
     """
     numbers = Queue()
     # initial starting number
