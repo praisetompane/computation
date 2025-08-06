@@ -19,6 +19,7 @@
             - 18.404J:
                 - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/calendar/
                 - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/syllabus/
+                    - https://math.mit.edu/~sipser/18404/
                 - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/instructor-insights/
         - readings:
             - 18.404J:
@@ -43,37 +44,57 @@
 
     - 1_mathematics_of_computing:
         - course schedule:
-            - 6.042J:
-                - https://openlearninglibrary.mit.edu/courses/course-v1:OCW+6.042J+2T2019/course/
-                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/calendar/
-                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/syllabus/
+            - 6.1200:
+                - https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/pages/syllabus/
+                - legacy:
+                    - 6.042J:
+                        - https://openlearninglibrary.mit.edu/courses/course-v1:OCW+6.042J+2T2019/course/
+                        - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/calendar/
+                        - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/syllabus/
         - readings:
-            - 6.042J:
-                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/readings/
-                - current:
-                    - Chapter 1: Propositions:
+            - 6.1200:
+                    - https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/pages/readings/
+                - legacy:
+                    - 6.042J:
+                        - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/readings/
+                        - current:
+                            - Chapter 1: Propositions:
             - Epp, S.S. 2010. Discrete mathematics with applications. 4th Edition. Cengage Learning
                 - current position: pg. 6, exercise 1.1, question 4
             - Graham, R.L., Knuth, D.E., Patashnik, O. 1990. Concrete Mathematics. 2nd Edition. Massachusetts: Addison-Wesley
         - lectures:
-            - 6.042J:
-                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/
-                - Leighton, T. van Dijk, M. 2010. 6.042J - Mathematics for Computer Science. Massachusetts Institute of Technology
-                    - current:
-                        - Lec 01  Introduction and Proofs: ***
+            - 6.1200:
+                - https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/video_galleries/lecture-videos/
+                - https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/lists/lecture-notes/
+            - legacy:
+                - 6.042J:
+                    - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/
+                    - Leighton, T. van Dijk, M. 2010. 6.042J - Mathematics for Computer Science. Massachusetts Institute of Technology
+                        - current:
+                            - Lec 01  Introduction and Proofs: ***
         - recitations|labs:
-            - 6.042J:
-                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/recitations/
-                - current: 1 Logic, proving an implication
+            - 6.1200:
+                -
+            - legacy:
+                - 6.042J:
+                    - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/recitations/
+                    - current: 1 Logic, proving an implication
         - assignments:
-            - 6.042J:
-                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/assignments/
-                - current: ASSN #: 1
+            - 6.1200:
+                - https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/lists/warm-up-problems/
+                - https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/lists/problem-sets/
+                - legacy:
+                    - 6.042J:
+                        - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/assignments/
+                        - current: ASSN #: 1
         - exams:
-            - 6.042J:
-                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/exams/
-                - current:
-                    -
+            - 6.1200:
+                -
+                - legacy:
+                    - 6.042J:
+                        - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/exams/
+                        - current:
+                            -
 
     - 0_theory_of_computation/3_design_and_analysis_of_algorithms:
         - course schedule:
@@ -161,8 +182,6 @@
                 - https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/syllabus.html
             - 6.1903:
                 -
-            - 6.033:
-                -
             - 6.5900:
                 -
             - CS 361:
@@ -182,9 +201,14 @@
                 - Bryant, R.E., O'Hallaron, D.R. Computer Systems A Programmer's Perspective. 3rd Edition. Pearson
                 - legacy:
                     - https://see.stanford.edu/course/cs107: Under the Resources section
-            - CS107E: https://web.stanford.edu/class/cs107e/
-                - inventory: https://cs107e.github.io/guides/bom/
-                - repository: https://github.com/cs107e/cs107e.github.io
+                - alternative:
+                    - CS107E: https://web.stanford.edu/class/cs107e/
+                        - inventory: https://cs107e.github.io/guides/bom/
+                        - repository: https://github.com/cs107e/cs107e.github.io
+            - 6.1903:
+                -
+            - 6.5900:
+                -
             - CS 361:
                 -
         - lectures:
@@ -197,15 +221,10 @@
                     - Cain, J. 2025. CS107 - Programming Paradigms. Stanford University
                         - https://see.stanford.edu/course/cs107
                         - current: Lecture 1: *
-            - Steinmeyer J.D., Wachman, S.Z.H. 6.1903 - Introduction to Low-level Programming in C and Assembly. Massachusetts Institute of Technology
-            - LaCurts, K. 2018. 6.033 - Computer Systems Engineering. Massachusetts Institute of Technology
-            - Emer, J.S., Sanchez, D. 2025. 6.5900 Computer System Architecture. Massachusetts Institute of Technology
             - 6.1903:
-                -
-            - 6.033:
-                -
+                - Steinmeyer J.D., Wachman, S.Z.H. 6.1903 - Introduction to Low-level Programming in C and Assembly. Massachusetts Institute of Technology
             - 6.5900:
-                -
+                - Emer, J.S., Sanchez, D. 2025. 6.5900 Computer System Architecture. Massachusetts Institute of Technology
             - CS 361:
                 - Kanich, C. CS 361 Systems Programming. University of Illinois at Chicago
         - recitations|labs:
@@ -214,8 +233,6 @@
                     - current:
                         - Lab 1:
             - 6.1903:
-                -
-            - 6.033:
                 -
             - 6.5900:
                 -
@@ -231,8 +248,6 @@
                     - https://see.stanford.edu/course/cs107: Under the Assignments menu
             - 6.1903:
                 -
-            - 6.033:
-                -
             - 6.5900:
                 -
             - CS 361:
@@ -246,8 +261,6 @@
                 - legacy:
                     - https://see.stanford.edu/course/cs107: Under the Exams menu
             - 6.1903:
-                -
-            - 6.033:
                 -
             - 6.5900:
                 -
@@ -717,7 +730,10 @@
 - next₄:
     - 6_networks:
         - course schedule:
-            -
+            - 6.033:
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/calendar/
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/instructor-insights/
         - readings:
             - Claude, E.S. 1948. A Mathematical Theory of Communication. Bell System Technical Journal
             - Claude, E.S, Weaver, W. 1949. The Mathematical Theory of Communication. University of Illinois Press
@@ -735,7 +751,10 @@
 
     - 5_computing_methodologies/distributed_computing_methodologies:
         - course schedule:
-            -
+            - 6.033:
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/calendar/
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/instructor-insights/
         - readings:
             -
         - lectures:
@@ -809,7 +828,10 @@
 
     - 7_security_and_privacy:
         - course schedule:
-            -
+            - 6.033:
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/calendar/
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/instructor-insights/
         - readings:
             -
         - lectures:
