@@ -211,9 +211,14 @@
                 - Bryant, R.E., O'Hallaron, D.R. Computer Systems A Programmer's Perspective. 3rd Edition. Pearson
                 - legacy:
                     - https://see.stanford.edu/course/cs107: Under the Resources section
-            - CS107E: https://web.stanford.edu/class/cs107e/
-                - inventory: https://cs107e.github.io/guides/bom/
-                - repository: https://github.com/cs107e/cs107e.github.io
+                - alternative:
+                    - CS107E: https://web.stanford.edu/class/cs107e/
+                        - inventory: https://cs107e.github.io/guides/bom/
+                        - repository: https://github.com/cs107e/cs107e.github.io
+            - 6.1903:
+                -
+            - 6.5900:
+                -
             - CS 361:
                 -
         - lectures:
@@ -231,7 +236,7 @@
             - 6.1903:
                 -
             - 6.5900:
-                -
+                - Emer, J.S., Sanchez, D. 2025. 6.5900 Computer System Architecture. Massachusetts Institute of Technology
             - CS 361:
                 - Kanich, C. CS 361 Systems Programming. University of Illinois at Chicago
         - recitations|labs:
@@ -747,7 +752,10 @@
 
     - 5_computing_methodologies/distributed_computing_methodologies:
         - course schedule:
-            -
+            - 6.033:
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/calendar/
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/instructor-insights/
         - readings:
             -
         - lectures:
@@ -793,7 +801,10 @@
 
     - 7_security_and_privacy:
         - course schedule:
-            -
+            - 6.033:
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/calendar/
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/instructor-insights/
         - readings:
             -
         - lectures:

@@ -34,14 +34,16 @@ Massachusetts Institute of Technology: https://www.eecs.mit.edu/research/compute
                         - computation/0_theory_of_computation/3_design_and_analysis_of_algorithms
                 6.1800 Computer Systems Engineering	                                  12:
                     - ACM:
-                        - computation/3_computer_systems_organization/0_architectures/0_serial_architectures
-                6.1903 Introduction to Low-level Programming in C and Assembly	           6:
+                        - computation/4_software_and_its_engineering/1_software_organization_and_properties/1_contextual_software_domains/0_operating_systems/
+                        - computation/4_networks
+                        - computation/8_security_and_privacy/9_software_and_application_security
+                6.1903	Introduction to Low-level Programming in C and Assembly	           6:
                     - ACM:
-                        - computation/3_computer_systems_organization/0_architectures/0_serial_architectures
-                6.1910 Computation Structures	                                          12:
+                        - computation/3_computer_systems_organization
+                6.1910	Computation Structures	                                          12:
                     - ACM:
                         - computation/2_hardware
-                        - computation/3_computer_systems_organization/0_architectures/0_serial_architectures
+                        - computation/3_computer_systems_organization
             Select one of the following:	                                              12:
                 18.06 Linear Algebra	                                                  12:
                     - MSC2020:
@@ -239,7 +241,7 @@ University of Pretoria:
                             - computation/5_computing_methodologies/concurrent_computing_methodologies
                     Computer organisation and architecture 284 (COS 284)                    :
                         - ACM:
-                            - computation/3_computer_systems_organization/0_architectures/0_serial_architectures
+                            - computation/3_computer_systems_organization
                             - computation/2_hardware
                     Discrete structures 285 (WTW 285)                                       :
                         - ACM:
