@@ -1,0 +1,46 @@
+def domain drive design:
+    - formal:
+        let:
+          A = discrete concepts in problem space.
+        then:
+          { x : x in A}
+
+        - in words: an architectural pattern, in which a problem space is modelled as a set of bounded context.
+                    each bounded context:
+                      - represents a discrete concept in the problem space.
+                      - exposes an API for interacting with objects of that concept.
+
+
+    - plain english: ???
+
+    - intuition: ???
+
+    - properties:
+      - benefits:
+        - compliance with Single Responsibility and Separation of Concerns Principle
+
+    - examples:
+      - trading platform:
+        - bounded contexts = { user, security, trade }
+        - microservices = { app_user, app_security, app_trade}
+          - app_user:
+            - create_user
+            - deactivate_user
+            - retrieve_user
+            - update_user
+            - authenticate_user
+          - app_security:
+            - create_security
+            - retrieve_security
+            - update_security
+          - app_trade:
+            - create_trade
+      -
+
+    - use cases:
+      - conceptual design for a microservices architecture.
+      - ...
+
+    - proof: none. It is definition.
+
+References: ???

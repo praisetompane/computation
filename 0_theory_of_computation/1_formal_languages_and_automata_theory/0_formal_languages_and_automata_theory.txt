@@ -1,0 +1,48 @@
+def automata theory(Sipser, 2012:2):
+    - formal: ???
+
+        - in words: ???
+
+    - plain english: theory that deals with definitions and properties of mathematical models of computation.
+
+    - intuition: provides mathematical models of computers(i.e. computation or algorithms)
+
+    - properties:
+        - models of computation:
+            - finite automaton
+            - context-free grammar
+            - turing machines
+            - lambda calculus
+            - probabilistic and interactive computation
+            - ...
+
+    - examples: ???
+
+    - use cases:
+        - Computability and Complexity theory use its models of computation(i.e. model of a computer) to
+            study properties of computation.
+
+    - proof: none. it is a definition.
+
+    References:
+        - Sipser, M. 2020. 18.404J - Theory of Computation. Massachusetts Institute of Technology.
+        - Sipser, M. 2013. Introduction to the Theory of Computation. 3rd edition. Cengage Learning.
+
+def formal language:
+    - formal: ???
+
+        - in words: ???
+
+    - plain english: ???
+
+    - intuition: ???
+
+    - properties: ???
+
+    - examples: ???
+
+    - use cases: ???
+
+    - proof: ???
+
+References: ???

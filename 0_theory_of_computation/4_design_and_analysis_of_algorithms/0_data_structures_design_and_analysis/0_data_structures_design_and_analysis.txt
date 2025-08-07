@@ -7,12 +7,25 @@ def data structures design and analysis:
 
     - intuition: ???
 
-    - properties: ???
+    - properties:
+        - data structure types:
+            - linear:
+                - static:
+                    - array: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/0_data_structures/1_array
+                - dynamic:
+                    - stack: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/0_data_structures/4_stack
+                    - queue: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/0_data_structures/5_queue
+                    - linked list: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/0_data_structures/2_linked_list
 
+            - non-linear:
+                - graph: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/0_data_structures/7_graph
+                    - tree: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/0_data_structures/8_tree
+                - hash table: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/0_data_structures/3_hash_table
+                - heap: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/0_data_structures/6_heap
     - examples: ???
 
     - use cases: ???
-        
-    - proof: ???
-    
+
+    - proof: none. it is a definition.
+
 References: ???

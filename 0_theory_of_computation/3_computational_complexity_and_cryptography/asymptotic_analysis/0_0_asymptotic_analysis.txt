@@ -1,0 +1,171 @@
+def asymptotic analysis:
+    - formal: ???
+
+        - in words: ???
+
+    - plain english: language and metric to describe efficiency of algorithms.
+        let:
+            𝑛 = number of elements
+        then:
+            𝑙𝑜𝑔₂𝑛      :
+
+            𝑛         : for every item in a list
+                            visit it once
+                                to solve the problem
+
+            𝑛𝑙𝑜𝑔₂𝑛     :
+
+            𝑛²        : for every item in a list,
+                        combine it individually
+                            with every item in the list
+                                to solve the problem.
+
+                        given 10 items:
+                            every item will be combined with the 9 other items to generate a result.
+                            Combinations:
+                                10^2 = 100
+                                10 * 9 item combinations = 90, since an item does get combined with itself, hence the 90
+
+            𝑛ᶜ, c > 1   : for every item in a list,
+                            combine c times it individually
+                                with every item in the list
+                                    to solve the problem.
+
+            2ⁿ          : addition of one element to the input
+                            doubles the number of steps
+                                to solve the problem.
+
+    - intuition: ???
+
+    - properties:
+        - TIME COMPLEXITY:
+            Asymptotic runtime/Big O time
+                - How does the runtime(running time) of the algorithm change,
+                    as the size of the problem changes
+
+            Big O, Big Theta and Big Omega
+
+            Three ways to describe an algorithm's runtime
+                Best Case, Worst Case and Expected Case
+
+        - SPACE COMPLEXITY:
+            The amount of memory/space
+                required by an algorithm
+
+            e.g.
+                array of n size = O(n) space complexity
+                2D array of n*n = O(n^2) space complexity
+                stack space used in recursive calls
+                    def factorial(n):
+                        if n == 1: return 1
+                        else: return(n * factorial(n - 1))
+
+                    For function above, O(n) space complexity on factorial calls on the stack
+
+        - DROP THE CONSTANTS:
+            Big O describes the rate of increase
+                describes how the runtime scales
+
+            Insight = e.g. Accept that O(N) isn't always better than O(N^2), for some inputs
+
+        - DROP THE NON DETERMINANT CONSTANTS:
+            O(N^2 + N) should just be O(N)
+            O(N^2 + N^2) should just be O(N^2)
+
+        - MULTIPART ALGORITHMS:
+            algorithm with more than 1 step
+                1. When do you add the steps?
+                2. When do you multiply the steps?
+
+                1. If an algorithm says do A chunk of work, then when you're all done, then do B chunk of work
+                    Book = do this, then, when you're all done, do that
+                    ref = 6.2.AddSteps.py
+
+                    O(A + B)
+
+                2. If an algorithm says for every point in A do every point in Chunk B
+                    Book = do this for each time you do that
+                    ref = 6.2.MultiplySteps.py
+
+                    O(A * B)
+
+        - AMORTISED TIME ???(COME BACK TO THIS):
+            def = runtime that describes the worst case happens infrequently
+
+            ArrayList
+                insertion runtime:
+                    full => worst case = O(N + 1) => O(N)
+                                        rare
+                    common = O(1)
+
+                Explanation: during insertion, double capacity when size is power of 2
+                    double the capacity at size  1,2,4,8,16 ... X
+                                            takes 1,2,4,8,16 ... X copies
+
+                                            left to right = doubles until you get to X
+                                            right to left = halves until you get to 1
+                                            X + x/2 + x/4+ x/8 + ... 1 roughly 2X
+
+                                            X insertion takes O(2X) = armotized time for each insertion
+
+        - RECURSIVE RUNTIME:
+            int f (n) {
+                if (n <= 1){
+                    return 1;
+                }
+                return f(n - 1) + f(n - 1)
+            }
+
+            my runtime
+                𝑂(𝑁 + 𝑁) => O(2N) => O(N)
+                first f(n - 1) and f(n - 1) are loops
+                INCORRECT! as subsequent calls in the first f(n - 1) each generate a pair of f(n - 1)
+                    that's not a loop through N elements(it's a lot more)
+
+            Common = O(branches ^ depth=N)
+                        branches = branch per recursive call
+
+                        Applies when there are more than 1 function calls per recursive node
+
+                        Otherwise it's just O(N), much like a loop (assuming of-course we go through each value of N)
+            correct
+                O(2^N)
+                EXPLAIN??
+
+        - COMMON BIG O RUNTIME, BEST TO WORST:
+            1. O(1)     = constant time
+            2. O(log 𝑛) = logarithmic time
+            3. O(𝑛) = linear time
+            4. O(𝑛 log 𝑛) =
+            5. O(𝑛²) =
+            6. O(2ⁿ) = exponential time
+            7. O(𝑛!) =
+            8. O(𝑛ⁿ)
+
+            2. log N RUNTIME
+                O(log N)
+                Problem size is halved until its equal to 1
+
+                16
+                8   = 16/2
+                4   = 8/2
+                2   = 4/2
+                1   = 2/2
+
+                What is log?
+                    2^k = N
+                    What is the power to raise 2 to, to get N?
+                        i.e what is K?
+                        log N = K
+                            concrete examples:
+                                log 2 = 1
+                                log 16 = 3
+
+        - standard functions runtime for input 𝑛:
+            𝑛       log₂𝑛       𝑛       𝑛log𝑛       𝑛²      𝑛³      2ⁿ
+            1         0         1         0         1       1       2
+            2         1         2         2         4       8       4
+            4         2         4         8         16      64      16
+            8         3         8         24        64      512     256
+            16        4         16        64        256     4096    65536
+            32        5         32        160       1024    32768   429 × 10⁷

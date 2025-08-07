@@ -1,0 +1,18 @@
+def enabler (enable byte) (Scott, 2009:24):
+    formal:
+
+    plain english: 
+        eight AND gates
+            with second input of each gate
+            all connected into one input 'e'(enable)
+
+        NB: used almost every time we want to remember the state of a byte. 
+    
+    flow:
+        e is 'off/0':
+            inputs into enabler do reach output 'o'
+        e is 'on/1':
+            inputs into enabler reach output 'o' unchanged
+
+References:
+    - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone. Oldsmar, FL: John C. Scott

@@ -1,0 +1,57 @@
+def artificial intelligence(Kepner, Gadepally, 2020):
+    - formal: ???
+
+        - in words: ???
+
+    - plain english: the science of giving computers the ability to act intelligently
+
+    - intuition: ???
+
+    - properties:
+        - subsets:
+            - Narrow AI: Theory and develOpment of computing systems that perform tasks that augment for human intelligence such perception, classification, reasoning, learning, abstracting and/or acting etc.
+            - General AI: Theory and develOpment of fully autonomous co  ting systems.
+
+        - constraints:
+            - compute
+            - data(size and quality)
+            - generalizable knowledge and ability to encode it into algorithm
+
+        - four waves of AI:
+            - Reasoning
+            - Learning
+            - Context
+            - Abstraction
+
+        - dimensions: - Reasoning - Learning - Abstracting - Reasoning:
+            - Reasoning: ExplicitLy define what the rules of a domain are.
+                - Perceiving: Low
+                - Learning: None
+                - Abstracting: None
+                - Reasoning: High
+            - Learning: Learn what the rules of a domain could be from data.
+                domain = {language processing, investor transacting, ... }
+                - Perceiving: High
+                - Learning: High
+                - Abstracting: Low
+                - Reasoning: Low
+            - Context: System can add context into what it is doing.
+                - Perceiving: High
+                - Learning: Mid
+                - Abstracting: High
+                - Reasoning: High
+            - Abstraction: Abstract and transfer knowledge from one domain to and apply in another.
+                - Perceiving: High
+                - Learning: High
+                - Abstracting: High
+                - Reasoning: High
+
+    - examples:
+        - https://leanprover.github.io
+
+    - use cases: ???
+
+    - proof: none. it is a definition.
+
+References:
+    - Kepner, J., Gadepally, V. 2020. RES.LL-005 - Mathematics of Big Data and Machine Learning. Massachusetts Institute of Technology

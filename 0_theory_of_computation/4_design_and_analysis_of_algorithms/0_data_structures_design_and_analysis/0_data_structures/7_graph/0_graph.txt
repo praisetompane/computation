@@ -1,0 +1,51 @@
+What is it?
+    see: https://github.com/praisetompane/mathematics/blob/main/68_computer_science/68Rxx_discrete_mathematics_in_relation_to_computer_science/68R10_graph_theory(including_graph_drawing)_in_computer%20science/0_graph.txt
+
+Performance:
+    How fast is it to perform the operation? (i.e. Time Complexity)
+        => Measured in terms of the number of steps it takes to complete the operation
+
+    Read: Looking up something from a particular spot in the data-structure
+        Steps =
+
+
+    Search: Looking for a particular value in the data-structure
+
+        Breadth First Search
+            Starting at a node
+                explore all its neighbours
+                before moving on the next node(to explore all its neighbours)
+            Steps = O(V)
+
+        Depth First Search
+            Starting at a node
+                explore each branch completely
+                before moving on to next branch(to explore it completely)
+
+            Steps = O(V)
+
+        Best Suited Use Cases
+            Visit every node in graph => BFS and DFS
+                NB: DFS simpler for this
+
+            Determine path between two nodes (or shortest path) => BFS
+                BFS to find an answer, first interrogates ALL neighbours of a node X,
+                    thus takes the shortest path to answering the question
+                        as it relates to X
+                DFS to find an answer, explores an increasingly narrower branch of the graph rooted at node X
+                    hence reduces the probability of find the answer, per search attempt
+                        Because it narrows down search space, per attempt
+
+        Example:
+            0: 1, 3
+            1: 3, 4
+
+    Insert: Adding a value to the data-structure
+        Steps =
+
+    Delete: Removing a value from the data-structure
+        Steps =
+
+
+References:
+    - Leighton, T. van Dijk, M. 2010. Lecture 6: Graph Theory and Coloring, 6.042J - Mathematics for Computer Science. Massachusetts Institute of Technology.

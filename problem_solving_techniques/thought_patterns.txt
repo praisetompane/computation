@@ -1,21 +1,21 @@
 thinking like a computer scientist:
     - understand more of the structure and rich relationships in your field.
-    - involves looking for patterns and relationships. 
+    - involves looking for patterns and relationships.
 
-problem solving techniques
+problem solving techniques:
     - functional decomposition
     - generalization
         - find solution to the simple problem first, then figure out how to make it general
     - simplification
-        - solve smaller problem related/similar to your more complex problem (drawing a square(triangle ... polygon) 
+        - solve smaller problem related/similar to your more complex problem (drawing a square(triangle ... polygon)
             when the bigger prob is drawing a circle)
         - identify patterns and relationships
         - use them to solve the more complex problem
 
-program development techniques
+program development techniques:
     - incremental development
 
-types of iteration
+types of iteration:
     definite iteration: we know how many times we will iterate
     indefinite iteration: we don't know how many times we will iterate
                         : there is also a bit of work to prove we will terminate

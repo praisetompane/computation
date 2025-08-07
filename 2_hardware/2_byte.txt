@@ -1,0 +1,30 @@
+def byte: 
+    formal:
+
+    plain english: a thing that has 8 separate LOCATIONS in SPACE
+                        each location can be either on or off
+                        and are kept in same order (Scott, 2009:21).
+    
+                    i.e. 8 bits.
+
+    properties:
+        - is always in one of 256 possible states
+            possible states = 2⁸
+                8 bits each of which has 2 possible states
+        - can be changed arbitrarily between states
+
+
+multiple-byte unit names (IEC 80000-13 ):        
+
+        IEC name                     bytes                                   bits                                    common name
+    kibibyte = 2¹⁰ byte          = 1024                     = 1024 * 8                  : 8192 bits                     kilobyte
+    mebibyte = 1024² byte        = 1048576                  = 1048576 * 8               : 8388608 bits                  megabyte
+    gibibyte = 1024³ byte        = 1073741824               = 1073741824 * 8            : 8589934592 bits               gigabyte
+    tebibyte = 1024⁴ byte        = 1099511627776            = 1099511627776 * 8         : 8796093022208 bits            terabyte    
+    .
+    .
+    .
+    xₙbibyte = 1024ⁿ byte
+
+References:
+    - Scott J.C. 2009. EIGHT IS ENOUGH. But how Do it Know? The Basic Principles of Computers for Everyone. Oldsmar, FL: John C. Scott

@@ -1,4 +1,0 @@
-- Van Roy P, Haridi S. 2004. Concepts, Techniques and Models of Computer Programming. The MIT Press.
-    - chapter: 11 Distributed Programming
-- Epp, S.S. 2010. Discrete mathematics with applications. 4th ed. Cengage Learning. Boston, MA:
-    - section in this book

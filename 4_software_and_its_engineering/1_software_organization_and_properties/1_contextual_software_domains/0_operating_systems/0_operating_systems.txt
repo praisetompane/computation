@@ -1,0 +1,69 @@
+def operating system:
+    formal: ???
+
+        in words:
+            collection of programs 
+                with the objectives below (Scott, 2009:111):
+                    - run the computer when it's turned on.
+                        Q: What does it run at this stage?
+                            What Instruction Code is executed?
+                                Microcode?
+                                see: https://media.ccc.de/v/34c3-9058-everything_you_want_to_know_about_x86_microcode_but_might_have_been_afraid_to_ask
+                    - manage program life-cycle:
+                        1. start program
+                        2. allocate run time
+                        3. terminate program
+
+                    - provides services/routines to programs:
+                        - I/O:
+                            - print to screen
+                            - read file
+                            - connect to network
+                            - ...
+                        - ...
+
+                        OS routines and program interaction:
+                            - program 
+                                - store OS routine parameters into registers
+                                    NB: store its next instruction's address into last register
+                                - jump to memory address with OS routine it needs
+                            - OS:
+                                - executes invoked/'called' routine
+                                    using parameters stored in registers above
+                                - jump to program's next instruction address    
+                                    stored in last register
+                            - program:
+                                - execute next instruction
+                                - ... continue execution
+
+                        some reasons for this separation of concerns:
+                            - enables easier application programming
+                                as programmers do not need to know how IO and associated peripherals(screen, disk, etc) work.
+                            - saves application memory by removing duplication .
+                            - provides OS the chance to validate program authorization
+                                to execute IO tasks.
+
+                        NB: these routines are always loaded in RAM
+            OS flow:
+                loop while computer is on:
+                    - is there something to input?
+                    - is there something to output?
+                    - is there a program that wants to run?
+                
+                if any of the questions is true
+                    it executes requested task
+                    then returns to loop
+
+                loop is executed millions of times per second (10⁶/s)
+    plain english:
+
+    intuition:
+
+    examples:
+        - https://github.com/mit-pdos/xv6-riscv
+
+References:
+    - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone. Oldsmar, FL: John C. Scott
+    - Crash Course. 2017. Operating Systems: Crash Course Computer Science #18.
+    - Deep Linux. 2022. Memory Management.
+    - Deep Linux. 2023. glibc Heap Series.

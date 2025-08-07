@@ -1,0 +1,11 @@
+- open source language: https://github.com/collections/programming-languages
+
+- low to high level languages:
+    - verilog
+    - vhdl
+    - machine code: https://github.com/riscv/riscv-isa-manual
+    - assembly: https://github.com/praisetompane/assembly
+    - c: https://github.com/praisetompane/c
+    - python: https://github.com/praisetompane/python
+    - haskell: https://github.com/haskell
+    - rocq: https://github.com/coq

@@ -1,0 +1,8 @@
+1. Learn its programming language
+    see: https://github.com/praisetompane/templates/tree/main/programming_language
+2. Learn all external libraries and frameworks independent of the current code base.
+    This makes it easier to understand their specific usage in the code base.
+3. Learn the Domain of the code base.
+4. Learn the build and deployment tool chain.
+5. Learn the underlying program design principles, why they were chosen and their goals.
+6. Put it all together.

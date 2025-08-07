@@ -1,0 +1,24 @@
+def hardware:
+    - formal: ???
+
+        - in words: ???
+
+    - plain english: ???
+
+    - intuition: physical implementations of Turing Machinesᶜⁱᵗᵃᵗⁱᴼⁿ_ⁿᵉᵉᵈᵉᵈ
+
+    - properties:
+      - instruction set architectures:
+        see: 3_computer_systems_organization/0_architectures/0_serial_architectures
+
+      - open hardware:
+        - Oxide Computer Company: https://github.com/oxidecomputer
+
+    - examples: ???
+
+    - use cases: ???
+
+    - proof: ???
+
+References:
+    - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone. Oldsmar, FL: John C. Scott.

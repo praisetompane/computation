@@ -1,0 +1,194 @@
+==============================================================================================================================================================
+research:
+    - guide: https://github.com/ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide
+    - sub-areas:
+        - deep learning
+        - machine learning
+        - natural language processing
+        - reinforcement learning
+    - sources:
+        - https://www.quantamagazine.org/computer-science/
+    - schools:
+        - ...
+    - my key interest: knowledge representation.
+        - how do humans represent knowledge?
+        - is there a general representation of knowledge?
+    - companies | research labs:
+        - kaggle competitions
+        - https://github.com/openai/
+        - https://github.com/google-research
+        - https://github.com/google-deepmind/deepmind-research
+        - https://github.com/facebookresearch
+        - https://github.com/anthropics
+        - imbue: https://generallyintelligent.ai/
+        - https://cohere.com/
+        - https://github.com/stability-ai
+        - https://github.com/eleutherai
+        - https://github.com/huggingface
+        - https://boards.greenhouse.io/deepmind
+        - https://github.com/google-deepmind/deepmind-research
+        - https://lelapa.ai
+- datasets:
+    - handwritten images:
+        - http://yann.lecun.com/exdb/mnist/
+- community:
+    - http://colah.github.io
+- library:
+    - https://distill.pub
+- priority:
+    - build:
+        -
+    - study:
+        - guide:
+            - https://github.com/ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide
+        - python:
+            - https://github.com/praisetompane/python
+        - mathematics:
+            - courses:
+                - https://www.khanacademy.org/math/statistics-probability
+                - statquest
+                - 3blue1brown
+            - statistics:
+                - descriptive vs inferential statistics: *
+                - continuous vs discrete data
+                - nominal vs ordinal data
+                - measures of central tendency: mean, median, mode: *
+                - measures of dispersion: variance, standard deviation: *
+            - probability:
+                - basics
+                - distributions: normal distribution
+                - correlation and convariance
+                - central limit theorem
+            - hypothesis testing:
+                - p value
+                - confidence interval
+                - type 1 vs typor 2 error
+                - z test
+            - linear algebra: vectors, matrices, eigenvalues and eigenvectors
+            - basic plots: histograms, pie chars, scatter plots
+            - exploratory data analysis:
+                - kaggle
+        - data science:
+            - numpy
+            - pandas
+            - matplotlib
+            - seaborn
+        - machine learning:
+            - toolkit:
+                - scikit-learn
+                - pytorch
+                - tensorflow
+                - keras
+
+            - statistical ml:
+                - course: machine learning tutorial python | machine learning for beginners
+                    nb: first 21 videos only
+                - preprocessing:
+                    - handling na values
+                    - outlier treatment
+                    - data normalization
+                    - one hot encoding
+                    - label encoding
+                    - train test split
+                    - cross validation
+                - model building
+                    - types of ml:
+                        - supervised learning
+                        - unsupervised learning
+
+                        - supervised:
+                            - regression
+                            - classification
+                        - unsupervised: ???
+                    - linear models:
+                        - linear regression
+                        - logistic regression
+                        - gradient descent
+                    - non linear models(tree based models)
+                        - decision tree
+                        - random forest
+                        - xgboost
+                    - model evaluation:
+                        - regression
+                            - mean squared error
+                            - mean absolute error
+                            - mape
+                        - classification:
+                            - accuracy
+                            - precision recall
+                            - f1 score
+                            - roc curve
+                    - hyperparameter tuning:
+                        - gridsearchcv
+                        - randomsearchcv
+                    - unsupervised k means:
+                        - hierarchical clustering
+                        - dimensionality reduction(pca)
+                    - feature engineering:
+
+            - deep learning:
+                - what is a neural network?
+                    - forward propagation
+                    - backward propagation
+                    - courses:
+                        - Andrej Karpathy. 2022.Neural Networks: Zero to Hero.
+                        - mathematical core: back-propagation
+                            - core of deep neural network libraries
+                                example: pytorch
+                            def:
+                                plain english:
+                                    - mathematical expression:
+                                        input = { input data, neural net weights}
+                                        output = { predictions of neural net ∨ loss function }
+                            - Michael A. Nielsen, "Neural Networks and Deep Learning", Determination Press, 2015
+                    - building multi-layer perceptron
+                    - special neural network architectures:
+                        - convolutional neural network (cnn)
+                        - sequence models:
+                            - rnn
+                            - lstm
+                    - frameworks and libraries:
+                        - pytorch
+                    - project:
+                        - potato disease classification: deep learning project end to end.
+                                - reinforcement learning:
+                - ...
+
+            - nlp | computer vision
+                nb: this where people specialize
+                - computer vision
+                - nlp
+                    - nlp tutorial python
+                    - natural language processing:
+                        - [1hr talk] intro to large language models
+                            - learn the core of nlp: University of Michigan. 2016. Natural Language Processing
+                            - deep learning basics and its technique used in nlp:
+                                - techniques:
+                                    - attention
+                                    - recurrent networks
+                            - basic understanding of human languages and the difficulty of understanding and creating them.
+                            - to build nlp systems (in pytorch) for some nlp problems:
+                                - nlp problems:
+                                    - word meaning
+                                    - dependency parsing
+                                    - machine translation
+                                    - question answering
+                    - https://github.com/stanfordnlp/CoreNLP
+                    - llm and langchain:
+                        - what is llm?
+                        - vector database
+                        - word embedding
+                        - frameworks and libraries:
+                            - langchain framework
+
+        - ml ops = devops
+        - applications:
+            - try aws sage maker
+            - data science & machine learning project - part 1 introduction | image classification
+            - data science project | machine learning project | real estate price prediction:
+        - curricula:
+            - oxford artificial intelligence programme
+            - mit statistics and data science:
+            - uct data science with python:
+            - courses:
+                if you are looking for free courses about ai/ml and data science, i have compiled the 20+ best ibm courses that i found super high quality and helpful.

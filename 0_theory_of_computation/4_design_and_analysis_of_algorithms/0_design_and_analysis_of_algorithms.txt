@@ -1,12 +1,63 @@
-def objective (Demaine, Ku, Solomon, 2020):
-    1. solve computational problems:
-        - see: 0_foundations/0_theory_of_computation/3_design_and_analysis_of_algorithms/computational_problem.txt
-    2. prove solution correctness:
-        - techniques:
-            - induction
-    3. argue efficiency:
-        - techniques:
-            - asymptotic analysis
+def design and analysis of algorithms (Demaine, Ku, Solomon, 2020):
+    - formal: ???
+        - in words: field of study concerned with finding solutions to computational problems.
+            see: 0_foundations/0_theory_of_computation/4_design_and_analysis_of_algorithms/1_computational_problem.txt
+
+    - plain english: ???
+
+    - intuition: ???
+
+    - properties:
+        - solution flow: problem_solving_techniques/1_solution_flow.txt
+        - steps:
+            1. develop solution:
+                1.1. reduce to a problem we know how to solve(use a data structure or algorithm):
+                    - search problem (use data structures)
+                        - static array: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/1_sorting_and_searching/searching/linear_search.py
+                        - dynamic array: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/1_sorting_and_searching/searching/linear_search.py
+                        - sorted array: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/1_sorting_and_searching/searching/binary_search.py
+                        - direct access array
+                        - hash table
+                        - linked list: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/1_sorting_and_searching/searching/linear_search.py
+                        - balanced binary tree
+                        - heap tree
+                        - ...
+
+                    - sorting problem (use sort algorithm)
+                        - insertion sort: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/1_sorting_and_searching/sorting/insertion_sort.py
+                        - selection sort: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/1_sorting_and_searching/sorting/selection_sort.js
+                        - merge sort
+                        - counting sort
+                        - radix sort
+                        - AVL sort
+                        - heap sort
+                        - quick sort: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/1_sorting_and_searching/sorting/quick_sort.rb
+                        - ...
+
+                    - search in a graph(shortest path algorithms):
+                        - Breadth First Search(BFS): computation/0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/0_data_structures/7_graph/search.py
+                        - Directed Acyclic Graph(DAG) Relaxation:
+                            - Depth First Search(DFS): computation/0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/0_data_structures/7_graph/search.py
+                            - Topological sort
+                        - Bellman-Ford
+                        - Dijkstra
+                        - Johnson
+                        - Floyd-Warshall
+                        - ...
+                1.2. design your own (recursive) algorithm:
+                    see: computation/0_theory_of_computation/4_design_and_analysis_of_algorithms/1_algorithm_design_techniques/0_algorithm_design_techniques.txt
+                    remark: algorithm will be recursive in nature(so we can use induction to prove correctness)
+            2. prove solution correctness:
+                - techniques:
+                    - induction
+            3. argue efficiency:
+                - techniques:
+                    - asymptotic analysis
+    - examples: ???
+
+    - use cases: ???
+
+    - proof: none. it is a definition.
+
 References:
     - Demaine, E., Ku, J., Solomon, J. 2020. 6.006 - Introduction to Algorithms. Massachusetts Institute of Technology.
-    

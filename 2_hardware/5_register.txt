@@ -1,0 +1,17 @@
+def register (Scott, 2009:24):
+    - formal:
+        - in words: ???
+        
+    - plain english: 
+        memory byte connected to an enabler.
+    
+    - properties
+        it stores/records (i.e. "registers") the state of the byte
+            for use by other things/processes.
+
+        NB: It can only store one state of the byte at a time.
+            If a new byte state is set (i.e. "enabled")
+                the previous state is overridden. 
+
+References:
+    - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone. Oldsmar, FL: John C. Scott

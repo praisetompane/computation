@@ -1,0 +1,33 @@
+def computability theory(Sipser, 2012:3):
+    - formal: ???
+        see: https://github.com/praisetompane/mathematics/blob/main/03_mathematical_logic_and_foundations/03Dxx_computability_and_recursion_theory/
+
+        - in words: ???
+
+    - plain english: theory to classify problems into the two categories below:
+            - SOLVABLE by computers (i.e. Computable)
+            - NOT SOLVABLE by computers (i.e. Incomputable)
+
+    - intuition: interested in what is computable in principle.
+
+    - properties:
+        - research timeline: 1930 - 1950
+
+    - examples:
+        - classification of problems (Sipser, 2012:2):
+            - SOLVABLE
+                - add two numbers 1 + 5.
+                - ...
+            - NOT SOLVABLE
+                - prove whether a mathematical statement is True or False.
+                - ...
+
+    - use cases: ???
+
+    - proof: none. it is a definition.
+
+    Q: Can define new models of computation that can compute the current incomputable(UNSOLVABLE) problems?
+    Q: What makes a problem incomputable?
+
+References:
+    - Sipser, M. 2013. Introduction to the Theory of Computation. 3rd edition. Cengage Learning.

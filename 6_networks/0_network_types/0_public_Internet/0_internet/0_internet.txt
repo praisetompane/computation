@@ -1,0 +1,56 @@
+def internet:
+    - formal:
+        - model: https://github.com/praisetompane/mathematics/blob/main/68_computer_science/68Rxx_discrete_mathematics_in_relation_to_computer_science/68R10_graph_theory(including_graph_drawing)_in_computer%20science/0_graph.txt
+        - in words: graph of computers
+
+    - plain english: network of networks
+
+    - intuition: global collection of connected computers.
+
+    - properties:
+        - history:
+            - 1969 - 1987
+                - ARPANET: Advanced Research Project Agency Network of the U.S. Department of Defence.
+                - First Wireless Area Network(WAN)
+                    - 4 sites connected
+                - used to exchange information
+            - 1989: commercial availability allowed
+            - current:
+                - 30 000+ networks
+                - 10 000 000+ computers
+                - 50 000 000+ users
+        - basic services:
+            - protocols:
+                - electronic mail:
+                    - SMTP: Simple Mail Transfer Protocol
+                    - IMAP: Internet Mail Access Protocol
+                - file transfer:
+                    - FTP: File Transfer Protocol
+                    - SFTP: Secure File Transfer Protocol | SSH File Transfer Protocol
+                - Remote Computer Access and Operation:
+                    - telnet
+                    - SSH: Secure Shell Protocol
+                - HTTP: Hyper Text Transfer Protocol: https://httpwg.org/specs/
+                    - HTTPS: Hyper Text Transfer Protocol over Transport Layer Security(TLS) | Hyper Text Transfer Protocol over Secure Sockets Layer(SSL)
+                - TCP: Transmission Control Protocol: https://www.ietf.org/rfc/rfc9293.html
+                - UDP: User Datagram Protocol
+                - ...
+            - ...
+        - resource identification:
+            - URI:
+                - URL: Uniform Resource Locator
+                    - IETF RFCs:
+                        - https://www.rfc-editor.org/rfc/rfc1738
+                        - https://www.rfc-editor.org/rfc/rfc1630
+                - URN: Uniform Resource Name:
+                    - IETF RFCs:
+                        - https://www.rfc-editor.org/rfc/rfc2141
+
+    - examples: ???
+
+    - use cases: ???
+
+    - proof: ???
+
+References:
+    - The Opte Project. The Internet. https://www.opte.org/the-internet

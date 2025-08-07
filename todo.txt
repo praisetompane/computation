@@ -1,215 +1,461 @@
-- 0_foundations/0_theory_of_computation:
-    - lectures:
-        - 1_models_of_computation and 2_formal_languages_and_automata_theory and 3_computational_complexity_and_cryptography:
-            - Sipser, M. 2020. 18.404J - Theory of Computation. Massachusetts Institute of Technology
-                - current: Lecture 1: 1. Introduction, Finite Automata, Regular Expressions: *
-    - readings:
-        - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/readings/ :
-            - Sipser, M. 2013. Introduction to the Theory of Computation. 3rd edition. Cengage Learning
-        - 0_theory_of_computation/1_models_of_computation/0_computability:
-            - Copeland, B. Jack, "The Church-Turing Thesis", The Stanford Encyclopedia of Philosophy (Winter 2024 Edition), Edward N. Zalta & Uri Nodelman (eds.). https://plato.stanford.edu/archives/win2024/entries/church-turing/
-            - Alama, Jesse and Johannes Korbmacher, "The Lambda Calculus", The Stanford Encyclopedia of Philosophy (Winter 2024 Edition), Edward N. Zalta & Uri Nodelman (eds.), URL = <https://plato.stanford.edu/archives/win2024/entries/lambda-calculus/>. 
-    - recitations: 
-    - assignments:
-        https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/assignments/
-    - exams:
-        https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/exams/
+==============================================================================================
+- next₀: ***
+    - 00_general_and_overarching_topics;collections:
+        - readings:
+            -
+        - lectures:
+            - Philbin, C.A. 2017. Crash Course Computer Science. Complexly, PBS Digital Studios
+        - recitations|labs:
+            -
+        - assignments:
+            -
+        - exams:
+            -
 
-- 1_mathematics_of_computing:
-    - lectures:
-        - Leighton, T. van Dijk, M. 2010. 6042J - Mathematics for Computer Science. Massachusetts Institute of Technology
-            - current: Lecture 1: Introduction and proofs: **
-    - readings:
-        - 6042J:
-            - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/readings/
-                - current:  Chapter 1: Propositions:
-                            Chapter 2: Patterns of proof:
-        - Epp, S.S. 2010. Discrete mathematics with applications. 4th ed. Cengage Learning. Boston, MA.
-            - current position: pg. 6, exercise 1.1, question 4
-        - Harvard School of Engineering and Applied Science. 2021. Lecture 16. Curry-Howard Isomorphism; Existential types, CS 152 - Programming Languages.
-    - recitations:
-        - 6042J
-            - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/recitations/
-                - current: 1	Logic, proving an implication
-    - assignments:
-        - 6042J
-            - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/assignments/
-                - current: 1
-    - exams:
-        - 6042J
-            - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/exams/
-                - current: N/A for now.
-
-- 0_theory_of_computation/3_design_and_analysis_of_algorithms:
-    - lectures:
-        - Demaine, E., Ku, J., Solomon, J. 2020. 6.006 - Introduction to Algorithms. Massachusetts Institute of Technology
-            - current: 1. Algorithms and Computation: ***
-        - Demaine, E., Devadas, S, Lynch, N. 2015. 6.046J - Design and Analysis of Algorithms. Massachusetts Institute of Technology
-            - current: N/A
-        - Demaine, E. 2012. 6.851 - Advanced Data Structures. Massachusetts Institute of Technology
-            - current: N/A
-        - 1_algorithm_design_techniques
-    - readings:
-        - Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills: ***
-        - 6.006:
-            - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/
-        - 6.046J:
-            - 
-        - 6.851:
-            - 
-        - Knuth, D. 1997. The Art of Computer Programming Volume 1 - Fundamental Algorithms. 3rd edition
-        - Knuth, D. 1998. The Art of Computer Programming Volume 2 - Seminumerical algorithms . 3rd edition
-        - Knuth, D. 1998. The Art of Computer Programming Volume 3 - Sorting and Searching. 2nd edition
-        - Knuth, D. 1998. The Art of Computer Programming Volume 4A - Combinatorial algorithms Part 1
-    - assignments:
-        - 6.006:
-            - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/assignments/
-            - practice:
-                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/practice-problems/
-        - 6.046J:
-            - 
-        - 6.851:
-            - 
-    - exams:
-        - 6.006:
-            - 
-        - 6.046J:
-            - 
-        - 6.851:
-            - 
-    - quizzes: 
-        - 6.006:
-            - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/quizzes/
-        - 6.046J:
-            - 
-        - 6.851:
-            - 
-
-- 5_software_and_its_engineering/0_software_notations_and_tools/1_general_programming_languages:
-    - lectures:
-        - CS107:         
-            - Cain, J. 2025. CS107 - Computer Organization and Systems. Stanford University
-                - https://web.stanford.edu/class/cs107/index
-                - legacy: https://see.stanford.edu/course/cs107
-                - current: Lecture 1: *
-        - Van Roy, P. 2004. Concepts, Techniques, and Models of Computer Programming 
-            - current: 1 Introduction to Programming Concepts pg 31
-        - Bauer, A, Pretnar, M. The Programming Languages Zoo
-    - readings:
-        - 0_language_types:
-            - CS107:
-                - https://see.stanford.edu/course/cs107: Under the Resources section
-            - machine_code: 
-                - see: 3_computer_systems_organization/0_architectures/0_serial_architectures
-            - 0_assembly_languages
-                - assembly:
-                    - lectures:
-                        - Steinmeyer J.D., Wachman, S.Z.H. 6.1903 Introduction to Low-level Programming in C and Assembly. Massachusetts Institute of Technology
-                        - Slonka, K., Hall, B.R. 2020. Assembly Programming and Computer Architecture for Software Engineers. 2nd Edition
-                        - Leiserson, C., Shun, J. 2018. 6.172 - Performance Engineering of Software Systems. Massachusetts Institute of Technology
-                            - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/lecture-videos/lecture-4-assembly-language-computer-architecture
-                                Lecture 4: Assembly Language & Computer Architecture:
-                                    - https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-4-assembly-language-computer-architecture/
-                                Lecture 5: C to Assembly
-                                    - https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-5-c-to-assembly/
-                    - readings:
-                        - https://github.com/brianrhall/Assembly
-                        - Slonka, K., Hall, B.R. 2020. Assembly Programming and Computer Architecture for Software Engineers. 2nd Edition
-            - 1_imperative_languages
-                - c: https://github.com/praisetompane/c
-                    - lectures:
-                        - Severance, C. 2022. C Programming for Everybody
-                        - Steinmeyer J.D., Wachman, S.Z.H. 6.1903 - Introduction to Low-level Programming in C and Assembly. Massachusetts Institute of Technology
-                    - go: https://github.com/praisetompane/go
-            - 2_functional_languages
-                - haskell: https://github.com/praisetompane/haskell
-                    - scala: https://github.com/praisetompane/scala[already learned, but could learn more including scala 3]
-                    - proof assistants | languages with dependent types
-                        - https://whatisrt.github.io/dependent-types/2020/02/18/agda-vs-coq-vs-idris.html
-                        - idris: https://www.idris-lang.org:
-                            - Brady E. 2017. Type Driven Development with Idris
-                            - https://github.com/idris-lang/Idris2
-                        - lean: https://github.com/praisetompane/lean
-                            - source:
-                                - https://github.com/leanprover
-                        - coq: https://github.com/praisetompane/coq
-                            - source:
-                                - https://github.com/coq
-            - 3_multiparadigm_languages
-                - python: https://github.com/praisetompane/python
-                    - Bennett, J. 2019. See CPython run - Getting to know your Python interpreter. North Bay Python: **
-                    - Severance, C. 2014. Python for Everybody
-                    - cpython
-                        - study the cpython code base: https://github.com/praisetompane/python_implementation_study_cpython
-                    - Kaptur, A. 2018. A Python Interpreter Written in Python
-                    - Bennett, J. 2018. A Bit about Bytes - Understanding Python Bytecode. PyCon
-                    - Ike-Nwosu, O. 2019. Inside The Python Virtual Machine
-                    - mojo[after all python and the other languages are learned]
-                        - superset: https://github.com/modularml/mojo
-        - 1_language_features
-            - Pierce, B.C. Types and Programming Languages. The MIT Press
-            - Semantics Engineering with PLT Redex. https://redex.racket-lang.org/sewpr-toc.html
-        - 3_computer_programming
-            - Van Roy, P. 2004. Concepts, Techniques, and Models of Computer Programming
-    - tools:
-        - language modelling: https://github.com/runtimeverification/k
-    - assignments:
-        - CS107:
-            - https://see.stanford.edu/course/cs107: Under the Assignments menu
-    - exams:
-        - CS107:
-            - https://see.stanford.edu/course/cs107: Under the Exams menu
-============================================================================================================
+==============================================================================================
 - next₁:
-    - 5_software_and_its_engineering/2_software_creation_and_management:
-        - lectures:
-            - 0_designing_software
-                - 1_software_design_engineering:
-                    - Bell, A. Grimson, E. Guttag, J. 2016. 6.0001 - Introduction to Computer Science and Programming in Python. Massachusetts Institute of Technology
-                    - Boning D.S., Chlipala A., Devadas S., Hartz A. 6.1010 - Fundamentals of Programming. Massachusetts Institute of Technology 
-                    - Goldman M., Miller R.C. 2023. 6.1020 - Software Construction. Massachusetts Institute of Technology
-                    - LaCurts, K. 2018. 6.1800 - Computer Systems Engineering. Massachusetts Institute of Technology
-                    - Leiserson, C., Shun, J. 2018. 6.1060 - Software Performance Engineering. Massachusetts Institute of Technology
-                    - Severance, C. 2016. Web Applications for Everybody
-                - 2_software_design_trade_offs
-                    - Leiserson, C., Shun, J. 2018. 6.1060 - Software Performance Engineering. Massachusetts Institute of Technology
+    - 0_theory_of_computation: 1_formal_languages_and_automata_theory and 2_models_of_computation and 3_computational_complexity_and_cryptography:
+        - course schedule:
+            - 18.404J:
+                - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/calendar/
+                - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/syllabus/
+                - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/instructor-insights/
         - readings:
+            - 18.404J:
+                - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/readings/
+            - Sipser, M. 2012. Introduction to the Theory of Computation. 3rd Edition. Cengage Learning
+                - current: 0. Introduction: 0.2.: *
+                - web page and errata: http://math.mit.edu/~sipser/book.html
+            - Turing, A. 1936. On computable numbers, with an application to the Entscheidungsproblem
+            - Copeland, B. Jack, "The Church-Turing Thesis", The Stanford Encyclopedia of Philosophy (Winter 2024 Edition), Edward N. Zalta & Uri Nodelman (eds.). https://plato.stanford.edu/archives/win2024/entries/church-turing/
+            - Alama, Jesse and Johannes Korbmacher, "The Lambda Calculus", The Stanford Encyclopedia of Philosophy (Winter 2024 Edition), Edward N. Zalta & Uri Nodelman (eds.), URL = <https://plato.stanford.edu/archives/win2024/entries/lambda-calculus/>
+        - lectures:
+            - 18.404J:
+                - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/video_galleries/video-lectures/
+                - Sipser, M. 2020. 18.404J - Theory of Computation. Massachusetts Institute of Technology
+                    - current: 1. Introduction, Finite Automata, Regular Expressions: *
+        - recitations|labs:
+            - 18.404J: N/A
         - assignments:
+            - 18.404J: https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/assignments/
         - exams:
+            - 18.404J: https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/exams/
 
-    - 0_theory_of_computation/0_logic
-        - lectures:
-            - Ben-David, S. 2015. CS 245 - Logic and Computation. University of Waterloo
+    - 1_mathematics_of_computing:
+        - course schedule:
+            - 6.042J:
+                - https://openlearninglibrary.mit.edu/courses/course-v1:OCW+6.042J+2T2019/course/
+                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/calendar/
+                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/syllabus/
         - readings:
+            - 6.042J:
+                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/readings/
+                - current:
+                    - Chapter 1: Propositions:
+            - Epp, S.S. 2010. Discrete mathematics with applications. 4th Edition. Cengage Learning
+                - current position: pg. 6, exercise 1.1, question 4
+            - Graham, R.L., Knuth, D.E., Patashnik, O. 1990. Concrete Mathematics. 2nd Edition. Massachusetts: Addison-Wesley
+        - lectures:
+            - 6.042J:
+                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/
+                - Leighton, T. van Dijk, M. 2010. 6.042J - Mathematics for Computer Science. Massachusetts Institute of Technology
+                    - current:
+                        - Lec 01  Introduction and Proofs: ***
+        - recitations|labs:
+            - 6.042J:
+                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/recitations/
+                - current: 1 Logic, proving an implication
         - assignments:
+            - 6.042J:
+                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/assignments/
+                - current: ASSN #: 1
         - exams:
+            - 6.042J:
+                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/exams/
+                - current:
+                    -
 
-    - 5_software_and_its_engineering/0_software_notations_and_tools/2_compilers
-        - lectures:
-            - Aiken, A. 2025. SOE-YCSCS1 - Compilers. Stanford University
-            - Leiserson, C., Shun, J. 2018. 6.172 - Performance Engineering of Software Systems. Massachusetts Institute of Technology
-                - current: Lecture 9: What Compilers Can and Cannot Do
+    - 0_theory_of_computation/3_design_and_analysis_of_algorithms:
+        - course schedule:
+            - 6.006:
+                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/calendar/
+                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/syllabus/
+                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/resource-index/
+            - 6.046J:
+                -
+            - 6.851:
+                -
         - readings:
-            - Nystrom, R. Crafting Interpreters. https://craftinginterpreters.com/contents.html
-                - https://github.com/munificent/craftinginterpreters
-            - Siek, J. 2023. Essentials of Compilation. https://github.com/IUCompilerCourse/Essentials-of-Compilation
-            - Appel, A.W. 1997. Modern Compiler Implementation in C. Cambridge, UK: Cambridge University Press
-            - Appel, A.W. 1997. Modern Compiler Implementation in ML. Cambridge, UK: Cambridge University Press
-            - Appel, A.W. 1998. Modern Compiler Implementation in Java. Cambridge, UK: Cambridge University Press
-            - Cooper, Keith, and Linda Torczon. Engineering a Compiler. San Mateo, CA: Morgan Kaufman, 2003. ISBN: 155860698X.
-            - Muchnick, Steven. Advanced Compiler Design and Implementation. 1st ed. San Mateo, CA: Morgan Kaufman, 1997. ISBN: 1558603204.
-            - Aho A., Lam M, Sethi R., Ullman J. Compilers - Principles, Techniques, and Tools. 2nd ed. Reading, MA: Addison-Wesley, 1986. ISBN: 0201100886.            
-            - LLVM: https://www.llvm.org/docs/
+            - Wengrow, J. 2017. A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills. Pragmatic Bookshelf: ***
+            - 6.006:
+                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/
+                    - current: Lecture 1: Introduction notes (PDF)
+            - 6.046J:
+                -
+            - 6.851:
+                -
+            - Cormen, T.H., Leiserson C.E., Rivest R.L., Stein, C. 2022. Introduction To Algorithms. 4th Edition. MIT Press
+                - web site: https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/
+            - Cormen, T.H., Leiserson C.E., Rivest R.L., Stein, C. 2009. Introduction To Algorithms. 3rd Edition. MIT Press
+                - current:
+                    - Part I
+                    - Appendix A
+                    - Appendix B
+                    - Appendix C
+                    - Appendix D
+                    - Part II
+            - Knuth, D. 1997. The Art of Computer Programming Volume 1 - Fundamental Algorithms. 3rd Edition. Boston, M.A.: Addison-Wesley
+            - Knuth, D. 1998. The Art of Computer Programming Volume 2 - Seminumerical algorithms . 3rd Edition. Boston, M.A: Addison-Wesley Professional
+            - Knuth, D. 1998. The Art of Computer Programming Volume 3 - Sorting and Searching. 2nd Edition. Boston, M.A: Addison-Wesley Professional
+            - Knuth, D. 1998. The Art of Computer Programming Volume 4A - Combinatorial algorithms Part 1. Upper Saddle River, New Jersey: Addison-Wesley Professional
+        - lectures:
+            - 6.006:
+                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/video_galleries/lecture-videos/
+                - Demaine, E., Ku, J., Solomon, J. 2020. 6.006 - Introduction to Algorithms. Massachusetts Institute of Technology
+                    - current: 02. Data Structures and Dynamic Arrays: *
+            - 6.046J:
+                - Demaine, E., Devadas, S, Lynch, N. 2015. 6.046J - Design and Analysis of Algorithms. Massachusetts Institute of Technology
+                    - current: N/A
+            - 6.851:
+                - Demaine, E. 2012. 6.851 - Advanced Data Structures. Massachusetts Institute of Technology
+                    - current: N/A
+            - 1_algorithm_design_techniques
+        - recitations|labs:
+            - 6.006:
+                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2008/pages/recitations/
+            - 6.046J:
+                -
+            - 6.851:
+                -
         - assignments:
+            - 6.006:
+                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/assignments/
+                    - current: Problem Set 0
+                - practice:
+                    - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/practice-problems/
+            - 6.046J:
+                -
+            - 6.851:
+                -
         - exams:
+            - 6.006:
+                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/pages/exams/
+                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/quizzes/
+                    - current:
+            - 6.046J:
+                -
+            - 6.851:
+                -
         - quizzes:
+            - 6.006:
+                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/quizzes/
+            - 6.046J:
+                -
+            - 6.851:
+                -
+
+    - 3_computer_systems_organization:
+        - course schedule:
+            - CS107:
+                - https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/calendar
+                - https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/syllabus.html
+            - 6.1903:
+                -
+            - 6.033:
+                -
+            - 6.5900:
+                -
+        - readings:
+            - CS107: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/
+                - Myth Setup: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/getting-started.html
+                - CS 107 READER: https://web.stanford.edu/~cgregg/cgi-bin/107-reader/:
+                - Debugging Guide: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/resources/debugging.html
+                - Guide to C stdlib functions. https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/guide/stdlib.html
+                - GDB and Debugging. https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/resources/gdb.html
+                - Guide to x86-64. https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/guide/x86-64.html
+                - Valgrind Callgrind: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/resources/callgrind.html
+                - Valgrind Memcheck: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/resources/valgrind.html
+                - Unix Guide: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/resources/unix.html
+                - Parlante, N. 2003. Essential C
+                - Bryant, R.E., O'Hallaron, D.R. Computer Systems A Programmer's Perspective. 3rd Edition. Pearson
+                - legacy:
+                    - https://see.stanford.edu/course/cs107: Under the Resources section
+            - CS107E: https://web.stanford.edu/class/cs107e/
+                - inventory: https://cs107e.github.io/guides/bom/
+                - repository: https://github.com/cs107e/cs107e.github.io
+        - lectures:
+            - CS107:
+                - Chang, M., Zelnski ,J. 2025. CS107 - Computer Organization and Systems. Stanford University
+                    - https://web.stanford.edu/class/cs107/index
+                    - current:
+                        - Lecture 02: ***
+                - legacy:
+                    - Cain, J. 2025. CS107 - Programming Paradigms. Stanford University
+                        - https://see.stanford.edu/course/cs107
+                        - current: Lecture 1: *
+            - Steinmeyer J.D., Wachman, S.Z.H. 6.1903 - Introduction to Low-level Programming in C and Assembly. Massachusetts Institute of Technology
+            - LaCurts, K. 2018. 6.033 - Computer Systems Engineering. Massachusetts Institute of Technology
+            - Emer, J.S., Sanchez, D. 2025. 6.5900 Computer System Architecture. Massachusetts Institute of Technology
+            - 6.1903:
+                -
+            - 6.033:
+                -
+            - 6.5900:
+                -
+        - recitations|labs:
+            - CS107:
+                - Labs Drop Down: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/
+                    - current:
+                        - Lab 1:
+            - 6.1903:
+                -
+            - 6.033:
+                -
+            - 6.5900:
+                -
+        - assignments:
+            - CS107:
+                - Assignments Drop Down: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/
+                    - current:
+                        - Assign0:
+
+                - legacy:
+                    - https://see.stanford.edu/course/cs107: Under the Assignments menu
+            - 6.1903:
+                -
+            - 6.033:
+                -
+            - 6.5900:
+                -
+        - exams:
+            - CS107:
+                - Exams Drop Down: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/
+                    - current:
+                        - Midterm:
+                        - Final:
+                - legacy:
+                    - https://see.stanford.edu/course/cs107: Under the Exams menu
+            - 6.1903:
+                -
+            - 6.033:
+                -
+            - 6.5900:
+                -
+
+==============================================================================================
+- next₂:
+    - 4_software_and_its_engineering/0_software_notations_and_tools/1_general_programming_languages:
+        - course schedule:
+            - CS242:
+                - https://web.stanford.edu/class/cs242/materials.html
+                - https://web.stanford.edu/class/cs242/coursework.html
+        - readings:
+            - CS242:
+                -
+            - Harvard School of Engineering and Applied Science. 2021. Lecture 16. Curry-Howard Isomorphism; Existential types, CS 152 - Programming Languages
+            - 0_language_types:
+                - machine_code:
+                    - see: 3_computer_systems_organization
+                - 0_assembly_languages:
+                    - assembly: https://github.com/praisetompane/assembly
+                        - Slonka, K., Hall, B.R. 2020. Assembly Programming and Computer Architecture for Software Engineers. 2nd Edition
+                            - https://github.com/brianrhall/Assembly
+                - 1_imperative_languages:
+                    - c: https://github.com/praisetompane/c
+                        - lectures:
+                            - Severance, C. 2022. C Programming for Everybody
+                        - readings:
+                            - Parlante, N. 2003. Essential C. Stanford CS Education Library
+                            - Kernighan, B.W., Ritchie, D.M. 1988. The C Programming Language. 2nd Edition
+                            - Holzmann, G.J. 2006. The Power of 10 - Rules for Developing Safety-Critical Code. NASA - JPL Laboratory for Reliable Software
+                - 2_functional_languages:
+                    - haskell: https://github.com/praisetompane/haskell
+                        - scala: https://github.com/praisetompane/scala
+                        - proof assistants | languages with dependent types
+                            - https://whatisrt.github.io/dependent-types/2020/02/18/agda-vs-coq-vs-idris.html
+                            - idris: https://www.idris-lang.org:
+                                - Brady E. 2017. Type Driven Development with Idris
+                                - https://github.com/idris-lang/Idris2
+                            - lean: https://github.com/praisetompane/lean
+                                - source:
+                                    - https://github.com/leanprover
+                            - coq: https://github.com/praisetompane/coq
+                                - source:
+                                    - https://github.com/coq
+                - 3_multiparadigm_languages:
+                    - python: https://github.com/praisetompane/python
+                        - lectures:
+                            - Bennett, J. 2019. See CPython run - Getting to know your Python interpreter. North Bay Python: **
+                            - Bennett, J. 2018. A Bit about Bytes - Understanding Python Bytecode. PyCon
+                            - Powell, J. 2017. What Does It Take To Be An Expert At Python. PyData
+                            - Severance, C. 2014. Python for Everybody
+                        - readings:
+                            - Elkner, J., Downey, A.B., Meyers, C. 2008. How to Think Like a Computer Scientist - Learning with Python. Wellesley - Massachusetts
+                            - Kaptur, A. 2018. A Python Interpreter Written in Python
+                            - Ike-Nwosu, O. 2019. Inside The Python Virtual Machine
+                            - cpython: https://github.com/praisetompane/python_implementation_study_cpython
+                            - mojo[after all python and the other languages are learned]
+                                - superset: https://github.com/modularml/mojo
+                    - go: https://github.com/praisetompane/go
+            - 1_language_features:
+                - readings:
+                    - Pierce, B.C. Types and Programming Languages. The MIT Press
+                    - Semantics Engineering with PLT Redex. https://redex.racket-lang.org/sewpr-toc.html
+            - computer_programming:
+                - Van Roy, P. 2004. Concepts, Techniques, and Models of Computer Programming
+                - Van Roy, P., Haridi, S. 2021. The history of Oz in ACM HOPL IV
+            - K Framework: https://github.com/runtimeverification/k
+        - lectures:
+            - CS242:
+                -
+            - Van Roy, P. 2004. Concepts, Techniques, and Models of Computer Programming
+                - current: 1 Introduction to Programming Concepts pg 31
+            - Bauer, A, Pretnar, M. The Programming Languages Zoo
+            - assembly:
+                - Steinmeyer J.D., Wachman, S.Z.H. 6.1903 Introduction to Low-level Programming in C and Assembly. Massachusetts Institute of Technology
+                - Leiserson, C., Shun, J. 2018. 6.172 - Performance Engineering of Software Systems. Massachusetts Institute of Technology
+                    - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/lecture-videos/lecture-4-assembly-language-computer-architecture
+                        Lecture 4: Assembly Language & Computer Architecture:
+                            - https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-4-assembly-language-computer-architecture/
+                        Lecture 5: C to Assembly
+                            - https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-5-c-to-assembly/
+                    - c: https://github.com/praisetompane/c
+                        - lectures:
+                            - Severance, C. 2022. C Programming for Everybody
+                        - readings:
+                            - Parlante, N. 2003. Essential C. Stanford CS Education Library
+                            - Kernighan, B.W., Ritchie, D.M. 1988. The C Programming Language. 2nd Edition
+                            - Holzmann, G.J. 2006. The Power of 10 - Rules for Developing Safety-Critical Code. NASA - JPL Laboratory for Reliable Software
+                - 2_functional_languages:
+                    - haskell: https://github.com/praisetompane/haskell
+                        - scala: https://github.com/praisetompane/scala
+                        - proof assistants | languages with dependent types
+                            - https://whatisrt.github.io/dependent-types/2020/02/18/agda-vs-coq-vs-idris.html
+                            - idris: https://www.idris-lang.org:
+                                - Brady E. 2017. Type Driven Development with Idris
+                                - https://github.com/idris-lang/Idris2
+                            - lean: https://github.com/praisetompane/lean
+                                - source:
+                                    - https://github.com/leanprover
+                            - coq: https://github.com/praisetompane/coq
+                                - source:
+                                    - https://github.com/coq
+                - 3_multiparadigm_languages:
+                    - python: https://github.com/praisetompane/python
+                        - lectures:
+                            - Bennett, J. 2019. See CPython run - Getting to know your Python interpreter. North Bay Python: **
+                            - Bennett, J. 2018. A Bit about Bytes - Understanding Python Bytecode. PyCon
+                            - Powell, J. 2017. What Does It Take To Be An Expert At Python. PyData
+                            - Severance, C. 2014. Python for Everybody
+                        - readings:
+                            - Elkner, J., Downey, A.B., Meyers, C. 2008. How to Think Like a Computer Scientist - Learning with Python. Wellesley - Massachusetts
+                            - Kaptur, A. 2018. A Python Interpreter Written in Python
+                            - Ike-Nwosu, O. 2019. Inside The Python Virtual Machine
+                            - cpython: https://github.com/praisetompane/python_implementation_study_cpython
+                            - mojo[after all python and the other languages are learned]
+                                - superset: https://github.com/modularml/mojo
+                    - go: https://github.com/praisetompane/go
+            - 1_language_features:
+                - readings:
+                    - Pierce, B.C. Types and Programming Languages. The MIT Press
+                    - Semantics Engineering with PLT Redex. https://redex.racket-lang.org/sewpr-toc.html
+            - computer_programming:
+                - Van Roy, P. 2004. Concepts, Techniques, and Models of Computer Programming
+                - Van Roy, P., Haridi, S. 2021. The history of Oz in ACM HOPL IV
+            - K Framework: https://github.com/runtimeverification/k
+        - recitations|labs:
+            - CS242:
+                -
+        - assignments:
+            - CS242:
+                -
+        - exams:
+            - CS242:
+                - https://web.stanford.edu/class/cs242/exams.html
+
+    - 4_software_and_its_engineering/0_software_notations_and_tools/2_compilers:
+        - course schedule:
+            - SOE-YCSCS1:
+                - https://online.stanford.edu/courses/soe-ycscs1-compilers
+        - readings:
+            - SOE-YCSCS1:
+                -
+            - 6.1100:
+                - Appel, A.W. 1997. Modern Compiler Implementation in C. Cambridge, UK: Cambridge University Press
+                - Appel, A.W. 1997. Modern Compiler Implementation in ML. Cambridge, UK: Cambridge University Press
+                - Appel, A.W. 1998. Modern Compiler Implementation in Java. 2nd Edition. Cambridge, UK: Cambridge University Press
+                - Cooper, Keith, and Linda Torczon. 2012. Engineering a Compiler. 2nd Edition. San Mateo, CA: Morgan Kaufman
+            - 6.1120:
+                -
+            - Nystrom, R. 2021. Crafting Interpreters. Genever Benning
+                - web page: https://craftinginterpreters.com/contents.html
+            - Muchnick, Steven. 1997. Advanced Compiler Design and Implementation. 1st Edition. San Mateo, CA: Morgan Kaufman
+            - Aho A., Lam M, Sethi R., Ullman J. 1986. Compilers - Principles, Techniques, and Tools. 2nd Edition. Reading, MA: Addison-Wesley
+            - Siek, J. 2023. Essentials of Compilation. https://github.com/IUCompilerCourse/Essentials-of-Compilation
+            - LLVM: https://www.llvm.org/docs/
+        - lectures:
+            - SOE-YCSCS1:
+                - Aiken, A. 2025. SOE-YCSCS1 - Compilers. Stanford University
+            - 6.1100 | 6.035:
+                - Rinard, M.C. 6.1100 - Computer Language Engineering. Massachusetts Institute of Technology
+                - Amarasinghe, S., Rinard, M.C. 2025. 6.035. Computer Language Engineering. Massachusetts Institute of Technology
+                - Leiserson, C., Shun, J. 2018. 6.172 - Performance Engineering of Software Systems. Massachusetts Institute of Technology
+                    - current: Lecture 9: What Compilers Can and Cannot Do
+            - 6.1120:
+                - Carbin, M. 2025. 6.1120 Dynamic Computer Language Engineering. Massachusetts Institute of Technology
+        - recitations|labs:
+            - SOE-YCSCS1:
+                -
+            - 6.1100 | 6.035:
+                -
+            - 6.1120:
+                -
+        - assignments:
+            - SOE-YCSCS1:
+                -
+            - 6.1100 | 6.035:
+                -
+            - 6.1120:
+                -
+        - exams:
+            - SOE-YCSCS1:
+                -
+            - 6.1100 | 6.035:
+                -
+            - 6.1120:
+                -
+        - quizzes:
+            - SOE-YCSCS1:
+                -
+            - 6.1100 | 6.035:
+                -
+            - 6.1120:
+                -
         - tools:
             - https://github.com/compiler-explorer/compiler-explorer
 
     - 2_hardware:
+        - course schedule:
+            - 6.004:
+                - https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/syllabus/
+                - https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/calendar/
+                - https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/instructor-insights/
+        - readings:
+            - 6.004:
+                - https://ocw.mit.edu/courses/6-004-computation-structures-spring-2009/pages/study-materials/
+                - https://ocw.mit.edu/courses/6-004-computation-structures-spring-2009/pages/lecture-notes/
+            - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone. Oldsmar, FL: John C. Scott
+            - Claude, E.S. 1938. A symbolic analysis of relay and switching circuits. Massachusetts Institute of Technology. https://dspace.mit.edu/handle/1721.1/11173
+            - Boole, G. 1854. An Investigation of the Laws of Thought
+            - verilog: https://github.com/praisetompane/verilog
+                - https://web.mit.edu/6.111/www/f2017/handouts/L03_4.pdf
+                - https://inst.eecs.berkeley.edu/~eecs151/fa20/files/verilog/Verilog_Primer_Slides.pdf
+                - https://www.chipverify.com/verilog/verilog-tutorial
+            - vhdl
         - lectures:
-            - Terman, C. 2017. 6.004 - Computation Structures. Massachusetts Institute of Technology
-                - current: 1.2.1 What is Information: *
+            - 6.004:
+                - Terman, C. 2017. 6.004 - Computation Structures. Massachusetts Institute of Technology
+                    - current: 1.2.1 What is Information: *
             - MITx's Circuits and Electronics XSeries Program:
                 - series: https://www.edx.org/xseries/mitx-circuits-and-electronics
                 - MITx: Circuits and Electronics 1: Basic Circuit Analysis
@@ -217,125 +463,365 @@
                 - MITx: Circuits and Electronics 2: Amplification, Speed, and Delay
                     - https://www.edx.org/learn/circuits/massachusetts-institute-of-technology-circuits-and-electronics-2-amplification-speed-and-delay
                 - MITx: Circuits and Electronics 3: Applications
-                    - https://www.edx.org/learn/electronics/massachusetts-institute-of-technology-circuits-and-electronics-3-applications-2             
-            - Eater, B. 2016. Building an 8-bit breadboard computer!
-            - Eater, B. 2019. Build a 65c02-based computer from scratch
-        - readings:
-            - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone
-            - verilog | vdhl: https://github.com/praisetompane/verilog
-                - https://web.mit.edu/6.111/www/f2017/handouts/L03_4.pdf
-                - https://inst.eecs.berkeley.edu/~eecs151/fa20/files/verilog/Verilog_Primer_Slides.pdf
-                - https://www.chipverify.com/verilog/verilog-tutorial
-            - hardware integration | hardware-software integration | system integration: https://www.tea.blue/blog/hardware-software-integration-benefits/
+                    - https://www.edx.org/learn/electronics/massachusetts-institute-of-technology-circuits-and-electronics-3-applications-2
+        - recitations|labs:
+            - 6.004:
+                - https://ocw.mit.edu/courses/6-004-computation-structures-spring-2009/pages/labs/
         - assignments:
+            - 6.004:
+                - https://ocw.mit.edu/courses/6-004-computation-structures-spring-2009/pages/tutorial-problems/
         - exams:
-============================================================================================================
-next₂:
-    - 3_computer_systems_organization/0_architectures/0_serial_architectures
-        - lectures:
-        - readings:
-            - 0_reduced_instruction_set_computing
-                - RISC-V:
-                    - https://github.com/riscv
-                    - https://github.com/mit-pdos/xv6-riscv
-             - 1_complex_instruction_set_computing
-                - CISC
-                    - x86
-            - ARM
-            - MIPS
-            - source: https://crackmes.one
-        - assignments:
-        - exams:
+            - 6.004:
+                - https://ocw.mit.edu/courses/6-004-computation-structures-spring-2009/pages/exams/
 
-    - 5_software_and_its_engineering/1_software_organization_and_properties/1_contextual_software_domains/operating_systems
+    - 4_software_and_its_engineering/2_software_creation_and_management:
+        - course schedule:
+            - 6.100L:
+                - https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/syllabus/
+                - https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/calendar/
+                - https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/instructor-insights/
+            - 6.1010:
+                -
+            - 6.1020:
+                -
+            - 6.172:
+                -
+        - readings:
+            - 6.100L:
+                - https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/readings/
+                - https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/lists/lecture-notes/
+            - 6.1010:
+                -
+            - 6.1020:
+                -
+            - 6.172:
+                -
+            - Thomas, D., Hunt, A. The Pragmatic Programmer, 20th Anniversary Edition Pearson Education, Inc
+            - Elkner, J., Downey, A.B., Meyers, C. 2008. How to Think Like a Computer Scientist - Learning with Python. Wellesley: Massachusetts
         - lectures:
-            - LaCurts, K. 2018. 6.033 - Computer System Engineering. Massachusetts Institute of Technology
+            - 6.100L:
+                - Bell, A. 2022. 6.100L - Introduction to CS and Programming using Python. Massachusetts Institute of Technology
+            - 6.1010:
+                - Boning D.S., Chlipala A., Devadas S., Hartz A. 6.1010 - Fundamentals of Programming. Massachusetts Institute of Technology
+            - 6.1020:
+                    - Goldman M., Miller R.C. 2023. 6.1020 - Software Construction. Massachusetts Institute of Technology
+            - 6.172:
+                - Leiserson, C., Shun, J. 2018. 6.172 - Performance Engineering of Software Systems. Massachusetts Institute of Technology
+        - recitations|labs:
+            - 6.100L:
+                - https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/lists/recitations/
+            - 6.1010:
+                -
+            - 6.1020:
+                -
+            - 6.172:
+                -
+        - assignments:
+            - 6.100L:
+                - https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/finger-exercises/
+                - https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/lists/problem-sets/
+                - https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/assignments/
+                - https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/pages/in-class-questions-and-video-solutions/
+            - 6.1010:
+                -
+            - 6.1020:
+                -
+            - 6.172:
+                -
+        - exams:
+            - 6.100L:
+                -
+            - 6.1010:
+                -
+            - 6.1020:
+                -
+            - 6.172:
+                -
+
+==============================================================================================
+- next₃:
+    - 4_software_and_its_engineering/1_software_organization_and_properties/1_contextual_software_domains/operating_systems
+        - course schedule:
+            - 6.033:
                 - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
-                - Week 1 - 4
-            - Kanich, C. CS 361 Systems Programming. University of Illinois at Chicago
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/calendar/
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/instructor-insights/
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/resource-index/
+            - CS 361:
+                -
+        - readings:
+            - 6.033:
+                -
+            - CS 361:
+                -
+            - Linux: https://github.com/torvalds/linux
+        - lectures:
+            - 6.033:
+                - LaCurts, K. 2018. 6.033 - Computer Systems Engineering. Massachusetts Institute of Technology
+                    - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
+                    - Week 1 - 4
+            - CS 361:
+                - Kanich, C. CS 361 Systems Programming. University of Illinois at Chicago
             - Donovan, J.J. 1972. Systems Programming
             - Katzan, H. 1970. Advanced Programming: Programming and Operating Systems.
-        - readings:
-            - Linux: https://github.com/torvalds/linux
-
-    - 6_computing_methodologies/concurrent_computing_methodologies:
-        - lectures:
-        - readings:
+        - recitations|labs:
+            - 6.033:
+                -
+            - CS 361:
+                -
         - assignments:
+            - 6.033:
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/design-project/
+            - CS 361:
+                -
         - exams:
+            - 6.033:
+                -
+            - CS 361:
+                -
 
-    - 6_computing_methodologies/parallel_computing_methodologies
-        - lectures:
+    - 5_computing_methodologies/parallel_computing_methodologies
+        - course schedule:
+            - IAP 2010:
+                - https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/pages/syllabus/
+                - https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/pages/calendar/
         - readings:
+            - IAP 2010:
+                - https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/pages/lecture-notes/
+        - lectures:
+            - IAP 2010:
+                -
+        - recitations|labs:
+            - IAP 2010:
+                - https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/pages/labs/
         - assignments:
+            - IAP 2010:
+                - https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/pages/assignments/
         - exams:
-    
-============================================================================================================
-next₃:
-    - 6_computing_methodologies/artificial_intelligence:
-        - lectures:
-            - Broderick, T. 2020. 6.036 - Introduction to Machine Learning. Massachusetts Institute of Technology
-            - Ben-David, S. 2015. CS 485-685 - Foundations of Machine Learning. University of Waterloo
-            - Manning, C.D. 2024. CS224N - Natural Language Processing. Stanford University
-            - Karpathy, A. 2022. Neural Networks - Zero to Hero
-            - https://github.com/ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide
+            - IAP 2010:
+                -
+
+    - 5_computing_methodologies/concurrent_computing_methodologies:
+        - course schedule:
+            -
         - readings:
+            -
+        - lectures:
+            -
+        - recitations|labs:
+            -
+        - assignments:
+            -
+        - exams:
+            -
+
+    - 5_computing_methodologies/artificial_intelligence/machine_learning:
+        - course schedule:
+            - 6.0002:
+                - https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/pages/syllabus/
+            - 6.036:
+                -
+            - CS 485-685:
+                -
+            - CS109:
+                - https://web.stanford.edu/class/archive/cs/cs109/cs109.1256/handouts/syllabus.html
+                - https://web.stanford.edu/class/cs109/
+            - CS224N:
+                -
+        - readings:
+            - 6.0002:
+                - https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/pages/readings/
+                - https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/pages/lecture-slides-and-files/
+            - 6.036:
+                -
+            - CS 485-685:
+                -
+            - CS109:
+                - Reader: https://probabilityforcs.firebaseapp.com/book
+                - Reference Sheet: https://web.stanford.edu/class/archive/cs/cs109/cs109.1256/handouts/cs109-reference-sheet.pdf
+            - CS224N:
+                -
+            - Turing, A. 1950. Computing machinery and intelligence
+            - Geron, A. 2019. Hands On Machine Learning with Scikit Learn and TensorFlow. 2nd edition. O'Reilly
             - Daumé H. 2017. A Course in Machine Learning
-            - pytorch
-        - assignments:
-        - exams:
-
-    - 6_computing_methodologies/computer_graphics
         - lectures:
+            - 6.0002:
+                - https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/video_galleries/lecture-videos/
+                - Bell, A. Grimson, E. Guttag, J. 2016. 6.0002 - Introduction To Computational Thinking and Data Science. Massachusetts Institute of Technology
+            - 6.036:
+                - Broderick, T. 2020. 6.036 - Introduction to Machine Learning. Massachusetts Institute of Technology
+            - CS 485-685:
+                - Ben-David, S. 2015. CS 485-685 - Foundations of Machine Learning. University of Waterloo
+            - CS109:
+                - Piech, C. 2022. CS109 - Probability for Computer Scientists. Stanford University
+            - CS224N:
+                - Manning, C.D. 2024. CS224N - Natural Language Processing. Stanford University
+         - recitations|labs:
+            - 6.0002:
+                -
+            - 6.036:
+                -
+            - CS 485-685:
+                -
+            - CS109:
+                -
+            - CS224N:
+                -
+        - assignments:
+            - 6.0002:
+                - https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/pages/assignments/
+            - 6.036:
+                -
+            - CS 485-685:
+                -
+            - CS109:
+                -
+            - CS224N:
+                -
+        - exams:
+            - 6.0002:
+                -
+            - 6.036:
+                -
+            - CS 485-685:
+                -
+            - CS109:
+                - https://web.stanford.edu/class/cs109/exams/final.html
+            - CS224N:
+                -
+
+==============================================================================================
+- next₄:
+    - 6_networks:
+        - course schedule:
+            -
         - readings:
-        - assignments:
-        - exams:
-
-    - 4_networks:
+            -
         - lectures:
-            - LaCurts, K. 2018. 6.033 - Computer System Engineering. Massachusetts Institute of Technology
+            - LaCurts, K. 2018. 6.033 - Computer Systems Engineering. Massachusetts Institute of Technology
                 - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
                 - Week 5 - 7
             - Severance, C. 2021. Internet History, Technology, and Security
-        - readings:
+            - Claude, E.S. 1948. A Mathematical Theory of Communication. Bell System Technical Journal
+            - Claude, E.S, Weaver, W. 1949. The Mathematical Theory of Communication. University of Illinois Press
+        - recitations|labs:
+            -
         - assignments:
+            -
         - exams:
-    
-    - 6_computing_methodologies/distributed_computing_methodologies:
+            -
+
+    - 5_computing_methodologies/distributed_computing_methodologies:
+        - course schedule:
+            -
+        - readings:
+            -
         - lectures:
-            - LaCurts, K. 2018. 6.033 - Computer System Engineering. Massachusetts Institute of Technology
+            - LaCurts, K. 2018. 6.033 - Computer Systems Engineering. Massachusetts Institute of Technology
                 - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
                 - Week 8 - 10
-        - readings:
+        - recitations|labs:
+            -
         - assignments:
+            -
         - exams:
-        
-============================================================================================================
-next₄:
-    - 6_computing_methodologies/symbolic_and_algebraic_manipulation:
+            -
+
+    - 5_computing_methodologies/computer_graphics
+        - course schedule:
+            -
+        - readings:
+            -
         - lectures:
-            - De Sterck, H. Ullrich P. 2006. AMATH 242/CS 371/CM 271 - Introduction To Computational Mathematics. University of Waterloo.
-        - readings:
+            -
+        - recitations|labs:
+            -
         - assignments:
+            -
         - exams:
-    
+            -
+
+    - 5_computing_methodologies/symbolic_and_algebraic_manipulation:
+        - course schedule:
+            -
+        - readings:
+            -
+        - lectures:
+            - De Sterck, H. Ullrich P. 2006. AMATH 242/CS 371/CM 271 - Introduction To Computational Mathematics. University of Waterloo
+        - recitations|labs:
+            -
+        - assignments:
+            -
+        - exams:
+            -
+
+==============================================================================================
+- next₅:
+    - 8_information_systems/3_world_world_web/0_web_applications:
+        - course schedule:
+            -
+        - readings:
+            -
+        - lectures:
+            - Severance, C. 2016. Web Applications for Everybody
+        - recitations|labs:
+            -
+        - assignments:
+            -
+        - exams:
+            -
+
+    - 8_information_systems/0_data_management_systems:
+        - course schedule:
+            -
+        - readings:
+            -
+        - lectures:
+            -
+        - recitations|labs:
+            -
+        - assignments:
+            -
+        - exams:
+            -
+
     - 7_security_and_privacy:
+        - course schedule:
+            -
+        - readings:
+            -
         - lectures:
             - LaCurts, K. 2018. 6.033 - Computer System Engineering. Massachusetts Institute of Technology
                 - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
                 - Week 11 - 14
-        - readings:
+        - recitations|labs:
+            -
         - assignments:
+            -
         - exams:
-============================================================================================================
+            -
+
+==============================================================================================
 - next field template:
-    - lectures:
+    - course schedule:
+        -
     - readings:
+        -
+    - lectures:
+        -
+    - recitations|labs:
+        -
     - assignments:
+        -
     - exams:
-============================================================================================================
-legend:
-    *: SQ visit complete
-    **: R1 visit complete
-    ***: R2 visit complete
-    ****: R3 visit complete
+        -
+    - quizzes:
+        -
+==============================================================================================
+SQR3 legend:
+    *: S visit complete
+    **: Q visit complete
+    ***: R1 visit complete
+    ****: R2 visit complete
+    *****: R3 visit complete
+=============================================done=============================================

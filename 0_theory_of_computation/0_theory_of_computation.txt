@@ -1,0 +1,34 @@
+def theory of computation(Sipser, 2012:1):
+    - formal: ???
+
+        - in words: ???
+
+    - plain english: attempts to answer the question: "What are the fundamental capabilities and limitations of computers?(i.e. computation or algorithms)".
+
+    - intuition: ???
+
+    - properties:
+        - topic relationship (Yanofsky, 2021):
+            1_formal_languages_and_automata_theory: defines computers and languages they understand.
+                                |
+                                |
+                                V
+            2_models_of_computation: defines ways to compute and what our computers can/cannot compute.
+                                |     defines how to do/run a list of steps AND
+                                |       which lists of steps we can/can't do/run.
+                                V
+            3_computational_complexity_and_cryptography: defines the time and space/memory required to compute.
+                                |                         defines how much time and space is required
+                                |                           to do/run a list of steps.
+                                V
+            4_design_and_analysis_of_algorithms: defines how to make effective and efficient computations.
+
+    - examples: ???
+
+    - use cases: ???
+
+    - proof: none. it is a definition.
+
+References:
+    - Sipser, M. 2013. Introduction to the Theory of Computation. 3rd edition. Cengage Learning.
+    - Yanofsky, NS. 2021. Theoretical Computer Science. Chapter 0. Introduction.Brooklyn College.

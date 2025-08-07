@@ -1,20 +1,22 @@
 {
-	"name": "computation",
-	"build": {
-		"dockerfile": "../Dockerfile"
-	},
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"ms-python.python",
-				"ms-python.vscode-pylance",
-				"ms-python.black-formatter",
-				"ms-python.debugpy",
-				"ms-python.mypy-type-checker"
-			],
-			"settings": {}
-		}
-	},
-	"workspaceMount": "source=${localWorkspaceFolder},target=/computation,type=bind,consistency=delegated",
-	"workspaceFolder": "/computation"
+    "name": "computation",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-python.black-formatter",
+                "ms-python.debugpy",
+                "ms-python.mypy-type-checker",
+                "scala-lang.scala",
+                "vscjava.vscode-java-pack"
+            ],
+            "settings": {}
+        }
+    },
+    "workspaceMount": "source=${localWorkspaceFolder},target=/computation,type=bind,consistency=delegated",
+    "workspaceFolder": "/computation"
 }

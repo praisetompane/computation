@@ -1,74 +1,93 @@
-flow: (Mcdowell, 2015:62)
-    1. Read/Listen 
-    2. Create example
-    3. Find/Create solution:
-        - finding solutions to computational problems(i.e. algorithm problems)(Demaine, Ku, Solomon, 2020):
-            - reduce to a problem we know how to solve(use a data structure or algorithm):
-                - 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis:
-                    - search problem (use data structures)
-                        - static array
-                        - linked list
-                        - dynamic array
-                        - sorted array
-                        - direct access array
-                        - hash table
-                        - balanced binary tree
-                        - heap tree
-                        - ...
-                    - sorting problem (use sort algorithm)
-                        - insertion sort
-                        - selection sort
-                        - merge sort
-                        - counting sort
-                        - radix sort
-                        - AVL sort
-                        - heap sort
-                        - ...
-                    - search in a graph(shortest path algorithms)
-                        - Breadth First Search(BFS)
-                        - Directed Acyclic Graph(DAG) Relaxation:
-                            - Depth First Search(DFS)
-                            - Topological sort
-                        - Bellman-Ford
-                        - Dijkstra
-                        - Johnson
-                        - Floyd-Warshall
-                        - ...
-            - design your own (recursive) algorithm
-                - 0_theory_of_computation/4_design_and_analysis_of_algorithms/1_algorithm_design_techniques:
-                    - brute force
-                    - decrease and conquer
-                    - divide and conquer
-                    - greedy/incremental
-                    - dynamic programming
-                    - ...
-                - remark: algorithm will be recursive in nature(so we can use induction to prove correctness)
-    4. Test
-        base cases
-        general cases
-        error cases
-        etc
-    5. Optimize
-        BUD system
-            Bottlenecks
-            Unnecessary Work
-            Duplicated Work
-    6. Test
-        same cases as step 4
-    7. Walk through
-    8. Implement
-        7.1 Optimize [language/tools specific advantages]
-    9. Test
+def flow: (Mcdowell, 2015:62)
+    1. read/listen
+    2. create example
+    3. find/create solution:
+        see: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_design_and_analysis_of_algorithms.txt
+    4. test
+        - base cases
+        - general cases
+        - error cases
+    5. optimize
+        remark: your key tool: Hash table (Mcdowell, 2015)
+        - BUD system
+            - B = Bottlenecks
+            - U = Unnecessary Work
+            - D = Duplicated Work
 
-when confronted with a problem that seems computationally difficulty (Sipser, 2012:2):
-    Option 1: Understand which aspect(s) of the problem are the root of the difficulty
-                Attempt to rephrase them in a way that is easily solvable
-    Option 2: You may be able to settle for a less than perfect solution to the problem
-    Option 3: Some problems are only hard at the worst case and easy for all other cases.
-                Determine if yours is one of these.
-                    Is it fine if it runs fast most of the time and slow once in a while?
-    Option 4: Consider other types of computation, that might speed up certain tasks/aspects.
-        e.g. random computation.
+        - strategies per standard asymptotic complexities:
+            see: 0_theory_of_computation/3_computational_complexity_and_cryptography/1_complexity_theory_and_logic/1_asymptotic_analysis/0_0_asymptotic_analysis.txt
+            - O(1): no optimization needed
+            - 𝑂(𝑙𝑜𝑔ₙ): ???
+            - 𝑂(𝑁): ???
+            - 𝑂(𝑁𝑙𝑜𝑔ₙ): ???
+            - 𝑂(𝑁²):
+                - How do you explore 𝑁² combinations in 𝑁 time(i.e. in one iteration = 𝑂(𝑁))?
+                    - Change:
+
+                        FROM: iterating(exploring) with an index
+                                using the index to extract a value
+                                and doing some work
+
+                        TO: iterating(exploring) with a value
+                                using the value to do the work
+                                    if it is a valid value in your universe(i.e. data structure)
+                        SO:
+                            once you have a value
+                            you can ask your Iterable => Do you have this value?
+
+                    - example:
+                        Given
+                            numbers = [2,9,4,7]
+                        Objective
+                            find possible pair that generates a sum (T)
+
+                        Then: iterating(exploring) with an index looks like this:
+                            for i to length of numbers                        : iterating(exploring) with index
+                                for j = i + 1 to length of numbers       : iterating(exploring) with index
+                                    if numbers at i + numbers at j == T     : using the index to extract a value
+                                        return numbers at i and j        : and doing some work
+                            ∴ O(N²)
+
+                        Then: iterating(exploring) with a value
+                            for i to length of numbers
+                                create a map where
+                                    the key is the value
+                                    {key -> value} : key = value, value = arbitrary data(maybe the index)
+
+                                    {
+                                        2 -> 0
+                                        9 -> 1
+                                        4 -> 2
+                                        7 -> 3
+                                    }
+                            for i  to length of numbers
+                                other addend = T - numbers at i
+                                if other addend is in map
+                                    return other addend's value in map(i.e. index) and i
+
+                            ∴ 𝑂(𝑁) + 𝑂(𝑁) => O(N2) => 𝑂(𝑁)
+                                the term that increases the complexity of the problem the most is N
+                                ∴ discard the 2
+            - 𝑂(𝑁³)
+            - (2ⁿ)
+            - (𝑁!)
+
+        - handling computationally difficult problems(Sipser, 2012:2):
+            Option 1: Understand which aspect(s) of the problem are the root of the difficulty
+                        Attempt to rephrase them in a way that is easily solvable
+            Option 2: You may be able to settle for a less than perfect solution to the problem
+            Option 3: Some problems are only hard at the worst case and easy for all other cases.
+                        Determine if yours is one of these.
+                            Is it fine if it runs fast most of the time and slow once in a while?
+            Option 4: Consider other types of computation, that might speed up certain tasks/aspects.
+                e.g. random computation.
+    6. test
+        - same cases as step 4
+    7. walk through
+    8. implement
+        7.1 optimize for language/tools specific advantages
+    9. test
+        - same cases as step 4
 
 References:
     - McDowell G.L. 2015. Cracking The Coding Interview. 6th ed. CareerCup.

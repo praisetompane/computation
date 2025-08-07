@@ -1,0 +1,33 @@
+def software¹(Scott, 2009:109):
+    - formal: ???
+
+        - in words: ???
+
+    - plain english: a term to differentiate the computer
+                        from the state of the bits in the computer.
+
+    - intuition: ???
+
+    - properties:
+        - tech stacks: https://stackshare.io/stacks
+
+        - computer programming: ../4_software_and_its_engineering/computer_programming/README.md
+
+    - examples: ???
+
+    - use cases: ???
+
+    - proof: ???
+
+def software²: state of the bits.
+    remark: the bit itself is hardware.
+
+def software³ (Scott, 2009: 109):
+    - plain english: a package of computer Instruction Code.
+    - see:
+        - codes: ../2_hardware/a_simple_computer_implementation/7_codes.txt
+        - languages: ../2_hardware/a_simple_computer_implementation/13_languages.txt
+
+References:
+  - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone. Oldsmar, FL: John C. Scott
+  - The Architecture of Open Source Applications. Volume 1
