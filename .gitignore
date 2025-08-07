@@ -172,3 +172,41 @@ journal/
 applications/
 
 *.bkp
+.bsp
+.scala-build
+
+# 0_assembly_languages
+**/assembly
+
+# 1_imperative_languages
+**/c
+
+# 2_functional_languages
+**/haskell
+**/ml
+
+# 3_multiparadigm_languages
+**/cpp
+**/csharp
+**/go
+**/java
+**/javascript
+**/kotlin
+**/oz
+**/php
+**/python
+**/python_implementation_study_cpython
+**/ruby
+**/scala
+
+# 3_context_specific_languages
+# web technologies
+**/css
+**/html
+**/json
+
+# domain specific languages
+**/sql
+
+# command and control languages
+**/shell

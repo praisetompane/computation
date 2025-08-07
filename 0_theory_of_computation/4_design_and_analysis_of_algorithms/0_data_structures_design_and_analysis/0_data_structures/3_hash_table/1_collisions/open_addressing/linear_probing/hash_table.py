@@ -4,6 +4,53 @@ class HashTableLinearProbing:
         self._MAX = 1000_000
         self._items = [None] * self._MAX
 
+    def __getitem__(self, key):
+        item_index = self._calculate_hash(key)
+
+        if self._items[item_index] is None:
+            return None
+        elif key == self._items[item_index][0]:
+            return self._items[item_index][1]
+        else:
+            for probe_idx in self._calculate_index_exploration_order(item_index):
+                if self._items[probe_idx] is None:
+                    return None
+                elif key == self._items[probe_idx][0]:
+                    return self._items[probe_idx][1]
+            return None
+
+    def __setitem__(self, key, value):
+        item_index = self._calculate_hash(key)
+        new_item = (key, value)
+
+        if self._items[item_index] is None:
+            self._items[item_index] = new_item
+        elif key == self._items[item_index][0]:
+            self._items[item_index] = new_item
+        else:
+            for probe_idx in self._calculate_index_exploration_order(item_index):
+                if self._items[probe_idx] is None:
+                    self._items[probe_idx] = new_item
+                    return
+
+            self._resize_hash_table()
+            self._items[self._calculate_hash(key)] = new_item
+
+    def __delitem__(self, key):
+        item_index = self._calculate_hash(key)
+
+        if self._items[item_index] is None:
+            return None
+        elif key == self._items[item_index][0]:
+            del self._items[item_index]
+        else:
+            for probe_idx in self._calculate_index_exploration_order(item_index):
+                if self._items[probe_idx] is None:
+                    return None
+                elif key == self._items[probe_idx][0]:
+                    del self._items[probe_idx]
+                    return
+
     def _calculate_hash(self, key: str) -> int:
         """Computes an index in an key for they key
 
@@ -28,84 +75,15 @@ class HashTableLinearProbing:
 
         return ascii_ordinal_total % self._MAX
 
-    def __getitem__(self, key):
-        item_index = self._calculate_hash(key)
+    def _calculate_index_exploration_order(self, start_index):
+        return [*range(start_index, self._MAX)] + [*range(0, start_index)]
 
-        if self._items[item_index] is None:
-            return None
-        else:
-            _key, item = self._items[item_index]
+    def _resize_hash_table(self):
+        """Resize hashtable to double its size and recompute hashes for existing values"""
+        self._MAX = self._MAX * 2
+        new_items = [None] * self._MAX
 
-            if key == _key:
-                return item
-            else:
-                for idx in range(0, self._MAX):
-                    item = self._items[idx]
-                    if item is not None:
-                        _key, _value = self._items[idx]
-                        if _key == key:
-                            return _value
-                return None
+        for k, v in self._items:
+            new_items[self._calculate_hash(k)] = (k, v)
 
-    def __setitem__(self, key, value):
-        index = self._calculate_hash(key)
-        new_item = (key, value)
-
-        if self._items[index] is None:
-            self._items[index] = new_item
-        elif key == self._items[index][0]:
-            self._items[index] = new_item
-        else:
-
-            def _linear_probe(start, end):
-                """Search for the next empty index between @start and @end.
-
-                Args:
-                    start (int): index to start searching(inclusive)
-                    end (int): index to stop seaching(inclusive)
-
-                Returns:
-                    _type_: _description_
-                """
-                for i in range(start, end):
-                    if self._items[i] is None:
-                        return i
-                return None
-
-            probed_idx = _linear_probe(index + 1, self._MAX)
-            if probed_idx is not None:
-                self._items[probed_idx] = new_item
-            else:
-                """Probe remaining range."""
-                probed_idx = _linear_probe(0, index)
-                if probed_idx is not None:
-                    self._items[probed_idx] = new_item
-                else:
-                    """The hashtable is full and we need allocate a larger one."""
-                    self._MAX = self._MAX * 2
-                    new_items = [None] * self._MAX
-
-                    for k, v in self._items:
-                        new_items[self._calculate_hash(k)] = (k, v)
-
-                    self._items = new_items
-                    self._items[self._calculate_hash(key)] = new_item
-
-    def __delitem__(self, key):
-        idx = self._calculate_hash(key)
-        item = self._items[idx]
-
-        def _validate(v):
-            if v is None:
-                raise KeyError("No value found with supplied key")
-
-        _validate(item)
-        if key == item[0]:
-            del self._items[idx]
-        else:
-            for i in range(idx, self._MAX):
-                item = self._items[i]
-                _validate(item)
-                if key == item[0]:
-                    del self._items[i]
-                    return
+        self._items = new_items
