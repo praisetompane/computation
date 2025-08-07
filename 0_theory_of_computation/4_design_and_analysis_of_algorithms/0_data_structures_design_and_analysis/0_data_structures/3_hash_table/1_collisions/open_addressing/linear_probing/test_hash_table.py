@@ -42,6 +42,25 @@ def test_handle_collisions_works_correctly_when_an_element_already_exists():
     assert hash_table._items[610] == ("march 6", 90)
 
 
+def test_handle_collisions_works_correctly_when_an_element_already_exists_and_next_candidate_index_is_already_filled():
+    hash_table = HashTableLinearProbing()
+    expected_index = 609
+    expected_existing_item = ("key", "Already Existing Item")
+    hash_table._items[expected_index] = expected_existing_item
+
+    next_candidate_index_already_filled = 610
+    expected_existing_item_at_next_candidate_index = ("filled", "item")
+    hash_table._items[next_candidate_index_already_filled] = (
+        expected_existing_item_at_next_candidate_index
+    )
+
+    hash_table["march 6"] = 90
+    assert hash_table["march 6"] == 90
+    assert hash_table._items[609] == expected_existing_item
+    assert hash_table._items[610] == expected_existing_item_at_next_candidate_index
+    assert hash_table._items[611] == ("march 6", 90)
+
+
 def test_deleting_an_item():
     hash_table = HashTableLinearProbing()
     hash_table["march 7"] = 90
@@ -63,7 +82,3 @@ def test_deleting_an_item_in_a_linear_probed_index():
 
     del hash_table["march 6"]
     assert hash_table._items[610] is None
-
-
-if __name__ == "__main__":
-    test_adding_an_item_to_full_hash_table()
