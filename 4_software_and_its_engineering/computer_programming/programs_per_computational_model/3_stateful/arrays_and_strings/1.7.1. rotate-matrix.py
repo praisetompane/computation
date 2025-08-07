@@ -78,11 +78,11 @@ def rotate_90_degrees(image):
     return new_image
 
 
-image = [["A", "B", "C"], ["E", "F", "G"], ["I", "J", "K"]]
+image_matrix = [["A", "B", "C"], ["E", "F", "G"], ["I", "J", "K"]]
 
 print("original image: ")
-print(image)
-rotated_image = rotate_90_degrees(image)
+print(image_matrix)
+rotated_image = rotate_90_degrees(image_matrix)
 print("rotated image: ")
 print(rotated_image)
 

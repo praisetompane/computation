@@ -45,7 +45,7 @@ Flow:
     Performance
 
         Time = (N^2)
-            Foreach node we need to count all the elements until we reach the end 
+            Foreach node we need to count all the elements until we reach the end
         Space = O(1) for internal state
                 N for overall program to store N elements of linkedlist
 """
@@ -70,13 +70,9 @@ def count_elements_to_last_element(current_element):
 def kth_element(kth_position, linkedlist):
     current_element = linkedlist.head
     while current_element.next is not None:
-        num_elements_to_last = count_elements_to_last_element(
-            current_element, linkedlist
-        )
-        if num_elements_to_last == kth_position:
+        if count_elements_to_last_element(current_element) == kth_position:
             return current_element
-        else:
-            current_element = current_element.next
+        current_element = current_element.next
     return current_element
 
 
@@ -85,10 +81,9 @@ def print_result(k, element):
 
 
 def main():
-    linkedlist = LinkedList()
     k = 5
     numbers = [1, 2, 4, 6, 1, 6, 8, 5]
-    linkedlist.initialise_from_array(numbers)
+    linkedlist = LinkedList(numbers)
     linkedlist.toString()
     element = kth_element(k, linkedlist)
     print_result(k, element)

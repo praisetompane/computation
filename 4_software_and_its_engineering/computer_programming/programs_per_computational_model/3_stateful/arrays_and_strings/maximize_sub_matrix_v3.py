@@ -1,12 +1,8 @@
 #!/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
 
-# source: https://github.com/RyanFehr/HackerRank/blob/master/Algorithms/Constructve%20Algorithms/Flipping%20Matrix/Solution.java
+# source:
+# https://github.com/RyanFehr/HackerRank/blob/master/Algorithms/Constructve%20Algorithms/Flipping%20Matrix/Solution.java
 
 #
 # Complete the 'flippingMatrix' function below.
@@ -15,46 +11,44 @@ import sys
 # The function accepts 2D_INTEGER_ARRAY matrix as parameter.
 #
 """
-    Given: 
-        2n * 2n integer matrix
-        
-        can:
-            reverse rows
-            reverse cols
-        goal:
-            mazimize n * n submatrix(located in upper left quadrant)
-            
-        options : 
-            random
-                rotate a col
-                    if sum(n*x upper left) > other quadrants
-                        return
-                    else:
-                        rotate
-                        if not
-        
-                        UL = 112 + 42 + 56 + 125   => 335
-                        UR = 83 + 119 + 49 + 56    => 307
-                        BR = 101 + 43 + 114 + 108  => 366
-                        BL = 15 + 78 + 62 + 98     => 253
-            bubble up max numbers:
-                for all cols
-                    if bottom number in col > top   
-                        rotate col           
-                if sum UL < UR
-                    rotate row 0
-        
-        """
+Given:
+    2n * 2n integer matrix
+
+    can:
+        reverse rows
+        reverse cols
+    goal:
+        mazimize n * n submatrix(located in upper left quadrant)
+
+    options :
+        random
+            rotate a col
+                if sum(n*x upper left) > other quadrants
+                    return
+                else:
+                    rotate
+                    if not
+
+                    UL = 112 + 42 + 56 + 125   => 335
+                    UR = 83 + 119 + 49 + 56    => 307
+                    BR = 101 + 43 + 114 + 108  => 366
+                    BL = 15 + 78 + 62 + 98     => 253
+        bubble up max numbers:
+            for all cols
+                if bottom number in col > top
+                    rotate col
+            if sum UL < UR
+                rotate row 0
+
+"""
 
 
 def rotate_col(col):
     print(col)
-    pass
 
 
 def rotate_row(row):
     print(row)
-    pass
 
 
 def flippingMatrix(matrix):

@@ -22,7 +22,9 @@ def _print_list_states(addition_start_index_marks: dict[int, int], size) -> None
         n_inclusive_end_index = n + 1
         for j in range(i, n_inclusive_end_index):
             if j < n_inclusive_end_index:
-                # values[j-1], because the list_values is 0 index, but the operations(e.g. {1: 100}) encoded in the addition_start_index_marks are 1 indexed.
+                # values[j-1], because the list_values is 0 index, but the
+                # operations(e.g. {1: 100}) encoded in the
+                # addition_start_index_marks are 1 indexed.
                 list_values[j - 1] += addition_start_index_marks[i]
         print(list_values)
 
@@ -77,18 +79,20 @@ def construct_manipulation_instructions(operation_requests):
         if start_index not in operation_start_index_marks:
             operation_start_index_marks[addition_index] = value
         else:
-            # Increase the value to add to the array values, starting from index a
+            # Increase the value to add to the array values, starting from
+            # index a
             operation_start_index_marks[addition_index] += value
         subtraction_index = stop_index + 1
         if subtraction_index not in operation_start_index_marks:
             operation_start_index_marks[subtraction_index] = -value
         else:
-            # Increase the value to subtract from the array values, starting from index a
+            # Increase the value to subtract from the array values, starting
+            # from index a
             operation_start_index_marks[subtraction_index] -= value
     return operation_start_index_marks
 
 
-def arrayManipulation(queries):
+def arrayManipulation(input_queries):
     """Calculate maximum value in array after applications of queries
 
     Args:
@@ -98,7 +102,7 @@ def arrayManipulation(queries):
     Returns:
         int: maximum value
     """
-    operation_start_index_marks = construct_manipulation_instructions(queries)
+    operation_start_index_marks = construct_manipulation_instructions(input_queries)
     total_value_added_to_some_list_indices = 0
     highest_total_value_reached_in_some_list_indices = 0
 
@@ -132,7 +136,7 @@ if __name__ == "__main__":
         assert result == 2497169732
 
 """
-References: 
+References:
     - Roy, A. 2023. https://www.techrbun.com/array-manipulation-hackerrank-solution/
     - Basumatary, V. 2020. https://www.thepoorcoder.com/hackerrank-array-manipulation-solution/
 """

@@ -27,7 +27,7 @@ class Node:
             2nd level = O(k^2) nodes visited
             3nd level = O(k^3) nodes visited
             d level   = O(k^d)  nodes visited
-        
+
         bi_bfs
             2 * bfs => bfs(s) && bfs(t§), collide at d/2(i.e. midpoint of path between s & t)
             bfs(s) => O(k^d/2) nodes visited
@@ -43,11 +43,11 @@ class Node:
         return
 
     """
-        Why suitable for shortest path?¹ 
+        Why suitable for shortest path?¹
             loops through ALL current shortest paths,
                 before moving to the next length
 
-            Example: 
+            Example:
                 Given: ShortestPathRequest(from=A, to=B)
                     explores/loops all paths of length 1 from A
                     then all paths of length 2 from A
@@ -67,7 +67,7 @@ class Node:
             if current_friend.name == name:
                 return self
             for f in current_friend.friends:
-                if f._marked == False:
+                if not f._marked:
                     queue.put(f)
                     f._marked = True
         return None
@@ -80,7 +80,8 @@ class Node:
             for f in self.friends:
                 if not f._visited:
                     search_result = f.depth_first_search(name)
-                    # Modifification of standard DFS to return a node with the search key
+                    # Modifification of standard DFS to return a node with the
+                    # search key
                     if search_result is not None:
                         return search_result
         # Modifification of standard DFS to clear state for next searches
@@ -109,7 +110,7 @@ def main():
         Observation: I call add for each vertice(node) in an edge(relationship)
         Should add_friend in a undirected graph also add current node
         to other node's friend list
-        What are the performance implications?   
+        What are the performance implications?
     """
     pitso.add_friend(christiaan)
     christiaan.add_friend(pitso)

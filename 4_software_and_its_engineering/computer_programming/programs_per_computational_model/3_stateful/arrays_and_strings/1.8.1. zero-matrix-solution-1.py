@@ -78,13 +78,13 @@ print(zero_matrix(source) == [[0, 0, 0], [0, 1, 0], [0, 0, 0], [0, 1, 0]])  # tr
 source = [[1, 1, 0, 1], [1, 1, 1, 1], [0, 1, 1, 1]]
 
 print(zero_matrix(source) == [[0, 0, 0, 0], [0, 1, 0, 1], [0, 0, 0, 0]])  # true
-""" 
+"""
     Performance
         M = rows
         N = cols
-        
-        Time = O(M*N) 
+
+        Time = O(M*N)
             We have to inspect every element in the matrix
-        Space = 𝑂(𝑁) where N is the larger of N and M    
+        Space = 𝑂(𝑁) where N is the larger of N and M
             Storage for flags
 """

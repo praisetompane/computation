@@ -14,7 +14,7 @@ def reverse_order(item_list):
     items_reversed = None
     for item in item_list:
         reverse_order.push(item)
-    if type(item_list) == str:
+    if isinstance(item_list, str):
         items_reversed = ""
         while reverse_order.is_empty() is False:
             items_reversed += reverse_order.pop()

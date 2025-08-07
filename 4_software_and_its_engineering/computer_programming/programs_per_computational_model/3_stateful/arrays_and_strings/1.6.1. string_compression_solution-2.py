@@ -79,5 +79,5 @@ print(compress("abcdef") == "abcdef")  # true  compressed same as original
         K = number of consecutive character sequences; K <= P
         Time = O(P)
         Space = O(K) => 𝑂(𝑁)
-            
+
 """

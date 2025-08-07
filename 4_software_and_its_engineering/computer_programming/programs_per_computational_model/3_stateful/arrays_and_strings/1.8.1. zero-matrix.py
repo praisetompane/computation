@@ -74,13 +74,13 @@ source = [[1, 1, 0, 1], [1, 1, 1, 1], [0, 1, 1, 1]]
 assert zero_matrix(source) == [[0, 0, 0, 0], [0, 1, 0, 1], [0, 0, 0, 0]]
 
 print("completed successfully")
-""" 
+"""
     Performance
         M = rows
         N = cols
-        
-        Time = O(M*N) 
+
+        Time = O(M*N)
             We have to inspect every element in the matrix
-        Space = O(M*N)    
+        Space = O(M*N)
             Storage for resulting matrix
 """

@@ -1,7 +1,7 @@
 from typing import List
 
 
-def sort[T](values: List[T]):
+def sort(values: List):
     if len(values) <= 0:
         return values
     else:

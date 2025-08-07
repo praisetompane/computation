@@ -53,10 +53,10 @@ main()
 """
     Performance
 
-        Time = 
-            N number of elements 
-            D number of operations for delete a node from linkedlist= Constant 
+        Time =
+            N number of elements
+            D number of operations for delete a node from linkedlist= Constant
             => O(1 + N) => 𝑂(𝑁)
-        Space = 
+        Space =
             upto N element's count stored in hash => 𝑂(𝑁)
 """

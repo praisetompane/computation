@@ -10,6 +10,6 @@ def search_reducing_search_space(search_string, search_space):
 
 
 search_string = "hackerrank"
-assert search_reducing_search_space(search_string, "hereiamstackerrank") == True
+assert search_reducing_search_space(search_string, "hereiamstackerrank")
 assert search_reducing_search_space(search_string, "hackerworld") == False
 print("successfully completed")

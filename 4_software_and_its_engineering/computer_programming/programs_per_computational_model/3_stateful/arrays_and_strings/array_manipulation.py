@@ -1,10 +1,5 @@
 #!/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
 
 """
 1 indexed array
@@ -57,7 +52,7 @@ def arrayManipulation(n, operations):
     """
 
     """
-    # this demarcates lower bound of range of n that will be get an addition of k 
+    # this demarcates lower bound of range of n that will be get an addition of k
 
     most_frequent_upper_bound =
     in all a,b
@@ -112,7 +107,7 @@ print(
 """
 print("Print sum", arrayManipulation(5, [[1, 2, 100], [2, 5, 100], [3, 4, 100]]))
 
-"""                     
+"""
 testData = open("test8.data", "r")
 n = 10000000
 m = 100000

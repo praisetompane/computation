@@ -1,27 +1,22 @@
 #!/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
 
 # Complete the arrayManipulation function below.
 """
-    for all a, b, k:
-        set instruction to increment by k:
-            from index a to index n: HOW? 
-                    mark where the increase by k must start with k(i.e. array[a] = 100)
-                BUT since we actually ONLY want to increment by until index b
-                    set instruction to decrement by k from {b + 1 to n} HOW?
-                        mark where the decrease by k must start with -k(i.e. array[b+1] = -k)
-                    
-    NB: Since we are not actually going from a to b<=n
-        the cost of setting the instruction to:
-            increment by k
-            decrement by k
-            is O(1)
-    
+for all a, b, k:
+    set instruction to increment by k:
+        from index a to index n: HOW?
+                mark where the increase by k must start with k(i.e. array[a] = 100)
+            BUT since we actually ONLY want to increment by until index b
+                set instruction to decrement by k from {b + 1 to n} HOW?
+                    mark where the decrease by k must start with -k(i.e. array[b+1] = -k)
+
+NB: Since we are not actually going from a to b<=n
+    the cost of setting the instruction to:
+        increment by k
+        decrement by k
+        is O(1)
+
 """
 
 """
@@ -34,9 +29,9 @@ import sys
 """
 
 
-def arrayManipulation(n, queries):
-    sums = [0] * (n + 1)
-    for query in queries:
+def arrayManipulation(input_size, input_queries):
+    sums = [0] * (input_size + 1)
+    for query in input_queries:
         k = query[2]
         # set start index from where all indices are incremented by k
         zero_based_start = query[0] - 1

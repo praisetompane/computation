@@ -1,7 +1,7 @@
 from typing import List
 
 
-def sort[T](arr: List[T]):
+def sort(arr: List):
     for i in range(1, len(arr)):
         position = i
         current_value = arr[i]

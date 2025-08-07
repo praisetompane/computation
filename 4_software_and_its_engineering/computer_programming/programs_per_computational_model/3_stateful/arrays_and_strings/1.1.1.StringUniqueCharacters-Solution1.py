@@ -41,7 +41,7 @@ print(contain_all_unique_characters(s4))
 
         Time = 𝑂(𝑁) = O(C)
         Space = O(C)
-            128 for all runs, therefore constant 
+            128 for all runs, therefore constant
             The space cost of the boolean array
 
         Could argue time and space complecity = O(1), as the for loop will never execute more than C

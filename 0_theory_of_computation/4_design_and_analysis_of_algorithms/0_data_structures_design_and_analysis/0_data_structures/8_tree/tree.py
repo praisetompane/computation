@@ -43,7 +43,8 @@ class BinaryTreeNode:
 
 # In processing:
 # the left child is processed before the right
-# the ordering types process the parent in different places(i.e. as seen from left to right, first or last)
+# the ordering types process the parent in different places(i.e. as seen
+# from left to right, first or last)
 class BinaryTree:
     root = None
 

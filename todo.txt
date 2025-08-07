@@ -84,7 +84,10 @@
             - 6.046J:
                 -
             - 6.851:
-                -
+                - https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/pages/calendar-and-notes/
+                - https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/pages/syllabus/
+                - https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/pages/instructor-insights/
+
         - readings:
             - Wengrow, J. 2017. A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills. Pragmatic Bookshelf: ***
             - 6.006:
@@ -161,8 +164,6 @@
                 - https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/syllabus.html
             - 6.1903:
                 -
-            - 6.033:
-                -
             - 6.5900:
                 -
         - readings:
@@ -194,11 +195,8 @@
                         - https://see.stanford.edu/course/cs107
                         - current: Lecture 1: *
             - Steinmeyer J.D., Wachman, S.Z.H. 6.1903 - Introduction to Low-level Programming in C and Assembly. Massachusetts Institute of Technology
-            - LaCurts, K. 2018. 6.033 - Computer Systems Engineering. Massachusetts Institute of Technology
             - Emer, J.S., Sanchez, D. 2025. 6.5900 Computer System Architecture. Massachusetts Institute of Technology
             - 6.1903:
-                -
-            - 6.033:
                 -
             - 6.5900:
                 -
@@ -208,8 +206,6 @@
                     - current:
                         - Lab 1:
             - 6.1903:
-                -
-            - 6.033:
                 -
             - 6.5900:
                 -
@@ -223,8 +219,6 @@
                     - https://see.stanford.edu/course/cs107: Under the Assignments menu
             - 6.1903:
                 -
-            - 6.033:
-                -
             - 6.5900:
                 -
         - exams:
@@ -236,8 +230,6 @@
                 - legacy:
                     - https://see.stanford.edu/course/cs107: Under the Exams menu
             - 6.1903:
-                -
-            - 6.033:
                 -
             - 6.5900:
                 -

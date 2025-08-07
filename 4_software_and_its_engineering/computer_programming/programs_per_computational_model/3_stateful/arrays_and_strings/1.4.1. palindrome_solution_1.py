@@ -78,5 +78,5 @@ print(is_palindrome_permutation("peter"))  # false
         N = length string
 
         Time = 𝑂(𝑁) + O(26) => 𝑂(𝑁)
-            N to count all character occurences 
+            N to count all character occurences
 """

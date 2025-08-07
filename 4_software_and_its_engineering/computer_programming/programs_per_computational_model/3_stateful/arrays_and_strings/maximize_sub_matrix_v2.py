@@ -1,10 +1,6 @@
 #!/bin/python3
 
-import math
 import os
-import random
-import re
-import sys
 
 
 #
@@ -20,17 +16,17 @@ import sys
             game:
                 data:
                     2n * 2n integer matrix
-                
+
                 actions:
                     reverse cols and rows arbitary times
-                
+
                     goal: maximize sum of n*n submatrix
                         in upper-left quadrant
     Objective:
         return the maximal sum
             of uppper-left quadrant
             => maybe by reversing rows and cols
-            
+
     Example:
         initial_matrix = [
                             [1, 2],
@@ -38,7 +34,7 @@ import sys
                          ]
             2 * 2 matrix
             there upper-left quadrant = 1 * 1 : How??
-            
+
         reverse row 1
             [
                 [1, 2],
@@ -51,42 +47,42 @@ import sys
             ]
         return matrix[0][0] = 4
         Performance:
-            
+
     Flow:
         upper_left_quadrant_size = n * n
         max_values = [0] * upper_left_quadrant_size
         initialise matrix with first {upper_left_quadrant_size} numbers
-        
+
         for num in matrix
             if number > any in max_values
                 swap number with max_values
         return sum max_Values
     Constraints:
         1 <= q <= 16
-        1 <= 
+        1 <=
     Performance
         n = q = number of queries
         MS = Matrix size ,MS <= 2n * 2n
         UQS = Upper quadrant size, UQS <= n
-        
+
         O(MS * UQS)
-    
+
 """
 
 
 # TODO rest
-def flippingMatrix(matrix):
-    n = len(matrix[0]) / 2
-    upper_left_quadrant_size = n * n
+def flippingMatrix(input_matrix):
+    input_size = len(input_matrix[0]) / 2
+    upper_left_quadrant_size = input_size * input_size
     max_values = []
     for i in range(upper_left_quadrant_size):
-        max_values.append(matrix[0][i])
+        max_values.append(input_matrix[0][i])
 
-    for row in matrix:
-        for col in matrix:
+    for row in input_matrix:
+        for col in input_matrix:
             for i in range(upper_left_quadrant_size):
-                if matrix[row][col] > matrix[i]:
-                    matrix[i] = matrix[row][col]
+                if input_matrix[row][col] > input_matrix[i]:
+                    input_matrix[i] = input_matrix[row][col]
 
     return sum(max_values)
 

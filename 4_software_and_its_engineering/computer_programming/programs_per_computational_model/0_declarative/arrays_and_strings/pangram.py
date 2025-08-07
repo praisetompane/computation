@@ -9,7 +9,8 @@ import string
 
 
 def is_pangram(s):
-    universe = set(s.lower())  # not necessary, this is for set use explicitness
+    # not necessary, this is for set use explicitness
+    universe = set(s.lower())
     fixed_domain = set(string.ascii_lowercase)
     return fixed_domain.issubset(universe)
 

@@ -103,6 +103,6 @@ print(rotated_image)
         Time = O(N*N) => O(N^2)
             Matrix is N*N in size
                 and we need to touch each point in the matrix
-        Space = O(N*N)  
-            Space to store all the points in the matrix 
+        Space = O(N*N)
+            Space to store all the points in the matrix
 """

@@ -1,7 +1,7 @@
 from typing import List
 
 
-def sort[T](arr: List[T]):
+def sort(arr: List):
     """
     basic bubble sort implementation
     example:

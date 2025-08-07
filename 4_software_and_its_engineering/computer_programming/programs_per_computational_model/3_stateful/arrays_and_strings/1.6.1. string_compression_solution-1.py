@@ -97,5 +97,5 @@ print(compress("abcdef") == "abcdef")  # true  compressed same as original
                     1 + 2 + ... N = N(N + 1)/2 = O(N^2 + N) => O(N^2)
 
         Space = O(2P) => O(P)
-            Compressed string might be twice as long 
+            Compressed string might be twice as long
 """

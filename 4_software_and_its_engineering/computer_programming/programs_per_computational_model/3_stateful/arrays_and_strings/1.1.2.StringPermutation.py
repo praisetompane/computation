@@ -24,7 +24,7 @@ print(are_permutations("", ""))  # true
         SL1 = length of first string
         SL2 = length of second string
 
-        Time = O(SL1 log SL1) + O(SL2 log SL2) + O(SL1) + O(SL2) => O(SL1 + SL2) 
+        Time = O(SL1 log SL1) + O(SL2 log SL2) + O(SL1) + O(SL2) => O(SL1 + SL2)
             O(SL1 log SL1) sort first string
             O(SL2 log SL2) sort second string
 

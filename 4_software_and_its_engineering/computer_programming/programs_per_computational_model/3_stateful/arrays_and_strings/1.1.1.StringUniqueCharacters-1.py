@@ -28,7 +28,7 @@ print(contain_all_unique_characters(s4))
 """
     Performance
         N = length of string
-        NC = length of letter count storage, NC <= N 
+        NC = length of letter count storage, NC <= N
 
         Time = 𝑂(𝑁)
         Space = O(NC) = 𝑂(𝑁)

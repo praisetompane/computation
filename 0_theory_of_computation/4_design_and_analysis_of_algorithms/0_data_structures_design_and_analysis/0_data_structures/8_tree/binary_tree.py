@@ -76,7 +76,7 @@ class BinaryTree:
                 node._leftchild = _delete(node._leftchild)
                 return node
             elif value > node.val:
-                node.rightchild = delete(node.rightchild)
+                node.rightchild = _delete(node.rightchild)
                 return node
             elif value == node.val:
                 if node._leftchild is None:

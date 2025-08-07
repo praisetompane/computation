@@ -91,5 +91,5 @@ print(compress("abcdef") == "abcdef")  # true  compressed same as original
         N = length of string
         Time = 𝑂(𝑁)
         Space = O(2N) => 𝑂(𝑁)
-            Compressed string might be twice as long for 
+            Compressed string might be twice as long for
 """

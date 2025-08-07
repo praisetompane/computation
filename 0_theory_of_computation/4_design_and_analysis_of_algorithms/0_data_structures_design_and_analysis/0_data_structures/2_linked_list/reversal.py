@@ -6,14 +6,14 @@ class Node:
 
 class LinkedList:
     def __init__(self, head):
-        self.head = head
+        self._head = head
 
     def add_next(self, current_node: Node, next_node: Node):
         current_node.next = next_node
 
     def __str__(self) -> str:
         string_value = ""
-        current_node = self.head
+        current_node = self._head
         while current_node is not None:
             string_value += f"{current_node.value} "
             current_node = current_node.next
@@ -28,7 +28,7 @@ class LinkedList:
             Space = O(1): reuses existing nodes.
 
         """
-        current_node = self.head
+        current_node = self._head
         next_node = None
         previous_node = None
 
@@ -36,12 +36,13 @@ class LinkedList:
             next_node = current_node.next
 
             # NB: The key is here. we set a node's successor(i.e. next) value to be its predecessor. which is what reversal means.
-            # The rest is housekeeping to remember who was next and was the previous.
+            # The rest is housekeeping to remember who was next and was the
+            # previous.
             current_node.next = previous_node
 
             previous_node = current_node
             current_node = next_node
-        self.head = previous_node
+        self._head = previous_node
 
 
 head = Node(1)

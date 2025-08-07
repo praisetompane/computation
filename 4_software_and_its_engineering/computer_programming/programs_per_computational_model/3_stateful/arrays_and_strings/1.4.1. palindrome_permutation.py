@@ -59,7 +59,7 @@ print(is_palindrome_permutation("peter"))  # false
         N = length string
 
         Time = O(N! + N) => O(N!)
-            N factorial to generate all permutations of string 
+            N factorial to generate all permutations of string
             N to reverse string
-            N to determine if a string is a palindrom 
+            N to determine if a string is a palindrom
 """

@@ -28,7 +28,7 @@ print(urlify("Mr 3ohn Smith"))  # "Mr%203ohn%20Smith"
     Performance
         N = length string
 
-        Time = 𝑂(𝑁) 
+        Time = 𝑂(𝑁)
         Space = 𝑂(𝑁)
             store list of characters from the orignal string, with spaces encoded
 """

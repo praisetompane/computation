@@ -5,7 +5,7 @@ class Node:
 
 
 class LinkedList:
-    def __init__(self, numbers=[]):
+    def __init__(self, numbers):
         self.head = None
         self.initialise_from_array(numbers)
 

@@ -97,7 +97,8 @@ class LinkedList:
         else:
             _insert_values(0)
 
-        # Total = O(N + M) = O(N) | O(M) depending on which is longer. Therefore Linear = O(N)
+        # Total = O(N + M) = O(N) | O(M) depending on which is longer.
+        # Therefore Linear = O(N)
 
         # alternative
         # for v in values:
@@ -176,7 +177,8 @@ class LinkedList:
                 next_node_to_process = iterator.next
 
                 # NB: The key is here. we set a node's successor(i.e. next) value to be its predecessor. which is what reversal means.
-                # The rest is housekeeping to remember who was next and was the previous.
+                # The rest is housekeeping to remember who was next and was the
+                # previous.
                 iterator.next = last_processed
 
                 last_processed = iterator

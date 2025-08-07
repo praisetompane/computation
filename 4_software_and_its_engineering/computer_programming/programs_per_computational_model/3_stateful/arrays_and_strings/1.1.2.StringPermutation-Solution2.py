@@ -42,5 +42,5 @@ print(are_permutations("", ""))  # true
         SL1 = length of first string
         SL2 = length of second string
 
-        Time = O(SL1 + SL2) 
+        Time = O(SL1 + SL2)
 """

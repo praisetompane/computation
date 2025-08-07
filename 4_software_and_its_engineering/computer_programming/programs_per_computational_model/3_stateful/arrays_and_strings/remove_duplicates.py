@@ -12,7 +12,8 @@ def remove_duplicates(values):
     for i in range(len(values)):
         adjacent = i + 1
         if adjacent < len(values) and values[i] == values[adjacent]:
-            # 𝑂(𝑁), need to search the whole list for the value, then shift elements. decreases over time, but effectively N
+            # 𝑂(𝑁), need to search the whole list for the value, then shift
+            # elements. decreases over time, but effectively N
             values.remove(values[i])
     print(f"list without duplicates {values}")
 
@@ -24,7 +25,8 @@ def remove_duplicates_v2(values):
     uniques = []
     # 𝑂(𝑁)
     for v in values:
-        # O(L) = L is size of unque list, which is <= N, increases over time to get close to N
+        # O(L) = L is size of unque list, which is <= N, increases over time to
+        # get close to N
         if v not in uniques:
             uniques.append(v)
     print(f"list without duplicates {uniques}")
