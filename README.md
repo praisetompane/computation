@@ -112,6 +112,7 @@ pyspelling -c spellcheck.yaml
 
 ## Legend
 **Q**: Question for later research<br>
-**MYINC**: My Insight/Conjecture [Could Be Unoriginal/False and Likely Is]
+**MYINC**: My Insight/Conjecture [Could Be Unoriginal/False and Likely Is]<br>
+**see: ...**: Points to the definition of a concept used in another definition.
 
 **Disclaimer**: This is an ongoing and incomplete project to unpack these concepts and serves as my exosomatic memory.

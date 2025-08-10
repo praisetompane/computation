@@ -43,37 +43,59 @@
 
     - 1_mathematics_of_computing:
         - course schedule:
-            - 6.042J:
-                - https://openlearninglibrary.mit.edu/courses/course-v1:OCW+6.042J+2T2019/course/
-                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/calendar/
-                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/syllabus/
+            - 6.1200J:
+                - https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/pages/syllabus/
+                    - legacy:
+                        - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/calendar/
+                        - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/syllabus/
+            - CS 245:
+                - https://student.cs.uwaterloo.ca/~cs245/spring2025/index.html
         - readings:
-            - 6.042J:
-                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/readings/
-                - current:
-                    - Chapter 1: Propositions:
+            - 6.1200J:
+                - https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/pages/readings/
+                - https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/lists/lecture-notes/
+                    - legacy:
+                        - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/readings/
+                        - current:
+                            - Chapter 1: Propositions:
+            - CS 245:
+                -
             - Epp, S.S. 2010. Discrete mathematics with applications. 4th Edition. Cengage Learning
                 - current position: pg. 6, exercise 1.1, question 4
             - Graham, R.L., Knuth, D.E., Patashnik, O. 1990. Concrete Mathematics. 2nd Edition. Massachusetts: Addison-Wesley
         - lectures:
-            - 6.042J:
-                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/
-                - Leighton, T. van Dijk, M. 2010. 6.042J - Mathematics for Computer Science. Massachusetts Institute of Technology
+            - 6.1200J:
+                - Demaine, E., Abel, Z, Chapman, B. 2024. 6.1200J - Mathematics for Computer Science. Massachusetts Institute of Technology
+                    - https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/video_galleries/lecture-videos/
+                        - legacy:
+                            - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/
                     - current:
                         - Lec 01  Introduction and Proofs: ***
+            - CS 245:
+                - Ben-David, S. 2015. CS 245 - Logic and Computation. University of Waterloo
+                    - current:
         - recitations|labs:
-            - 6.042J:
+            - 6.1200J:
                 - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/recitations/
                 - current: 1 Logic, proving an implication
+            - CS 245:
+                -
         - assignments:
-            - 6.042J:
-                - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/assignments/
-                - current: ASSN #: 1
+            - 6.1200J:
+                - https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/lists/warm-up-problems/
+                - https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/lists/problem-sets/
+                    - legacy:
+                        - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/assignments/
+                    - current: ASSN #: 1
+            - CS 245:
+                -
         - exams:
-            - 6.042J:
+            - 6.1200J:
                 - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/exams/
                 - current:
                     -
+            - CS 245:
+                -
 
     - 0_theory_of_computation/3_design_and_analysis_of_algorithms:
         - course schedule:
