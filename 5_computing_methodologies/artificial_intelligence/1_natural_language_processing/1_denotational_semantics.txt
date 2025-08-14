@@ -1,0 +1,13 @@
+def denotational semantics(Manning, 2024):
+    - formal: signifier(symbol) ⟺ signified(idea or thing)
+        in words: meaning of words is defined by allocating each discrete word a discrete symbol
+
+    - use cases:
+        - programming languages?
+
+    - example:
+        - 5_computing_methodologies/artificial_intelligence/1_natural_language_processing/3_one_hot_vectors.txt
+
+
+References:
+    - Manning, C.D. 2024. Lecture 1 – Introduction and Word Vectors, CS224N - Natural Language Processing. Stanford.
