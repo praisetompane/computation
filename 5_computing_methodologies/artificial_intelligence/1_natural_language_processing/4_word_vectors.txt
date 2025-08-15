@@ -1,23 +1,19 @@
-def natural language processing(Manning, 2024):
+def word vectors | word vectors | (neural) word representations(Manning, 2024):
     - formal: ???
 
         - in words: ???
 
     - plain english: ???
 
-    - intuition: representation of the meaning of words in computational setting.
+    - intuition: ???
 
-    - properties:
-        - representation methods:
-            - denotational semantics
-            - distributional semantics
+    - properties: ???
 
     - examples: ???
 
     - use cases: ???
 
     - proof: ???
-
 
 References:
     - Manning, C.D. 2024. Lecture 1 – Introduction and Word Vectors, CS224N - Natural Language Processing. Stanford.

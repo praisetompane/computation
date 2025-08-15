@@ -1,9 +1,0 @@
-def: a framework for creating distributional semantics word vectors(i.e. word embeddings = word representations)⁸
-    
-    - two word vector representations of a word w
-        - v subscript(w) when w is center word
-        - u subscript(w) when w is context word
-            calculation explanation: 55:20
-
-References: 
-    - Manning, C.D. 2019. Lecture 1 – Introduction and Word Vectors, CS224N - Natural Language Processing. Stanford. 

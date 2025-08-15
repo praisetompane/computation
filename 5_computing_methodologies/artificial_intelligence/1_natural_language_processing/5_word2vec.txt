@@ -1,0 +1,14 @@
+def word2vec(Manning, 2024):
+    - formal:
+        - in words:
+
+    - plain english: a framework for creating learning word vectors
+
+    - properties:
+        - two word vector representations of a word w
+            - v subscript(w) when w is center word
+            - u subscript(w) when w is context word
+                calculation explanation: 55:20
+
+References:
+    - Manning, C.D. 2024. Lecture 1 – Introduction and Word Vectors, CS224N - Natural Language Processing. Stanford.
