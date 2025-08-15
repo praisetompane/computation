@@ -7,11 +7,9 @@ class Node:
 
 
 class Stack:
-    top = None
-
-    def _validate_has_items(self):
-        if self.top is None:
-            raise Exception("Stack is empty")
+    # O(1)
+    def __init__(self):
+        self.top = None
 
     # O(1)
     def push(self, item):
@@ -21,16 +19,28 @@ class Stack:
 
     # O(1)
     def pop(self):
-        self._validate_has_items()
+        if self.top is None:
+            raise Exception("Stack is empty")
+
         item = self.top.data
         self.top = self.top.next
         return item
 
     # O(1)
     def peek(self):
-        self._validate_has_items()
+        if self.is_empty():
+            return None
         return self.top.data
 
     # O(1)
     def is_empty(self):
         return self.top is None
+
+    # O(N)
+    def size(self):
+        size = 0
+        current_node = self.top
+        while current_node:
+            size += 1
+            current_node = current_node.next
+        return size

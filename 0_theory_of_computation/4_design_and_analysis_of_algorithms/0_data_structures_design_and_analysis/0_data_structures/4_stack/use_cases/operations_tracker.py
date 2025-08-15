@@ -1,4 +1,4 @@
-from impl.stack import Stack
+from impl.stack_deque_based import Stack
 
 """
     general use case = undo operations
@@ -16,7 +16,7 @@ from impl.stack import Stack
 """
 
 
-class OperationsUndoer:
+class OperationsTracker:
     undo_stack = None
     redo_stack = None
     current_state = None
@@ -30,41 +30,17 @@ class OperationsUndoer:
         self.undo_stack.push(operation_result)
         self.current_state += operation_result
 
-        self.display()
+        return self.display()
 
     def undo(self):
         self.redo_stack.push(self.undo_stack.peek())
         last_word = self.undo_stack.pop()
         self.current_state = self.current_state[: -len(last_word)]
-        self.display()
+        return self.display()
 
     def redo(self):
         self.current_state += self.redo_stack.pop()
-        self.display()
+        return self.display()
 
     def display(self):
-        print(self.current_state)
-
-
-def main():
-    print("Praise typing his body of knowldge")
-    text_processor = OperationsUndoer("")
-    print("My blank slate")
-    text_processor.display()
-    text_processor.add_operations_result("I")
-    text_processor.add_operations_result(" ")
-    text_processor.add_operations_result("k")
-    text_processor.add_operations_result("m")
-    text_processor.undo()
-    text_processor.add_operations_result("n")
-    text_processor.add_operations_result("o")
-    text_processor.add_operations_result("w")
-    print("Try undo and redo")
-    text_processor.undo()
-    text_processor.redo()
-    text_processor.add_operations_result(" that")
-    text_processor.undo()
-
-
-if __name__ == "__main__":
-    main()
+        return self.current_state
