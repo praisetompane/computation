@@ -12,7 +12,8 @@
                 "ms-python.debugpy",
                 "ms-python.mypy-type-checker",
                 "scala-lang.scala",
-                "vscjava.vscode-java-pack"
+                "vscjava.vscode-java-pack",
+                "scalameta.metals"
             ],
             "settings": {}
         }
