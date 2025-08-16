@@ -1,27 +1,27 @@
 from collections import deque
 
 
-class Stack:
+class Queue:
     # O(1)
     def __init__(self):
         self.items = deque()
 
     # O(1)
-    def push(self, items):
-        self.items.append(items)
+    def enqueue(self, item):
+        self.items.appendleft(item)
 
     # O(1)
-    def pop(self):
+    def dequeue(self):
         if len(self.items) == 0:
-            raise IndexError("Stack is empty")
-        return self.items.pop()
+            raise IndexError("Queue is empty")
+        else:
+            return self.items.pop()
 
     # O(1)
     def peek(self):
         if self.is_empty():
             return None
-        else:
-            return self.items[-1]
+        return self.items[-1]
 
     # O(1)
     def is_empty(self):

@@ -1,4 +1,4 @@
-def stack(Wengrow, 2017:145-157):
+def stack(Wengrow, 2017:145-152):
     - formal:
         - ADT:
             - push
