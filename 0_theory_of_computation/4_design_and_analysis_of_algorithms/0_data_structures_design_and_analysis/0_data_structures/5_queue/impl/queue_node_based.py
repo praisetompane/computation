@@ -7,12 +7,16 @@ class Node:
 
 
 class Queue:
-    first = None
-    last = None
+
+    def __init__(self) -> None:
+        self.first = None
+        self.last = None
+        self.length = 0
 
     # O(1)
     def enqueue(self, item):
         node = Node(item)
+        self.length += 1
         if self.first is None:
             self.first = node
             self.last = self.first
@@ -23,8 +27,9 @@ class Queue:
     # O(1)
     def dequeue(self):
         if self.first is None:
-            raise Exception("Queue is empty")
+            raise IndexError("Queue is empty")
         else:
+            self.length -= 0
             item = self.first.data
             self.first = self.first.next
             if self.first is None:
@@ -33,14 +38,18 @@ class Queue:
 
     # O(1)
     def peek(self):
-        if self.first is None:
-            raise Exception("Queue is empty")
+        if self.is_empty():
+            return None
         else:
             return self.first.data
 
     # O(1)
     def is_empty(self):
         return self.first is None
+
+    # O(1)
+    def size(self):
+        return self.length
 
     # 𝑂(𝑁)
     def __str__(self):
@@ -54,32 +63,3 @@ class Queue:
                 current = current.next
             queue += str(current.data)
         return queue
-
-
-def main():
-    print("Can create queue")
-    teller_service_queue = Queue()
-    print(teller_service_queue)
-
-    print("Can enqueue to queue")
-    teller_service_queue.enqueue(1)
-    print(teller_service_queue)
-
-    print("Can check what is next is queue")
-    print(teller_service_queue.peek())
-
-    print("Can dequeue next item in queue")
-    print(teller_service_queue.dequeue())
-    print(teller_service_queue)
-
-    print("Can check if it is empty")
-    print(teller_service_queue.is_empty())
-
-    print("Can enqueue more")
-    teller_service_queue.enqueue(2)
-    teller_service_queue.enqueue(3)
-    print(teller_service_queue)
-
-
-if __name__ == "__main__":
-    main()

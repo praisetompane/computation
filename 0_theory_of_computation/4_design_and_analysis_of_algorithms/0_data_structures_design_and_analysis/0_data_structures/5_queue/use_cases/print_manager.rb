@@ -1,14 +1,8 @@
-#queues are perfect for:
-    # processing data in the order it was received
-    # handling asynchronous requests
-    # modelling patients for the doctor
-    # modelling planes waiting to take off
-
 class PrintManager
     def initialize
         @queue = []
     end
-    
+
     def queue_print_job(document)
         @queue.push(document)
     end
@@ -18,7 +12,7 @@ class PrintManager
             print(@queue.shift)#removes and returns first element
         end
     end
- 
+
     private def print(document)
         puts document
     end

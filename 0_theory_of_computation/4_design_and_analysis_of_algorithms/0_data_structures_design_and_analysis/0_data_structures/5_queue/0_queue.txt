@@ -1,41 +1,48 @@
-What is it?
-    A variable length
-        list of values
+def queue(Wengrow, 2017:153-157):
+    - formal:
+        - ADT:
+            - enqueue
+            - dequeue
+            - peek
+            - isempty
 
-        that only supports:
-            adding elements to the end of the list
-            removing element at the top of the list
-            reading element at the top of the list
-    Therefore: An access pattern for a list of values
-    i.e. FIFO = First In, First Out
+        - in words: a variable length list of values that only supports,
+                        adding elements to the end of the list: enqueue
+                        removing element at the top of the list: dequeue
+                        reading element at the top of the list
 
-ADT
-    enqueue
-    dequeue
-    peek
-    isempty
+    - plain english: ???
 
-Performance Analysis:
-    How fast is it to perform the operation? (i.e. Time Complexity)
-        => Measured in terms of the number of steps it takes to complete the operation
+    - intuition: a First In, First Out(FIFO) access pattern over a sequence of values.
 
-    Read: Looking up something from a particular spot in the data structure
-        Constraint: Can only read at the top spot
-        Steps =
-            1 step = O(1)
+    - properties:
+        - performance analysis:
+            - How fast is it to perform the operation? (i.e. Time Complexity)
+                => Measured in terms of the number of steps it takes to complete the operation
 
-    Search: Looking for a particular value in the data structure
-        Steps =
+            Read: Looking up something from a particular spot in the data structure
+                Steps = 1 step = O(1)
+                        NB: The interface only supports accessing the top element.
+                            Therefore you only look up the top value.
 
-    Insert: Adding a value to the structure
-        Constraint: Can only add to the end of the list
-        Steps =
-            2 steps to reappoint pointers = O(1)
+            Search: Looking for a particular value in the data structure
+                Steps = N/A. The interface only supports accessing the top element.
 
-    Delete: Removing a value from the data structure
-        Constraint: Can only remove from the top spot
-        Steps =
-            3 steps to reappoint pointers = O(1)
+            Insert: Adding a value to the structure
+                Steps = 2 steps to reappoint pointers = O(1)
+
+            Delete: Removing a value from the data structure
+                Steps = Steps = 2 steps to reappoint pointers = O(1)
+
+    - examples: ???
+
+    - use cases:
+        - processing data in the order it was received
+            - handling asynchronous requests
+            - modelling patients for the doctor
+            - modelling planes waiting to take off
+
+    - proof: ???
 
 References:
     - Wengrow, J. 2017. A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills. Pragmatic Bookshelf
