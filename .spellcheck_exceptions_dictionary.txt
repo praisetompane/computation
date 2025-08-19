@@ -42,6 +42,7 @@ SQR
 
 
 # authors
+Zeldovich
 Philbin
 Trevisan
 Holzmann
