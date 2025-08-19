@@ -10,8 +10,7 @@ class RestaurantOrderSimulation:
         self.orders = Queue()
         self.menu = menu
 
-        self.ordering_thread = Thread(
-            target=self.place_order, args=[self.menu])
+        self.ordering_thread = Thread(target=self.place_order, args=[self.menu])
         self.ordering_thread.start()
 
         time.sleep(1)
