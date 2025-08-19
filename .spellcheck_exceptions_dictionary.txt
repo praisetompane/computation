@@ -331,6 +331,8 @@ Qxx
 
 
 # institutions
+thinkchecksubmit
+thescipub
 PyData
 Opte
 reddit

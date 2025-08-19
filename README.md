@@ -21,16 +21,10 @@
 
 ## Definitions
 - def computation¹: the **transformation** of **sequences of symbols** by **precise rules**(Konrad, 2015:6).
-- def symbols = {1,0,\*,{,;,<,>,...}
-  - example sequences:
-    - 11010
-    - ;\*>{11}
-      i.e. any sequence of the valid symbols
-  - def precise rules = steps to follow
 
 - def computation²: The **evolution process** of some environment, by a **sequence of "simple, local" steps** (Stanford Encyclopedia of Philosophy).
-- def computation³: a list of steps to do something
-- def compute: to do/run a computation.
+
+- def computation³: the execution of a list of steps to do something.
 
 - Formal Classification Scheme:
   - [ACM](https://dl.acm.org/ccs)

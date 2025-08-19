@@ -594,34 +594,18 @@
             - CS 361:
                 -
 
-    - 5_computing_methodologies/parallel_computing_methodologies
-        - course schedule:
-            - IAP 2010:
-                - https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/pages/syllabus/
-                - https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/pages/calendar/
-        - readings:
-            - IAP 2010:
-                - https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/pages/lecture-notes/
-        - lectures:
-            - IAP 2010:
-                -
-        - recitations|labs:
-            - IAP 2010:
-                - https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/pages/labs/
-        - assignments:
-            - IAP 2010:
-                - https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/pages/assignments/
-        - exams:
-            - IAP 2010:
-                -
-
-    - 5_computing_methodologies/concurrent_computing_methodologies:
+    - 6_networks:
         - course schedule:
             -
         - readings:
             -
         - lectures:
-            -
+            - LaCurts, K. 2018. 6.033 - Computer Systems Engineering. Massachusetts Institute of Technology
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
+                - Week 5 - 7
+            - Severance, C. 2021. Internet History, Technology, and Security
+            - Claude, E.S. 1948. A Mathematical Theory of Communication. Bell System Technical Journal
+            - Claude, E.S, Weaver, W. 1949. The Mathematical Theory of Communication. University of Illinois Press
         - recitations|labs:
             -
         - assignments:
@@ -704,27 +688,6 @@
             - CS224N:
                 -
 
-==============================================================================================
-- next₄:
-    - 6_networks:
-        - course schedule:
-            -
-        - readings:
-            -
-        - lectures:
-            - LaCurts, K. 2018. 6.033 - Computer Systems Engineering. Massachusetts Institute of Technology
-                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
-                - Week 5 - 7
-            - Severance, C. 2021. Internet History, Technology, and Security
-            - Claude, E.S. 1948. A Mathematical Theory of Communication. Bell System Technical Journal
-            - Claude, E.S, Weaver, W. 1949. The Mathematical Theory of Communication. University of Illinois Press
-        - recitations|labs:
-            -
-        - assignments:
-            -
-        - exams:
-            -
-
     - 5_computing_methodologies/distributed_computing_methodologies:
         - course schedule:
             -
@@ -741,36 +704,8 @@
         - exams:
             -
 
-    - 5_computing_methodologies/computer_graphics
-        - course schedule:
-            -
-        - readings:
-            -
-        - lectures:
-            -
-        - recitations|labs:
-            -
-        - assignments:
-            -
-        - exams:
-            -
-
-    - 5_computing_methodologies/symbolic_and_algebraic_manipulation:
-        - course schedule:
-            -
-        - readings:
-            -
-        - lectures:
-            - De Sterck, H. Ullrich P. 2006. AMATH 242/CS 371/CM 271 - Introduction To Computational Mathematics. University of Waterloo
-        - recitations|labs:
-            -
-        - assignments:
-            -
-        - exams:
-            -
-
 ==============================================================================================
-- next₅:
+- next₄:
     - 8_information_systems/3_world_world_web/0_web_applications:
         - course schedule:
             -
@@ -808,6 +743,71 @@
             - LaCurts, K. 2018. 6.033 - Computer System Engineering. Massachusetts Institute of Technology
                 - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
                 - Week 11 - 14
+        - recitations|labs:
+            -
+        - assignments:
+            -
+        - exams:
+            -
+
+    - 5_computing_methodologies/computer_graphics
+        - course schedule:
+            -
+        - readings:
+            -
+        - lectures:
+            -
+        - recitations|labs:
+            -
+        - assignments:
+            -
+        - exams:
+            -
+
+==============================================================================================
+- next₅:
+    - 5_computing_methodologies/symbolic_and_algebraic_manipulation:
+        - course schedule:
+            -
+        - readings:
+            -
+        - lectures:
+            - De Sterck, H. Ullrich P. 2006. AMATH 242/CS 371/CM 271 - Introduction To Computational Mathematics. University of Waterloo
+        - recitations|labs:
+            -
+        - assignments:
+            -
+        - exams:
+            -
+
+    - 5_computing_methodologies/parallel_computing_methodologies
+        - course schedule:
+            - IAP 2010:
+                - https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/pages/syllabus/
+                - https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/pages/calendar/
+        - readings:
+            - IAP 2010:
+                - https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/pages/lecture-notes/
+        - lectures:
+            - IAP 2010:
+                -
+        - recitations|labs:
+            - IAP 2010:
+                - https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/pages/labs/
+        - assignments:
+            - IAP 2010:
+                - https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/pages/assignments/
+        - exams:
+            - IAP 2010:
+                -
+
+    - 5_computing_methodologies/concurrent_computing_methodologies:
+        - course schedule:
+            -
+        - readings:
+            -
+        - lectures:
+            -
         - recitations|labs:
             -
         - assignments:
