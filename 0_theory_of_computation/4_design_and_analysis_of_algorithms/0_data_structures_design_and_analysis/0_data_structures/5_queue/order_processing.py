@@ -1,4 +1,4 @@
-from use_cases.ordered_processing import RestaurantOrderSimulation
+from use_cases.task_scheduling import RestaurantOrderSimulation
 
 
 def simulate_restaurant_order_processing():
