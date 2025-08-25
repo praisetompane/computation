@@ -1,13 +1,11 @@
-from use_cases.organization_chart import OrganizationChartNode
-from use_cases.organization_chart import Personnel
+from use_cases.general.organization_chart import OrganizationChartNode
+from use_cases.general.organization_chart import Personnel
 
 import pytest
 
 tree_data_sections = ["designation", "name", "both"]
 
-pytest.mark.parametrize("tree_data", tree_data_sections)
-
-
+@pytest.mark.parametrize("tree_data", tree_data_sections)
 def test_print_organization_chart(tree_data):
     root = OrganizationChartNode(Personnel("CEO", "Nilupul"))
     cto = OrganizationChartNode(Personnel("CTO", "Chinmay"))

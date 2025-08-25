@@ -14,12 +14,12 @@ class OrganizationChartNode(Node):
     def __init__(self, person) -> None:
         super().__init__(person)
 
-    def print_tree(self, tree_data_section):
+    def print_tree(self, data_part):
         indentation_space = " " * self.get_level() * 2
         prefix = f"{indentation_space} |__" if self.parent else ""
         tree_value = ""
 
-        match tree_data_section:
+        match data_part:
             case "designation":
                 tree_value = f"{prefix} {self.data.designation}"
             case "name":
@@ -29,4 +29,4 @@ class OrganizationChartNode(Node):
 
         print(tree_value)
         for child in self.children:
-            child.print_tree(tree_data_section)
+            child.print_tree(data_part)
