@@ -60,6 +60,8 @@
                             - Chapter 1: Propositions:
             - CS 245:
                 -
+            - Lehman, E., Thomson F.L., Meyer, A.R. 2018. Mathematics for Computer Science
+                - current: pg. 4
             - Epp, S.S. 2010. Discrete mathematics with applications. 4th Edition. Cengage Learning
                 - current position: pg. 6, exercise 1.1, question 4
             - Graham, R.L., Knuth, D.E., Patashnik, O. 1990. Concrete Mathematics. 2nd Edition. Massachusetts: Addison-Wesley
