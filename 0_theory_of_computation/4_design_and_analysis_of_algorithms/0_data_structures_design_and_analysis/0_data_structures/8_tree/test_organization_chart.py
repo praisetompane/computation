@@ -1,5 +1,6 @@
-from use_cases.organization_chart import OrganizationChartNode
-from use_cases.organization_chart import Personnel
+from use_cases.general.organization_chart import OrganizationChartNode
+from use_cases.general.organization_chart import Personnel
+
 import pytest
 
 tree_data_sections = ["designation", "name", "both"]
