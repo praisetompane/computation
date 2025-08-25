@@ -22,6 +22,10 @@ def test_general_tree():
     cell_phone.add_child(Node("LG"))
     root.add_child(cell_phone)
 
-    root.print_tree_recursive()
+    root.print_tree_accumulator()
     print("\n")
-    root.print_tree_iterative()
+    root.print_tree()
+
+
+if __name__ == "__main__":
+    test_general_tree()
