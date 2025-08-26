@@ -1,4 +1,5 @@
-from impl.general.tree import Node
+from typing import Self
+from impl.general_tree.tree import GeneralTreeNode
 
 
 class Personnel:
@@ -10,9 +11,12 @@ class Personnel:
         return f"{self.name} ({self.designation})"
 
 
-class OrganizationChartNode(Node):
+class OrganizationChartNode(GeneralTreeNode):
     def __init__(self, person) -> None:
         super().__init__(person)
+
+    def add_child(self, child) -> Self:
+        return super().add_child(OrganizationChartNode(child))
 
     def print_tree(self, data_part):
         indentation_space = " " * self.get_level() * 2

@@ -1,0 +1,52 @@
+def tree:
+    - formal: ???
+
+        - in words: a simple graph:
+            see: https://github.com/praisetompane/mathematics/blob/main/68_computer_science/68Rxx_discrete_mathematics_in_relation_to_computer_science/68R10_graph_theory(including_graph_drawing)_in_computer%20science/2_simple_graph.txt
+
+    - plain english: ???
+
+    - intuition: ???
+
+    - properties:
+        - constraints:
+            - has a root node(strictly not true in Graph theory but true for programming)
+            - each node has zero or more child nodes(this repeats until the bottom(i.e. leafs))
+            - nodes may or may not have links back to parents
+
+        - types:
+            - 𝑛-ary tree, where 𝑛 is the number of nodes.
+            - binary tree
+            - binary search tree: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/0_data_structures/8_tree/1_binary_search_tree.txt
+                see: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/0_data_structures/8_tree/1_binary_search_tree.txt
+                impl:
+            - unbalanced
+            - complete
+            - full
+            - perfect
+
+        - Performance Analysis:
+            How fast is it to perform the operation? (i.e. Time Complexity)
+                => Measured in terms of the number of steps it takes to complete the operation
+
+            Read: Looking up something from a particular spot in the data structure
+                Steps = 𝑂(𝑁)
+
+            Search: Looking for a particular value in the data structure
+                Steps = 𝑂(𝑁)
+
+            Insert: Adding a value to the data structure
+                Steps = 𝑂(𝑁)
+
+            Delete: Removing a value from the data structure
+                Steps =
+
+
+    - examples: ???
+
+    - use cases: ???
+
+    - proof: ???
+
+References:
+    - Wengrow, J. 2017. A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills. Pragmatic Bookshelf

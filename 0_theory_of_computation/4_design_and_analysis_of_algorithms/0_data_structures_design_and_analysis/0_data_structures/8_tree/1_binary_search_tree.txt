@@ -1,0 +1,67 @@
+def binary search tree:
+    - formal: ???
+
+        - in words: an 𝑛-ary tree with extra constraints.
+            see: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/0_data_structures/8_tree/0_n-ary_tree.txt
+
+    - plain english: ???
+
+    - intuition: ???
+
+    - properties:
+        - constraints:
+            - each node has a maximum of 2 child nodes
+            - the left child is less than the parent
+            - the right child is greater than the parent
+            - does not allow duplicate values
+
+        - types:
+            - AVL
+            - red-black
+
+        - Performance Analysis:
+            How fast is it to perform the operation? (i.e. Time Complexity)
+                => Measured in terms of the number of steps it takes to complete the operation
+
+            Read: Looking up something from a particular spot in the data structure
+                Steps = 𝑂(log𝑁)
+
+            Search: Looking for a particular value in the data structure
+                Steps = 𝑂(log𝑁)
+
+            Insert: Adding a value to the data structure
+                Steps = 𝑂(log𝑁)
+
+            Delete: Removing a value from the data structure
+                Steps =
+
+        - traversal|processing order:
+            - in-order
+            - pre-order
+            - post-order
+            - depth-first order
+            - breadth-first order
+
+            remarks:
+                - These are all relative to the parent
+                    i.e. in-order = parent printed in middle, where it is in the tree
+                        pre-order = parent printed 'pre'(i.e. before) children
+                        post-order = parent printed 'post'(i.e. after) children
+
+                    children always printed from left to right.
+
+                - the computation(print ,add etc) is performed when on the root node of the tree/subtree
+
+    - examples: ???
+
+    - use cases:
+        - search for an element in log(𝑁) time
+        - implementation of sets, due to not allowing duplicates.
+        - ordering elements in log(𝑁) time
+            - ascending order, using in-order traversal
+            - descending order, using reversal of in-order traversal
+
+    - proof: ???
+
+References:
+    - Wengrow, J. 2017. A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills. Pragmatic Bookshelf

@@ -1,25 +1,25 @@
-from impl.general.tree import Node
+from impl.general_tree.tree import GeneralTreeNode
 
 
 def test_general_tree():
-    root = Node("Electronics")
+    root = GeneralTreeNode("Electronics")
 
-    laptops = Node("Laptops")
-    laptops.add_child(Node("Apple"))
-    laptops.add_child(Node("HP"))
-    laptops.add_child(Node("Dell"))
+    laptops = GeneralTreeNode("Laptops")
+    laptops.add_child(GeneralTreeNode("Apple"))
+    laptops.add_child(GeneralTreeNode("HP"))
+    laptops.add_child(GeneralTreeNode("Dell"))
     root.add_child(laptops)
 
-    tv = Node("TV")
-    tv.add_child(Node("Samsung"))
-    tv.add_child(Node("Panasonic"))
-    tv.add_child(Node("LG"))
+    tv = GeneralTreeNode("TV")
+    tv.add_child(GeneralTreeNode("Samsung"))
+    tv.add_child(GeneralTreeNode("Panasonic"))
+    tv.add_child(GeneralTreeNode("LG"))
     root.add_child(tv)
 
-    cell_phone = Node("Cellphone")
-    cell_phone.add_child(Node("Samsung"))
-    cell_phone.add_child(Node("Apple"))
-    cell_phone.add_child(Node("LG"))
+    cell_phone = GeneralTreeNode("Cellphone")
+    cell_phone.add_child(GeneralTreeNode("Samsung"))
+    cell_phone.add_child(GeneralTreeNode("Apple"))
+    cell_phone.add_child(GeneralTreeNode("LG"))
     root.add_child(cell_phone)
 
     root.print_tree_accumulator()
