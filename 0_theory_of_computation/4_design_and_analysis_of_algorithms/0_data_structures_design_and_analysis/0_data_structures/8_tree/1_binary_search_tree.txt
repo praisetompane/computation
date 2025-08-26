@@ -60,7 +60,8 @@ def binary search tree:
         - ordering elements in log(𝑁) time
             - ascending order, using in-order traversal
             - descending order, using reversal of in-order traversal
-
+        - find minimum element in log(𝑁) time
+        - find maximum element in log(𝑁) time
     - proof: ???
 
 References:
