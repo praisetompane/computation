@@ -1,9 +1,12 @@
-from impl.general.tree import Node
+from impl.general_tree.tree import GeneralTreeNode
 
 
-class LocationTreeNode(Node):
+class LocationDirectoryNode(GeneralTreeNode):
     def __init__(self, location) -> None:
         super().__init__(location)
+
+    def add_child(self, child) -> None:
+        return super().add_child(LocationDirectoryNode(child))
 
     def print_tree(self, level):
         prefix = f"{' ' * self.get_level() * 2}"
