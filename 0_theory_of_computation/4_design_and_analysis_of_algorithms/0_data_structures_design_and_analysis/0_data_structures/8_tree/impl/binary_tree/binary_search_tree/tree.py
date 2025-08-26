@@ -119,6 +119,39 @@ class BinarySearchTreeNode:
 
         return total
 
+    def delete(self, data):
+        if data < self.data:
+            # left subtree
+            if self.left:
+                self.left = self.left.delete(data)
+        elif data > self.data:
+            # right subtree
+            if self.right:
+                self.right = self.right.delete(data)
+        else:
+            # actual deletion happens here and propagated up the call/recursion stack
+            def is_leaf(node):
+                return node.left is None and node.right is None
+
+            # deleting from a binary search tree has these 3 main cases
+            # 1. handle leaf nodes
+            if is_leaf(self):
+                return None
+            # 2. handle nodes with a single leaf node child
+            elif self.left is None:
+                return self.right
+            elif self.right is None:
+                return self.left
+
+            # 3. handle full subtree nodes using right subtree.
+            # remark: you can do the same sing the left subtree
+            min_value = self.right.find_min()
+            self.data = min_value
+            # remove/delete the old min_value we just duplicated
+            self.right = self.right.delete(min_value)
+
+        return self
+
     def print_tree(self) -> None:
         def render_child_tree(tree):
             return f"{self.left.data if self.left else None}, {self.right.data if self.right else None}"
