@@ -9,22 +9,19 @@ class Graph(object):
         self.nodes.append(node)
 
     def __str__(self):
-        for i in range(0, self.size):
-            str(self.nodes[i])
+        " ".join(str(self.nodes[i]) for i in range(0, self.size) )
 
 
 class Node(object):
-    nodes = []
-    value = 0
-
     def __init__(self, value):
         self.value = value
+        self.nodes = []
 
     def add_neighbour(self, node):
         self.nodes.append(node)
 
     def __str__(self):
-        print(self.value)
+        return str(self.value)
 
 
 def main():

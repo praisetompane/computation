@@ -39,7 +39,7 @@ def tree:
                 Steps = 𝑂(𝑁)
 
             Delete: Removing a value from the data structure
-                Steps =
+                Steps = 𝑂(𝑁)
 
 
     - examples: ???

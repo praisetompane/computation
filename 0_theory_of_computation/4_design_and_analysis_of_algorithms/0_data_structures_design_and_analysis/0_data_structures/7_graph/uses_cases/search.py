@@ -147,7 +147,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-"""references
-1. https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/lecture-videos/lecture-3-graph-theoretic-models/
-"""
