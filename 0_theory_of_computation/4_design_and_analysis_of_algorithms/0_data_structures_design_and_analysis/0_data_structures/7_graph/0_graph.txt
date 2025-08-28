@@ -5,6 +5,22 @@ def graph(Wengrow, 2017: 239):
         - in words: ???
 
     - plain english:
+
+    - intuition: ???
+
+    - properties:
+        - Traversal:
+            - Visit every node in graph => BFS and DFS
+                remarks: DFS simpler for this
+
+            - Determine path between two nodes (or shortest path) => BFS
+                - BFS to find an answer, first interrogates ALL neighbours of a node X,
+                    thus takes the shortest path to answering the question
+                        as it relates to X
+                - DFS to find an answer, explores an increasingly narrower branch of the graph rooted at node X
+                    hence reduces the probability of find the answer, per search attempt
+                        Because it narrows down search space, per attempt
+
         - Performance:
             How fast is it to perform the operation? (i.e. Time Complexity)
                 => Measured in terms of the number of steps it takes to complete the operation
@@ -33,24 +49,16 @@ def graph(Wengrow, 2017: 239):
             - Delete: Removing a value from the data-structure
                 Steps =
 
-    - intuition: ???
-
-    - properties: ???
-
     - examples: ???
 
     - use cases:
-        - Visit every node in graph => BFS and DFS
-            remarks: DFS simpler for this
-
-        - Determine path between two nodes (or shortest path) => BFS
-            - BFS to find an answer, first interrogates ALL neighbours of a node X,
-                thus takes the shortest path to answering the question
-                    as it relates to X
-            - DFS to find an answer, explores an increasingly narrower branch of the graph rooted at node X
-                hence reduces the probability of find the answer, per search attempt
-                    Because it narrows down search space, per attempt
-
+        - model a network of any objects that have a notion of connnection.
+            - examples:
+                - social network
+                - computer network(LAN, WAN, Internet, ...)
+                - road network(i.e. city|town map)
+                - airline routes
+                - product recommendations
 
     - proof: ???
 

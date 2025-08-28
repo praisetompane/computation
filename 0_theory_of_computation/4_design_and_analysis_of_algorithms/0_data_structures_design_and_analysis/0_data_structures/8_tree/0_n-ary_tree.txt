@@ -13,6 +13,7 @@ def tree:
             - has a root node(strictly not true in Graph theory but true for programming)
             - each node has zero or more child nodes(this repeats until the bottom(i.e. leafs))
             - nodes may or may not have links back to parents
+            - if nodes 𝐴 and 𝐵 are connected, there exists a single directed path that connects them.
 
         - types:
             - 𝑛-ary tree, where 𝑛 is the number of nodes.
