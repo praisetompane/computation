@@ -1,4 +1,4 @@
-def binary search tree:
+def binary search tree(Wengrow, 2017: 218-236):
     - formal: ???
 
         - in words: an 𝑛-ary tree with extra constraints.

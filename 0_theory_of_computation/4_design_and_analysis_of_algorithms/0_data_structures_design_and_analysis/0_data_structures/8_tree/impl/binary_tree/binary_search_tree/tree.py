@@ -141,11 +141,11 @@ class BinarySearchTreeNode:
             if self.right:
                 self.right = self.right.delete(data)
         else:
-        # actual deletion happens here and propagated up the call/recursion stack
+            # actual deletion happens here and propagated up the call/recursion stack
             def is_leaf(node):
                 return node.left is None and node.right is None
 
-        # deleting from a binary search tree has these 3 main cases
+            # deleting from a binary search tree has these 3 main cases
             # 1. handle leaf nodes
             if is_leaf(self):
                 return None
