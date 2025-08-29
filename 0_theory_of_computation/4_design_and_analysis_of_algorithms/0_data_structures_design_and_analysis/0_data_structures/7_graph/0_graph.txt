@@ -52,7 +52,7 @@ def graph(Wengrow, 2017: 239):
     - examples: ???
 
     - use cases:
-        - model a network of any objects that have a notion of connnection.
+        - model a network of any objects that have a notion of connection.
             - examples:
                 - social network
                 - computer network(LAN, WAN, Internet, ...)

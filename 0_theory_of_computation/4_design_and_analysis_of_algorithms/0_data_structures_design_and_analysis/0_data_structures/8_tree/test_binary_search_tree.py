@@ -62,11 +62,13 @@ def test_delete_leaf():
     root.delete(1)
     assert [9, 4, 18, 34, 23, 20, 17] == root.post_order_traversal()
 
+
 def test_delete_subtree_with_only_left_leaf():
     numbers = [17, 4, 1, 20, 9, 23, 18, 34, 8, 0]
     root = _build_tree(numbers)
     root.delete(1)
     assert [0, 4, 8, 9, 17, 18, 20, 23, 34] == root.in_order_traversal()
+
 
 def test_delete_subtree_with_only_right_leaf():
     numbers = [17, 4, 1, 20, 9, 23, 18, 34]
@@ -74,11 +76,13 @@ def test_delete_subtree_with_only_right_leaf():
     root.delete(23)
     assert [1, 4, 9, 17, 18, 20, 34] == root.in_order_traversal()
 
+
 def test_delete_subtree_with_both_left_and_right_leafs():
     numbers = [17, 4, 1, 20, 9, 23, 19, 34, 18]
     root = _build_tree(numbers)
     root.delete(20)
     assert [1, 4, 9, 17, 18, 19, 23, 34] == root.in_order_traversal()
+
 
 if __name__ == "__main__":
     test_in_order_traversal()
