@@ -13,14 +13,18 @@ def design and analysis of algorithms (Demaine, Ku, Solomon, 2020):
             1. develop solution:
                 1.1. reduce to a problem we know how to solve(use a data structure or algorithm):
                     - search problem (use data structures)
-                        - static array: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/1_sorting_and_searching/searching/linear_search.py
-                        - dynamic array: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/1_sorting_and_searching/searching/linear_search.py
-                        - sorted array: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/1_sorting_and_searching/searching/binary_search.py
-                        - direct access array
-                        - hash table
-                        - linked list: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/1_sorting_and_searching/searching/linear_search.py
-                        - balanced binary tree
-                        - heap tree
+                        - array:
+                            - static array: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/1_sorting_and_searching/searching/
+                            - dynamic array: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/1_sorting_and_searching/searching/
+                            - sorted array: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/1_sorting_and_searching/searching/
+                        - direct access table
+                        - hash table: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/0_data_structures/3_hash_table/
+                        - linked list: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/1_sorting_and_searching/searching/
+                        - tree:
+                            - binary tree:
+                                - binary search tree: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/0_data_structures/8_tree/impl/binary_tree/binary_search_tree/
+                                - balanced tree
+                                - heap tree
                         - ...
 
                     - sorting problem (use sort algorithm)
@@ -35,10 +39,10 @@ def design and analysis of algorithms (Demaine, Ku, Solomon, 2020):
                         - ...
 
                     - search in a graph(shortest path algorithms):
-                        - Breadth First Search(BFS): computation/0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/0_data_structures/7_graph/search.py
-                        - Directed Acyclic Graph(DAG) Relaxation:
-                            - Depth First Search(DFS): computation/0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/0_data_structures/7_graph/search.py
-                            - Topological sort
+                        - breadth first search(BFS): computation/0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/0_data_structures/7_graph/search.py
+                        - directed acyclic graph(DAG) relaxation:
+                            - depth first search(DFS): computation/0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/0_data_structures/7_graph/search.py
+                            - topological sort
                         - Bellman-Ford
                         - Dijkstra
                         - Johnson

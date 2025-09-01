@@ -7,7 +7,7 @@ def algorithm design techniques(Demaine, Ku, Solomon, 2020):
     - intuition: ???
 
     - properties:
-        - names:
+        - types:
             - brute force
             - greedy/incremental
             - decrease and conquer

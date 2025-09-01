@@ -1,0 +1,24 @@
+def search:
+    - formal: ???
+
+        - in words: ???
+
+    - plain english: ???
+
+    - intuition: ???
+
+    - properties:
+        - types:
+            - linear search: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/1_sorting_and_searching/searching/linear_search/impl/linear_search.py
+            - binary search: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/1_sorting_and_searching/searching/binary_search/impl/binary_search.py
+            - depth-first search: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/0_data_structures/7_graph/impl/search.py
+            - breadth-first search: 0_theory_of_computation/4_design_and_analysis_of_algorithms/0_data_structures_design_and_analysis/0_data_structures/7_graph/impl/search.py
+                - ...
+
+    - examples: ???
+
+    - use cases: ???
+
+    - proof: ???
+
+References: ???
