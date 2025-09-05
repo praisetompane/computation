@@ -11,10 +11,14 @@ def sort(values: List[Any]):
                      O(𝑁²)
     """
 
-    for _ in range(0, len(values)):  # O(𝑁)
-        for j in range(0, len(values) - 1):  # O(𝑁)
-            if values[j] > values[j+1]:  # O(1)
+    for i in range(0, len(values)):  # O(𝑁)
+        swapped = False
+        for j in range(0, len(values) - 1 - i):  # O(𝑁)
+            if values[j] > values[j + 1]:  # O(1)
                 temp = values[j]
-                values[j] = values[j+1]
-                values[j+1] = temp
+                values[j] = values[j + 1]
+                values[j + 1] = temp
+                swapped = True
+        if not swapped:
+            return values
     return values
