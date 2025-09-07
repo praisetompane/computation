@@ -14,33 +14,6 @@
 
 ==============================================================================================
 - next₁:
-    - 0_theory_of_computation: 1_formal_languages_and_automata_theory and 2_models_of_computation and 3_computational_complexity_and_cryptography:
-        - course schedule:
-            - 18.404J:
-                - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/calendar/
-                - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/syllabus/
-                - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/instructor-insights/
-        - readings:
-            - 18.404J:
-                - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/readings/
-            - Sipser, M. 2012. Introduction to the Theory of Computation. 3rd Edition. Cengage Learning
-                - current: 0. Introduction: 0.2.: *
-                - web page and errata: http://math.mit.edu/~sipser/book.html
-            - Turing, A. 1936. On computable numbers, with an application to the Entscheidungsproblem
-            - Copeland, B. Jack, "The Church-Turing Thesis", The Stanford Encyclopedia of Philosophy (Winter 2024 Edition), Edward N. Zalta & Uri Nodelman (eds.). https://plato.stanford.edu/archives/win2024/entries/church-turing/
-            - Alama, Jesse and Johannes Korbmacher, "The Lambda Calculus", The Stanford Encyclopedia of Philosophy (Winter 2024 Edition), Edward N. Zalta & Uri Nodelman (eds.), URL = <https://plato.stanford.edu/archives/win2024/entries/lambda-calculus/>
-        - lectures:
-            - 18.404J:
-                - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/video_galleries/video-lectures/
-                - Sipser, M. 2020. 18.404J - Theory of Computation. Massachusetts Institute of Technology
-                    - current: 1. Introduction, Finite Automata, Regular Expressions: *
-        - recitations|labs:
-            - 18.404J: N/A
-        - assignments:
-            - 18.404J: https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/assignments/
-        - exams:
-            - 18.404J: https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/exams/
-
     - 1_mathematics_of_computing:
         - course schedule:
             - 6.1200J:
@@ -54,6 +27,7 @@
             - 6.1200J:
                 - https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/pages/readings/
                 - https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/lists/lecture-notes/
+                    - current: Lecture 01: Proofs, Lecture Notes
                     - legacy:
                         - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/readings/
                         - current:
@@ -101,11 +75,11 @@
 
     - 0_theory_of_computation/3_design_and_analysis_of_algorithms:
         - course schedule:
-            - 6.006:
+            - 6.1210 | 6.006:
                 - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/calendar/
                 - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/syllabus/
                 - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/resource-index/
-            - 6.046J:
+            - 6.046J | 6.1220:
                 -
             - 6.851:
                 - https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/pages/calendar-and-notes/
@@ -114,10 +88,10 @@
 
         - readings:
             - Wengrow, J. 2017. A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills. Pragmatic Bookshelf: ***
-            - 6.006:
+            - 6.1210 | 6.006:
                 - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/
                     - current: Lecture 1: Introduction notes (PDF)
-            - 6.046J:
+            - 6.046J | 6.1220:
                 -
             - 6.851:
                 -
@@ -136,11 +110,11 @@
             - Knuth, D. 1998. The Art of Computer Programming Volume 3 - Sorting and Searching. 2nd Edition. Boston, M.A: Addison-Wesley Professional
             - Knuth, D. 1998. The Art of Computer Programming Volume 4A - Combinatorial algorithms Part 1. Upper Saddle River, New Jersey: Addison-Wesley Professional
         - lectures:
-            - 6.006:
+            - 6.1210 | 6.006:
                 - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/video_galleries/lecture-videos/
                 - Demaine, E., Ku, J., Solomon, J. 2020. 6.006 - Introduction to Algorithms. Massachusetts Institute of Technology
                     - current: 02. Data Structures and Dynamic Arrays: *
-            - 6.046J:
+            - 6.1220 | 6.046J:
                 - Demaine, E., Devadas, S, Lynch, N. 2015. 6.046J - Design and Analysis of Algorithms. Massachusetts Institute of Technology
                     - current: N/A
             - 6.851:
@@ -148,35 +122,35 @@
                     - current: N/A
             - 1_algorithm_design_techniques
         - recitations|labs:
-            - 6.006:
+            - 6.1210 | 6.006:
                 - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2008/pages/recitations/
-            - 6.046J:
+            - 6.1220 | 6.046J:
                 -
             - 6.851:
                 -
         - assignments:
-            - 6.006:
+            - 6.1210 | 6.006:
                 - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/assignments/
                     - current: Problem Set 0
                 - practice:
                     - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/practice-problems/
-            - 6.046J:
+            - 6.1220 | 6.046J:
                 -
             - 6.851:
                 -
         - exams:
-            - 6.006:
+            - 6.1210 | 6.006:
                 - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/pages/exams/
                 - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/quizzes/
                     - current:
-            - 6.046J:
+            - 6.1220 | 6.046J:
                 -
             - 6.851:
                 -
         - quizzes:
-            - 6.006:
+            - 6.1210 | 6.006:
                 - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/quizzes/
-            - 6.046J:
+            - 6.1220 | 6.046J:
                 -
             - 6.851:
                 -
@@ -257,6 +231,33 @@
                 -
             - 6.5900:
                 -
+
+    - 0_theory_of_computation: 1_formal_languages_and_automata_theory and 2_models_of_computation and 3_computational_complexity_and_cryptography:
+        - course schedule:
+            - 18.404J:
+                - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/calendar/
+                - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/syllabus/
+                - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/instructor-insights/
+        - readings:
+            - 18.404J:
+                - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/readings/
+            - Sipser, M. 2012. Introduction to the Theory of Computation. 3rd Edition. Cengage Learning
+                - current: 0. Introduction: 0.2.: *
+                - web page and errata: http://math.mit.edu/~sipser/book.html
+            - Turing, A. 1936. On computable numbers, with an application to the Entscheidungsproblem
+            - Copeland, B. Jack, "The Church-Turing Thesis", The Stanford Encyclopedia of Philosophy (Winter 2024 Edition), Edward N. Zalta & Uri Nodelman (eds.). https://plato.stanford.edu/archives/win2024/entries/church-turing/
+            - Alama, Jesse and Johannes Korbmacher, "The Lambda Calculus", The Stanford Encyclopedia of Philosophy (Winter 2024 Edition), Edward N. Zalta & Uri Nodelman (eds.), URL = <https://plato.stanford.edu/archives/win2024/entries/lambda-calculus/>
+        - lectures:
+            - 18.404J:
+                - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/video_galleries/video-lectures/
+                - Sipser, M. 2020. 18.404J - Theory of Computation. Massachusetts Institute of Technology
+                    - current: 1. Introduction, Finite Automata, Regular Expressions: *
+        - recitations|labs:
+            - 18.404J: N/A
+        - assignments:
+            - 18.404J: https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/assignments/
+        - exams:
+            - 18.404J: https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/exams/
 
 ==============================================================================================
 - next₂:
