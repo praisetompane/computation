@@ -29,7 +29,7 @@
 - Formal Classification Scheme:
   - [ACM](https://dl.acm.org/ccs)
 
-- Theory
+- Theory:
   - Theoretical Basis: [03Dxx_computability_and_recursion_theory](https://zbmath.org/classification/?q=cc%3A03D)
   - Formal Science: [68_computer_science](https://zbmath.org/classification/?q=cc%3A68)
   - Philosophy: [Philosophy of computer science](https://plato.stanford.edu/entries/computer-science/)

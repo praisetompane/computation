@@ -23,7 +23,3 @@ const sort = (arr) => {
     console.log(swaps)
     return arr;
 }
-
-
-data = [5, 4, 2, 3, 1]
-console.log(sort(data)) 
