@@ -314,6 +314,7 @@
                             - mojo[after all python and the other languages are learned]
                                 - superset: https://github.com/modularml/mojo
                     - go: https://github.com/praisetompane/go
+                    - c++: https://github.com/praisetompane/cpp
             - 1_language_features:
                 - readings:
                     - Pierce, B.C. Types and Programming Languages. The MIT Press
@@ -473,6 +474,8 @@
             - 6.004:
                 - Terman, C. 2017. 6.004 - Computation Structures. Massachusetts Institute of Technology
                     - current: 1.2.1 What is Information: *
+            - Scott J.C. 2009. But How Do it Know?:
+                - In One Lesson. 2013. How a CPU Works
             - MITx's Circuits and Electronics XSeries Program:
                 - series: https://www.edx.org/xseries/mitx-circuits-and-electronics
                 - MITx: Circuits and Electronics 1: Basic Circuit Analysis
