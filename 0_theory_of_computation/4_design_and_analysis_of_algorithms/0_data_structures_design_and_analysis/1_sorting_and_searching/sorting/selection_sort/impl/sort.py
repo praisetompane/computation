@@ -9,7 +9,7 @@ def sort(values: List[Any]):
     - plain english: ???
 
     - intuition: per iteration of the entire search space:
-                    find(i.e. select) best match for your predicate(i.e. lowest | highest)
+                    find(i.e. select) the index of  best match for your predicate(i.e. lowest | highest)
                         move it to the target sort index
                     then remove the target sort index and its value from the search space, because it is already sorted(i.e. it has the correct value)
                         i.e. shrink|reduce the search space to have only unsorted values
@@ -27,11 +27,15 @@ def sort(values: List[Any]):
 
     """
     for target_sort_index in range(0, len(values)):  # O(𝑁)
+        minimum_value_index = target_sort_index
         for j in range(target_sort_index + 1, len(values)):  # O(𝑁)
-            if values[target_sort_index] > values[j]:  # O(1)
-                temp = values[j]
-                values[j] = values[target_sort_index]
-                values[target_sort_index] = temp
+            if values[minimum_value_index] > values[j]:  # O(1)
+                minimum_value_index = j
+
+        if minimum_value_index != target_sort_index:
+            temp = values[minimum_value_index]
+            values[minimum_value_index] = values[target_sort_index]
+            values[target_sort_index] = temp
 
     return values
 
