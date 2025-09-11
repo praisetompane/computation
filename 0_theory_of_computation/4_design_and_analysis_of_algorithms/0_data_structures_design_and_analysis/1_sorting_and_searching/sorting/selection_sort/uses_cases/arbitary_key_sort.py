@@ -1,29 +1,37 @@
-from typing import List, Any
+import pprint
 
 
-def _sort(values: List[Any], key: str, previous_key: str):
-    for target_sort_index in range(0, len(values)):  # O(𝑁)
-        minimum_value_index = target_sort_index
-        for j in range(target_sort_index + 1, len(values)):  # O(𝑁)
-            if (
-                values[minimum_value_index][key] > values[j][key]
-                and values[minimum_value_index][previous_key] >= values[j][previous_key]
-            ):  # O(1)
-                minimum_value_index = j
-
-        if minimum_value_index != target_sort_index:
-            temp = values[minimum_value_index]
-            values[minimum_value_index] = values[target_sort_index]
-            values[target_sort_index] = temp
-
-    return values
+def multilevel_selection_sort(elements, sort_by_list):
+    for sort_by in sort_by_list[-1::-1]:
+        for x in range(len(elements)):
+            min_index = x
+            for y in range(x, len(elements)):
+                if elements[y][sort_by] < elements[min_index][sort_by]:
+                    min_index = y
+            if x != min_index:
+                elements[x], elements[min_index] = elements[min_index], elements[x]
+        print("after firs sort")
+        pprint.pprint(elements)
 
 
-def sort(values: List[Any], keys: List[str]):
-    sorted_values = values
-    previous_key = keys[0]
-    for k in keys:
-        sorted_values = _sort(sorted_values, k, previous_key)
-        previous_key = k
+if __name__ == "__main__":
+    elements = [
+        {"First Name": "Raj", "Last Name": "Nayyar"},
+        {"First Name": "Suraj", "Last Name": "Sharma"},
+        {"First Name": "Karan", "Last Name": "Kumar"},
+        {"First Name": "Jade", "Last Name": "Canary"},
+        {"First Name": "Raj", "Last Name": "Thakur"},
+        {"First Name": "Raj", "Last Name": "Sharma"},
+        {"First Name": "Kiran", "Last Name": "Kamla"},
+        {"First Name": "Armaan", "Last Name": "Kumar"},
+        {"First Name": "Jaya", "Last Name": "Sharma"},
+        {"First Name": "Ingrid", "Last Name": "Galore"},
+        {"First Name": "Jaya", "Last Name": "Seth"},
+        {"First Name": "Armaan", "Last Name": "Dadra"},
+        {"First Name": "Ingrid", "Last Name": "Maverick"},
+        {"First Name": "Aahana", "Last Name": "Arora"},
+    ]
 
-    return sorted_values
+    # print(f"Given unsorted array:", *elements, sep="\n")
+    multilevel_selection_sort(elements, ["First Name", "Last Name"])
+    print(f"Array after Multi-Level Sorting:", *elements, sep="\n")
