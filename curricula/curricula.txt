@@ -22,34 +22,34 @@ Massachusetts Institute of Technology: https://www.eecs.mit.edu/research/compute
                 6.1020 Software Construction	                                          15:
                     - ACM:
                         - computation/4_software_and_its_engineering/2_software_creation_and_management
-                6.1200[J] Mathematics for Computer Science	                              12:
+                6.1200J | 18.062J Mathematics for Computer Science	                              12:
                     - ACM:
                         - computation/1_mathematics_of_computing
                         - mathematics/68_computer_science
-                6.1210  Introduction to Algorithms	                                      12:
+                6.1210 Introduction to Algorithms	                                      12:
                     - ACM:
                         - computation/0_theory_of_computation/3_design_and_analysis_of_algorithms
-                6.1220[J] Design and Analysis of Algorithms                               12:
+                6.1220J | 18.410J Design and Analysis of Algorithms                               12:
                     - ACM:
                         - computation/0_theory_of_computation/3_design_and_analysis_of_algorithms
-                6.1800 	Computer Systems Engineering	                                  12:
+                6.1800 Computer Systems Engineering	                                  12:
                     - ACM:
                         - computation/3_computer_systems_organization/0_architectures/0_serial_architectures
-                6.1903	Introduction to Low-level Programming in C and Assembly	           6:
+                6.1903 Introduction to Low-level Programming in C and Assembly	           6:
                     - ACM:
                         - computation/3_computer_systems_organization/0_architectures/0_serial_architectures
-                6.1910	Computation Structures	                                          12:
+                6.1910 Computation Structures	                                          12:
                     - ACM:
                         - computation/2_hardware
                         - computation/3_computer_systems_organization/0_architectures/0_serial_architectures
             Select one of the following:	                                              12:
-                18.06  Linear Algebra	                                                  12:
+                18.06 Linear Algebra	                                                  12:
                     - MSC2020:
                         - mathematics/15_linear_and_multilinear_algebra;matrix_theory
             Elective Subjects 1
                 remark: Computer Science Track: https://catalog.mit.edu/degree-charts/electrical-engineering-computer-science-tracks/#computersciencetext
                 Select two subjects from a Computer Science track 2	24
-                    - 18.404 Theory of Computation	                                      12:
+                    - 18.404J | 6.5400J Theory of Computation	                                      12:
                         - ACM:
                             - computation/0_foundations/computation/0_theory_of_computation
                     - 6.1100 Computer Language Engineering	                              12:
@@ -316,16 +316,25 @@ University of Pretoria:
 ==============================================================================================================================================================
 University of Cape:
     - undergraduate:
-        - program: https://sit.uct.ac.za/computer-science-courses
+        - program:
+            - BSc Computer Science
+            - https://sit.uct.ac.za/computer-science-courses
 
     - honours:
-        -
+        - program:
+            - BSc Honours in Computer Science
+            - https://sit.uct.ac.za/honours-computer-science
 
     - masters:
-        -
+        - program:
+            - MSc in Computer Science
+            - https://sit.uct.ac.za/masters-computer-science
 
     - doctorate:
-        -
+        - program:
+            - PhD in Computer Science
+            - https://sit.uct.ac.za/our-degrees-postgraduates/phd-computer-science
+
 ==============================================================================================================================================================
 Stanford:
     - undergraduate:
