@@ -16,22 +16,22 @@
 - next₁:
     - 1_mathematics_of_computing:
         - course schedule:
-            - 6.1200J:
+            - 6.1200J | 18.062J:
                 - https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/pages/syllabus/
-                    - legacy:
-                        - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/calendar/
-                        - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/syllabus/
+                - legacy:
+                    - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/calendar/: *****
+                    - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/syllabus/
             - CS 245:
                 - https://student.cs.uwaterloo.ca/~cs245/spring2025/index.html
         - readings:
-            - 6.1200J:
+            - 6.1200J | 18.062J:
                 - https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/pages/readings/
                 - https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/lists/lecture-notes/
                     - current: Lecture 01: Proofs, Lecture Notes
-                    - legacy:
-                        - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/readings/
-                        - current:
-                            - Chapter 1: Propositions:
+                - legacy:
+                    - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/readings/
+                    - current:
+                        - Chapter 1: Propositions:
             - CS 245:
                 -
             - Lehman, E., Thomson F.L., Meyer, A.R. 2018. Mathematics for Computer Science
@@ -40,61 +40,71 @@
                 - current position: pg. 6, exercise 1.1, question 4
             - Graham, R.L., Knuth, D.E., Patashnik, O. 1990. Concrete Mathematics. 2nd Edition. Massachusetts: Addison-Wesley
         - lectures:
-            - 6.1200J:
+            - 6.1200J | 18.062J:
                 - Demaine, E., Abel, Z, Chapman, B. 2024. 6.1200J - Mathematics for Computer Science. Massachusetts Institute of Technology
                     - https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/video_galleries/lecture-videos/
-                        - legacy:
-                            - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/
                     - current:
                         - Lec 01  Introduction and Proofs: ***
+                - legacy:
+                    - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/
             - CS 245:
                 - Ben-David, S. 2015. CS 245 - Logic and Computation. University of Waterloo
                     - current:
         - recitations|labs:
-            - 6.1200J:
+            - 6.1200J | 18.062J:
                 - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/recitations/
-                - current: 1 Logic, proving an implication
+                    - current: 1 Logic, proving an implication
             - CS 245:
                 -
         - assignments:
-            - 6.1200J:
+            - 6.1200J | 18.062J:
                 - https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/lists/warm-up-problems/
                 - https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/lists/problem-sets/
-                    - legacy:
-                        - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/assignments/
                     - current: ASSN #: 1
+                - legacy:
+                    - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/assignments/
             - CS 245:
                 -
         - exams:
-            - 6.1200J:
+            - 6.1200J | 18.062J:
                 - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/exams/
-                - current:
-                    -
+                    - current:
+                        -
             - CS 245:
                 -
 
     - 0_theory_of_computation/3_design_and_analysis_of_algorithms:
         - course schedule:
-            - 6.1210 | 6.006:
-                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/calendar/
-                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/syllabus/
-                - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/resource-index/
-            - 6.046J | 6.1220:
-                -
-            - 6.851:
-                - https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/pages/calendar-and-notes/
-                - https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/pages/syllabus/
-                - https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/pages/instructor-insights/
+            - 6.1210:
+                - legacy:
+                    - 6.006:
+                        - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/calendar/
+                        - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/syllabus/
+                        - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/resource-index/
+            - 6.1220J | 18.410J:
+                - legacy:
+                    - 6.046J
+                        -
+            - 6.5230:
+                - legacy:
+                    - 6.851:
+                        - https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/pages/calendar-and-notes/
+                        - https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/pages/syllabus/
+                        - https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/pages/instructor-insights/
 
         - readings:
             - Wengrow, J. 2017. A Common-Sense Guide to Data Structures and Algorithms - Level Up Your Core Programming Skills. Pragmatic Bookshelf: ***
             - 6.1210 | 6.006:
                 - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/
                     - current: Lecture 1: Introduction notes (PDF)
-            - 6.046J | 6.1220:
-                -
-            - 6.851:
-                -
+            - 6.1220J | 18.410J:
+                - legacy:
+                    - 6.046J
+                        -
+            - 6.5230:
+                - legacy:
+                    - 6.851:
+                        -
             - Cormen, T.H., Leiserson C.E., Rivest R.L., Stein, C. 2022. Introduction To Algorithms. 4th Edition. MIT Press
                 - web site: https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/
             - Cormen, T.H., Leiserson C.E., Rivest R.L., Stein, C. 2009. Introduction To Algorithms. 3rd Edition. MIT Press
@@ -114,46 +124,66 @@
                 - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/video_galleries/lecture-videos/
                 - Demaine, E., Ku, J., Solomon, J. 2020. 6.006 - Introduction to Algorithms. Massachusetts Institute of Technology
                     - current: 02. Data Structures and Dynamic Arrays: *
-            - 6.1220 | 6.046J:
-                - Demaine, E., Devadas, S, Lynch, N. 2015. 6.046J - Design and Analysis of Algorithms. Massachusetts Institute of Technology
-                    - current: N/A
-            - 6.851:
-                - Demaine, E. 2012. 6.851 - Advanced Data Structures. Massachusetts Institute of Technology
-                    - current: N/A
+            - 6.1220J | 18.410J:
+                - legacy:
+                    - 6.046J
+                        - Demaine, E., Devadas, S, Lynch, N. 2015. 6.046J - Design and Analysis of Algorithms. Massachusetts Institute of Technology
+                            - current: N/A
+            - 6.5230:
+                - legacy:
+                    - 6.851:
+                        - Demaine, E. 2012. 6.851 - Advanced Data Structures. Massachusetts Institute of Technology
+                            - current: N/A
             - 1_algorithm_design_techniques
         - recitations|labs:
             - 6.1210 | 6.006:
                 - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2008/pages/recitations/
-            - 6.1220 | 6.046J:
-                -
-            - 6.851:
-                -
+            - 6.1220J | 18.410J:
+                - legacy:
+                    - 6.046J
+                        -
+            - 6.5230:
+                - legacy:
+                    - 6.851:
+                        -
         - assignments:
             - 6.1210 | 6.006:
                 - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/assignments/
                     - current: Problem Set 0
                 - practice:
                     - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/practice-problems/
-            - 6.1220 | 6.046J:
-                -
-            - 6.851:
-                -
+            - 6.1220J | 18.410J:
+                - legacy:
+                    - 6.046J
+                        -
+            - 6.5230:
+                - legacy:
+                    - 6.851:
+                        -
         - exams:
             - 6.1210 | 6.006:
                 - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/pages/exams/
                 - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/quizzes/
                     - current:
-            - 6.1220 | 6.046J:
-                -
-            - 6.851:
-                -
+            - 6.1220J | 18.410J:
+                - legacy:
+                    - 6.046J
+                        -
+            - 6.5230:
+                - legacy:
+                    - 6.851:
+                        -
         - quizzes:
             - 6.1210 | 6.006:
                 - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/quizzes/
-            - 6.1220 | 6.046J:
-                -
-            - 6.851:
-                -
+            - 6.1220J | 18.410J:
+                - legacy:
+                    - 6.046J
+                        -
+            - 6.5230:
+                - legacy:
+                    - 6.851:
+                        -
 
     - 3_computer_systems_organization:
         - course schedule:
@@ -212,7 +242,6 @@
                 - Assignments Drop Down: https://web.stanford.edu/class/archive/cs/cs107/cs107.1256/
                     - current:
                         - Assign0:
-
                 - legacy:
                     - https://see.stanford.edu/course/cs107: Under the Assignments menu
             - 6.1903:
@@ -234,12 +263,12 @@
 
     - 0_theory_of_computation: 1_formal_languages_and_automata_theory and 2_models_of_computation and 3_computational_complexity_and_cryptography:
         - course schedule:
-            - 18.404J:
+            - 18.404J | 6.5400J:
                 - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/calendar/
                 - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/syllabus/
                 - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/instructor-insights/
         - readings:
-            - 18.404J:
+            - 18.404J | 6.5400J:
                 - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/readings/
             - Sipser, M. 2012. Introduction to the Theory of Computation. 3rd Edition. Cengage Learning
                 - current: 0. Introduction: 0.2.: *
@@ -248,16 +277,16 @@
             - Copeland, B. Jack, "The Church-Turing Thesis", The Stanford Encyclopedia of Philosophy (Winter 2024 Edition), Edward N. Zalta & Uri Nodelman (eds.). https://plato.stanford.edu/archives/win2024/entries/church-turing/
             - Alama, Jesse and Johannes Korbmacher, "The Lambda Calculus", The Stanford Encyclopedia of Philosophy (Winter 2024 Edition), Edward N. Zalta & Uri Nodelman (eds.), URL = <https://plato.stanford.edu/archives/win2024/entries/lambda-calculus/>
         - lectures:
-            - 18.404J:
+            - 18.404J | 6.5400J:
                 - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/video_galleries/video-lectures/
                 - Sipser, M. 2020. 18.404J - Theory of Computation. Massachusetts Institute of Technology
                     - current: 1. Introduction, Finite Automata, Regular Expressions: *
         - recitations|labs:
-            - 18.404J: N/A
+            - 18.404J | 6.5400J: N/A
         - assignments:
-            - 18.404J: https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/assignments/
+            - 18.404J | 6.5400J: https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/assignments/
         - exams:
-            - 18.404J: https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/exams/
+            - 18.404J | 6.5400J: https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/exams/
 
 ==============================================================================================
 - next₂:
