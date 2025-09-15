@@ -1,11 +1,10 @@
-def finite automaton | finite-state automaton | state-machine | finite-state machine :
-    - formal: a finite automaton 𝑀 is a 5-tuple(Q, Σ, δ, q₀, F,) (Sipser, 2020):
-
-        𝑄  = finite set of all states
-        Σ  = finite set of alphabet symbols
-        𝑞₀ = start state/initial state
-        𝐹  = finite set of final states = set of accept states
-        δ  = transition function
+def finite automaton | finite-state automaton | state-machine | finite-state machine(Sipser, 2020):
+    - formal: a finite automaton 𝑀 is a 5-tuple(Q, Σ, δ, q₀, F,):
+        - 𝑄  = finite set of all states
+        - Σ  = finite set of alphabet symbols
+        - 𝑞₀ = start state/initial state
+        - 𝐹  = finite set of final states = set of accept states
+        - δ  = transition function
             δ: 𝑄 × Σ => Q : this is function definition
                     δ        : function name
                     𝑄  × Σ   : parameter types
@@ -83,7 +82,7 @@ def finite automaton | finite-state automaton | state-machine | finite-state mac
                         ∴ string is not recognized by M2
 
             remark: NB: since L1 is recognized or accepted or can be represented with an automaton, it is a regular language.
-                    see: 0_theory_of_computation/1_formal_languages_and_automata_theory/0_automata_theory/2_regular_language.txt
+                    see: 0_theory_of_computation/1_formal_languages_and_automata_theory/1_regular_languages/0_regular_language.txt
     - use cases:
         - text processing
         - compilers
@@ -93,5 +92,6 @@ def finite automaton | finite-state automaton | state-machine | finite-state mac
 
 References:
     - Sipser, M. 2013. Introduction to the Theory of Computation. 3rd edition. Cengage Learning.
+    - Sipser, M. 2020. 1. Introduction, Finite Automata, Regular Expressions, 18.404J - Theory of Computation. Massachusetts Institute of Technology.
     - Neso Academy. 2019. Finite State Machine (Finite Automata). Theory of Computation & Automata Theory.
     - Neso Academy. 2016. Theory of Computation & Automata Theory. Finite State Machine (Finite Automata).
