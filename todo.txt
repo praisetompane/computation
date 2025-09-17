@@ -541,6 +541,7 @@
     - 4_software_and_its_engineering/2_software_creation_and_management:
         - course schedule:
             - 6.100L:
+                - material by lecture: https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/material-by-lecture/
                 - https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/syllabus/
                 - https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/calendar/
                 - https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/instructor-insights/
