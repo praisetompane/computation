@@ -1,6 +1,8 @@
 # What is Computation?
 ![build status](https://github.com/praisetompane/computation/actions/workflows/computation.yaml/badge.svg) <br>
 
+**Disclaimer**: This is an ongoing and incomplete project to unpack these concepts and serves as my exosomatic memory.
+
 - [What is Computation?](#what-is-computation)
   - [Objectives](#objectives)
   - [Definitions](#definitions)
@@ -17,7 +19,10 @@
   - [Legend](#legend)
 
 ## Objectives
-- An attempt at unpacking Computation and the implementation of computing machinery in layman's terms.
+- An attempt at distilling to layman's terms:
+  - Computation.
+  - Computation's foundations and the implementation of computing machinery.
+  - Computation's relationship with Logic and Mathematics.
 
 ## Definitions
 - def computation¹: the **transformation** of **sequences of symbols** by **precise rules**(Konrad, 2015:6).
@@ -108,5 +113,3 @@ pyspelling -c spellcheck.yaml
 **Q**: Question for later research<br>
 **MYINC**: My Insight/Conjecture [Could Be Unoriginal/False and Likely Is]<br>
 **see: ...**: Points to the definition of a concept used in another definition.
-
-**Disclaimer**: This is an ongoing and incomplete project to unpack these concepts and serves as my exosomatic memory.
