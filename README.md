@@ -6,6 +6,9 @@
 - [What is Computation?](#what-is-computation)
   - [Objectives](#objectives)
   - [Definitions](#definitions)
+      - [Formal Classification Scheme](#formal-classification-scheme)
+      - [Foundations](#foundations)
+      - [Invention | Discovery](#invention--discovery)
   - [Learning Order](#learning-order)
   - [Dependencies](#dependencies)
   - [Setup Instructions](#setup-instructions)
@@ -21,8 +24,8 @@
 ## Objectives
 - An attempt at distilling to layman's terms:
   - Computation.
-  - Computation's foundations and the implementation of computing machinery.
-  - Computation's relationship with Logic and Mathematics.
+  - Computation's Foundations and Invention | Discovery.
+  - Computation's Relationship with [Logic](https://github.com/praisetompane/logic) and [Mathematics](https://github.com/praisetompane/mathematics).
 
 ## Definitions
 - def computation¹: the **transformation** of **sequences of symbols** by **precise rules**(Konrad, 2015:6).
@@ -31,13 +34,18 @@
 
 - def computation³: the execution of a list of steps to do something.
 
-- Formal Classification Scheme:
+#### Formal Classification Scheme
   - [ACM](https://dl.acm.org/ccs)
 
-- Theory:
-  - Theoretical Basis: [03Dxx_computability_and_recursion_theory](https://zbmath.org/classification/?q=cc%3A03D)
-  - Formal Science: [68_computer_science](https://zbmath.org/classification/?q=cc%3A68)
-  - Philosophy: [Philosophy of computer science](https://plato.stanford.edu/entries/computer-science/)
+#### Foundations
+  - [Theoretical Basis](https://zbmath.org/classification/?q=cc%3A03D)
+  - [Formal Science](https://zbmath.org/classification/?q=cc%3A68)
+  - [Philosophy](https://plato.stanford.edu/entries/computer-science/)
+
+#### Invention | Discovery
+![](1_mathematics_of_computing/mathematics-science-engineering.drawio.svg)
+
+![](1_mathematics_of_computing/mathematics_and_computation.drawio.svg)
 
 ## Learning Order
 - [0_theory_of_computation](0_theory_of_computation/)
@@ -83,16 +91,18 @@
 - [DevOps](https://www.infoq.com/devops/)
 
 ## Community
-- [HackerNews](https://news.ycombinator.com/news)
 
 ## Computer Scientists
 - [The Academic Genealogy of Computer Science](https://academictree.org/computerscience/)
 - [ACM A.M. Turing Award Laureate Interviews](https://www.youtube.com/playlist?list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO)
+- Alan Turing
+- Alonzo Church
 - Donald Knuth
 - Erik Demaine
 - Jelani Nelson
 - Katherine Johnson
 - Grace Hopper
+- Frances Elizabeth Allen
 
 ## Testing
 - ### Execute Tests
