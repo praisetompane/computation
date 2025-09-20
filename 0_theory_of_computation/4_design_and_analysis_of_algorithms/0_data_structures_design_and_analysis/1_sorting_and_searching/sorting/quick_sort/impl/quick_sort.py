@@ -61,7 +61,10 @@ def _sort_around_partition_value(
             )
 
     """place partition value into its correct spot:
-        swap it with the last value seen that is less than itself.
+        swap it with the last value seen that is less than itself:
+            - the last value that left_partition_pointer passed/jumped over/sorted into place.
+            - the value immediate to the left_partition_pointer when the right_partition_pointer and left_partition_pointer cross.
+
     """
     _swap(values, partition_index, right_partition_pointer)
     return right_partition_pointer
