@@ -1,4 +1,4 @@
-from insertion_sort.impl.insertion_sort import sort
+from quick_sort.impl.quick_sort import sort
 
 
 def test_sort():
