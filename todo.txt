@@ -635,7 +635,10 @@
 
     - 6_networks:
         - course schedule:
-            -
+            - 6.033:
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
+            - Severance, C. 2021. Internet History, Technology, and Security:
+                - https://www.coursera.org/learn/internet-history
         - readings:
             -
         - lectures:
