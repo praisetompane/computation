@@ -3,12 +3,13 @@ from binary_search.impl.binary_search import binary_search_recursive
 
 def find_occurence_indices(value, search_space):
     indices = []
-    value_index = binary_search_recursive(value, search_space)
+    _search_space_sorted = sorted(search_space)
+    value_index = binary_search_recursive(value, _search_space_sorted)
 
     if value_index != -1:
         indices.append(value_index)
-        indices += collect_left_side_indices(value, search_space, value_index)
-        indices += collect_right_side_indices(value, search_space, value_index)
+        indices += collect_left_side_indices(value, _search_space_sorted, value_index)
+        indices += collect_right_side_indices(value, _search_space_sorted, value_index)
 
     return indices
 
