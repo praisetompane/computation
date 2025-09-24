@@ -36,7 +36,7 @@ class SortableArray
     end
 
     #works because the partition method always puts the pivot in the correct sorted place
-    #we just keep putting the pivot in the right place in the sub arrays
+    #we just keep placing the pivot in the right place in the sub arrays
     #brilliant!!!
     def quicksort!(left_index, right_index)
         if right_index - left_index <= 0
@@ -51,8 +51,8 @@ class SortableArray
     def quickselect!(index, left_index, right_index)
         if right_index - left_index <= 0
             return @array[index]
-        end 
-        
+        end
+
         pivot_position = partition!(left_index, right_index)
         if index < pivot_position
             quickselect!(index, left_index, pivot_position - 1)
@@ -62,8 +62,8 @@ class SortableArray
     end
 end
 
-array = [1, 2, 11, 17, 16, 15]
+array = [1, 2, 17, 16, 11, 15]
 sortable_array = SortableArray.new(array)
 sortable_array.quicksort!(0, array.length - 1)
-puts "quick selected value #{sortable_array.quickselect!(2, 0, array.length - 1)}" 
+puts "quick selected value #{sortable_array.quickselect!(2, 0, array.length - 1)}"
 puts sortable_array.array
